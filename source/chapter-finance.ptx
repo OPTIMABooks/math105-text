@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Chapter Title</title>
+  <title>Finance</title>
 
+  <objectives>
+  <introduction>
+    <p>
+      Students will be able to:
+    </p>
+	</introduction>
+  <ul>
+    <li>
+      <p>
+        Solve financial problems that involve simple interest.
+      </p>
+    </li>
+    <li>
+      <p>
+        Solve problems involving compound interest.
+      </p>
+    </li>
+    <li>
+      <p>
+        Find the future value of an annuity, and the amount of payments to a sinking fund.
+      </p>
+    </li>
+    <li>
+      <p>
+        Find the future value of an annuity, and an installment payment on a loan.
+      </p>
+    </li>
+  </ul>
+  </objectives>
+  
   <introduction>
     <p> Text before the first section. </p>
   </introduction>
