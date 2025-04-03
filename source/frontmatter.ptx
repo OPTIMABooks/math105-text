@@ -38,6 +38,12 @@
 		</p>
 	</dedication>
 
+  <!-- ToDo: 
+    Add Attribution (keep track of but add last). 
+    Add Introduction to text
+    Consider adding other elements found in the PCC book
+  -->
+
   <!-- ToDo: Figure out where to put the colophon or if we need one.
   <colophon xml:id="front-colophon">
     <colophon-items/>
