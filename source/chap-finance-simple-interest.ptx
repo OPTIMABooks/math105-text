@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Section Title</title>
+  <title>Simple Interest and Discounts</title>
 
-  <p> Text of section. </p>
+  <!-- ToDo: Add objectives for this section.-->
+
+  <introduction>
+    <p>
+      It costs to borrow money.  The "rent" one pays for the use of money is called the <term>interest</term>. The amount of money that is being borrowed or loaned is called the <term>interest</term> or <term>present value</term>.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-simple-interest">
+    <title>Simple Interest</title>
+    <p>
+      Simple interest is interest paid only on the original amount borrowed.  In this scenario, the borrower pays a fixed interest rate on the principal for the entire time the money is held.
+    </p>
+  </subsection>
 
 </section>
