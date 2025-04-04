@@ -51,6 +51,52 @@
       <me>\$100+\$15=\$115</me>
     </p>
     <p>
+      These ideas are summarize in the block below.
+    </p>
+    <assemblage>
+      <title>Simple Interest Formulas</title>
+      <p>
+        <me>I=Prt</me>
+      </p>
+      <p>
+        <me>A=P+I \text{ or } A=P+Prt</me>
+      </p>
+      <p>
+        <dl width="narrow">
+          <li>
+            <title><m>I</m></title>
+            <p>
+              is the interest
+            </p>
+          </li>
+          <li>
+            <title><m>P</m></title>
+            <p>
+              is the principal, starting amount, or present value
+            </p>
+          </li>
+          <li>
+            <title><m>r</m></title>
+            <p>
+              is the interest rate in decimal form
+            </p>
+          </li>
+          <li>
+            <title><m>t</m></title>
+            <p>
+              is time, where the increment of time (years, months, etc.) matches the time period for the interest rate
+            </p>
+          </li>
+          <li>
+            <title><m>A</m></title>
+            <p>
+              is the end amount, principal plus interest, or future value
+            </p>
+          </li>
+        </dl>
+      </p>
+    </assemblage>
+    <p>
       Bonds are an example of a simple investment with a regular interest payout. Bonds are issued by the federal, state or local governments to cover their expenses.
     </p>
     <example>
