@@ -146,6 +146,26 @@
       </solution>
     </example>
 
+    <example>
+      <statement>
+        <p>
+          Darnel owes a total of $3060 which includes 12% interest for the three years he borrowed the money.  How much did he originally borrow? 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          This time we are asked to find the principal <me>P</me> given the future value.
+          <md>
+            <mrow>\$3060 =\amp P[1+(.12)(3)] </mrow>
+            <mrow>\$3060 =\amp P(1.36)</mrow>
+            <mrow> \frac{\$3060}{1.36} =\amp P </mrow>
+            <mrow> \$2250 =\amp P </mrow>
+          </md>
+          Darnel originally borrowed $2250.
+        </p>
+      </solution>
+    </example>
+
   </subsection>
 
 </section>
