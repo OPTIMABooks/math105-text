@@ -28,14 +28,27 @@
       <me>(0.05)(\$100)=\$5</me>
     </p>
     <p>
-      The total amount you would repay is called the <alert>future value</alert> and would be $105, the original principal plus the interest.
+      The total amount you would repay is called the <term>future value</term> and would be $105, the original principal plus the interest.
     </p>
     <p>
       <me>\$100+\$5=\$105</me>
     </p>
     <p>
-    One-time simple interest as in the above example is only common for extremely short-term or informal loans. For longer term loans or investments, it is common for interest to be paid on a daily, monthly, quarterly, or annual basis. 
-    In that case, interest would be earned regularly. 
+      One-time simple interest as in the above example is only common for extremely short-term or informal loans. For longer term loans or investments, it is common for interest to be paid on a daily, monthly, quarterly, or annual basis. 
+      In that case, interest would be earned regularly. 
+    </p>
+    <p>
+      To see how this works, supposed you borrow $100 from a friend and agree to repay it with 5% interest per year, and you keep the money for 3 years. 
+      How much would you need to repay at the end of the loan? The amount of interest you would pay would be 5% of 100 each year for three years, that is    
+    </p>
+    <p>
+      <me> (0.05)(\$100)(3) = \$15. </me>
+    </p>
+    <p>
+      The future value of the loan would be $115, which is the original plus the interest.
+    </p>
+        <p>
+      <me>\$100+\$15=\$115</me>
     </p>
     <p>
       Bonds are an example of a simple investment with a regular interest payout. Bonds are issued by the federal, state or local governments to cover their expenses.
