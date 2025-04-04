@@ -112,6 +112,39 @@
           </p>
         </solution>
     </example>
+    <p>
+      Here are a couple more examples.
+    </p>
+    <example>
+        <statement>
+          <p>
+            Ursula borrows $600 for 5 months at a simple interest rate of 15% per year.  Find the interest, and the total amount she is obligated to pay.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The interest is computed by multiplying the principal with the interest rate and the time.
+
+            <me>
+              I = \$600(.15)\left(\frac{5}{12}\right) = \$37.50.
+            </me>
+            Note that here the rate has units of years and the time has units of month so we convert 5 months into years by dividing by 12.
+          </p>
+          <p>
+            The total amount is thus
+          </p>
+          <p>
+            <me> A = P + I = \$600 + \$37.50 = \$637.50.</me>
+            This total can be computed directly using
+            <md>
+              <mrow> A =\amp P(1+rt) </mrow>
+              <mrow> =\amp \$600[1+(.15)(5/12)] </mrow>
+              <mrow> =\amp \$600(1+0.0625)</mrow>
+              <mrow> =\amp \$637.50. </mrow>
+            </md>
+          </p>
+        </solution>
+    </example>
 
   </subsection>
 
