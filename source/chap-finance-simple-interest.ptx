@@ -17,13 +17,13 @@
       Simple interest is interest paid only on the original amount borrowed.  In this scenario, the borrower pays a fixed interest rate on the principal for the entire time the money is held.
     </p>
     <p>
-      Calculating interest starts with the <alert>principal</alert>, <em>P</em>, or the beginning amount in your account. This is also called the <alert>present value</alert>. This could be a starting investment, or the starting amount of a loan. The <alert>interest rate</alert>, <em>I</em>, in its most simple form, is a percentage of the principal.
+      Calculating interest starts with the <term>principal</term>, <em>P</em>, or the beginning amount in your account. This is also called the <term>present value</term>. This could be a starting investment, or the starting amount of a loan. The <term>interest rate</term>, <em>I</em>, in its most simple form, is a percentage of the principal.
     </p>
     <p>
-      For example, if you borrowed $100 from a friend and agree to repay it with 5% interest, then the amount of interest you would pay would be 5% of 100. It is very important to remember to change the interest <alert>rate</alert>, r, of 5% into a decimal by moving the decimal two places to the left.
+      For example, if you borrowed $100 from a friend and agree to repay it with 5% interest, then the amount of interest you would pay would be 5% of 100. It is important to remember to change the interest <term>rate</term>, r, of 5% into a decimal by moving the decimal two places to the left before performing any calculation.
     </p>
     <p>
-      <me>(0.05)\$100=\$5</me>
+      <me>(0.05)(\$100)=\$5</me>
     </p>
     <p>
       The total amount you would repay is called the <alert>future value</alert> and would be $105, the original principal plus the interest.
