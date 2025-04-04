@@ -59,41 +59,29 @@
         <me>I=Prt</me>
       </p>
       <p>
-        <me>A=P+I \text{ or } A=P+Prt</me>
+        <me>A = P + I = P + Prt</me>
       </p>
       <p>
-        <dl width="narrow">
-          <li>
-            <title><m>I</m></title>
-            <p>
-              is the interest
-            </p>
-          </li>
-          <li>
-            <title><m>P</m></title>
-            <p>
-              is the principal, starting amount, or present value
-            </p>
-          </li>
-          <li>
-            <title><m>r</m></title>
-            <p>
-              is the interest rate in decimal form
-            </p>
-          </li>
-          <li>
-            <title><m>t</m></title>
-            <p>
-              is time, where the increment of time (years, months, etc.) matches the time period for the interest rate
-            </p>
-          </li>
-          <li>
-            <title><m>A</m></title>
-            <p>
-              is the end amount, principal plus interest, or future value
-            </p>
-          </li>
-        </dl>
+        Where:
+      </p>
+      <p>
+        <ul>
+            <li>
+                <p><m>I</m> is the interest</p>
+            </li>
+            <li>
+                <p><m>P</m> is the principal, starting amount, or present value</p>
+            </li>
+            <li>
+                <p><m>r</m> is the interest rate in decimal form</p>
+            </li>
+            <li>
+                <p><m>t</m> is time, where the increment of time (years, months, etc.) matches the time period for the interest rate</p>
+            </li>
+            <li>
+                <p><m>A</m> is the end amount, principal plus interest, or future value</p>
+            </li>
+        </ul>
       </p>
     </assemblage>
     <p>
