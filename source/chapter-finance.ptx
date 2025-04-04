@@ -7,31 +7,31 @@
   <introduction>
     <p>
       Students will be able to:
+      <ul>
+        <li>
+          <p>
+            Solve financial problems that involve simple interest.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve problems involving compound interest.
+          </p>
+        </li>
+        <li>
+          <p>
+            Find the future value of an annuity, and the amount of payments to a sinking fund.
+          </p>
+        </li>
+        <li>
+          <p>
+            Find the future value of an annuity, and an installment payment on a loan.
+          </p>
+        </li>
+      </ul>
+      <!-- ToDo: Add objective above for the tax section should it get added. -->
     </p>
 	</introduction>
-  <ul>
-    <li>
-      <p>
-        Solve financial problems that involve simple interest.
-      </p>
-    </li>
-    <li>
-      <p>
-        Solve problems involving compound interest.
-      </p>
-    </li>
-    <li>
-      <p>
-        Find the future value of an annuity, and the amount of payments to a sinking fund.
-      </p>
-    </li>
-    <li>
-      <p>
-        Find the future value of an annuity, and an installment payment on a loan.
-      </p>
-    </li>
-  </ul>
-  <!-- ToDo: Add objective above for the tax section should it get added. -->
   </objectives>
 
   <introduction>
