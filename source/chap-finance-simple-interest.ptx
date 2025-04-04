@@ -91,59 +91,59 @@
       Bonds are an example of a simple investment with a regular interest payout. Bonds are issued by the federal, state or local governments to cover their expenses.
     </p>
     <example>
-        <statement>
-          <p>
-            Suppose your city is building a new park, and issues bonds to raise the money to build it. You buy a $1,000 bond that pays 5% simple interest annually and matures in 5 years. How much interest will you earn? What is the future value of the bond?
-          </p>
-        </statement>
-        <solution>
-          <p>
-            Each year, you would earn 5% interest so over the course of five years, you would earn:
-          </p>
-          <p>
-            <me>\$1000(0.05)(5)=\$250</me>
-          </p>
+      <statement>
+        <p>
+          Suppose your city is building a new park, and issues bonds to raise the money to build it. You buy a $1,000 bond that pays 5% simple interest annually and matures in 5 years. How much interest will you earn? What is the future value of the bond?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Each year, you would earn 5% interest so over the course of five years, you would earn:
+        </p>
+        <p>
+          <me>\$1000(0.05)(5)=\$250</me>
+        </p>
 
-          <p>
-            When the bond matures, you would receive back the $1,000 you originally paid and the $250 in interest, so we could also put that into a single calculation:
-          </p>
-          <p>
-            <me>\$1000+\$1000(0.05)(5)=\$1250</me>
-          </p>
-        </solution>
+        <p>
+          When the bond matures, you would receive back the $1,000 you originally paid and the $250 in interest, so we could also put that into a single calculation:
+        </p>
+        <p>
+          <me>\$1000+\$1000(0.05)(5)=\$1250</me>
+        </p>
+      </solution>
     </example>
     <p>
       Here are a couple more examples.
     </p>
     <example>
-        <statement>
-          <p>
-            Ursula borrows $600 for 5 months at a simple interest rate of 15% per year.  Find the interest, and the total amount she is obligated to pay.
-          </p>
-        </statement>
-        <solution>
-          <p>
-            The interest is computed by multiplying the principal with the interest rate and the time.
+      <statement>
+        <p>
+          Ursula borrows $600 for 5 months at a simple interest rate of 15% per year.  Find the interest, and the total amount she is obligated to pay.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The interest is computed by multiplying the principal with the interest rate and the time.
 
-            <me>
-              I = \$600(.15)\left(\frac{5}{12}\right) = \$37.50.
-            </me>
-            Note that here the rate has units of years and the time has units of month so we convert 5 months into years by dividing by 12.
-          </p>
-          <p>
-            The total amount is thus
-          </p>
-          <p>
-            <me> A = P + I = \$600 + \$37.50 = \$637.50.</me>
-            This total can be computed directly using
-            <md>
-              <mrow> A =\amp P(1+rt) </mrow>
-              <mrow> =\amp \$600[1+(.15)(5/12)] </mrow>
-              <mrow> =\amp \$600(1+0.0625)</mrow>
-              <mrow> =\amp \$637.50. </mrow>
-            </md>
-          </p>
-        </solution>
+          <me>
+            I = \$600(.15)\left(\frac{5}{12}\right) = \$37.50.
+          </me>
+          Note that here the rate has units of years and the time has units of month so we convert 5 months into years by dividing by 12.
+        </p>
+        <p>
+          The total amount is thus
+        </p>
+        <p>
+          <me> A = P + I = \$600 + \$37.50 = \$637.50.</me>
+          This total can be computed directly using
+          <md>
+            <mrow> A =\amp P(1+rt) </mrow>
+            <mrow> =\amp \$600[1+(.15)(5/12)] </mrow>
+            <mrow> =\amp \$600(1+0.0625)</mrow>
+            <mrow> =\amp \$637.50. </mrow>
+          </md>
+        </p>
+      </solution>
     </example>
 
   </subsection>
