@@ -6,7 +6,7 @@
 
   <book xml:id="my-great-book">
     <title>Math for Society</title>
-    <subtitle>Tools for life</subtitle>
+    <subtitle>Tools for living</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
