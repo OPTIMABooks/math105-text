@@ -47,7 +47,7 @@
     <p>
       The future value of the loan would be $115, which is the original plus the interest.
     </p>
-        <p>
+    <p>
       <me>\$100+\$15=\$115</me>
     </p>
     <p>
@@ -165,7 +165,51 @@
         </p>
       </solution>
     </example>
-
   </subsection>
-
+  <subsection xml:id="subsec-simple-interest-discounts">
+  <title>Discounts and Proceeds</title>
+  <p>
+    Lenders sometimes deduct the simple interest from the loan amount at the time that the loan is made.  When this happens, we say the loan has been <term>discounted</term>.  The interest that is deducted is called the <term>discount</term>, and the actual amount that is given to the borrower is called the <term>proceeds</term>.  The amount the borrower is obligated to repay is called the <term>maturity value</term>.
+  </p>
+  <assemblage>
+    <title>Discount and Proceeds Formulas</title>
+    <p>
+      If an amount <m>L</m> is borrowed for a time <m>t</m> at an interest rate <m>r</m>, then the discount <m>D</m> is 
+    </p>
+    <p>
+      <me> D = Lrt. </me>
+    </p>
+    <p>
+      The proceeds <m>R</m> is given by
+    </p>
+    <p>
+      <me>R = L - D = L - Lrt</me>
+    </p>
+    <p>
+      <me>\text{or   } R = L(1-rt). </me>
+    </p>
+    <p>
+      Glossary:
+    </p>
+    <p>
+      <ul>
+          <li>
+              <p><m>D</m> is the discount (interest)</p>
+          </li>
+          <li>
+              <p><m>R</m> is the proceeds, (the actual amount the borrow gets)</p>
+          </li>
+          <li>
+              <p><m>r</m> is the interest rate in decimal form</p>
+          </li>
+          <li>
+              <p><m>t</m> is time, where the increment of time (years, months, etc.) matches the time period for the interest rate</p>
+          </li>
+          <li>
+              <p><m>L</m> is the amount of the loan that must be repaid</p>
+          </li>
+      </ul>
+    </p>
+  </assemblage>
+  </subsection>
 </section>
