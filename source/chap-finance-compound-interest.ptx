@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-finance-compound-interest" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Compound Interest</title>
+
+  <!-- This section is a remix of PCC, Sekhom and Bloom material, and my own original writing. -->
+
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Find the future value of a lump sum growing by compound interest.
+        </p>
+      </li>
+      <li>
+        <p>
+          Determine the present value of a lump sum of money.
+        </p>
+      </li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>
+      In the last section, we examined problems involving simple interest.  Simple interest is generally charged when the lending period is short (often less than a year).   When the money is loaned or borrowed for a longer time period, interest is paid (or charged) not only on the principal, but also on the past interest. In this case we say the interest is <term>compounded</term>.  
+    </p>
+  </introduction>
+
+
+</section>

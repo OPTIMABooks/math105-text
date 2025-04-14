@@ -42,5 +42,5 @@
 
   <!-- include sections -->
   <xi:include href="chap-finance-simple-interest.ptx" />
-
+  <xi:include href="./chap-finance-compound-interest.ptx" />
 </chapter>
