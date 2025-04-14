@@ -56,7 +56,13 @@
     <assemblage>
       <title>Simple Interest Formulas</title>
       <p>
+        If an amount <m>P</m> is borrowed for a time <m>t</m> at an interest rate <m>r</m>, then the interest <m>I</m> is 
+      </p>
+      <p>
         <me>I=Prt</me>
+      </p>
+      <p>
+        The amount <m>A</m> owed at the end of <m>t</m> years is given by
       </p>
       <p>
         <me>A = P + I = P + Prt</me>
@@ -65,7 +71,7 @@
         <me>\text{or   } A = P(1+rt) </me>
       </p>
       <p>
-        Where:
+        Glossary:
       </p>
       <p>
         <ul>
