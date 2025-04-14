@@ -25,6 +25,78 @@
       In the last section, we examined problems involving simple interest.  Simple interest is generally charged when the lending period is short (often less than a year).   When the money is loaned or borrowed for a longer time period, interest is paid (or charged) not only on the principal, but also on the past interest. In this case we say the interest is <term>compounded</term>.  
     </p>
   </introduction>
-
+  <subsection>
+    <title>APR – Annual Percentage Rate</title>
+    <p>
+      Interest rates are usually stated as an annual percentage rate (APR) – the total interest that will be paid in the year. If not stated otherwise, assume that the interest rate is an annual rate or APR. If the interest is paid in smaller time increments, the APR will be divided by the number of time periods.
+    </p>
+    <p>
+      Note: The Federal Truth in Lending Act requires that every consumer be given the true APR which includes the interest and any fees included.
+    </p>
+    <p>
+      For example, a 6% APR paid monthly, would be divided by 12, because you would get one twelfth of the rate per month, which is half a percent per month.
+    </p>
+  
+    <p>
+      <me>\frac{0.06}{12}=0.005</me>
+    </p>
+    
+    <p>
+      A 4% annual rate paid quarterly, would be divided by 4 to get 1% per quarter.
+    </p>
+    
+    <p>
+      <me>\frac{0.04}{4}=0.01</me>
+    </p>
+  
+    <p>
+      Here is an example of a semi-annual rate.
+    </p>
+    <example>
+      <statement>
+      <p>
+        Suppose you buy a $1,000 federal bond with a 4% annual simple interest rate, paid semi-annually, with a maturity in 4 years. How much interest will you earn? What will be the future value of the bond?
+      </p>
+      </statement>
+      <solution>
+      <p>
+        <m>P = \$1000</m>, the principal
+      </p>
+      <p>
+        <m>r=\frac{0.04}{2}=0.02</m>, interest is being paid semi-annually (twice a year), so the 4% interest will be divided into two 2% payments.
+      </p>
+      <p>
+        <m>t = 8</m>, 4 years compounded twice a year gives <m>t=4\cdot 2=8</m> half-years
+      </p>
+      <p>
+        <md>
+          <mrow>I\amp=PRT</mrow>
+          <mrow>\amp=\$1000(0.02)(8)</mrow>
+          <mrow>\amp=\$160</mrow>
+        </md>
+      </p>
+      <p>
+        You will earn $160 in interest over the four years. The future value of the loan is
+      </p>
+      <p>
+        <md alignment="align">
+          <mrow>A\amp=P+I</mrow>
+          <mrow>\amp=\$1000+\$160</mrow>
+          <mrow>\amp=\$1{,}160</mrow>
+        </md>
+      </p>
+  
+      <p>
+        We could also use a spreadsheet to do this calculation and enter:
+      </p>
+      <p>
+        <cd>=1000+1000*(0.04/2)*(4*2)</cd>
+      </p>
+      <p>
+        which also gives $1,160. The future value of the bond is $1,160. Remember that spreadsheets don't interpret parentheses as multiplication. We need the asterisks as well as the parentheses.
+      </p>
+    </solution>
+    </example>
+  </subsection>
 
 </section>
