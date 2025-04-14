@@ -238,7 +238,6 @@
     <p>
       Notice that the $1000 in the equation was P, the starting amount. We found 1.0025 by adding one to the interest rate divided by 12, since we were compounding 12 times per year. Generalizing our result, we could write
     </p>
-  </subsection>
 	<assemblage>
 		<title>Compound Interest</title>
     <p>
@@ -253,7 +252,7 @@
 		<p>
       <ul>
         <li>
-          <p><m>A</m> is the future value balance in the account after <m>n</m> years</p>
+          <p><m>A</m> is the future value or total amount in the account after <m>n</m> years</p>
         </li>
         <li>
           <p><m>P</m> is the principal or present value</p>
@@ -288,5 +287,29 @@
 	<p>
 		The most important thing to remember about using this formula is that it assumes that we put money in the account <alert><insert>once</insert></alert> and let it sit there earning interest.
 	</p>
+  <example>
+    <statement>
+      <p>
+        If $3500 is invested at 9% compounded monthly, what will the future value be in four years?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        In this example we are given values of <m>P=\$3500</m>, <m>r = 0.09</m>, <m>n = 12</m>, and <m>t = 4</m>. We use these values to compute the future value <m>A</m>:
+      </p>
+      <p>
+        <md>
+          <mrow> A =\amp P\left(1+\frac{r}{n}\right)^{nt} </mrow>
+          <mrow> =\amp \$3500\left(1+\frac{0.09}{12}\right)^{12\cdot 4} </mrow>
+          <mrow> =\amp \$3500(1+0.0075)^{48}</mrow>
+          <mrow> =\amp \$5009.92.</mrow>
+        </md>
+      </p>
+      <p>
+        Thus, $3500 invested at 9% compounded monthly	will accumulate to $5009.92  in four years.
+      </p>
+    </solution>
+    </example>
+  </subsection>
 
 </section>
