@@ -89,5 +89,155 @@
     </solution>
     </example>
   </subsection>
+  <subsection>
+    <title>Compound Interest</title>
+    <p>
+      In a standard bank account, any interest we earn is automatically added to our balance, and we earn interest on that interest. This reinvestment of interest is called <alert>compounding</alert>. We will develop the mathematical formula for compound interest and then show the equivalent spreadsheet function.
+    </p>
+    <p>
+      Suppose that we deposit $1000 in a bank account offering 3% interest, compounded monthly. How will our money grow?
+    </p>
+    <p>
+      The 3% interest is an annual percentage rate (APR) – the total interest to be paid during the year. Since interest is being paid monthly, each month, we will earn <m>\frac{0.03}{12}=0.0025</m> per month.
+    </p>
+    <p>
+      In the first month,
+    </p>
+  
+    <p>
+      <md>
+      <mrow>P\amp= \$1000</mrow>
+      <mrow>r\amp=0.0025</mrow>
+      <mrow>I\amp= \$1000 (0.0025)= \$2.50</mrow>
+      <mrow>A\amp= \$1000 + \$2.50 = \$1002.50</mrow>
+      </md>
+    </p>
+    <p>
+      In the first month, we will earn $2.50 in interest, raising our account balance to $1002.50.
+    </p>
+    <p>
+      In the second month,
+    </p>
+    <p>
+      <md>
+        <mrow>P\amp=\$1002.50</mrow>
+        <mrow>I\amp=\$1002.50(0.0025)=\$2.51 \text{ (rounded)}</mrow>
+        <mrow>A\amp=\$1002.50+\$2.51=\$1005.01</mrow>
+      </md>
+    </p>
+    <p>
+      Notice that in the second month we earned more interest than we did in the first month. This is because we earned interest not only on the original $1000 we deposited, but we also earned interest on the $2.50 of interest we earned the first month. This is the key advantage that compounding gives us.
+    </p>
+    <p>
+      Calculating out a few more months in a table or a spreadsheet we have:
+    </p>
+    <tabular row-headers="yes" top="minor" left="minor" right="minor" bottom="minor" halign="left">
+      <row header="yes">
+        <cell>Month</cell>
+        <cell>Starting balance</cell>
+        <cell>Interest earned</cell>
+        <cell>Ending Balance</cell>
+      </row>
+      <row>
+        <cell>1</cell>
+        <cell>1000.00</cell>
+        <cell>2.50</cell>
+        <cell>1002.50</cell>
+      </row>
+      <row>
+        <cell>2</cell>
+        <cell>1002.50</cell>
+        <cell>2.51</cell>
+        <cell>1005.01</cell>
+      </row>
+      <row>
+        <cell>3</cell>
+        <cell>1005.01</cell>
+        <cell>2.51</cell>
+        <cell>1007.52</cell>
+      </row>
+      <row>
+        <cell>4</cell>
+        <cell>1007.52</cell>
+        <cell>2.52</cell>
+        <cell>1010.04</cell>
+      </row>
+      <row>
+        <cell>5</cell>
+        <cell>1010.04</cell>
+        <cell>2.53</cell>
+        <cell>1012.57</cell>
+      </row>
+      <row>
+        <cell>6</cell>
+        <cell>1012.57</cell>
+        <cell>2.53</cell>
+        <cell>1015.10</cell>
+      </row>
+      <row>
+        <cell>7</cell>
+        <cell>1015.10</cell>
+        <cell>2.54</cell>
+        <cell>1017.64</cell>
+      </row>
+      <row>
+        <cell>8</cell>
+        <cell>1017.64</cell>
+        <cell>2.54</cell>
+        <cell>1020.18</cell>
+      </row>
+      <row>
+        <cell>9</cell>
+        <cell>1020.18</cell>
+        <cell>2.55</cell>
+        <cell>1022.73</cell>
+      </row>
+      <row>
+        <cell>10</cell>
+        <cell>1022.73</cell>
+        <cell>2.56</cell>
+        <cell>1025.29</cell>
+      </row>
+      <row>
+        <cell>11</cell>
+        <cell>1025.29</cell>
+        <cell>2.56</cell>
+        <cell>1027.85</cell>
+      </row>
+      <row>
+        <cell>12</cell>
+        <cell>1027.85</cell>
+        <cell>2.56</cell>
+        <cell>1030.42</cell>
+      </row>
+    </tabular>
+    <p>
+      To find an equation to represent this, we will go through a few months to see the pattern:
+    </p>
+    <p>
+      Initial Amount: <m>P=\$1000</m>
+    </p>
+    <p>
+      <m>1^{\text{st}} \text{ Month } A=1.0025(\$1000)</m>
+    </p>
+    <p>
+      <m>2^{\text{nd}} \text{ Month } A=1.0025(1.0025(\$1000))=1.0025^{2}(\$1000)</m>
+    </p>
+    <p>
+      <m>3^{\text{rd}} \text{ Month } A=1.0025(1.0025^{2}(\$1000))=1.0025^{3}(\$1000)</m>
+    </p>
+    <p>
+      <m>4^{\text{th}} \text{ Month } A=1.0025(1.0025^{3}(\$1000))=1.0025^{4}(\$1000)</m>
+    </p>
+    <p>
+      Observing a pattern, we could conclude
+    </p>
+    <p>
+      <m>n^{\text{th}} \text{ Month } A=1.0025^{n}(\$1000)</m>
+    </p>
+    <p>
+      Notice that the $1000 in the equation was P, the starting amount. We found 1.0025 by adding one to the interest rate divided by 12, since we were compounding 12 times per year. Generalizing our result, we could write
+    </p>
+  </subsection>
 
 </section>
