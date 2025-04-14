@@ -239,5 +239,45 @@
       Notice that the $1000 in the equation was P, the starting amount. We found 1.0025 by adding one to the interest rate divided by 12, since we were compounding 12 times per year. Generalizing our result, we could write
     </p>
   </subsection>
+	<assemblage>
+		<title>Compound Interest</title>
+		<p>
+			<me>A=P\left(1+\frac{r}{n}\right)^{nt} \text{ or } P=\frac{A}{\left(1+\frac{r}{n}\right)^{nt}}</me>
+		</p>
+		<p>
+		<dl width="narrow">
+			<li>
+				<title>A</title>
+				<p>
+					is the future value balance in the account after <m>n</m> years
+				</p>
+			</li>
+			<li>
+				<title>P</title>
+				<p>
+					is the principal or present value
+				</p>
+			</li>
+			<li>
+				<title>r</title>
+				<p>
+					is the annual interest rate in decimal form
+				</p>
+			</li>
+			<li>
+				<title>n</title>
+				<p>
+					is the number of compounding periods in one year
+				</p>
+			</li>
+			<li>
+				<title>t</title>
+				<p>
+					is the number of years
+				</p>
+			</li>
+		</dl>
+	</p>
+	</assemblage>
 
 </section>
