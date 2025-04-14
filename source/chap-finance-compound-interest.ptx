@@ -233,7 +233,7 @@
       Observing a pattern, we could conclude
     </p>
     <p>
-      <m>n^{\text{th}} \text{ Month } A=1.0025^{n}(\$1000)</m>
+      <m>n^{\text{th}} \text{ Month } A=1.0025^{n}(\$1000).</m>
     </p>
     <p>
       Notice that the $1000 in the equation was P, the starting amount. We found 1.0025 by adding one to the interest rate divided by 12, since we were compounding 12 times per year. Generalizing our result, we could write
@@ -245,7 +245,7 @@
       The amount <m>A</m> after <m>t</m> years due to a principal <m>P</m> invested at an annual interest rate <m>r</m> compounded <m>n</m> times per year is given by
     </p>
 		<p>
-			<me>A=P\left(1+\frac{r}{n}\right)^{nt}</me>
+			<me>A=P\left(1+\frac{r}{n}\right)^{nt}.</me>
 		</p>
     <p>
       Glossary:
@@ -270,5 +270,23 @@
       </ul>
 	</p>
 	</assemblage>
+	<p>
+		If the compounding is done annually (once a year), <m>n = 1</m>.
+	</p>
+	<p>
+		If the compounding is done quarterly, <m>n = 4</m>.
+	</p>
+	<p>
+		If the compounding is done monthly, <m>n = 12</m>.
+	</p>
+	<p>
+		If the compounding is done weekly, <m>n = 52</m>.
+	</p>
+	<p>
+		If the compounding is done daily, <m>n = 365</m>.
+	</p>
+	<p>
+		The most important thing to remember about using this formula is that it assumes that we put money in the account <alert><insert>once</insert></alert> and let it sit there earning interest.
+	</p>
 
 </section>
