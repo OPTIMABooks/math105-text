@@ -272,4 +272,43 @@
     </solution>
   </example>
   </subsection>
+  <subsection>
+    <title>Finding the Amount of Interest Earned and the Percentage</title>
+    <p>
+      In the previous example we also want to know how much interest was earned and what percentage of the final balance is from interest. The future value of the investment is $4,849.11. Now to figure out how much of that was interest, we need to subtract the amount initially deposited.
+    </p>
+    <example>
+      <p>
+        Continued: To find the total amount of interest earned, we subtract the principal from the total balance.
+      </p>
+      <p>
+        <me>\$4{,}849.11-\$4{,}000=\$849.11</me>
+      </p>
+      <p>
+        The spreadsheet calculation is
+      </p>
+      <p>
+        <cd>=4849.11-4000</cd>
+      </p>
+      <p>
+        which gives a result of $849.11. You would earn $849.11 in interest.
+      </p>
+      <p>
+        To find the percentage that is interest, divide the amount of interest by the total amount.
+      </p>
+      <p>
+        <me>\frac{\$849.11}{4{,}849.11}\approx0.1751\text{ or } 17.5\%</me>
+      </p>
+      <p>
+        The spreadsheet calculation is the same:
+      </p>
+      <p>
+        <cd>=849.11/4849.11</cd>
+      </p>
+      <p>
+        which is 0.1751 or 17.5%. This tells us that after 7 years, 17.5% of the account was earned as interest.
+      </p>
+    </example>
+  </subsection>
+  
 </section>
