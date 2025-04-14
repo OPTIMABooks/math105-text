@@ -212,7 +212,7 @@
               <p><m>t</m> is time, where the increment of time (years, months, etc.) matches the time period for the interest rate</p>
           </li>
           <li>
-              <p><m>L</m> is the amount of the loan that must be repaid</p>
+              <p><m>L</m> is the amount of the loan that must be repaid, or the maturity value.</p>
           </li>
       </ul>
     </p>
@@ -232,6 +232,29 @@
           <mrow> =\amp \$150 </mrow>
         </md>
         Therefore, the bank deducts $150 from the maturity value of $1200 and gives Francisco $1050. That is, <me> R = \$1200 - \$150 = \$1050</me>  Francisco is obligated to repay the bank $1200.
+      </p>
+    </solution>
+  </example>
+  <example>
+    <statement>
+      <p>
+        If Francisco wants to receive $1200 for 10 months at a simple interest rate of 15% per year, what amount of loan should he apply for?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        In this problem, we are given the proceeds <m>P</m> and are being asked to find the maturity value <m>L</m>. From the problem statement we see that <me>P = \$1200, r = .15, t = 10/12.</me>. We must solve for <m>L</m>. Thus
+      </p>
+      <p>
+        <md>
+          <mrow>R =\amp L(1-rt) </mrow>
+          <mrow>\$1200 =\amp L\left[1-(.15)\left(\frac{10}{12}\right)\right] </mrow>
+          <mrow>\$1200 =\amp L(1-0.125)</mrow>
+          <mrow>\$1200 =\amp L(0.875).</mrow>
+          <mrow>L =\amp \frac{\$1200}{0.875} </mrow>
+          <mrow> =\amp \$1371.43. </mrow>
+        </md>
+        Therefore, Francisco should ask for a loan for $1371.43. The lender will discount the loan by $171.43 and Francisco will receive $1200.
       </p>
     </solution>
   </example>
