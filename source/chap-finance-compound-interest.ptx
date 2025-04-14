@@ -241,42 +241,33 @@
   </subsection>
 	<assemblage>
 		<title>Compound Interest</title>
+    <p>
+      The amount <m>A</m> after <m>t</m> years due to a principal <m>P</m> invested at an annual interest rate <m>r</m> compounded <m>n</m> times per year is given by
+    </p>
 		<p>
-			<me>A=P\left(1+\frac{r}{n}\right)^{nt} \text{ or } P=\frac{A}{\left(1+\frac{r}{n}\right)^{nt}}</me>
+			<me>A=P\left(1+\frac{r}{n}\right)^{nt}</me>
 		</p>
+    <p>
+      Glossary:
+    </p>
 		<p>
-		<dl width="narrow">
-			<li>
-				<title>A</title>
-				<p>
-					is the future value balance in the account after <m>n</m> years
-				</p>
-			</li>
-			<li>
-				<title>P</title>
-				<p>
-					is the principal or present value
-				</p>
-			</li>
-			<li>
-				<title>r</title>
-				<p>
-					is the annual interest rate in decimal form
-				</p>
-			</li>
-			<li>
-				<title>n</title>
-				<p>
-					is the number of compounding periods in one year
-				</p>
-			</li>
-			<li>
-				<title>t</title>
-				<p>
-					is the number of years
-				</p>
-			</li>
-		</dl>
+      <ul>
+        <li>
+          <p><m>A</m> is the future value balance in the account after <m>n</m> years</p>
+        </li>
+        <li>
+          <p><m>P</m> is the principal or present value</p>
+        </li>
+        <li>
+          <p><m>r</m> is the annual interest rate in decimal form</p>
+        </li>
+        <li>
+          <p><m>n</m> is the number of compounding periods in one year</p>
+        </li>
+        <li>
+          <p><m>t</m> is the number of years</p>
+      </li>
+      </ul>
 	</p>
 	</assemblage>
 
