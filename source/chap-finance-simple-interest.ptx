@@ -59,7 +59,7 @@
         If an amount <m>P</m> is borrowed for a time <m>t</m> at an interest rate <m>r</m>, then the interest <m>I</m> is 
       </p>
       <p>
-        <me>I=Prt</me>
+        <me>I=Prt.</me>
       </p>
       <p>
         The amount <m>A</m> owed at the end of <m>t</m> years is given by
@@ -68,7 +68,7 @@
         <me>A = P + I = P + Prt</me>
       </p>
       <p>
-        <me>\text{or   } A = P(1+rt) </me>
+        <me>\text{or   } A = P(1+rt). </me>
       </p>
       <p>
         Glossary:
@@ -217,5 +217,23 @@
       </ul>
     </p>
   </assemblage>
+  <example>
+    <statement>
+      <p>
+        Francisco borrows $1200 for 10 months at a simple interest rate of 15% per year.  Determine the discount and the proceeds.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        The discount <m>D</m> is the interest on the loan that the bank deducts from the loan amount.
+        <md>
+          <mrow>D =\amp Lrt </mrow>
+          <mrow> =\amp \$1200(.15)\left(\frac{10}{12}\right) </mrow>
+          <mrow> =\amp \$150 </mrow>
+        </md>
+        Therefore, the bank deducts $150 from the maturity value of $1200 and gives Francisco $1050. That is, <me> R = \$1200 - \$150 = \$1050</me>  Francisco is obligated to repay the bank $1200.
+      </p>
+    </solution>
+  </example>
   </subsection>
 </section>
