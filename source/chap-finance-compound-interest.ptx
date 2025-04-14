@@ -28,13 +28,14 @@
   <subsection>
     <title>APR – Annual Percentage Rate</title>
     <p>
-      Interest rates are usually stated as an annual percentage rate (APR) – the total interest that will be paid in the year. If not stated otherwise, assume that the interest rate is an annual rate or APR. If the interest is paid in smaller time increments, the APR will be divided by the number of time periods.
+      Interest rates are usually stated as an <term>annual percentage rate (APR)</term> – the total interest that will be paid in the year. If not stated otherwise, assume that the interest rate is an annual rate or APR. If the interest is paid in smaller time increments, the APR will be divided by the number of time periods.
+      The APR divided by the number of time periods is called the <term>periodic interest rate</term>.
     </p>
     <p>
       Note: The Federal Truth in Lending Act requires that every consumer be given the true APR which includes the interest and any fees included.
     </p>
     <p>
-      For example, a 6% APR paid monthly, would be divided by 12, because you would get one twelfth of the rate per month, which is half a percent per month.
+      For example, a 6% APR paid monthly, would be divided by 12, because you would get one twelfth of the rate per month, which is a periodic interest rate of half a percent per month.
     </p>
   
     <p>
@@ -42,7 +43,7 @@
     </p>
     
     <p>
-      A 4% annual rate paid quarterly, would be divided by 4 to get 1% per quarter.
+      Similarly, a 4% annual rate paid quarterly would be divided by 4 to get a periodic interest rate of 1% per quarter.
     </p>
     
     <p>
@@ -70,7 +71,7 @@
       </p>
       <p>
         <md>
-          <mrow>I\amp=PRT</mrow>
+          <mrow>I\amp=Prt</mrow>
           <mrow>\amp=\$1000(0.02)(8)</mrow>
           <mrow>\amp=\$160</mrow>
         </md>
@@ -84,16 +85,6 @@
           <mrow>\amp=\$1000+\$160</mrow>
           <mrow>\amp=\$1{,}160</mrow>
         </md>
-      </p>
-  
-      <p>
-        We could also use a spreadsheet to do this calculation and enter:
-      </p>
-      <p>
-        <cd>=1000+1000*(0.04/2)*(4*2)</cd>
-      </p>
-      <p>
-        which also gives $1,160. The future value of the bond is $1,160. Remember that spreadsheets don't interpret parentheses as multiplication. We need the asterisks as well as the parentheses.
       </p>
     </solution>
     </example>
