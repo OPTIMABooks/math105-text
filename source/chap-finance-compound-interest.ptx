@@ -340,6 +340,94 @@
         </p>
       </solution>
       </example>
+      <example>
+        <statement>
+          <p>
+            If $4,000 is invested at 4% compounded annually, how long will it take to accumulate to $6,000?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            Note that here, are values are known except <m>t</m>.  That is, <m>A=\$6000</m>, <m>r = 0.04</m>, <m>n = 1</m>, and <m>P=\$4000</m>. 
+          </p>
+          <p>
+            <md>
+              <mrow> A =\amp P\left(1+\frac{r}{n}\right)^{nt} </mrow>
+              <mrow> \$6000 =\amp \$4000\left(1+\frac{0.04}{1}\right)^{1\cdot t} </mrow>
+              <mrow> \$6000 =\amp \$4000(1.04)^{t}</mrow>
+              <mrow> \frac{\$6000}{\$4000} = 1.5 \amp= 1.04^4. </mrow>
+            </md>
+            To solve for <m>t</m> in the exponent we must take the <m>log</m> of both sides:
+            <md>
+              <mrow> \log(1.5) =\amp \log(1.04^t) </mrow>
+              <mrow> \log(1.5) =\amp t\log(1.04) </mrow>
+              <mrow> t =\amp \frac{\log(1.5)}{\log(1.04)} = 10.3380. </mrow>
+            </md>
+          </p>
+          <p>
+            It takes 10.33 years for $4000 to accumulate to $6000 if invested at 4% interest compounded annually.
+          </p>
+        </solution>
+        </example>
   </subsection>
+  <subsection>
+    <title>Comparing Simple and Compound Interest</title>
+      <p>
+        Let us compare the amount of money earned from compounding in the previous example against the amount you would earn from simple interest. From the table and graph below we can see that over a long period of time, compounding makes a large difference in the account balance. You may recognize this as the difference between linear growth and exponential growth.
+      </p>
+      <!-- Note: widths are set to make pdf look good, not as good for web version -->
+      <sidebyside valign="bottom" widths="60% 36%" margins="0%">
+        <tabular row-headers="yes" top="minor" left="minor" right="minor" bottom="minor" halign="left">
+        <row header="yes">
+          <cell>Year</cell>
+          <cell><line>Simple Interest</line><line>($15 per month)</line></cell>
+          <cell><line>Compound Interest (6% compounded</line><line>monthly or 0.5% each month</line></cell>
+        </row>
+        <row>
+          <cell>0</cell>
+          <cell>$3,000</cell>
+          <cell>$3,000</cell>
+        </row>
+        <row>
+          <cell>5</cell>
+          <cell>$3,900</cell>
+          <cell>$4,046.55</cell>
+        </row>
+        <row>
+          <cell>10</cell>
+          <cell>$4,800</cell>
+          <cell>$5,458.19</cell>
+        </row>
+        <row>
+          <cell>15</cell>
+          <cell>$5,700</cell>
+          <cell>$7,362.28</cell>
+        </row>
+        <row>
+          <cell>20</cell>
+          <cell>$6,600</cell>
+          <cell>$9,930.61</cell>
+        </row>
+        <row>
+          <cell>25</cell>
+          <cell>$7,500</cell>
+          <cell>$13,394.91</cell>
+        </row>
+        <row>
+          <cell>30</cell>
+          <cell>$8,400</cell>
+          <cell>$18,067.73</cell>
+        </row>
+        <row>
+          <cell>35</cell>
+          <cell>$9,300</cell>
+          <cell>$24,370.65</cell>
+        </row>
+      </tabular>
+      <image source="images/financial_math/comparing_interest.png">
+      <shortdescription>A coordinate graph with years on the x-axis and account balance on the y-axis. The simple interest increases in a straight line; the compound interest curves up faster because it is an exponential function.</shortdescription>
+      </image>
+    </sidebyside>
+    </subsection>
 
 </section>
