@@ -3,9 +3,22 @@
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Simple Interest and Discounts</title>
 
-  <!-- ToDo: Add objectives for this section.-->
-
   <!-- This section is a remix of PCC, Sekhom and Bloom material, and my own original writing. -->
+
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Solve problem involving simple interest.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve problems involving discounted loans.
+        </p>
+      </li>
+    </ul>
+  </objectives>
 
   <introduction>
     <p>
