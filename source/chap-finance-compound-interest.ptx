@@ -310,6 +310,36 @@
       </p>
     </solution>
     </example>
+    <example>
+      <statement>
+        <p>
+          How much should be invested in an account paying 9% compounded daily for it to accumulate to $5,000 in five years?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          In this example we know the future value, but need to find the principal.  That is, <m>A=\$5000</m>, <m>r = 0.09</m>, <m>n = 365</m>, and <m>t = 5</m>, but <m>P</m> is unknown. 
+        </p>
+        <p>
+          <md>
+            <mrow> A =\amp P\left(1+\frac{r}{n}\right)^{nt} </mrow>
+            <mrow> \$5000 =\amp P\left(1+\frac{0.09}{365}\right)^{365\cdot 5} </mrow>
+            <mrow> \$5000 =\amp P(1.00024658)^{1825}</mrow>
+            <mrow> \$5000 =\amp P(1.56822519).</mrow>
+          </md>
+          Dividing to solve for <m>P</m> yields
+          <me>
+            P = \frac{\$5000}{1.56822519} = \$3188.32
+          </me>
+        </p>
+        <p>
+          Thus, $3188,32 invested  into an account paying 9% compounded daily will accumulate to $5,000 in five years.
+        </p>
+        <p>
+          <alert>Note:</alert> Be very careful with rounding on problems like this. Truncating or rounding decimals can lead to large changes in the final answer. The safest course is to leave the number entirely in the calculator and not round until the final step.
+        </p>
+      </solution>
+      </example>
   </subsection>
 
 </section>
