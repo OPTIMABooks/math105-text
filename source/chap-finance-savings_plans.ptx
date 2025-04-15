@@ -132,6 +132,12 @@
         </p>
       </solution>
     </example>
+    <assemblage>
+      <title>A note about rounding</title>
+      <p>
+        If you are using the formulas and round during intermediate steps you will probably have some roundoff error. For this reason, we enter the whole expression into the calculator and do not show the intermediate steps. Alternately, you can enter the parts of the equation separately but use the calculators stored values for subsequent computations.
+      </p>
+    </assemblage>
   </subsection>
 
 </section>
