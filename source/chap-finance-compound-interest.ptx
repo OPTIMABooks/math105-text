@@ -61,29 +61,28 @@
       </statement>
       <solution>
       <p>
-        <m>P = \$1000</m>, the principal
+        The principal is <m>P = \$1000</m>. Since interest is being paid semi-annually (twice a year), the 4%  will be divided into two 2% payments.
+
+        <me>r=\frac{0.04}{2}=0.02.</me>
       </p>
       <p>
-        <m>r=\frac{0.04}{2}=0.02</m>, interest is being paid semi-annually (twice a year), so the 4% interest will be divided into two 2% payments.
-      </p>
-      <p>
-        <m>t = 8</m>, 4 years compounded twice a year gives <m>t=4\cdot 2=8</m> half-years
+        Four years compounded twice a year gives <m>t=4\cdot 2=8</m> half-years. Thus
       </p>
       <p>
         <md>
           <mrow>I\amp=Prt</mrow>
           <mrow>\amp=\$1000(0.02)(8)</mrow>
-          <mrow>\amp=\$160</mrow>
+          <mrow>\amp=\$160.</mrow>
         </md>
       </p>
       <p>
-        You will earn $160 in interest over the four years. The future value of the loan is
+        You will earn $160 in interest over the four years. The future value of the loan is therefore
       </p>
       <p>
         <md alignment="align">
           <mrow>A\amp=P+I</mrow>
           <mrow>\amp=\$1000+\$160</mrow>
-          <mrow>\amp=\$1{,}160</mrow>
+          <mrow>\amp=\$1{,}160.</mrow>
         </md>
       </p>
     </solution>
