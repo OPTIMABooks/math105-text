@@ -177,10 +177,15 @@
         <me>
           A_1 + A_2 = \$144{,}822.87.
         </me>
-        
       </p>
     </solution>
     </example>
+  </subsection>
+  <subsection xml:id="subsec-sinking_funds">
+    <title>Computing Payments and Sinking Funds</title>
+    ><p>
+      
+    </p>
   </subsection>
 
 </section>
