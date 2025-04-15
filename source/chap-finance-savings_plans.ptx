@@ -33,10 +33,41 @@
     </p>
   </introduction>
   <subsection xml:id="subsec-annuities">
-    <title></title>
+    <title>Future Value of an Annuity</title>
     <p>
-      
+      The mathematical formula needed to solve problems involving the future value of simple, ordinary annuities is shown below. If you want to know where the formula comes from, it is derived at the end of the chapter.
     </p>
+    <assemblage>
+      <title>Future Value of an Ordinary Annuity</title>
+      <p>
+        If a payment of <m>d</m> dollars is made in an account <m>n</m> times a year at annual interest rate  <m>r</m>, then the future value <m>A</m> after <m>t</m> years is 
+        <me>
+          A = d \left[\frac{\left(1+\frac{r}{n}\right)^{nt}-1}{\frac{r}{n}}\right].
+        </me>
+      </p>
+      <p>
+        Glossary:
+      </p>
+      <p>
+        <ul>
+          <li>
+            <p><m>A</m> is the balance or amount in the account after n years (the future value)</p>
+          </li>
+          <li>
+            <p><m>d</m> is the regular deposit (or payment amount each month, quarter, year, etc.)</p>
+          </li>
+          <li>
+            <p><m>r</m> is the annual interest rate in decimal form</p>
+          </li>
+          <li>
+            <p><m>n</m> is the number of compounding periods in one year</p>
+          </li>
+          <li>
+            <p><m>t</m>is the number of years</p>
+          </li>
+        </ul>
+      </p>
+    </assemblage>
   </subsection>
 
 </section>
