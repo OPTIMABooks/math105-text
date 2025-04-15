@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-finance-savings_plans" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Annuities and Sinking Funds</title>
+
+  <!-- This section is a remix of PCC, Sekhom and Bloom material, and my own original writing. -->
+
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Find the future value of an annuity.
+        </p>
+      </li>
+      <li>
+        <p>
+          Determine the payment needed to create a sinking fund with a specified value.
+        </p>
+      </li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>
+      For most of us it is not practical to deposit a large sum of money in the bank. Instead, we save by depositing smaller amounts of money regularly. We might save in an IRA or 401-K for retirement. We might also save for a down payment on a car or house, or in a college savings plan for our children.
+    </p>
+  </introduction>
+    
+
+</section>
