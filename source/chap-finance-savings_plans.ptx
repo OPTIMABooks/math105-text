@@ -63,11 +63,75 @@
             <p><m>n</m> is the number of compounding periods in one year</p>
           </li>
           <li>
-            <p><m>t</m>is the number of years</p>
+            <p><m>t</m> is the number of years</p>
           </li>
         </ul>
       </p>
     </assemblage>
+    <example xml:id="future_value_annuity_1">
+      <statement>
+      <p>
+        A traditional individual retirement account (IRA) is a special type of retirement account in which the money you invest is exempt from income taxes until you withdraw it. If you deposit $100 each month into an IRA earning 6% APR, how much will you have in the account after 20 years? 
+      </p>
+      </statement>
+      <solution>
+      
+      <p>
+        In this example the monthly deposit is <m>d=\$100</m>, and since interest is compounded monthly <m>n = 12</m>. The annual interest rate is <m>r=0.06</m> and since we want the amount after 20 years <m>t=20</m>. The unknown value is <m>A</m>, which is the value we need to compute. Putting these values into the annuity equation we have:
+      </p>
+      <p>
+        <md>
+        <mrow> A\amp= 100\left[\frac{\left(1+\frac{0.06}{12}\right)^{12\cdot 20}-1}{\left(\frac{0.06}{12}\right)}\right]</mrow>
+        <mrow> \amp= 100\left[\frac{(1.005)^{240}-1}{(0.005)}\right]</mrow>
+        <mrow> \amp= 100(462.040895)</mrow>
+        <mrow> \amp\approx \$46{,}204.09</mrow>
+      </md>
+      </p>
+      <p>
+        With U.S. dollars we round to the nearest cent. The account will grow to $46,204.09 after 20 years.
+      </p>
+      </solution>
+    </example>
+    <p>
+      Depositing $100 a month for 20 years takes a lot of discipline!  Was it worth it? How much interest did this annuity earn over 20 years?
+    </p>
+    <p>
+      <alert>Key Idea:</alert> Total interest is always the difference between the account balance and the amount deposited (or paid).
+    </p>
+    <example>
+      <statement>
+        <p>
+          If you deposit $100 each month into an IRA earning 6% APR for 20 years, how much will you have earned in interest? What percentage of the balance is interest? Use the result of <xref ref="future_value_annuity_1"/> to find these values.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To find the <alert>amount of interest earned</alert>, calculate the total of all your deposits.
+        </p>
+        <p>
+          <me>\$100(20)(12)=\$24{,}000</me>
+        </p>
+    
+        <p>
+          The difference between the total amount and the deposits is the interest earned.
+        </p>
+        <p>
+          <me>\$46{,}204.09-\$24{,}000=\$22{,}204.09</me>
+        </p>
+        <p>
+          The total amount of interest you earned was $22,204.09.
+        </p>
+        <p>
+          To find the <alert>percentage of the balance that is interest</alert> we will divide the interest by the total balance.
+        </p>
+        <p>
+          <me>\frac{\$22{,}204.09}{\$46{,}204.09}\approx 0.4810</me>
+        </p>
+        <p>
+          or 48.1%. After 20 years 48.1% of the balance is from interest.
+        </p>
+      </solution>
+    </example>
   </subsection>
 
 </section>
