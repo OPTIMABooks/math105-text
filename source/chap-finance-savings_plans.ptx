@@ -133,11 +133,54 @@
       </solution>
     </example>
     <assemblage>
-      <title>A note about rounding</title>
+      <title>A note on rounding</title>
       <p>
         If you are using the formulas and round during intermediate steps you will probably have some roundoff error. For this reason, we enter the whole expression into the calculator and do not show the intermediate steps. Alternately, you can enter the parts of the equation separately but use the calculators stored values for subsequent computations.
       </p>
     </assemblage>
+    <p>
+      Occasionally the problem is more complicated. For example, consider a scenario where an large, initial deposit is made   with subsequent smaller, monthly deposits.
+    </p>
+    <example>
+      <statement>
+      <p>
+        You want to jumpstart your saving by depositing $1500 from your tax return and then deposit $150 every month into an account that earns 5.5% APR compounded monthly. How much will you have in the account after 30 years?
+      </p>
+      </statement>
+      <solution>
+      <p>
+        This problem is solved by applying the compound interest formula to the initial deposit, and the future value of an annuity formula to the sequence of monthly payments and adding the result together.  That is,
+        <me>
+          \text{Total} = A_1 + A_2,
+        </me>
+        where <m>A_1</m> is the future value of the lump sum and <m>A_2</m> the future value of the payments. For both computations <m>r = 0.055</m>, <m>n = 12</m>, and <m>t = 30</m>.
+      </p>
+      <p>
+        Computing <m>A_1</m> first using <m>P = \$1500</m>:
+        <md>
+          <mrow> A_1 =\amp P\left(1+\frac{r}{n}\right)^{nt} </mrow>
+          <mrow> =\amp 1500\left(1+\frac{0.055}{12}\right)^{12\cdot 30}</mrow>
+          <mrow> =\amp 7{,}781.081752</mrow>
+        </md>
+      </p>
+      <p>
+        Next, using <m>d = \$150</m> compute <m>A_2</m>:
+        <md>
+          <mrow> A_2 =\amp d \left[\frac{\left(1+\frac{r}{n}\right)^{nt}-1}{\frac{r}{n}}\right] </mrow>
+          <mrow> =\amp 150 \left[\frac{\left(1+\frac{0.055}{12}\right)^{12\cdot 30}-1}{\frac{.055}{12}}\right]</mrow>
+          <mrow> =\amp 150(913.611891)</mrow>
+          <mrow> =\amp 137{,}041.783674 </mrow>
+        </md>
+      </p>
+      <p>
+        Adding and rounding to the penny, in 30 years our account will contain 
+        <me>
+          A_1 + A_2 = \$144{,}822.87.
+        </me>
+        
+      </p>
+    </solution>
+    </example>
   </subsection>
 
 </section>
