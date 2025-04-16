@@ -194,16 +194,43 @@
     </statement>
     <solution>
       <p>
-        In this problem we know all the needed values to use the annuity formula except <m>d</m>: <m>A=\$5000</m>, <m>r=0.08</m>, <m>n = 12</m>, and <m>t = 3</m>.  Thus,
+        In this problem we know all the needed values to use the annuity formula except <m>d</m>: <m>A=\$5{,}000</m>, <m>r=0.08</m>, <m>n = 12</m>, and <m>t = 3</m>.  Thus,
         <md>
-          <mrow> 5000 =\amp d \left[\frac{\left(1+\frac{0.08}{12}\right)^{12\cdot 3}-1}{\frac{0.08}{12}}\right] </mrow>
-          <mrow> 5000 =\amp d(40.535558) </mrow>
-          <mrow> d =\amp\frac{5000}{40.535558} </mrow>
+          <mrow> 5{,}000 =\amp d \left[\frac{\left(1+\frac{0.08}{12}\right)^{12\cdot 3}-1}{\frac{0.08}{12}}\right] </mrow>
+          <mrow> 5{,}000 =\amp d(40.535558) </mrow>
+          <mrow> d =\amp\frac{5{,}000}{40.535558} </mrow>
           <mrow>  \approx\amp \$123.35. </mrow>
         </md>
       </p>
       <p>
         Danielle needs to deposit $123.35 at the end of each month for 3 years into an account paying 8% compounded monthly to have $5,000 at the end of the 3 years.
+      </p>
+    </solution>
+  </example>
+  <example xml:id="sinking_fund_1">
+    <statement>
+      <p>
+        A business needs $450,000 in five years to upgrade some equipment.  How much should be deposited each quarter in a sinking fund that earns 9% compounded quarterly to have this amount in five years?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        In this problem, we seek a value <m>d</m> such that
+        <me>
+          \$450{,}000 = d \left[\frac{\left(1+\frac{0.09}{4}\right)^{4\cdot 5}-1}{\frac{0.09}{4}}\right].
+        </me>
+      </p>
+      <p>
+        Solving,
+        <md>
+          <mrow> 450{,}000 =\amp d \left[\frac{\left(1.0225\right)^{20}-1}{0.0225}\right]</mrow>
+          <mrow> 450{,}000 =\amp d(24.911520)</mrow>
+          <mrow> d =\amp \frac{450{,}000}{24.911520} </mrow>
+          <mrow> \approx\amp \$18{,}063.93.</mrow>
+        </md>
+      </p>
+      <p>
+        The business needs to deposit $18,063.93 at the end of each quarter for 5 years into an sinking fund earning interest of 9% compounded quarterly in order to have the $450,000 needed for the equipment upgrade at the end of 5 years.
       </p>
     </solution>
   </example>
