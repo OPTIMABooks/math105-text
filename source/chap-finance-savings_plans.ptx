@@ -101,7 +101,7 @@
     <example>
       <statement>
         <p>
-          If you deposit $100 each month into an IRA earning 6% APR for 20 years, how much will you have earned in interest? What percentage of the balance is interest? Use the result of <xref ref="future_value_annuity_1"/> to find these values.
+          If you deposit $100 each month into an IRA earning 6% APR for 20 years, how much will you have earned in interest? What percentage of the balance is interest? Use the result of <xref ref="ex_future_value_annuity_1"/> to find these values.
         </p>
       </statement>
       <solution>

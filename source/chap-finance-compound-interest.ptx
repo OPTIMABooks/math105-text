@@ -431,7 +431,7 @@
     <subsection>
       <title>Finding the Amount of Interest Earned and the Percentage</title>
       <p>
-        In <xref ref="future_value_compound_interest"/> suppose we also want to know how much interest was earned and what percentage of the final balance is from interest. The future value of the investment is $5,009.92. To figure out how much of that was interest, we need to subtract the amount initially deposited.
+        In <xref ref="ex_future_value_compound_interest"/> suppose we also want to know how much interest was earned and what percentage of the final balance is from interest. The future value of the investment is $5,009.92. To figure out how much of that was interest, we need to subtract the amount initially deposited.
       </p>
       <p>
         <alert>Key Idea:</alert> Total interest is always the difference between the account balance and the amount deposited (or paid).
