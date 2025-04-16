@@ -270,4 +270,125 @@
     </solution>
   </example>
   </subsection>
+  <subsection>
+    <title>Deriving the Future Value of an Annuity Formula (Optional)</title>
+    <p>
+      If you are interested in where the future value of an annuity formula came from, we explain it here. A savings plan with regular payments can be described recursively. Recall that basic compound interest follows from the relationship for each compound period.
+    </p>
+    <p>
+      <m>A=P\left(1+\frac{r}{n}\right)</m>
+    </p>
+  
+    <p>
+      For a savings plan, we need to add a deposit, d, to the account with each compounding period:
+    </p>
+  
+    <p>
+      <m>A=P\left(1+\frac{r}{n}\right)+d</m>
+    </p>
+  
+    <p>
+      Taking this equation from recursive form to explicit form is a bit trickier than with compound interest. It will be easiest to see by working with an example rather than working in general.
+    </p>
+    <p>
+      Suppose we will deposit $100 each month into an account paying 6% APR. We assume that the account is compounded with the same frequency as we make deposits unless stated otherwise.
+    </p>
+    <p>
+      In this example:
+    </p>
+    <ul>
+      <li>
+        <p> <m>r=0.06</m>, 6% APR </p>
+      </li>
+      <li>
+        <p> <m>n=12</m>, 12 compounds/deposits per year</p>
+      </li>
+      <li>
+        <p> <m>d=\$100</m>, our deposit per month </p>
+      </li>
+    </ul>
+ 
+    <p>
+      Writing out the recursive equation gives where A is exchanged with <m>P_{m}</m>, where <em>m</em> is the number of compounding periods.
+      <me>P_{m}=\left(1+\frac{0.06}{12}\right)P_{m-1}+100=(1.005)P_{m-1}+100</me>
+    </p>
+
+    <p>
+      Assuming we start with an empty account, we can begin using this relationship:
+
+      <md>
+        <mrow> P_{0} =\amp 0. </mrow>
+        <mrow> \amp </mrow>
+        <mrow> P_{1} =\amp (1.005)P_{0}+100</mrow>
+        <mrow>       =\amp 100 </mrow>
+        <mrow> \amp </mrow>
+        <mrow> P_{2} =\amp (1.005)P_{1}+100</mrow>
+        <mrow>       =\amp (1.005)(100)+100 </mrow>
+        <mrow>       =\amp 100(1.005)+100 </mrow>
+        <mrow> \amp </mrow>
+        <mrow> P_{3} =\amp (1.005)P_{2}+100 </mrow>
+        <mrow>       =\amp (1.005)(100(1.005)+100)+100 </mrow>
+        <mrow>       =\amp 100(1.005)^{2}+100(1.005)+100 </mrow>
+      </md>
+    </p>
+
+    <p>
+      Continuing this pattern, after m deposits, we'd have saved:
+      <me>P_{m}=100(1.005)^{m-1}+100(1.005)^{m-2}+...+100(1.005)+100</me>
+    </p>
+  
+    <p>
+      In other words, after <m>m</m> months, the first deposit will have earned compound interest for <m>m-1</m> months. The second deposit will have earned interest for <m>m-2</m> months. Last month's deposit would have earned only one month worth of interest. The most recent deposit will have earned no interest yet.
+    </p>
+  
+    <p>
+      This equation leaves a lot to be desired, though – it doesn't make calculating the ending balance any easier! To simplify things, multiply both sides of the equation by 1.005:
+    </p>
+    <p>
+      <m>1.005P_{m}=1.005[100(1.005)^{m-1}+100(1.005)^{m-2}+...+100(1.005)+100]</m>
+    </p>
+  
+    <p>
+      Distributing on the right side of the equation gives
+    </p>
+    <p>
+      <m>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+100(1.005)^{2}+100(1.005)</m>
+    </p>
+    <p>
+      Now we'll line this up with like terms from our original equation, and subtract each side
+    </p>
+    <p>
+      <m>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+ 100(1.005)</m>
+    </p>
+    <p>
+      <m>P_{m} = 100(1.005)^{m-1}+...+ 100(1.005)+100</m>
+    </p>
+  
+    <p>
+      Almost all the terms cancel on the right side when we subtract, leaving
+    </p>
+  
+    <p>
+      <m>1.005P_{m}-P_{m}=100(1.005)^{m}-100</m>
+    </p>
+    <p>
+      Solving for <m>P_{m}</m>
+    </p>
+    <p>
+      <m>0.005P_{m}=100((1.005)^{m}-1)</m>
+    </p>
+    <p>
+      <m>P_{m}=\frac{100(1.005)^{m}-100}{0.005}</m>
+    </p>
+    <p>
+      Replacing <m>P_{m}</m> with <m>A</m> (Future Value), <m>m</m> months with <m>12t</m>, where <m>t</m> is measured in years, gives
+    </p>
+    <p>
+      <m>A=\frac{100\left((1.005)^{12t}-1\right)}{0.005}</m>
+    </p>
+  
+    <p>
+      Recall <m>0.005</m> was <m>r/n</m> and 100 was the deposit <m>d</m>. The value 12 as <m>n</m>, the number of deposits each year. Generalizing this result, we get the savings plan formula solved for <m>A</m>. The second formula uses algebra to rearrange the formula to be solved for <m>d</m>.
+    </p>
+  </subsection>
 </section>
