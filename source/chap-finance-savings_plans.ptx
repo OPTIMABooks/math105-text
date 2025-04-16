@@ -135,7 +135,8 @@
     <assemblage>
       <title>A note on rounding</title>
       <p>
-        If you are using the formulas and round during intermediate steps you will probably have some roundoff error. For this reason, we enter the whole expression into the calculator and do not show the intermediate steps. Alternately, you can enter the parts of the equation separately but use the calculators stored values for subsequent computations.
+        If you are using the formulas and round during intermediate steps you will probably have some roundoff error. For this reason, enter the whole expression into the calculator. Alternately, enter the parts of the equation separately but use the calculators stored values for subsequent computations. 
+        Do not write down rounded intermediate steps and then key them back into the calculator. In the examples in this section we show intermediate value to guide you but use the unrounded value stored in the calculator to find the final answer shown.
       </p>
     </assemblage>
     <p>
