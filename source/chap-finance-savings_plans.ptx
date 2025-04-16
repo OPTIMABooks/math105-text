@@ -274,17 +274,14 @@
     <title>Deriving the Future Value of an Annuity Formula (Optional)</title>
     <p>
       If you are interested in where the future value of an annuity formula came from, we explain it here. A savings plan with regular payments can be described recursively. Recall that basic compound interest follows from the relationship for each compound period.
-    </p>
-    <p>
-      <m>A=P\left(1+\frac{r}{n}\right)</m>
+
+      <me>A=P\left(1+\frac{r}{n}\right)</me>
     </p>
   
     <p>
       For a savings plan, we need to add a deposit, d, to the account with each compounding period:
-    </p>
-  
-    <p>
-      <m>A=P\left(1+\frac{r}{n}\right)+d</m>
+
+      <me>A=P\left(1+\frac{r}{n}\right)+d</me>
     </p>
   
     <p>
