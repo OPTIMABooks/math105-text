@@ -186,6 +186,26 @@
     ><p>
       If a specific lump sum is needed in the future, the annuity formula can be used to determine the necessary deposit size to accumulate the required amount. When a business regularly deposits money into an account to save for future equipment purchases, this savings fund is called a <term>sinking fund</term>. To solve these problems, the annuity formula is used to solve for <m>d</m>, the deposit amount.
     </p>
+  <example>
+    <statement>
+      <p>
+        Robert needs $5,000 in three years.  How much should he deposit each month in an account that pays 8% compounded monthly to achieve his goal?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        In this problem we know all the needed values to use the annuity formula except <m>d</m>: <m>A=\$5000</m>, <m>r=0.08</m>, <m>n = 12</m>, and <m>t = 3</m>.  Thus,
+        <md>
+          <mrow> 5000 =\amp d \left[\frac{\left(1+\frac{0.08}{12}\right)^{12\cdot 3}-1}{\frac{0.08}{12}}\right] </mrow>
+          <mrow> 5000 =\amp d(40.535558) </mrow>
+          <mrow> d =\amp\frac{5000}{40.535558} </mrow>
+          <mrow>  \approx\amp \$123.35. </mrow>
+        </md>
+      </p>
+      <p>
+        Robert needs to deposit $123.35 at the end of each month for 3 years into an account paying 8% compounded monthly to have $5,000 at the end of the 3 years.
+      </p>
+    </solution>
+  </example>
   </subsection>
-
 </section>
