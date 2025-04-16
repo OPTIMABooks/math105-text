@@ -106,23 +106,23 @@
       </statement>
       <solution>
         <p>
-          To find the <alert>amount of interest earned</alert>, calculate the total of all your deposits.
+          To find the <alert>amount of interest earned</alert>, calculate the total of all the deposits.
         </p>
         <p>
           <me>\$100(20)(12)=\$24{,}000</me>
         </p>
     
         <p>
-          The difference between the total amount and the deposits is the interest earned.
+          The difference between the total amount and the total of the deposits is the interest earned.
         </p>
         <p>
           <me>\$46{,}204.09-\$24{,}000=\$22{,}204.09</me>
         </p>
         <p>
-          The total amount of interest you earned was $22,204.09.
+          The total amount of interest earned was $22,204.09.
         </p>
         <p>
-          To find the <alert>percentage of the balance that is interest</alert> we will divide the interest by the total balance.
+          To find the <alert>percentage of the balance that is interest</alert>, divide the interest by the total balance.
         </p>
         <p>
           <me>\frac{\$22{,}204.09}{\$46{,}204.09}\approx 0.4810</me>
@@ -298,13 +298,13 @@
     </p>
     <ul>
       <li>
-        <p> <m>r=0.06</m>, 6% APR </p>
+        <p> <m>r=0.06</m></p>
       </li>
       <li>
-        <p> <m>n=12</m>, 12 compounds/deposits per year</p>
+        <p> <m>n=12</m></p>
       </li>
       <li>
-        <p> <m>d=\$100</m>, our deposit per month </p>
+        <p> <m>d=\$100</m></p>
       </li>
     </ul>
  
@@ -356,6 +356,7 @@
       Now we'll line this up with like terms from our original equation, and subtract each side
 
       <me>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+ 100(1.005)</me>
+
     </p>
 
     <p>
