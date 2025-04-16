@@ -235,5 +235,39 @@
       </p>
     </solution>
   </example>
+  <example>
+    <statement>
+      <p>
+        How much interest did the business in <xref ref="sinking_fund_1"/> earn on their sinking fund? What percentage of the final account balance is interest?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        To find the amount of interest earned, calculate the total of all your deposits.
+      </p>
+      <p>
+        <me>\$18{,}063.93(4)(5)=\$361{,}278.60</me>
+      </p>
+  
+      <p>
+        The difference between the total amount and the deposits is the interest earned.
+      </p>
+      <p>
+        <me>\$450{,}000.00-\$361{,}278.60=\$88{,}721.40.</me>
+      </p>
+      <p>
+        The total amount of interest you earned by the sinking fund was $88,721.40.
+      </p>
+      <p>
+        To find the percentage of the balance that is interest we divide the interest by the total balance.
+      </p>
+      <p>
+        <me>\frac{\$88{,}721.40}{\$450{,}000.00}\approx 0.1972</me>
+      </p>
+      <p>
+        or 19.7%. After 5 years, 19.7% of the balance is from interest.
+      </p>
+    </solution>
+  </example>
   </subsection>
 </section>
