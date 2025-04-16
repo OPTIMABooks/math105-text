@@ -286,7 +286,7 @@
 	<p>
 		The most important thing to remember about using this formula is that it assumes that we put money in the account <alert><insert>once</insert></alert> and let it sit there earning interest.
 	</p>
-  <example xml:id="future_value_compound_interest">
+  <example xml:id="ex_future_value_compound_interest">
     <statement>
       <p>
         If $3500 is invested at 9% compounded monthly, what will the future value be in four years?

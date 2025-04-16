@@ -68,7 +68,7 @@
         </ul>
       </p>
     </assemblage>
-    <example xml:id="future_value_annuity_1">
+    <example xml:id="ex_future_value_annuity_1">
       <statement>
       <p>
         A traditional individual retirement account (IRA) is a special type of retirement account in which the money you invest is exempt from income taxes until you withdraw it. If you deposit $100 each month into an IRA earning 6% APR, how much will you have in the account after 20 years? 
@@ -208,7 +208,7 @@
       </p>
     </solution>
   </example>
-  <example xml:id="sinking_fund_1">
+  <example xml:id="ex_sinking_fund_1">
     <statement>
       <p>
         A business needs $450,000 in five years to upgrade some equipment.  How much should be deposited each quarter in a sinking fund that earns 9% compounded quarterly to have this amount in five years?
@@ -238,7 +238,7 @@
   <example>
     <statement>
       <p>
-        How much interest did the business in <xref ref="sinking_fund_1"/> earn on their sinking fund? What percentage of the final account balance is interest?
+        How much interest did the business in <xref ref="ex_sinking_fund_1"/> earn on their sinking fund? What percentage of the final account balance is interest?
       </p>
     </statement>
     <solution>
