@@ -44,4 +44,6 @@
   <xi:include href="chap-finance-simple-interest.ptx" />
   <xi:include href="./chap-finance-compound-interest.ptx" />
   <xi:include href="chap-finance-savings_plans.ptx" />
+  <xi:include href="chap-finance-loans.ptx" />
+
 </chapter>

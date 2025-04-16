@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-finance-loans" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Present Value of an Annuity and Loan Payments</title>
+
+  <!-- This section is a remix of PCC, Sekhom and Bloom material, and my own original writing. -->
+
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Find the present value of an annuity.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve problems involving amortization.
+        </p>
+      </li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>
+      In the last section, you learned about savings plans. In this section, you will learn about conventional loans (also called <term>amortized loans</term> or <term>installment loans</term>). Examples include student loans, car loans and home mortgages. These techniques do not apply to payday loans, add-on loans, or other loan types where the interest is calculated up front. In this section we will also briefly cover credit cards.
+    </p>
+ 
+  </introduction>
+  <subsection xml:id="subsec-present-value-annuities">
+    <title>Present Value of an Annuity</title>
+    <p>
+      The <term>present value</term> of an annuity is the amount of money we would need now in order to be able to make the payments in the annuity in the future. In other word, the present value is the value now of a future stream of payments.
+    </p>
+
+    <!-- ToDo: copy and edit S&B intro and then start mixing in PCC material. -->
+
+  </subsection>
+</section>
