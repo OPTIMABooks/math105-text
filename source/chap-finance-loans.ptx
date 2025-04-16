@@ -33,6 +33,15 @@
     </p>
 
     <!-- ToDo: copy and edit S&B intro and then start mixing in PCC material. -->
+  
+    <p> </p> <!-- paragraph contains non-breaking space -->
+    
+    <figure xml:id="fig-amortization-cartoon">
+      <caption>Cartoon</caption>
+      <image xml:id="tigz-amortization-cartoon" width="90%" source="images/financial_math/amortization-cartoon_180.png">
+        <description><p>An illustration present value for 2 payments of $1000.</p></description>
+    </image>
+    </figure>
 
   </subsection>
 </section>
