@@ -343,48 +343,41 @@
   
     <p>
       This equation leaves a lot to be desired, though – it doesn't make calculating the ending balance any easier! To simplify things, multiply both sides of the equation by 1.005:
-    </p>
-    <p>
-      <m>1.005P_{m}=1.005[100(1.005)^{m-1}+100(1.005)^{m-2}+...+100(1.005)+100]</m>
+
+      <me>1.005P_{m}=1.005[100(1.005)^{m-1}+100(1.005)^{m-2}+...+100(1.005)+100]</me>
     </p>
   
     <p>
       Distributing on the right side of the equation gives
-    </p>
-    <p>
-      <m>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+100(1.005)^{2}+100(1.005)</m>
+
+      <me>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+100(1.005)^{2}+100(1.005)</me>
     </p>
     <p>
       Now we'll line this up with like terms from our original equation, and subtract each side
+
+      <me>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+ 100(1.005)</me>
     </p>
+
     <p>
-      <m>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+ 100(1.005)</m>
-    </p>
-    <p>
-      <m>P_{m} = 100(1.005)^{m-1}+...+ 100(1.005)+100</m>
+      <me>P_{m} = 100(1.005)^{m-1}+...+ 100(1.005)+100</me>
     </p>
   
     <p>
       Almost all the terms cancel on the right side when we subtract, leaving
-    </p>
-  
-    <p>
-      <m>1.005P_{m}-P_{m}=100(1.005)^{m}-100</m>
+      <me>1.005P_{m}-P_{m}=100(1.005)^{m}-100</me>
     </p>
     <p>
-      Solving for <m>P_{m}</m>
-    </p>
-    <p>
-      <m>0.005P_{m}=100((1.005)^{m}-1)</m>
-    </p>
-    <p>
-      <m>P_{m}=\frac{100(1.005)^{m}-100}{0.005}</m>
+      Solving for <m>P_{m}</m>:
+      <md>
+        <mrow> 0.005P_{m} =\amp 100((1.005)^{m}-1) </mrow>
+        <mrow> \amp </mrow>
+        <mrow> P_{m} =\amp \frac{100(1.005)^{m}-100}{0.005} </mrow>
+      </md>
     </p>
     <p>
       Replacing <m>P_{m}</m> with <m>A</m> (Future Value), <m>m</m> months with <m>12t</m>, where <m>t</m> is measured in years, gives
-    </p>
-    <p>
-      <m>A=\frac{100\left((1.005)^{12t}-1\right)}{0.005}</m>
+
+      <me>A=\frac{100\left((1.005)^{12t}-1\right)}{0.005}</me>
     </p>
   
     <p>
