@@ -235,5 +235,42 @@
         </p>
       </solution>
     </example>
+    <p>
+      So far, we have looked at car loans. Student loans and home mortgages are calculated in the same way. Here is an example of a mortgage payment.
+    </p>
+    <example>
+      <statement>
+      <p>
+        You want to take out a $140,000 mortgage (home loan). The interest rate on the loan is 6%, and the loan is for 30 years. How much will your monthly payments be? What percentage of your total payments will go towards interest?
+      </p>
+      </statement>
+      <solution>
+      <p>
+        In this example we have: <m>r=0.06</m>, <m>n=12</m>, <m>t=30</m>, and <m>P=\$140{,}000</m>. We will use the present value of an annuity formula to solve for for <m>d</m>.
+        <md>
+          <mrow>  140{,}000 =\amp d \left[\frac{1-\left(1+\frac{0.06}{12}\right)^{-12\cdot 30}}{\frac{0.06}{12}}\right]</mrow>
+          <mrow>  140{,}000 =\amp d \left[\frac{1-1.005^{-360}}{0.005}\right]</mrow>
+          <mrow>  140{,}000 =\amp d(166.791614) </mrow>
+          <mrow>  d =\amp\frac{140{,}000}{166.791614} </mrow>
+          <mrow>  \approx\amp\$839.37 </mrow>
+        </md>
+        You would make payments of $839.37 per month for 30 years. 
+      </p>
+      <p>
+        To find out what percentage of the total will go towards interest, we need to total up all of the payments.
+        <me>\$839.37(30)(12)=\$302{,}173.20</me>
+        Then take the difference between the total payments and the loan amount.
+        <me>\$302{,}173.20-\$140{,}000=\$162{,}173.20</me>
+        In this case, you would be paying $162,173.20 in interest over the life of the loan. 
+      </p>   
+      <p>     
+        To find the percentage, we divide the interest by the total amount paid.
+        <me>\frac{\$162{,}173.20}{\$302{,}173.20} \approx 0.5367</me>
+      </p>
+      <p>
+        About 53.7% of the total is being paid towards interest.
+      </p>
+    </solution>
+    </example>
   </subsection>
 </section>
