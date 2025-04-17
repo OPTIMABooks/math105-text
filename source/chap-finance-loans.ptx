@@ -158,13 +158,10 @@
     <p>
       Installment loans are also called <alert>amortized loans</alert>. They are designed so that the payment amount remains the same over the life (term) of the loan. In order for that amount to remain constant, the amount of money going towards paying the <alert>principal</alert> (amount owed) and towards the <alert>interest</alert> will vary. At the beginning of the loan, the amount owed is the largest. So, at the beginning the amount of interest charged will also be the largest. As the loan gets repaid the amount owed is reduced and therefore the interest is reduced. Therefore, at the beginning of an installment loan payments go mostly towards the interest, towards the end the payments are going mostly towards the principal.
     </p>
-    <sidebyside width="75%">
-      <image source="images/financial_math/interest_principal.png">
-        <shortdescription>A graph that shows how most of the payment goes to interest at the beginning of the loan and that decreases over time until the end of the loan when most of the payment goes toward the principal.</shortdescription>
-      </image>
-    </sidebyside>
-    <p>
-      This is a graph of the interest and principal paid on a loan of $34,000 at 10% APR. Each year $5,391.72 was paid in total. In the first year, $3,305.92 was applied to the interest and $2,085.80 was applied to the principal. In the last year of the loan, only $281.04 was applied to the interest and $5,110.68 was applied to the principal. Over 5 years, a total of $53,917.2 was paid for a loan of $34,000.
-    </p>
+    <figure xml:id="fig-installment-loan-interest-principal">
+      <caption>This is a graph of the interest and principal paid on a loan of $34,000 at 10% APR. Each year $5,391.72 was paid in total. In the first year, $3,305.92 was applied to the interest and $2,085.80 was applied to the principal. In the last year of the loan, only $281.04 was applied to the interest and $5,110.68 was applied to the principal. Over 5 years, a total of $53,917.2 was paid for a loan of $34,000.</caption>
+      <image width="85%" source="images/financial_math/interest_principal.png">
+        <description><p>A graph that shows how most of the payment goes to interest at the beginning of the loan and that decreases over time until the end of the loan when most of the payment goes toward the principal.</p></description>
+    </image>
   </subsection>
 </section>
