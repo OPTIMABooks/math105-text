@@ -163,5 +163,9 @@
       <image width="85%" source="images/financial_math/interest_principal.png">
         <description><p>A graph that shows how most of the payment goes to interest at the beginning of the loan and that decreases over time until the end of the loan when most of the payment goes toward the principal.</p></description>
     </image>
+    </figure>
+    <p>
+      Amortized loan question are solved using the same present value of annuity formula use for payout annuities. The primary difference is one of context. The equations can be solved for <m>P</m> or <m>d</m> as before, but the interpretation of the result is different.
+    </p>
   </subsection>
 </section>
