@@ -169,6 +169,34 @@
     </p>
     <example>
       <statement>
+      <p>
+        You can afford $200 per month as a car payment. If you can get an auto loan at 3% APR for 60 months (5 years), how expensive of a car can you afford? In other words, what amount loan can you pay off with $200 per month?
+        How much interest would you pay for this loan?
+      </p>
+      </statement>
+      <solution>
+      <p>
+        In this example, we are looking for <m>P</m>, the starting amount of the loan. We are given values for <m>d=\$200</m>, the monthly loan payment, <m>r=0.03</m>, the annual interest rate, and <m>t=5</m>, since we're making monthly payments for 5 years. 
+        Since we're doing monthly payments, <m>n=12</m>. Then:
+        <md>
+          <mrow>P \amp= d \left[\frac{1-\left(1+\frac{r}{n}\right)^{-nt}}{\frac{r}{n}} \right]</mrow>
+          <mrow> \amp= 200\left[\frac{1-\left(1+\frac{0.03}{12}\right)^{-12\cdot 5}}{\frac{0.03}{12}}\right] </mrow>
+          <mrow> \amp= 200\left[\frac{1-(1.0025)^{-60}}{0.0025}\right]</mrow>
+          <mrow> \amp\approx\$11{,}130.47</mrow>
+        </md>
+        That is, you can afford a maximum loan of $11,130.47. If you have a down payment you can add that to get the value of the car you can buy. If there are any closing costs for the loan you also need to take that into consideration.
+      </p>    
+      <p>
+        To find the amount of interest you will pay for this loan, calculate the total of all your payments.
+        <me>\$200(5)(12)=\$12{,}000</me>
+        Then take the difference between the total payments and the loan amount.
+        <me>\$12{,}000-\$11{,}130.47=\$869.53</me>
+        In this case, you would be paying $869.53 in interest.
+      </p>
+      </solution>
+    </example>
+    <example>
+      <statement>
         <p>
           Teresa wants to buy a car that costs $15,000. She has $3,000 saved for the car and plans to finance the rest. She found a 3-year loan at 2.75% APR and a 5-year loan at 4% APR. How much would her monthly car payment be for the first loan option? For the second? How does the interest Teresa would pay compare for each loan?
         </p>
