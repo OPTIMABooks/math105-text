@@ -22,7 +22,13 @@
 
   <introduction>
     <p>
-      In the last section, you learned about savings plans. In this section, you will learn about conventional loans (also called <term>amortized loans</term> or <term>installment loans</term>). Examples include student loans, car loans and home mortgages. These techniques do not apply to payday loans, add-on loans, or other loan types where the interest is calculated up front. In this section we will also briefly cover credit cards.
+      In the last section, you learned about savings plans. In this section, you will learn about <term> payout annuities</term> and <term>conventional loans</term>. These two financial concepts use the same formula: the <term>present value of an annuity</term> formula.  In this section we will also briefly cover credit cards.
+    </p>
+    <p>
+      In a payout annuity, the account is opened with a lump sum, and money is withdrawn from the account on a regular basis.  The money remaining in the account earns interest.  After a fixed amount of time, the account will be empty. 
+    </p>
+    <p>
+      Conventional loans are also called <term>amortized loans</term> or <term>installment loans</term>. They are designed so that the payment amount remains the same over the life (term) of the loan.Examples include student loans, car loans and home mortgages. The techniques we use to analyze these loans do not apply to payday loans, add-on loans, or other loan types where the interest is calculated up front. 
     </p>
  
   </introduction>
@@ -121,10 +127,10 @@
         </solution>
       </example>
       <p>
-        The previous example is an example of a <term> payout annuity</term>.  In a payout annuity, the account is opened with a lump sum, and money is withdrawn from the account on a regular basis.  The money remaining in the account earns interest.  After a fixed amount of time, the account will be empty. The present value of an annuity formula can also be used to find the annuity payment, as shown in the next example.
+        <alert>Note:</alert> In annuity problems the compounding frequency is not always explicitly given, but is determined by how often you take the withdrawals.
       </p>
       <p>
-        <alert>Note:</alert> In annuity problems the compounding frequency is not always explicitly given, but is determined by how often you take the withdrawals.
+        The present value of an annuity formula can also be used to find the annuity payment, as shown in the next example.
       </p>
       <example>
         <statement>
