@@ -270,7 +270,7 @@
     </solution>
   </example>
   </subsection>
-  <subsection>
+  <subsection xml:id="subsec-derivation-future-value-of-annuity">
     <title>Deriving the Future Value of an Annuity Formula (Optional)</title>
     <p>
       If you are interested in where the future value of an annuity formula came from, we explain it here. A savings plan with regular payments can be described recursively. Recall that basic compound interest follows from the relationship for each compound period.

@@ -30,18 +30,48 @@
     <title>Present Value of an Annuity</title>
     <p>
       The <term>present value</term> of an annuity is the amount of money we would need now in order to be able to make the payments in the annuity in the future. In other word, the present value is the value now of a future stream of payments.
+      To better understand what this means, consider the following example.
     </p>
 
-    <!-- ToDo: copy and edit S&B intro and then start mixing in PCC material. -->
-  
-    <p> </p> <!-- paragraph contains non-breaking space -->
+      <p>
+        Suppose Carlos owns a small business and employs an assistant manager to help him run the business.  Assume it is January 1 now.  Carlos plans to pay his assistant manager a $1000 bonus at the end of this year and another $1000 bonus at the end of the following year. Carlos' business earned good profits last year so he wants to put the money for his assistant's future bonuses into a savings account now.  The money he puts in now will earn interest at the rate of 4% per year compounded annually while in the savings account. 
+      </p>
+      <p>
+        How much money should Carlos put into the savings account now so that he will be able to withdraw $1000 one year from now and another $1000 two years from now? At first, this sounds like a sinking fund, but the situation is actually different.  In a sinking fund, we put money into the fund with periodic payments to save to accumulate to a specified lump sum that is the future value at the end of a specified time period.
+        In this case we want to put a lump sum into the savings account now, so that lump sum is our principal, <m>P</m>.  Then we want to withdraw that amount as a series of period payments; here the withdrawals are an annuity with $1000 payments at the end of each of two years.
+        This scenario is illustrated in <xref ref="fig-amortization-cartoon"/>.
+      </p>   
+      <p> </p> <!-- paragraph contains non-breaking space -->
+      <figure xml:id="fig-amortization-cartoon">
+        <caption>How much should Carlos invest now to able to withdraw two payments of $1000 at the end of the next two years and end with a zero account balance? </caption>
+        <image xml:id="tigz-amortization-cartoon" width="85%" source="images/financial_math/amortization-cartoon_180.png">
+          <description><p>An illustration of present value for 2 payments of $1000.</p></description>
+      </image>
+      </figure>
+      <p>
+        To answer this question we use the compound interest formula from <xref ref="sec-finance-compound-interest"/> with <m>r = 0.04</m> and <m>n = 1</m> for annual compounding to determine the present value of each payment of $1000.
+        Consider the first payment of $1000 at the end of year 1. Let <m>P_1</m> be its present value:
+        <me>
+           \$1000 = P_1(1.04)^1 \Rightarrow P_1 =\$961.54.
+        </me>
+        Now consider the second payment of $1000 at the end of year 2. Let <m>P_2</m> is its present value:
+        <me>
+          \$1000 = P_2(1.04)^2 \Rightarrow P_2 =\$924.56.
+        </me>
+        To make the $1000 payments at the specified times in the future, the amount that Carlos needs to deposit now is the present value 
+        <me>
+          P = P_1 + P_2 = \$961.54 + \$924.56 = \$1886.10.
+        </me>
+        <alert>Note:</alert> Carlos needs to save less than $2000 now because his deposit will earn interest while it is waiting to be withdrawn. 
+      </p>
+      <p>
+        The calculation above was useful to illustrate the meaning of the present value of an annuity, but it is not an efficient way to calculate the present value.  If we were to have a large number of annuity payments, the step by step calculation would be long and tedious.  
+        Instead, we use the formula shown below. This formula is derived in a similar way to the way we derived the formula for the future value of an annuity in <xref ref="subsec-derivation-future-value-of-annuity"/>. The details are omitted here.
+      </p>
+
+
     
-    <figure xml:id="fig-amortization-cartoon">
-      <caption>Cartoon</caption>
-      <image xml:id="tigz-amortization-cartoon" width="90%" source="images/financial_math/amortization-cartoon_180.png">
-        <description><p>An illustration present value for 2 payments of $1000.</p></description>
-    </image>
-    </figure>
+
 
   </subsection>
 </section>
