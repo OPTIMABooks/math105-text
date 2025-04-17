@@ -99,6 +99,26 @@
           </ul>
         </p>
       </assemblage>
+      <example>
+        <statement>
+          <p>
+            After retiring, you want to be able to take $1000 every month for a total of 20 years from your retirement account.  The account earns 6% interest.  How much will you need in your account when you retire?
+          </p>
+        </statement>          
+        <solution>
+          <p>
+            In this example, <m>d = $1000</m>, <m>r = 0.06</m>, <m>n = 12</m> since we want monthly withdrawals, and <m>t = 20</m> because we are taking withdrawals for 20 years.
+            <md>
+              <mrow> P =\amp d \left[\frac{1-\left(1+\frac{r}{n}\right)^{-nt}}{\frac{r}{n}}\right] </mrow>
+              <mrow>  =\amp 1000 \left[\frac{1-\left(1+\frac{0.06}{12}\right)^{-12\cdot 20}}{\frac{0.06}{12}}\right]</mrow>
+              <mrow>  =\amp 1000 \left[\frac{1-1.005^{-240}}{0.005}\right] </mrow>
+              <mrow>  =\amp 1000(139.580772) </mrow>
+              <mrow>  \approx\amp \$139{,}580.77. </mrow>
+          </md>
+            That is, you will need to have $139,580.77 in your account when you retire.
+          </p>
+        </solution>
+      </example>
 
 
     
