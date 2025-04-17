@@ -108,7 +108,7 @@
         <solution>
           <p>
             This is a annuity question where we seek the present value (or lump sum) needed to generate the sequence of anticipated payments. 
-            In this example, <m>d = $1000</m>, <m>r = 0.06</m>, <m>n = 12</m> since we want monthly withdrawals, and <m>t = 20</m> because we are taking withdrawals for 20 years. <m>P</m> is unknown.
+            In this example, <m>d = $1000</m>, <m>r = 0.06</m>, <m>n = 12</m>, since we want monthly withdrawals, and <m>t = 20</m> because we are taking withdrawals for 20 years. <m>P</m> is unknown.
             <md>
               <mrow> P =\amp d \left[\frac{1-\left(1+\frac{r}{n}\right)^{-nt}}{\frac{r}{n}}\right] </mrow>
               <mrow>  =\amp 1000 \left[\frac{1-\left(1+\frac{0.06}{12}\right)^{-12\cdot 20}}{\frac{0.06}{12}}\right]</mrow>
@@ -121,8 +121,31 @@
         </solution>
       </example>
       <p>
-        The previous example is an example of a <term> payout annuity</term>.  In a payout annuity, the account is opened with a lump sum, and money is withdrawn from the account on a regular basis.  The money remaining in the account earns interest.  After a fixed amount of time, the account will be empty.
+        The previous example is an example of a <term> payout annuity</term>.  In a payout annuity, the account is opened with a lump sum, and money is withdrawn from the account on a regular basis.  The money remaining in the account earns interest.  After a fixed amount of time, the account will be empty. The present value of an annuity formula can also be used to find the annuity payment, as shown in the next example.
       </p>
+      <p>
+        <alert>Note:</alert> In annuity problems the compounding frequency is not always explicitly given, but is determined by how often you take the withdrawals.
+      </p>
+      <example>
+        <statement>
+          <p>
+            You know you will have $500,000 in your retirement account when you retire.  You want to be able to take monthly withdrawals from the account for a total of 30 years.  Your retirement account earns 8% interest.  How much will you be able to withdraw each month?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            This is a annuity question where we know present value <m>P</m> but seek to find the payment (or dispersement) <m>d</m>.
+            In this example, <m>P = \$500{,}000</m>, <m>r = 0.08</m>, <m>n = 12</m>, since we want monthly withdrawals, and <m>t = 30</m> because we are taking withdrawals for 20 years. The withdrawal amount <m>d</m> is unknown.
+          <md>
+            <mrow>  500{,}000 =\amp d \left[\frac{1-\left(1+\frac{0.08}{12}\right)^{-12\cdot 30}}{\frac{0.08}{12}}\right]</mrow>
+            <mrow>  500{,}000 =\amp d(136.283494) </mrow>
+            <mrow>  d =\amp\frac{500{,}000}{136.283494} </mrow>
+            <mrow>  \approx\amp\$3{,}668.82 </mrow>
+          </md>
+          You will need to withdraw $3,668.82 per month for 30 years.
+          </p>
+        </solution>
+      </example>
 
 
     
