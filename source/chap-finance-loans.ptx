@@ -330,4 +330,34 @@
       </ol>
     </p>
   </subsection>
+  <subsection>
+    <title>Credit Cards</title>
+      <p>
+        Credit cards are useful to many people. They can be used to build a credit score, as a short-term loan and as an alternative to physical cash. It is highly advisable to fully pay off a credit card each month because the interest rates are much higher than the conventional installment loans we discussed earlier. There can also be many expensive fees applied when carrying a balance. Because of these higher rates, it can be very easy to get into a lot of debt quickly.
+      </p>
+      <p>
+        Credit cards are a common source of loan money, and therefore a common source of debt which must be repaid.  There are much fewer and lower barriers to obtaining and using a credit card than there are to obtaining, for example, a mortgage.  As such, there are some drawbacks both in terms of typically higher interest rates, as well as some structural differences.
+      </p>
+      <example>
+        <statement>
+        <p>
+          Amira gets a credit card, with 17.99% APR compounding daily. She uses the card to buy a $900 plane ticket.  She does not make any payments during the interest-free grace period. Her first payment is due 35 days after the grace period ended. Following the fine print in the credit card agreement, the minimum payment is calculated to be 1% of the outstanding balance after applying the APR; or $25, whichever is larger. What is her outstanding balance? What is her minimum payment? If she pays the minimum payment what will her new balance be?
+        </p>
+        </statement>
+        <solution>
+          <p>
+            First we will see what she owes with the 17.99% APR using the compound interest formula for 35 days:
+            <me>900\left(1+\frac{0.1799}{365}\right)^{35} \approx 915.66</me>
+            With interest, at the end of the month Amira owes $915.66.
+          </p>
+          <p>
+             Now we will find one percent of the new balance which is 
+             <me>\$915.66(0.01) \approx \$9.16</me>
+            $25 is larger than $9.16, so her first payment must be at least $25. If she makes the minimum payment we can subtract to find her new balance:
+            <me>\$915.66-\$25 = \$890.66</me>
+            Her new balance will be $890.66.
+          </p>
+        </solution>
+      </example>
+    </subsection>    
 </section>
