@@ -40,7 +40,7 @@
     <assemblage>
       <title>Future Value of an Ordinary Annuity</title>
       <p>
-        If a payment of <m>d</m> dollars is made in an account <m>n</m> times a year at annual interest rate  <m>r</m>, then the future value <m>A</m> after <m>t</m> years is 
+        If a payment of <m>d</m> dollars is made in an account <m>n</m> times a year at annual interest rate  <m>r</m>, then the future value <m>A</m> of the annuity after <m>t</m> years is 
         <me>
           A = d \left[\frac{\left(1+\frac{r}{n}\right)^{nt}-1}{\frac{r}{n}}\right].
         </me>

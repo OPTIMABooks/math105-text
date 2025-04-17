@@ -68,6 +68,37 @@
         The calculation above was useful to illustrate the meaning of the present value of an annuity, but it is not an efficient way to calculate the present value.  If we were to have a large number of annuity payments, the step by step calculation would be long and tedious.  
         Instead, we use the formula shown below. This formula is derived in a similar way to the way we derived the formula for the future value of an annuity in <xref ref="subsec-derivation-future-value-of-annuity"/>. The details are omitted here.
       </p>
+      <assemblage>
+        <title>Present Value of an Ordinary Annuity</title>
+        <p>
+          If a payment of <m>d</m> dollars is made in an account <m>n</m> times a year at annual interest rate  <m>r</m>, then the present value <m>P</m> of the annuity after <m>t</m> years is 
+          <me>
+            P = d \left[\frac{1-\left(1+\frac{r}{n}\right)^{-nt}}{\frac{r}{n}}\right].
+          </me>
+        </p>
+        <p>
+          Glossary:
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p><m>P</m> is value of the annuity at the beginning (or the principal, or amount of the loan).</p>
+            </li>
+            <li>
+              <p><m>d</m> is the annuity payment (or disbursement). In a loan this is the monthly payment, annual payment, etc.</p>
+            </li>
+            <li>
+              <p><m>r</m> is the annual interest rate in decimal form</p>
+            </li>
+            <li>
+              <p><m>n</m> is the number of compounding periods in one year</p>
+            </li>
+            <li>
+              <p><m>t</m> is the number of years</p>
+            </li>
+          </ul>
+        </p>
+      </assemblage>
 
 
     
