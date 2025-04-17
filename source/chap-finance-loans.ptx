@@ -314,5 +314,20 @@
         </p>
       </solution>
     </example>
+    <p>
+      Sometimes answering remaining balance questions requires two steps, both of which we have done in this section:
+      <ol marker="1">
+        <li>
+          <p>
+            Calculate the monthly payment on the loan
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculate the remaining loan balance based on the <em>remaining time</em> on the loan
+          </p>
+        </li>
+      </ol>
+    </p>
   </subsection>
 </section>
