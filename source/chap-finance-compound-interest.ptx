@@ -456,6 +456,47 @@
         </p>
       </example>
     </subsection>
-    
+    <subsection>
+      <title>Effective Rate</title>
+      <p>
+        If you are shopping around for different investments, you might need to compare different rates that have different compounding periods. If the rate and period are different, it's hard to know which account will give the better result. 
+        Banks are required to state their interest rate in terms of an "effective yield" or "effective interest rate", for comparison purposes.  The effective rate is also called the <term>Annual Percentage Yield (APY)</term>. 
+      </p>
+      <p>
+        The effective rate is the interest rate compounded annually would be equivalent to the stated rate and compounding periods. To examine several investments to see which has the best rate, we find and compare the effective rate for each investment. The next example shows how to calculate the effective rate. 
+      </p>
+      <example>
+        <p>
+          If Bank A pays 7.2% interest compounded monthly, what is the effective interest rate? 
+          If Bank B pays 7.25% interest compounded semiannually, what is the effective interest rate?  Which bank pays more interest?
+        </p>
+        <p>
+          <alert>Bank A:</alert> Suppose we deposit $1 in this bank and leave it for a year, we will get
+          <me>
+            1\left(1+\frac{0.072}{12}\right)^12 = 1.0744.
+          </me>
+          In an account at Bank A, we earn interest of <m>\$1.0744-\$1.00 = \$0.0744</m> on an investment of $1. The <term>effective interest rate</term> (or APY) is 7.44% for this account.
+        </p>
+        <p>
+          <alert>Bank B:</alert> The effective rate is calculated as 
+          <me>
+            1\left(1+\frac{0.072}{2}\right)^2-1 = 0.0738.
+          </me>
+          The effective interest rate for this account is 7.38%.
+        </p>
+        <p>
+          Bank A pays slightly higher interest, with an effective rate of 7.44%, compared to Bank B with effective rate 7.38%.
+        </p>
+      </example>
+      <assemblage>
+        <title>Effective Rate Formula</title>
+        <p> The effective interest rate or annual percentage yield is given by
+          <me>
+            r_{\text{eff}} = \left(1 + \frac{r}{n}\right)^n -1, 
+          </me>
+          where <m>r_{\text{eff}}</m> is the effective interest rate, <m>r</m> is the nominal interest rate per year, and <m>n</m> is the number of compounding periods per year.
+        </p>
+      </assemblage>
+    </subsection>
 
 </section>
