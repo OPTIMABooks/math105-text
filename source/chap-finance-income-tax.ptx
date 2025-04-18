@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-finance-income-tax" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Income Taxes</title>
+
+  <!-- This section is a remix of PCC, Sekhom and Bloom material, and my own original writing. -->
+
+  <objectives>
+      <ul>
+        <li>
+          <p>
+            Calculate gross income and adjusted gross income (AGI)
+          </p>
+        </li>
+        <li>
+          <p>
+            Determine the standard deduction according to filing status
+          </p>
+        </li>
+        <li>
+          <p>
+            Determine whether to use the standard or itemized deductions and calculate taxable income
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculate income tax from tables
+          </p>
+        </li>
+        <li>
+          <p>
+            Compare taxes owed to withholdings to determine whether a refund is due or a payment is required
+          </p>
+        </li>
+      </ul>
+  </objectives>
+
+  <subsection>
+    <title>A Very Brief History of Taxes</title>
+      <p>
+        Although Benjamin Franklin famously claimed in 1789 that “in this world nothing can be said to be certain, except death and taxes”, it wasn't until 1913 that the 16th amendment was ratified, and income tax was legalized. 
+        Prior to this, taxes were primarily collected through tariffs on imported goods, poll taxes, and property taxes. A <alert>poll tax</alert>, also referred to as a head tax, was a fixed amount every liable individual had to pay. 
+        Payment of the poll tax was often required before a person could register to vote or be issued a hunting or fishing license.
+      </p>
+      <p>
+        Tax policy in the United States is a politically divisive issue. In general, Democrats seek to lower taxes for low and middle income earners and raise taxes for the wealthy, while Republicans support a variety of tax cuts and limiting the amount wealthy earners are taxed. 
+        There is even debate as to the current length of the tax code! Some claim that the code is over 70,000 pages while others insist it is just over 2,000. Nevertheless, there is at least one thing everyone can agree with - you don't want to be on the wrong side of the Internal Revenue Service (IRS).
+      </p>
+    </subsection>
+</section>
