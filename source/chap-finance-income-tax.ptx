@@ -530,4 +530,68 @@
       </solution>
     </example>
   </subsection>
+  <subsection>
+    <title>Tax Credits</title>
+    <p>
+      <term>Tax credits</term> are different from deductions in that they reduce the amount of tax you owe by the full amount of the credit, not just a percentage. This makes credits much more valuable than deductions.
+    </p>
+  
+    <p>
+      Common tax credits include child tax credits, earned income credits, child and dependent care credits, American opportunity tax credits, lifetime learning credits, and various federal energy credits.
+    </p>
+  
+    <example>
+      <statement>
+        <p>
+          Shiro is in the 22% tax bracket and itemizes his deductions. How much will his tax bill be reduced if he makes a $1,000 contribution to charity? How much will his bill be reduced if he gets a $1,000 tax credit?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The tax credit will reduce his tax bill by the full amount of the credit, so the $1,000 tax credit will reduce his tax bill by $1,000. As a deduction, however, his contribution to charity will only reduce his tax bill by 22% of the $1,000, or 0.22($1,000) = $220. Tax credits are always better than deductions.
+        </p>
+      </solution>
+    </example>
+  </subsection>
+  <subsection>
+    <title>Calculating a Refund or Payment Due</title>
+    <p>
+      Employers are required to take out an estimated amount for taxes from each of our paychecks. These withholdings are taken out, so we don't all have huge tax bills at the end of the year, and so the government has the income it needs to run. When you file your taxes, you compare the amount of tax you actually owe, with the withholdings from your paycheck. If you had more withheld during the year than you owe, you will file for a refund. If your withholdings were less, though, you must pay the difference. Let's look at a couple of examples with tax credits and withholdings.
+    </p>
+    <example>
+      <statement>
+        <p>
+          John's taxes are $4,342.50. He can claim an American opportunity tax credit of $2,300 and he had $3,135 withheld from his paychecks. Determine if John will owe money or get a refund.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The first step is to reduce John's taxes by the full amount of the tax credit.
+          <me>\$4{,}342.50-\$2{,}300=\$2{,}042.50</me>
+          Next, we subtract the amount withheld from his paychecks by his employer. Since his withholdings are greater than the amount he owes after applying the tax credit, he will receive a refund equal to the difference.
+          <me>\$2{,}042.50-\$3{,}135=-\$1{,}092.50</me>
+        </p>
+        <p>
+          John will receive a refund of $1,092.50. Notice that having a negative amount after subtracting credits and withholdings means you will receive a refund, while having a positive amount means you still owe money.
+        </p>
+      </solution>
+    </example>
+  
+    <example>
+      <statement>
+        <p>
+          As we discovered in <xref ref="ex_taylor_casey"></xref>, Taylor and Casey owe $19,146 in taxes. Their employers withheld $9,905 and they received a $8,500 credit for their purchase of an electric car. Will they receive a refund, or will they need to make a payment?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To determine whether they will receive a refund or if they will still owe money, we will first subtract the full amount of the electric car credit.
+          <me>\$19{,}146-\$8{,}500=\$10{,}646</me>
+          We now subtract their withholdings:
+          <me>\$10{,}646-\$9{,}905=\$741</me>
+          Since the value is positive, Taylor and Casey still owe $741 in taxes.
+        </p>
+      </solution>
+    </example>
+  </subsection>
 </section>
