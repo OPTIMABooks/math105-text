@@ -204,4 +204,330 @@
       </solution>
       </example>
     </subsection>
+    <subsection>
+      <title>Tax Tables</title>
+      <p>
+        The United States has a <term>progressive</term> federal income tax system which means the more income you have, the more you generally pay in taxes. There are <term>marginal tax rates</term> that go up according to our income, but we don't pay the same rate on all of our income. The ranges of income are called <term>tax brackets</term> and the buckets in the illustration below can help us visualize the brackets.
+      </p>
+      
+      <p>
+        The cutoff values in the figure are for a married couple filing jointly, but the percentages are the same for everyone as you'll see in the table on the next page. We pay 10% of any taxable income in the first bucket. If the first bucket is full, we move to the second bucket and we pay 12% of that income. This couple is in the 22% tax bracket because the 3rd bucket is partially filled. They will pay 22% of the income in that bucket, but they are not paying 22% of their entire income.
+      </p>
+      <figure xml:id="tax_buckets">
+        <caption>Tax Buckets by John Chesbrough, licensed under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/" visual="creativecommons.org/licenses/by-nc-nd/4.0">CC-BY-ND-NC 4.0</url>.</caption>
+        <image width="70%" source="images/financial_math/tax_tables.png">
+        <shortdescription>A drawing that shows the tax brackets as buckets being filled from a hose labeled taxable income; the first bucket for the 10% tax bracket is full and has the range of $0-19,050; the second bucket for the 12% tax bracket is also full and has the range of $19051-77,400; the third bucket for the 22% bracket is partially full and has the range of $77,401-165,000; there are buckets for the 24%, 32%, 35% and 37% tax brackets which are empty. The cutoff values for all of these brackets are given in the next table. </shortdescription>
+        </image>
+      </figure>
+    
+      <p>
+         Here is a table with cutoff values for each filing status. Everyone pays a tax of 10% on any income in the first tax bracket. Then we all pay 12% of the next bracket of income, 22% of the next bracket, and so on. This keeps going up to the 37% tax bracket.
+      </p>
+      <table>
+        <title>2024 Tax Year Marginal Tax Rates</title>
+        <tabular top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell><line>Marginal</line><line>Tax Rate</line><line>On</line><line>Taxable</line><line>Income</line></cell>
+            <cell>Filing Single</cell>
+            <cell><line>Filing as Head</line><line>of Household</line></cell>
+            <cell><line>Married filing</line><line>Jointly</line></cell>
+            <cell><line>Married filing</line><line>Separately</line></cell>
+          </row>
+          <row>
+            <cell halign="center">10%</cell>
+            <cell>First $11,600</cell>
+            <cell>First $16,550</cell>
+            <cell>First $23,200</cell>
+            <cell>First $11,600</cell>
+          </row>
+          <row>
+            <cell halign="center">12%</cell>
+            <cell>$11,600 – $47,150</cell>
+            <cell>$16,550 – $63,100</cell>
+            <cell>$23,200 – $94,300</cell>
+            <cell>$11,600 – $47,150</cell>
+          </row>
+          <row>
+            <cell halign="center">22%</cell>
+            <cell>$47,150 – $100,525</cell>
+            <cell>$63,100 – $100,500</cell>
+            <cell>$94,300 – $201,050</cell>
+            <cell>$47,150 – $100,525</cell>
+          </row>
+          <row>
+            <cell halign="center">24%</cell>
+            <cell>$100,525 – $191,950</cell>
+            <cell>$100,500 – $191,950</cell>
+            <cell>$201,050 – $383,900</cell>
+            <cell>$100,525 – $191,950</cell>
+          </row>
+          <row>
+            <cell halign="center">32%</cell>
+            <cell>$191,950 – $243,725</cell>
+            <cell>$191,950 – $243,700</cell>
+            <cell>$383,900 – $487,450</cell>
+            <cell>$191,950 – $243,725</cell>
+          </row>
+          <row>
+            <cell halign="center">35%</cell>
+            <cell>$243,725 – $609,350</cell>
+            <cell>$243,700 – $609,350</cell>
+            <cell>$487,450 – $731,200</cell>
+            <cell>$243,725 – $365,600</cell>
+          </row>
+          <row>
+            <cell halign="center">37%</cell>
+            <cell>Over $609,350</cell>
+            <cell>Over $609,350</cell>
+            <cell>Over $731,200</cell>
+            <cell>Over $365,600</cell>
+          </row>
+        </tabular>
+      </table>
+      <p>
+        Let's see how to use this table to calculate taxes in an example.
+      </p>
+    
+      <example>
+        <statement>
+        <p>
+          If Avery is filing single and has $55,100 in taxable income, calculate her tax.
+        </p>
+        </statement>
+        <solution>
+          <p>
+            We begin with the lowest tax bracket and take 10% of $11,600. Since Avery's income is higher than that, we add 12% of the next amount, found by subtracting the values in that bracket. Avery's taxable income is in the 22% tax bracket, so we find the amount over $47,150 by subtracting. Here is the full calculation:
+          </p>
+          <p>
+            <m>0.10(\$11{,}600)+0.12(\$47{,}150-11{,}600)+0.22(\$55{,}100-47{,}150)</m>
+            <md>
+              <mrow>\amp=0.10(\$11{,}600)+0.12(\$35{,}550)+0.22(\$7{,}950)</mrow>
+              <mrow>\amp=\$1{,}160+\$4{,}266+\$1{,}749</mrow>
+              <mrow>\amp=\$5{,}426+\$1{,}749</mrow>
+              <mrow>\amp=\$7{,}175</mrow>
+            </md>
+          </p>
+          <p>
+            Avery would owe $7,175 in taxes. Note that her overall tax rate is somewhere between 10% and 22%. We can calculate the actual rate by dividing their tax owed by her taxable income:
+            <me>\frac{\$7{,}175}{\$55{,}100}=0.1302</me> or about 13%.
+          </p>
+        </solution>
+    </example>
+    
+    <p>
+      We could calculate all taxes this way, but you might notice that the first few terms will be the same if the buckets are full. For this reason, we can simplify these tax tables. The tax tables below give the value for all of the lower tax buckets that are full. There is a tax table for each filing status and the cutoffs are regularly adjusted for inflation, so they usually vary from year to year.
+    </p>
+    <p>
+      The next four tables give the tax calculations for 2024 federal income taxes by filing status.
+    </p>
+    <table>
+      <title>Filing Single (Tax Year 2024)</title>
+      <tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
+        <row header="yes">
+          <cell>If taxable income is:</cell>
+          <cell>The tax is:</cell>
+        </row>
+        <row>
+          <cell>Not over $11,600</cell>
+          <cell>10% of the taxable income</cell>
+        </row>
+        <row>
+          <cell>Over $11,600 but not over $47,150</cell>
+          <cell>$1,160 plus 12% of the excess over $11,600</cell>
+        </row>
+        <row>
+          <cell>Over $47,150 but not over $100,525</cell>
+          <cell>$5,426 plus 22% of the excess over $47,150</cell>
+        </row>
+        <row>
+          <cell>Over $100,525 but not over $191,950</cell>
+          <cell>$17,168.50 plus 24% of the excess over $100,525</cell>
+        </row>
+        <row>
+          <cell>Over $191,950 but not over $243,725</cell>
+          <cell>$39,110.50 plus 32% of the excess over $191,950</cell>
+        </row>
+        <row>
+          <cell>Over $243,725 but not over $609,350</cell>
+          <cell>$55,678.50 plus 35% of the excess over $243,725</cell>
+        </row>
+        <row>
+          <cell>Over $609,350</cell>
+          <cell>$183,647.25 plus 37% of the excess over $609,350</cell>
+        </row>
+      </tabular>
+    </table>
+
+    <table>
+      <title>Filing as Head of Household (Tax Year 2024)</title>
+      <tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
+        <row header="yes">
+          <cell>If taxable income is:</cell>
+          <cell>The tax is:</cell>
+        </row>
+        <row>
+          <cell>Not over $16,550</cell>
+          <cell>10% of the taxable income</cell>
+        </row>
+        <row>
+          <cell>Over $16,550 but not over $63,100</cell>
+          <cell>$1,655 plus 12% of the excess over $16,550</cell>
+        </row>
+        <row>
+          <cell>Over $63,100 but not over $100,500</cell>
+          <cell>$7,241 plus 22% of the excess over $63,100</cell>
+        </row>
+        <row>
+          <cell>Over $100,500 but not over $191,950</cell>
+          <cell>$15,469 plus 24% of the excess over $100,500</cell>
+        </row>
+        <row>
+          <cell>Over $191,950 but not over $243,700</cell>
+          <cell>$37,417 plus 32% of the excess over $191,950</cell>
+        </row>
+        <row>
+          <cell>Over $243,700 but not over $609,350</cell>
+          <cell>$53,977 plus 35% of the excess over $243,700</cell>
+        </row>
+        <row>
+          <cell>Over $609,350</cell>
+          <cell>$181,954.50 plus 37% of the excess over $609,350</cell>
+        </row>
+      </tabular>
+    </table>
+
+    <table>
+      <title>Married Filing Jointly (Tax Year 2024)</title>
+      <tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
+        <row header="yes">
+          <cell>If taxable income is:</cell>
+          <cell>The tax is:</cell>
+        </row>
+        <row>
+          <cell>Not over $23,200</cell>
+          <cell>10% of the taxable income</cell>
+        </row>
+        <row>
+          <cell>Over $23,200 but not over $94,300</cell>
+          <cell>$2,320 plus 12% of the excess over $23,200</cell>
+        </row>
+        <row>
+          <cell>Over $94,300 but not over $201,050</cell>
+          <cell>$10,852 plus 22% of the excess over $94,300</cell>
+        </row>
+        <row>
+          <cell>Over $201,050 but not over $383,900</cell>
+          <cell>$34,337 plus 24% of the excess over $201,050</cell>
+        </row>
+        <row>
+          <cell>Over $383,900 but not over $487,450</cell>
+          <cell>$78,221 plus 32% of the excess over $383,900</cell>
+        </row>
+        <row>
+          <cell>Over $487,450 but not over $731,200</cell>
+          <cell>$111,357 plus 35% of the excess over $487,450</cell>
+        </row>
+        <row>
+          <cell>Over $731,200</cell>
+          <cell>$196,669.50 plus 37% of the excess over $731,200</cell>
+        </row>
+      </tabular>
+    </table>
+
+    <table>
+      <title>Married Filing Separately (Tax Year 2024)</title>
+      <tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
+        <row header="yes">
+          <cell>If taxable income is:</cell>
+          <cell>The tax is:</cell>
+        </row>
+        <row>
+          <cell>Not over $11,600</cell>
+          <cell>10% of the taxable income</cell>
+        </row>
+        <row>
+          <cell>Over $11,600 but not over $47,150</cell>
+          <cell>$1,160 plus 12% of the excess over $11,600</cell>
+        </row>
+        <row>
+          <cell>Over $47,150 but not over $100,525</cell>
+          <cell>$5,426 plus 22% of the excess over $47,150</cell>
+        </row>
+        <row>
+          <cell>Over $100,525 but not over $191,950</cell>
+          <cell>$17,168.50 plus 24% of the excess over $100,525</cell>
+        </row>
+        <row>
+          <cell>Over $191,950 but not over $243,725</cell>
+          <cell>$39,110.50 plus 32% of the excess over $191,950</cell>
+        </row>
+        <row>
+          <cell>Over $243,725 but not over $365,600</cell>
+          <cell>$55,678.50 plus 35% of the excess over $243,725</cell>
+        </row>
+        <row>
+          <cell>Over $365,600</cell>
+          <cell>$98,334.75 plus 37% of the excess over $365,600</cell>
+        </row>
+      </tabular>
+    </table>
+
+    <example>
+      <statement>
+      <p>
+        Suppose Adira is filing as head of household and has a taxable income of $106,450. Calculate her taxes using the individual tax brackets and with the simplified table.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          We will calculate Adira's taxes first the long way:
+          <me>0.10(\$16{,}550)+0.12(\$63{,}100-\$16{,}550)+0.22(\$100{,}500-\$63{,}100)+0.24(\$106{,}450-\$100{,}500)</me>
+        </p>
+        <p>
+          <md><!-- try this example with another filing status to see if it comes out exact -->
+            <mrow>\amp=0.10(\$16{,}550)+0.12(\$46{,}550)+0.22(\$37{,}400)+0.24(\$5{,}950)</mrow>
+            <mrow>\amp=\$1{,}655+\$5{,}586+\$8{,}228+\$1{,}428</mrow>
+            <mrow>\amp=\$15{,}469+\$1{,}428</mrow>
+            <mrow>\amp=\$16{,}897</mrow>
+          </md>
+        </p>
+        <p>
+          Now, using the simplified tax table for single filing status, we see that Adira's taxable income puts her in the 24% tax bracket. The simplified table tells us that her taxes will be equal to $15,469 plus 24% of the excess over $100,500. Notice the number $15,469 is the total for the first three tax brackets that are “full,” so we only need to calculate the last one. To find the excess over $100,500, we subtract $100,500 from her taxable income. Thus, her taxes are:
+        </p>
+        <p>
+          <md>
+            <mrow>\$15{,}469+0.24(\$106{,}450-\$100{,}500)\amp=\$15{,}469+0.24(\$1{,}428)</mrow>
+            <mrow>\amp=\$15{,}469+\$1{,}428</mrow>
+            <mrow>\amp=\$16{,}897</mrow>
+          </md>
+        </p>
+        <p>
+          We see that both methods result in the same value, $16,897, for Adira's taxes.
+        </p>
+      </solution>
+    </example>
+  
+    <example xml:id="ex_taylor_casey">
+      <statement>
+        <p>
+          Taylor and Casey are married and filing jointly. Together their taxable income is $132,000. Use the simplified 2024 tax tables from this section to determine how much they owe in taxes.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Since Taylor and Casey are married and filing jointly, their taxable income puts them in the 22% tax bracket. Using the simplified 2024 tax table, their taxes are $10,852 plus 22% of the excess over $94,300:
+        </p>
+        <p>
+          <md>
+            <mrow>\$10{,}852+0.22(\$132{,}000-\$94{,}300)\amp=\$10{,}852+0.22(\$37{,}700)</mrow>
+            <mrow>\amp=\$10{,}852+\$8{,}294</mrow>
+            <mrow>\amp=\$19{,}146</mrow>
+          </md>
+        </p>
+        <p>
+          Taylor and Casey owe $19,146 in taxes.
+        </p>
+      </solution>
+    </example>
+  </subsection>
 </section>
