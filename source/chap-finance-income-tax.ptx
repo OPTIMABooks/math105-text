@@ -39,7 +39,7 @@
     <title>A Very Brief History of Taxes</title>
       <p>
         Although Benjamin Franklin famously claimed in 1789 that “in this world nothing can be said to be certain, except death and taxes”, it wasn't until 1913 that the 16th amendment was ratified, and income tax was legalized. 
-        Prior to this, taxes were primarily collected through tariffs on imported goods, poll taxes, and property taxes. A <alert>poll tax</alert>, also referred to as a head tax, was a fixed amount every liable individual had to pay. 
+        Prior to this, taxes were primarily collected through tariffs on imported goods, poll taxes, and property taxes. A <term>poll tax</term>, also referred to as a head tax, was a fixed amount every liable individual had to pay. 
         Payment of the poll tax was often required before a person could register to vote or be issued a hunting or fishing license.
       </p>
       <p>
@@ -61,5 +61,49 @@
       <p>
         <alert>Municipal Income Tax:</alert> Some municipalities (urban districts) also collect income taxes. For example, business owners in Multnomah County Oregon pay a municipal tax on their business income, and workers in the Portland Oregon Tri-met district (area served by Tri-met) have their wages taxed at 0.7537%. 
       </p>
+    </subsection>
+    <subsection>
+      <title>Calculating Federal Income Tax</title>
+      <p>
+        Not all income is taxed, and not all income that gets taxed is taxed at the same rate. The general process of calculating the amount of federal income tax you owe is outlined in the chart below.
+      </p>
+      <figure>
+        <caption>Steps to Calculate Federal Income Tax</caption>
+        <image width="100%" source="images/financial_math/calculating_federal.png">
+        <shortdescription>Five rectangles showing the steps: 1. Calculate gross income by adding all income; 2. Calculate adjusted gross income (AGI) by subtracting any pre-tax adjustments; 3. Calculate taxable income by subtracting deductions (itemized or standard); 4. Calculate tax using tax table for your filing status; 5. Calculate refund or amount owed by subtracting credits and withholdings. If the amount is negative you get a refund; if the amount is positive you owe money.</shortdescription>
+        </image>
+      </figure>
+      <p>
+        <term>Gross income</term> includes all wages, tips, earned interest, dividends, rents and royalties, alimony, property gains, income tax refunds, etc. Keep in mind that ALL income means ALL income. Even income earned from a crime must be reported!
+      </p>
+      <p>
+        <term>Adjustments</term> are eligible expenses used to reduce your gross income. Adjustments are tax-exempt and thus reduce the amount owed in taxes. Eligible expenses include contributions to tax deferred savings plans (401k, Individual Retirement Plan (IRA)), school tuition, student loan interest, moving expenses, business expenses, flexible spending accounts and health savings account contributions.
+      </p>
+      <p>
+        <term>Taxable income</term> is determined by subtracting your <term>deductions</term> from your adjusted gross income. You may choose to take <em>either</em> a <term>standard deduction</term>, which is determined by your filing status, or you may choose to <term>itemize</term> your deductions. Itemized deductions may include state and local income taxes, property taxes, medical expenses, mortgage interest, and charitable donations.
+      </p>
+      <p>
+        Prior to the 2018 tax year, you could also claim <term>personal exemptions</term>. Exemptions of $4,050 for each member of the household were subtracted from the adjusted gross income along with either the standard or itemized deduction to determine taxable income. Starting in 2018, however, the standard deduction was doubled, and personal exemptions were eliminated.
+      </p>
+      <p>
+        Let's look at an example of how to calculate gross income and adjusted gross income (AGI).
+      </p>
+      <example>
+        <p>
+          Sasha received $45,000 in wages and earned $1,300 in interest from his savings plan. He paid $1,400 in student loan interest, and put $4,000 into his Individual Retirement Account (IRA). Determine Sasha's adjusted gross income. 
+        </p>
+        <p>
+          To calculate Sasha's adjusted gross income, we need to first determine his gross income. His gross income includes his wages and earned interest:
+        </p>
+        <p>
+          Gross Income <m>=\$45{,}000+\$1{,}300=\$46{,}300</m>
+        </p>
+        <p>
+          To find his adjusted gross income, we need to subtract eligible adjustments from his gross income. His eligible adjustments include the interest paid on his student loans, and his contributions to his IRA:
+        </p>
+        <p>
+          Adjusted Gross Income <m>=\$46{,}300-\$1{,}400-\$4{,}000=\$40{,}900</m>
+        </p>
+      </example>
     </subsection>
 </section>
