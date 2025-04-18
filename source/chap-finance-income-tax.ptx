@@ -594,4 +594,479 @@
       </solution>
     </example>
   </subsection>
+  <exercises>
+    <title>Exercises</title>
+    
+    <exercise>
+      <statement>
+      <p>
+        Which decreases your tax bill more, a credit or a deduction?
+      </p>
+      </statement>
+      <solution>
+        <p>
+          A credit decreases your bill more. It decreases your bill by the full amount of the credit. A deduction only decreases your tax bill by a percentage.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise><!--  #2 -->
+      <statement>
+        <p>
+          You are in the 12% tax bracket and get a credit of $500. How has the amount of taxes owed changed?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The amount of taxes owed is decreased by $500.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise><!--  #3 -->
+      <statement>
+        <p>
+          You are in the 12% tax bracket and get a deduction of $500. How has the amount of taxes owed changed?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The amount of taxes owed is decreased by $60 because 12% of $500 is $60.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        Can you take the standard deduction and itemize your deductions?
+      </p>
+      </statement>
+      <solution>
+        <p>
+          No, you must choose to take either the standard deduction or itemized deductions.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        Can you make adjustments to your income and take the standard deduction?
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Yes, you can make adjustments and take a deduction.  Adjustments to your income happen before deductions.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        If you decide to take the standard deduction what have you considered?
+      </p>
+      </statement>
+      <solution>
+        <p>
+          If you decide to take the standard deduction you determine that itemizing would not save you more money.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise><!--  #7 -->
+      <statement>
+        <p>
+          Shaysiah has paid $13,500 in mortgage interest which she can take as a deduction and has $1,900 in other deductions that she can take this year. She is filing as single. Should she itemize her deductions or take the standard deduction?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Shaysiah should itemize because itemizing reduces her taxable income by $15,400. The standard deduction would have reduced her taxable income by $14,600.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        If you are married do you have to file your taxes together?
+      </p>
+      </statement>
+      <solution>
+        <p>
+          You can either file as married filing jointly or married filing separately.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        Fredrick is concerned about the effect of a raise on his taxes. He's getting a raise of $3,000, putting him into a higher tax bracket by $1,000 dollars. He's concerned about his entire income being taxed at 22% instead of 12%. Should he be concerned? Why or why not?
+      </p>
+      </statement>
+      <solution>
+        <p>
+          No, Fredrick should not be concerned. Only the $1000 will be taxed at 22%. The rest of his income will be taxed at a lower level.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise><!--  #10 -->
+      <statement>
+        <p>
+          A single person with taxable income of $95,000 will have the first $11,600 of that income taxed at what rate? Determine the taxes owed on just the first $11,600.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The first $11,600 will be taxed at 10% resulting in $1,160 owed in taxes.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise><!--  #11 -->
+      <statement>
+        <p>
+          A single person with taxable income of $185,000 will have the first $11,600 of that income taxed at a different rate than the income between $11,600 and $47,150. Determine the taxes owed on just the second bracket.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          There is a total of $35,550 between $11,600 and $47,150. 12% of $35,550 is $4,266.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        Using the simplified 2024 tax table, determine the income tax owed for a single person who has $90,000 of taxable income.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          $90,000 falls into the third tax bracket. The first two brackets resulted in $5,426 and the third bracket has the excess over $47,150 being taxed at the higher rate of 22%. This results in a tax of $13,539.50.
+        </p>
+        <p>
+          <m>5426+0.22*(90000-47150)=\$14{,}853</m>
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise><!--  #13 -->
+      <statement>
+        <p>
+          Doug and Chris are filing jointly. They owe $16,589 in taxes. Throughout the year they had $13,456 withheld from their paychecks, and they can claim an energy credit of $2,500 for purchasing a hybrid vehicle. Determine the amount they will need to pay or will get refunded.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          $16,589 in taxes minus $13,456 for withholdings, and they can claim and $2,500 in credits. This leaves them owing $633.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise><!--  #14 -->
+      <statement>
+        <p>
+          Heather owes $7,589 in taxes. Throughout the year she had $6,456 withheld from her paychecks and she can claim an education credit of $1,980. Determine the amount she will need to pay or will get refunded.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          $7,589 in taxes minus $6,456 for withholdings and education credit of $1,980. This leaves her refunded $847.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise><!--  #15 -->
+      <statement>
+      <p>
+        Determine the amount of taxes owed or the refund that would result in this situation:
+      </p>
+      <p>
+      <ul>
+        <li>
+          <p>
+            Filing Status: Married filing jointly
+          </p>
+        </li>
+        <li>
+          <p>
+            Gross Income: $135,000
+          </p>
+        </li>
+        <li>
+          <p>
+            Adjustments: $5,600
+          </p>
+        </li>
+        <li>
+          <p>
+            Itemized Deductions: $19,400
+          </p>
+        </li>
+        <li>
+          <p>
+            Credits: $15,000
+          </p>
+          <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                What is their adjusted gross income (AGI)?
+              </p>
+            </li>
+            <li>
+              <p>
+                Should they itemize or take the standard deduction?
+              </p>
+            </li>
+            <li>
+              <p>
+                Use the simplified 2018 tax tables to determine their taxes.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is their final tax refund or amount still owed?
+              </p>
+            </li>
+          </ol>
+          </p>
+        </li>
+      </ul>
+      </p>
+      </statement>
+      <solution>
+        <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Take the income minus the adjustments <m>135000-5600=\$129{,}400</m>. Their adjusted gross income is $129,400.
+            </p>
+          </li>
+          <li>
+            <p>
+              They should take the standard deduction because itemizing saves them less.
+            </p>
+          </li>
+          <li>
+            <p>
+              Taxable income: <m>129400-29200=100200</m>
+            </p>
+            <p>
+              Taxes owed: <m>10852+0.22*(100200-94300)=\$12{,}150</m>
+            </p>
+            <p>
+              They owe $12,150 in taxes.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>12150-15000=-\$2{,}850</m> Take the taxes owed minus credits and withholdings. They will receive a refund for $2,850. 
+            </p>
+          </li>
+        </ol>
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p><!-- place -->
+        Francis and Edward are planning to get married and they want to determine whether there is an advantage or disadvantage to marrying before the end of the year and filing their taxes jointly. Use the information below to calculate the amount they would owe or receive if they each filed as single, and the amount they would owe or receive if they filed jointly as a married couple. Which is the better choice?
+      </p>
+      <p>
+      <ul>
+        <li>
+          <p>
+            Filing Status: TBD
+          </p>
+        </li>
+        <li>
+          <p>
+            Francis' Gross Income: $45,000
+          </p>
+        </li>
+        <li>
+          <p>
+            Edward's Gross Income: $50,000
+          </p>
+        </li>
+        <li>
+          <p>
+            Francis' Adjustments: $8,000
+          </p>
+        </li>
+        <li>
+          <p>
+            Edward's Adjustments: $4,000
+          </p>
+        </li>
+        <li>
+          <p>
+            Francis' Withholdings: $3,000
+          </p>
+        </li>
+        <li>
+          <p>
+            Edward's Withholdings: $3,500
+          </p>
+        </li>
+        <li>
+          <p>
+            Francis' Credits: $4,000
+          </p>
+        </li>
+        <li>
+          <p>
+            Edward's Credits: $1,000
+          </p>
+        </li>
+      </ul>
+      </p>
+      </statement>
+      <solution>
+        <p>
+          SINGLE CASE:
+          <ul>
+            <li>
+              <p>
+                Francis: Taxable Income <m>45000-8000-14600 = \$22{,}400</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Tax from Table: <m> 1160+0.12*(22400-11600) = \$2{,}456</m> 
+              </p>
+            </li>
+            <li>
+              <p>
+                Owed/Refund: <m>2456 – 3000 - 4000 = -\$4{,}544</m>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p>
+                Edward: Taxable Income <m> 50000-4000-14600 = \$31{,}400</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Tax from Table: <m>1160+0.12*(31400-11600) = \$3{,}536</m> 
+              </p>
+            </li>
+            <li>
+              <p>
+                Owed/Refund: <m> 3536 - 3500 - 1000 = -\$964</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+        <p>
+          Altogether, they will get a <m>4544 + 964 = \$5{,}508</m> refund.
+        </p>
+        <p>
+          MARRIED CASE:
+          <ul>
+            <li>
+              <p>
+                Taxable income: <m>(45000+50000) – (8000+4000) – 29200 = \$53{,}800</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Tax from Table: <m>2320 + 0.12*(53800-23200) = \$5{,}992</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Owed/Refund: <m>5992 – (3000 + 3500) – (4000+1000) = -\$5{,}508</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+        <p>
+          Same either way! No marriage penalty unless it takes away credits.
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        Janice is unmarried and has two kids which allows her to file as head of household. She earned $96,000 in wages last year, received $850 in interest from a savings account, and contributed $26,000 to a tax deferred savings account. Her itemized deductions are $22,600.
+      </p>
+      <p>
+      <ol marker="a.">
+        <li>
+          <p>
+            Determine Janice's gross income.
+          </p>
+        </li>
+        <li>
+          <p>
+            Determine Janice's adjusted gross income.
+          </p>
+        </li>
+        <li>
+          <p>
+            Should Janice take the standard deduction or itemize? Explain.
+          </p>
+        </li>
+        <li>
+          <p>
+            Determine Janice's taxable income.
+          </p>
+        </li>
+        <li>
+          <p>
+            If Janice has $4,000 in child tax credits and had $5,300 withheld for taxes from her wages, will Janice owe money, or will she receive a refund? Calculate the amount.
+          </p>
+        </li>
+      </ol>
+      </p>
+      </statement>
+      <solution>
+        <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Gross Income: <m> 96000+850 = \$96{,}850</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Adjusted Gross Income: <m> 96850-26000 = \$70{,}850</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              She should take itemized deductions since they are greater than the standard deduction for head of household.
+            </p>
+          </li>
+          <li>
+            <p>
+              Taxable Income: <m> 70850-22600 = \$48{,}250 </m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Tax from Table: <m>1655 + 0.12*(48250 - 16550) = \$5{,}459</m>. Owed/Refund: <m> 5459 – 4000 – 5300 = - \$3{,}841</m>
+            </p>
+            <p>
+              Janice will receive a refund of $3,841.
+            </p>
+          </li>
+        </ol>
+        </p>
+      </solution>
+    </exercise>
+    
+  </exercises>
 </section>
