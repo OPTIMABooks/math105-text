@@ -106,4 +106,102 @@
         </p>
       </example>
     </subsection>
+    <subsection>
+      <title>Filing Status</title>
+      <p>
+        Your <alert>filing status</alert> is determined by your family situation. Are you married, widowed, divorced, caring for a family member? It is possible to fall into more than one category, but you may choose the one that is most beneficial for you.
+        <ul>
+          <li>
+            <p>
+              <alert>Single:</alert> If you are unmarried, legally separated from your spouse, or divorced on the last day of the year.
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>Married Filing Jointly:</alert> If you are married and both you and your spouse agree to file a joint return. (On a joint return, you report your combined income and deduct your combined allowable expenses.)
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>Married Filing Separately:</alert> If you are married and you want to be responsible only for your own tax, or if this status results in less tax than a joint return.
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>Head of Household (with qualifying person):</alert> If you are 1) unmarried or considered unmarried on the last day of the year, 2) paid more than half the cost of keeping up a home for the year, and 3) have a qualifying dependent living with you for more than half the year (except temporary absences, such as school).
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>Qualifying Widow/Widower (with dependent child):</alert> This status is available for the two years following the death of your spouse.
+            </p>
+          </li>
+        </ul>
+      </p>
+    
+      <p>
+        Your filing status determines your standard deduction and tax liability. The standard deduction for each filing status for the tax year 2024 is given in the table below.
+      </p>
+        <tabular top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell halign="left">Filing Status</cell>
+            <cell halign="center">Standard Deduction for Tax Year 2024</cell>
+          </row>
+          <row>
+            <cell halign="left">Single</cell>
+            <cell halign="center">$14600</cell>
+          </row>
+          <row>
+            <cell halign="left">Married Filing Jointly</cell>
+            <cell halign="center">$29200</cell>
+          </row>
+          <row>
+            <cell halign="left">Married Filing Separately</cell>
+            <cell halign="center">$14600</cell>
+          </row>
+          <row>
+            <cell halign="left">Head of Household</cell>
+            <cell halign="center">$21900</cell>
+          </row>
+          <row>
+            <cell halign="left">Qualifying Widow</cell>
+            <cell halign="center">$29200</cell>
+          </row>
+        </tabular>
+    
+      <p>
+        Here is an example where we calculate adjusted gross income and taxable income.
+      </p>
+        
+      <example>
+        <statement>
+        <p>
+          Maria earned wages of $32,400 from her job as a server. She also earned $8,300 in tips, and received $95 in interest from a savings account. In trying to save for retirement, Maria has put $3,500 into a 401K tax deferred savings plan. She is unmarried and lives with her six year old daughter. Determine Maria's gross income, adjusted gross income, and taxable income.
+        </p>
+        </statement>
+        <solution>
+        <p>
+          Maria's gross income includes her wages, tips, and earned interest.
+        </p>
+        <p>
+          Gross Income <m>= \$32,400 + \$8,300 + \$95 = \$40,795</m>
+        </p>
+        <p>
+          Maria can use her 401k contribution as an adjustment.
+        </p>
+        <p>
+          Adjusted Gross Income <m>= $40,795 - $3,500 = $37,295</m>
+        </p>
+        <p>
+          Since Maria is unmarried and is the primary caregiver for her daughter, she can file as the head of household and take the standard deduction of $21,900.
+        </p>
+        <p>
+          Taxable Income <m>= $37,295 - $21,900 = $15,395</m>
+        </p>
+        <p>
+          Maria's taxable income is $15,395.
+        </p>
+      </solution>
+      </example>
+    </subsection>
 </section>
