@@ -28,8 +28,12 @@
             Find the future value of an annuity, and an installment payment on a loan.
           </p>
         </li>
+        <li>
+          <p>
+            Calculate income tax from tables, including calculating gross and adjusted income and standard deductions.
+          </p>
+        </li>
       </ul>
-      <!-- ToDo: Add objective above for the tax section should it get added. -->
     </p>
 	</introduction>
   </objectives>
