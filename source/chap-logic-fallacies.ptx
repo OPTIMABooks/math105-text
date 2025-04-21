@@ -156,4 +156,299 @@
       </p>
     </conclusion>
   </subsection>
+  <exercises>
+    <title>Exercises</title>
+      
+      <exercisegroup>
+        <introduction>
+        <p>
+          Determine which type of fallacy each argument represents.
+        </p>
+        </introduction>
+    <exercise>
+      <statement>
+      <p>
+        John Bardeen's work at the Advanced Institute for Physics has progressed so slowly that even his colleagues call him a plodder. Hence, it is prudent at present not to take seriously his current theory relating how strings constitute the smallest of subatomic particles.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Personal attack
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+      <p>
+        You will tell the general manager that I made the right choice in dealing with that customer. After all, I'm the shift manager, so my decisions are always right.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Appeal to authority
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+      <p>
+        It was his fault, Officer. You can tell by the kind of car I'm driving and by my clothes that I am a good citizen and would not lie. Look at the rattletrap he is driving and look at how he is dressed. You can't believe anything a dirty, longhaired hippie like that might tell you. Search his car; he probably has pot in it.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Personal Dilemma
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+      <p>
+        We can go to the amusement park or the library. The amusement park is too expensive, so we must go to the library.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          False dilemma
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+      <p>
+        Nearly all heroin addicts used marijuana before trying heroin. Clearly marijuana use leads to heroin addiction.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Post Hoc
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        The oven was working fine until you started using it, so you must have broken it.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Post Hoc
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        Old man Brown claims that he saw a flying saucer in his farm, but he never got beyond the fourth grade in school and can hardly read or write. He is completely ignorant of what scientists have written on the subject, so his report cannot possibly be true.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Personal Attack
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        You should use Sparkle brand toothpaste since four out of five dentists recommend it.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Appeal to authority
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        She didn't say that I couldn't borrow her car, so I figured it was fine if I borrowed it for the weekend.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Appeal to ignorance
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        If you think that teens should be taught about contraceptive measures then you want to give kids license to have sex with no consequences.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Straw person
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        You're either part of the solution or part of the problem.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          False dilemma
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        No one can prove that God exists, therefore God does not exist.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Appeal to ignorance
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        You're clearly just too young to understand.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Personal attack
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        You should start off every morning with Champions brand cereal. It is what Michael Jordan eats, so you know that it must be very good for you.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Appeal to authority
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        No one on the council objected to the idea that he proposed, so everyone must think it is a good idea.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Appeal to ignorance
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        Why should we believe your testimony? You haven't had a steady job since 2003.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Personal attack
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        A huge percentage of diagnosed cases of autism came very soon after vaccinations for the measles. These vaccinations must be causing autism.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Post Hoc
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        If you are against this war then you must hate America.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Straw person
+        </p>
+      </solution>
+    </exercise>
+    
+    <exercise>
+      <statement>
+      <p>
+        Just look at her face. How could anyone vote for that?
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Personal Attack
+        </p>
+      </solution>
+    </exercise>
+    </exercisegroup>
+    
+    <exercise>
+      <statement>
+      <p>
+        There are a number of fallacies that were not discussed in this section. Do an internet search for the following fallacies. Provide both a definition and at least one example.
+          <ol marker="a.">
+            <li>
+              <p>
+                Slippery Slope
+              </p>
+            </li>
+            <li>
+              <p>
+                Circular Reasoning
+              </p>
+            </li>
+            <li>
+              <p>
+                Appeal to Emotion
+              </p>
+            </li>
+            <li>
+              <p>
+                Red Herring
+              </p>
+            </li>
+            <li>
+              <p>
+                Whataboutism
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+      <p>
+        Answers will vary.
+      </p>
+      </solution>
+    </exercise>
+    
+    </exercises>
+    
 </section>
