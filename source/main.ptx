@@ -13,6 +13,7 @@
 
     <!-- Include chapters -->
     <xi:include href="./chapter-finance.ptx" />
+    <xi:include href="./chapter-logic.ptx" />
 
 
     <!-- Include backmatter -->

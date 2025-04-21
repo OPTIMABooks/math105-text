@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-logic-fallacies" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Logical Fallacies</title>
+
+  <!-- This section is a remix of PCC's work and my own edits. -->
+
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Identify common logical fallacies and their use in arguments.
+        </p>
+      </li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>
+      In the last section we saw that logical arguments are invalid when the premises are not sufficient to guarantee the conclusion, and that even if an argument is valid it may be unsound if the premises are not true. There are other ways that a logical argument my by invalid or unsound. One of the more common ways this can occur is if the argument is a <term>fallacy</term>.
+    </p>
+    <p>
+      A <term>fallacy</term> is a type of argument that appears valid but uses a logical error to persuade or deceive. Fallacious arguments are especially common in advertising and politics, so it is important as informed citizens to recognize when we are being presented with a fallacious argument and to not be persuaded by it.
+    </p> 
+  </introduction>
+
+  <subsection xml:id="subsec-logical-fallacies">
+    <title>Common Logical Fallacies</title>
+    <p>
+      There are many logical fallacies, and some go by more than one name. Below we introduce a few of the more common fallacies that you will be asked to recognize by name, but there are many others.
+    </p>
+    
+</subsection>
+</section>
