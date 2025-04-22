@@ -71,9 +71,76 @@
 			</solution>
 		</example>
 		<p>
-			Arguments are made of one or more propositions (called <term>premises</term>), along with a <term>conclusion</term>. Propositions may be <term>negated</term>, or combined with <term>connectors</term> like "and", and "or" to make new propositions. Let's take a closer look at how negations and logical connectors are used to create more complex statements. 
+			Arguments are made of one or more propositions (called <term>premises</term>), along with a <term>conclusion</term>. Propositions may be <term>negated</term>, or combined with <term>connectors</term> like <q>and</q>, and <q>or</q> to make new propositions. Let's take a closer look at how negations and logical connectors are used to create more complex statements. 
 		</p>
- 
+ 	</subsection>
+	<subsection>
+		<title>Negation (not)</title>
+		<introduction>
+			<p>
+				One way to change a proposition is to use its <term>negation</term>, or opposite meaning. The word <q><term>not</term></q> is often used to negate a statement.
+			</p>
+			<example>
+				<statement>
+				<p>
+					Write the negation of the following propositions.
+				<ol marker="a">
+					<li>
+						<p>
+							I am reading a math book.
+						</p>
+					</li>
+					<li>
+						<p>
+							Math is fun!
+						</p>
+					</li>
+					<li>
+						<p>
+							The sky is not green.
+						</p>
+					</li>
+					<li>
+						<p>
+							Cars have wheels.
+						</p>
+					</li>
+				</ol>
+				</p>
+			</statement>
+				<solution>
+					<p>
+					<ol marker="a">
+						<li>
+							<p>
+								Negation: I am <insert>not</insert> reading a math book.
+							</p>
+						</li>
+						<li>
+							<p>
+								Negation: Math is <insert>not</insert> fun!
+							</p>
+						</li>
+						<li>
+							<p>
+								Negation: The sky is green (or <insert>not</insert> not green).
+							</p>
+						</li>
+							<li>
+							<p>
+								Negation: Cars do <insert>not</insert> have wheels.
+							</p>
+						</li>
+					</ol>
+					</p>
+				</solution>
+			</example>
+		</introduction>
+		<subsubsection xml:id="subsubsec-ooo">
+			<title>Test</title>
+			<p>
+				ddd
+			</p>
+		</subsubsection>
 	</subsection>
-		
 </section>
