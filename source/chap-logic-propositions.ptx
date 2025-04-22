@@ -185,5 +185,49 @@
 				For the most part, we will deal with <em>unquantified</em> logic in this book.
 			</p>
 		</subsubsection>
+		<subsubsection>
+			<title>Multiple Negations</title>
+			<p>
+				It is possible to use more than one negation in a statement. If you've ever said something like, <q>I <alert>can't not</alert> go,</q> you are saying you will go. In fact, it's often used for emphasis or a slightly different meaning, that you really must go. If someone says, <q>I <alert>don't disagree</alert>,</q> they may be saying they don't exactly agree but the person has a point. A <term>double negative</term> is similar to multiplying two negative numbers which gives a positive result. Using a third negation would then be equivalent to a single negation.
+			</p>
+			<p>
+				Note that in some instances a negation word like <q>no,</q> <q>nobody,</q> or <q>nothing</q> is used to emphasize rather than negate and this is called <term>negative concord</term>. For example, <q>I ain't got no money,</q> is not a double negative but rather an emphasis of not having any money. This is common across many varieties of English and other languages. You can read more about negative concord at this <url href="https://ygdp.yale.edu/phenomena/negative-concord" visual="ygdp.yale.edu/phenomena/negative-concord">site</url>. In general, use your judgment and context cues to distinguish between a double negative and negative concord. We will use multiple negations but not negative concord in this book.
+			</p>
+			<p>
+				In the media and in ballot measures we often see multiple negations and it can be confusing to figure out what a statement means.
+			</p>
+		
+			<example>
+				<statement>
+				<p>
+					Read the statement and determine the outcome of a yes vote.
+				</p>
+				<p>
+					<q>Vote for this measure to repeal the ban on plastic bags.</q>
+				</p>
+				</statement>
+				<solution>
+					<p>
+						If you said that a yes vote would enable plastic bag usage, you are correct. The ban stopped plastic bag usage, so to repeal the ban would allow it again. This measure has a double negation and is also not very good for the environment.
+					</p>
+				</solution>
+			</example>
+			
+			<example>
+				<statement>
+				<p>
+					Read the statement and determine the outcome on mandatory minimum sentencing.
+				</p>
+				<p>
+					<q>The bill that overturned the ban on mandatory minimum sentencing was vetoed.</q>
+				</p>
+				</statement>
+				<solution>
+					<p>
+						In this case mandatory minimum sentencing would not be allowed. The ban would stop it, and the bill to overturn it was vetoed. This is an example of a triple negation.
+					</p>
+				</solution>
+			</example>
+		</subsubsection>
 	</subsection>
 </section>
