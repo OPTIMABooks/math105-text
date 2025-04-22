@@ -35,7 +35,41 @@
 			The basic building block of symbolic logic is the <term>proposition</term> or <term>statement</term>.
 			A <term>proposition</term> is a declarative sentence that can be meaningfully classified as either true or false. Such statements are unlike everyday sentences, which can be questions, commands, or expressions with unclear meanings. 
 			Propositions are used in symbolic logic because they remove any vagueness or implied meanings that might confuse the application of logical principles.
+		</p>
+		<example>
+			<statement>
+			<p>
+				Which of the following are propositions?
+				<ol marker="a">
+					<li>
+						<p>
+							I am reading a math book.
+						</p>
+					</li>
+					<li>
+						<p>
+							Math is fun!
+						</p>
+					</li>
+					<li>
+						<p>
+							Do you like turtles?
+						</p>
+					</li>
+						<li>
+						<p>
+							My cat
+						</p>
+					</li>
+				</ol>
 			</p>
+			</statement>
+			<solution>
+			<p>
+				The first and second items are propositions. The third one is a question and the fourth is a phrase, so they are not. We are not concerned right now about whether a statement is true or false. We will come back to that later when we look at compound statements.
+			</p>
+			</solution>
+		</example>
  
 	</subsection>
 		
