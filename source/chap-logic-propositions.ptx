@@ -70,6 +70,9 @@
 			</p>
 			</solution>
 		</example>
+		<p>
+			Arguments are made of one or more propositions (called <term>premises</term>), along with a <term>conclusion</term>. Propositions may be <term>negated</term>, or combined with <term>connectors</term> like "and", and "or" to make new propositions. Let's take a closer look at how negations and logical connectors are used to create more complex statements. 
+		</p>
  
 	</subsection>
 		
