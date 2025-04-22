@@ -136,10 +136,53 @@
 				</solution>
 			</example>
 		</introduction>
-		<subsubsection xml:id="subsubsec-ooo">
-			<title>Test</title>
+		<subsubsection>
+			<title>Negation of Quantifiers</title>
 			<p>
-				ddd
+				It is worth mentioning the <term>quantifiers</term> <q><term>all</term></q> and <q><term>some</term></q> and how to negate them. 
+				If we were to make the statement, <q><alert>All</alert> students read this book,</q> we could negate it by saying <q><alert>Not all</alert> students read this book</q> or <q><alert>Some</alert> students <alert>don't</alert> read this book.</q> Notice how this is very different from <q><alert>No</alert> students read this book.</q>
+			</p>
+			<p>
+				If we were to negate, <q><alert>No</alert> students read this book,</q> we could say, <q><alert>A</alert> student is reading this book,</q> or even, <q><alert>Some</alert> students do read this book.</q> 
+				It only takes one counterexample to negate an all or nothing statement and the phrases <alert>some do</alert> and <alert>some don't</alert> are often used for this purpose. The same concept applies to similar words like everyone, nobody, always and never.
+			</p>
+			<example>
+				<statement>
+				<p>
+					Write two different negations of each statement.
+					<ol marker="a">
+					<li>
+						<p>
+							All college students take psychology.
+						</p>
+					</li>
+					<li>
+						<p>
+							Dogs are never brown.
+						</p>
+					</li>
+				</ol>
+				</p>
+				</statement>
+				<solution>
+					<p>
+					<ol marker="a">
+					<li>
+						<p>
+							Negations: <insert>Not</insert> all college students take psychology, or, <insert>Some</insert> college students <alert>don't</alert> take psychology.
+						</p>
+					</li>
+					<li>
+						<p>
+							Negations: <insert>There are</insert> brown dogs, or, <insert>Some</insert> dogs are brown.
+						</p>
+					</li>
+				</ol>
+				</p>
+				</solution>
+			</example>
+			<p>
+				For the most part, we will deal with <em>unquantified</em> logic in this book.
 			</p>
 		</subsubsection>
 	</subsection>
