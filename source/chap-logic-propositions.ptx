@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-logic-propositions" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Propositions and Logical Operators</title>
+
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Identify propositions.
+				</p>
+			</li>
+			<li>
+				<p>
+					Compose and interpret the negation of a statement.
+				</p>
+			</li>
+			<li>
+				<p>
+					Use logical connectors (and/or) and conditional statements (if, then) in context.
+				</p>
+			</li>
+			<li>
+				<p>
+					Evaluate the truth value of compound statements in context.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+
+	<subsection>
+		<title>Propositions</title>
+			
+		<p>  
+			The basic building block of symbolic logic is the <term>proposition</term> or <term>statement</term>.
+			A <term>proposition</term> is a declarative sentence that can be meaningfully classified as either true or false. Such statements are unlike everyday sentences, which can be questions, commands, or expressions with unclear meanings. 
+			Propositions are used in symbolic logic because they remove any vagueness or implied meanings that might confuse the application of logical principles.
+			</p>
+ 
+	</subsection>
+		
+</section>

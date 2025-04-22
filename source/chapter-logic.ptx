@@ -53,6 +53,7 @@
 	</introduction>
 
 	<!-- include sections -->
-	<xi:include href="chap-logic-fallacies.ptx" />
+	<xi:include href="chap-logic-propositions.ptx" />
+	<xi:include href="chap-logic-fallacies.ptx" />	
 
 </chapter>
