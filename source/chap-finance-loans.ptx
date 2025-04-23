@@ -114,7 +114,7 @@
         <solution>
           <p>
             This is a annuity question where we seek the present value (or lump sum) needed to generate the sequence of anticipated payments. 
-            In this example, <m>d = $1000</m>, <m>r = 0.06</m>, <m>n = 12</m>, since we want monthly withdrawals, and <m>t = 20</m> because we are taking withdrawals for 20 years. <m>P</m> is unknown.
+            In this example, <m>d = \$1000</m>, <m>r = 0.06</m>, <m>n = 12</m>, since we want monthly withdrawals, and <m>t = 20</m> because we are taking withdrawals for 20 years. <m>P</m> is unknown.
             <md>
               <mrow> P =\amp d \left[\frac{1-\left(1+\frac{r}{n}\right)^{-nt}}{\frac{r}{n}}\right] </mrow>
               <mrow>  =\amp 1000 \left[\frac{1-\left(1+\frac{0.06}{12}\right)^{-12\cdot 20}}{\frac{0.06}{12}}\right]</mrow>
