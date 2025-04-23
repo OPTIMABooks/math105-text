@@ -497,7 +497,7 @@
 		<p>
 			Sometimes it is convenient to use all capitalized words to represent logical connectors. For example, the use of <q>AND</q> instead of <q>and</q> or <q>XOR</q> to indicate that the <q>or</q> used is exclusive emphasizes that the word is being used in its strict logical sense. This is common in fields like computer science. In mathematical contexts, symbols like those shown in the following table are common.
 		</p>
-		<assemblage xml:id="assemblage-local-symbols">
+		<assemblage xml:id="assemblage-logical-symbols">
 			<title>Common Logical Symbols</title>
 			<tabular halign="center">
 				<row header="yes">
