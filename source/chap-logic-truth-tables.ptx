@@ -195,6 +195,81 @@
 				</tabular>
 		</sidebyside>
 	</subsubsection>
+	<subsubsection>
+		<title>Truth Tables for the Conditional</title>
+		<p>
+			 To understand the truth table values for a conditional statement it is really helpful to look at it in context. We used this example in <xref ref="sec-logic-propositions"/> and we'll summarize it again here. Let's say a friend tells you, <q>If you post that photo to social media, you'll lose your job.</q> Under what conditions can you say that your friend was wrong?
+		</p>
+		<p>
+			 There are four possible outcomes:
+			 <ol>
+				 <li>
+					 <p>
+						 You post the photo and lose your job.
+					 </p>
+				 </li>
+				 <li>
+					 <p>
+						 You post the photo and don't lose your job.
+					 </p>
+				 </li>
+				 <li>
+					 <p>
+						 You don't post the photo and lose your job.
+					 </p>
+				 </li>
+				 <li>
+					 <p>
+						 You don't post the photo and don't lose your job.
+					 </p>
+				 </li>
+			 </ol>
+		</p>
+		<p>
+			 The only case where you can say your friend was wrong is the second case, in which you post the photo but still keep your job.
+		</p>
+		<p>
+			 Your friend didn't say anything about what would happen if you didn't post the photo, so you can't say the last two statements are wrong. Even if you didn't post the photo and lost your job anyway, your friend never said that you were guaranteed to keep your job if you didn't post it.
+		</p>
+		<p>
+			The four cases above correspond to the four rows of the truth table. For this truth table we will use <m>P</m> for <q>posting the photo,</q> and <m>L</m> for <q>losing your job.</q>
+		</p>
+		<sidebyside widths="60% 34%" margins="0% 0%" valign="middle">
+			<p>
+				<term>If, then</term>: In the <m>P\rightarrow L</m> (read <q>If <m>P</m>, then <m>L</m></q>) column, the only outcome that is false is if you post the photo and don't lose your job. Otherwise <m>P\rightarrow L</m> is true.
+			</p>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row header="yes">
+					<cell><m>P</m></cell>
+					<cell><m>L</m></cell>
+					<cell><m>P\rightarrow L</m></cell>
+				</row>
+				<row>
+					<cell>T</cell>
+					<cell>T</cell>
+					<cell>T</cell>
+				</row>
+				<row>
+					<cell>T</cell>
+					<cell>F</cell>
+					<cell>F</cell>
+				</row>
+				<row>
+					<cell>F</cell>
+					<cell>T</cell>
+					<cell>T</cell>
+				</row>
+				<row>
+					<cell>F</cell>
+					<cell>F</cell>
+					<cell>T</cell>
+				</row>
+			</tabular>
+		</sidebyside>
+		<p>
+			If the hypothesis (the <q>if</q> part) is false, we cannot say that the statement is a lie, so the result of the third and fourth rows is true. Notice that we are using a double negation in this explanation.
+		</p>
+	</subsubsection>
 </subsection>
 
 </section>
