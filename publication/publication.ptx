@@ -130,7 +130,7 @@
 		<index-page ref="frontmatter"/>
     <!-- <css theme="default-modern" palette="blues"/> -->
     <css theme="denver" palette="ice-fire"/>
-    <toc focused="yes" preexpanded-levels="2" />
+    <toc focused="no" preexpanded-levels="2" />
 	</html>
 
   <!-- <html> -->

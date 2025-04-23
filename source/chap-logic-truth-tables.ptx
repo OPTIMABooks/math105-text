@@ -23,33 +23,34 @@
 		</ul>
 	</objectives>
 <subsection>
-	<title>Basic Truth Tables</title>
-	<p>
-		In logic we can use a <term>truth table</term> to analyze a complex statement by summarizing all the possibilities and their <term>truth values</term> (true or false). To do this, we break the statement down to its smallest elements, the propositions. We can then see the outcome of the complex statement for all possible combinations of true and false for the propositions.
-	</p>
-	<p>
-		For example, suppose we have the following two propositions:
-		<ul>
-			<li>
+	<title>Truth Tables</title>
+	<introduction>
+		<p>
+			In logic we can use a <term>truth table</term> to analyze a complex statement by summarizing all the possibilities and their <term>truth values</term> (true or false). To do this, we break the statement down to its smallest elements, the propositions. We can then see the outcome of the complex statement for all possible combinations of true and false for the propositions.
+		</p>	
+		<p>
+			For example, suppose we have the following two propositions:
+			<ul>
+				<li>
+					<p>
+						<em>R</em>: You paid your rent this month.
+					</p>
+				</li>
+				<li>
+					<p>
+						<em>E</em>: You paid your electric bill this month.
+					</p>
+				</li>
+			</ul>
+		</p>
+		<p>
+			We use these two propositions to demonstrate the truth tables for <em>not, and,</em> and <em>or.</em>
+			<!--was 47% 47%-->
+		</p>
+			<sidebyside widths="60% 34%" margins="0% 0%" valign="middle">
 				<p>
-					<em>R</em>: You paid your rent this month.
+					To set up a truth table, we list all the possible truth value combinations in a systematic way. One way to do this is to make the first column half true, then half false, then cut the pattern in half with each succeeding column. For two propositions, the first two columns are shown to the right.
 				</p>
-			</li>
-			<li>
-				<p>
-					<em>E</em>: You paid your electric bill this month.
-				</p>
-			</li>
-		</ul>
-	</p>
-	<p>
-		We use these two propositions to demonstrate the truth tables for <em>not, and,</em> and <em>or.</em>
-		<!--was 47% 47%-->
-	</p>
-		<sidebyside widths="60% 34%" margins="0% 0%" valign="middle">
-			<p>
-				To set up a truth table, we list all the possible truth value combinations in a systematic way. One way to do this is to make the first column half true, then half false, then cut the pattern in half with each succeeding column. For two propositions, the first two columns are shown to the right.
-			</p>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell> <m>R</m> </cell>
@@ -77,100 +78,67 @@
 						<cell></cell>
 					</row>
 				</tabular>
-		</sidebyside>
-
-	<p>
-		The four possible combinations are
-			<ul>
-				<li>
-					<p>
-						Row 1: You have paid your rent and electric bill.
-					</p>
-				</li>
-				<li>
-					<p>
-						Row 2: You have paid your rent but not your electric bill.
-					</p>
-				</li>
-				<li>
-					<p>
-						Row 3: You have not paid your rent but you have paid your electric bill.
-					</p>
-				</li>
-				<li>
-					<p>
-						Row 4: You haven't paid either your rent or electric bill (yet).
-					</p>
-				</li>
-			</ul>
-	</p>
-	<p>
-		Once we fill in the starting columns, we add additional columns for the more complex statements. We can add as many columns as needed. Below are the basic truth tables for <em>not, and,</em> and <em>or.</em>
-	</p>
-
-	<paragraphs>
-		<title>Basic Truth Tables</title>
+			</sidebyside>
 	
-	<sidebyside widths="60% 34%" margins="0% 0%" valign="middle">
 		<p>
-			<term>Not</term>: In the <em>not R</em> column, the truth value is the opposite of the value for <em>R</em>. For example, if <em>R</em> is true (you paid your rent) then <em>not R</em> (you did not pay your rent) is false.
+			The four possible combinations are
+				<ul>
+					<li>
+						<p>
+							Row 1: You have paid your rent and electric bill.
+						</p>
+					</li>
+					<li>
+						<p>
+							Row 2: You have paid your rent but not your electric bill.
+						</p>
+					</li>
+					<li>
+						<p>
+							Row 3: You have not paid your rent but you have paid your electric bill.
+						</p>
+					</li>
+					<li>
+						<p>
+							Row 4: You haven't paid either your rent or electric bill (yet).
+						</p>
+					</li>
+				</ul>
 		</p>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row header="yes">
-				<cell right="minor"><m>R</m></cell>
-				<cell right="minor"><m>\neg R</m></cell>
-			</row>
-			<row>
-				<cell right="minor">T</cell>
-				<cell right="minor">F</cell>
-			</row>
-			<row>
-				<cell right="minor">F</cell>
-				<cell right="minor">T</cell>
-			</row>
-		</tabular>
-	</sidebyside>
-	<sidebyside widths="60% 34%" margins="0% 0%" valign="middle">
 		<p>
-			<term>And</term>: In the <em>R and E</em> column, you must have paid both your rent and electric bill. Otherwise <em>R and E</em> is false.
+			Once we fill in the starting columns, we add additional columns for the more complex statements. We can add as many columns as needed. Below are the basic truth tables for <em>not, and,</em> and <em>or.</em>
 		</p>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row header="yes">
-				<cell right="minor"><m>R</m></cell>
-				<cell right="minor"><m>E</m></cell>
-				<cell right="minor"><m>R \land E</m></cell>
-			</row>
-			<row>
-				<cell right="minor">T</cell>
-				<cell right="minor">T</cell>
-				<cell right="minor">T</cell>
-			</row>
-			<row>
-				<cell right="minor">T</cell>
-				<cell right="minor">F</cell>
-				<cell right="minor">F</cell>
-			</row>
-			<row>
-				<cell right="minor">F</cell>
-				<cell right="minor">T</cell>
-				<cell right="minor">F</cell>
-			</row>
-			<row>
-				<cell right="minor">F</cell>
-				<cell right="minor">F</cell>
-				<cell right="minor">F</cell>
-			</row>
-		</tabular>
-	</sidebyside>
-	<sidebyside widths="60% 34%" margins="0% 0%" valign="middle">
-		<p>
-			<term>Or</term>: In the <em>R or E</em> column, you must have paid either your rent or electric bill, or both (inclusive or). Otherwise <em>R or E</em> is false.
-		</p>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	</introduction>
+	<subsubsection>
+		<title>Truth Tables for NOT, AND, and OR</title>
+		<sidebyside widths="60% 34%" margins="0% 0%" valign="middle">
+			<p>
+				<term>Not</term>: In the <em>not R</em> column, the truth value is the opposite of the value for <em>R</em>. For example, if <em>R</em> is true (you paid your rent) then <em>not R</em> (you did not pay your rent) is false.
+			</p>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row header="yes">
+					<cell right="minor"><m>R</m></cell>
+					<cell right="minor"><m>\neg R</m></cell>
+				</row>
+				<row>
+					<cell right="minor">T</cell>
+					<cell right="minor">F</cell>
+				</row>
+				<row>
+					<cell right="minor">F</cell>
+					<cell right="minor">T</cell>
+				</row>
+			</tabular>
+		</sidebyside>
+		<sidebyside widths="60% 34%" margins="0% 0%" valign="middle">
+			<p>
+				<term>And</term>: In the <em>R and E</em> column, you must have paid both your rent and electric bill. Otherwise <em>R and E</em> is false.
+			</p>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell right="minor"><m>R</m></cell>
 					<cell right="minor"><m>E</m></cell>
-					<cell right="minor"><m>R \lor E</m></cell>
+					<cell right="minor"><m>R \land E</m></cell>
 				</row>
 				<row>
 					<cell right="minor">T</cell>
@@ -180,12 +148,12 @@
 				<row>
 					<cell right="minor">T</cell>
 					<cell right="minor">F</cell>
-					<cell right="minor">T</cell>
+					<cell right="minor">F</cell>
 				</row>
 				<row>
 					<cell right="minor">F</cell>
 					<cell right="minor">T</cell>
-					<cell right="minor">T</cell>
+					<cell right="minor">F</cell>
 				</row>
 				<row>
 					<cell right="minor">F</cell>
@@ -193,8 +161,40 @@
 					<cell right="minor">F</cell>
 				</row>
 			</tabular>
-	</sidebyside>
-	</paragraphs>
+		</sidebyside>
+		<sidebyside widths="60% 34%" margins="0% 0%" valign="middle">
+			<p>
+				<term>Or</term>: In the <em>R or E</em> column, you must have paid either your rent or electric bill, or both (inclusive or). Otherwise <em>R or E</em> is false.
+			</p>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row header="yes">
+						<cell right="minor"><m>R</m></cell>
+						<cell right="minor"><m>E</m></cell>
+						<cell right="minor"><m>R \lor E</m></cell>
+					</row>
+					<row>
+						<cell right="minor">T</cell>
+						<cell right="minor">T</cell>
+						<cell right="minor">T</cell>
+					</row>
+					<row>
+						<cell right="minor">T</cell>
+						<cell right="minor">F</cell>
+						<cell right="minor">T</cell>
+					</row>
+					<row>
+						<cell right="minor">F</cell>
+						<cell right="minor">T</cell>
+						<cell right="minor">T</cell>
+					</row>
+					<row>
+						<cell right="minor">F</cell>
+						<cell right="minor">F</cell>
+						<cell right="minor">F</cell>
+					</row>
+				</tabular>
+		</sidebyside>
+	</subsubsection>
 </subsection>
 
 </section>
