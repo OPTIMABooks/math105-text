@@ -271,6 +271,97 @@
 			If the hypothesis (the <q>if</q> part) is false, we cannot say that the statement is a lie, so the result of the third and fourth rows is true. Notice that we are using a double negation in this explanation.
 		</p>
 	</subsubsection>
-</subsection>
+	</subsection>
+	<subsection>
+		<title>Truth Tables for Complex Statements</title>
+		<p>
+			Truth tables really become useful when we seek to analyze complex statements composed of multiple propositions. To do so, we need truth tables with several columns. A good basic strategy in solving such problems is to work from the inside out and create a column in the table for each intermediate statement.
+			Each intermediate statement (and hence column) should require only a single logical operation to compute. This can be tedious for long problems but guards against error.
+		</p>
+		<example>
+			<!-- <statement> -->
+			<p>
+				Create a truth table for the statement <m>A \lor (\neg B)</m>.
+			</p>
+			<!-- </statement> -->
+			<!-- <solution> -->
+			<sidebyside widths="47% 47%" margins="0% 0%" valign="top">
+				<p>
+					When we create the truth table, we start with columns for the propositions, <m>A</m> and <m>B</m>. Then we add a column for <m>\neg B</m> because that is part of the final statement. Our last column is the final statement <m>A \lor (\neg B)</m>.
+					It is temping to skip the column for <m>\neg B</m> and hold that intermediate value in your head as you compute <m>A \lor (\neg B)</m>. Resist this urge as skipping intermediate steps leads often leads to errors in logic later in a complex problem.
+				</p>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row header="yes">
+						<cell><m>A</m></cell>
+						<cell><m>B</m></cell>
+						<cell><m>\neg B</m></cell>
+						<cell><m>A \lor (\neg B)</m></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+				</tabular>
+		</sidebyside>
+		<sidebyside widths="47% 47%" margins="0% 0%" valign="middle">
+				<p>
+					To complete the third column, <em>not B</em>, we take the opposite of the <em>B</em> column. Then to complete the fourth column, we only look at the <em>A</em> and the <em>not B</em> columns and compare them using <em>or</em>.
+				</p>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row  header="yes">
+						<cell><m>A</m></cell>
+						<cell><m>B</m></cell>
+						<cell><m>\neg B</m></cell>
+						<cell><m>A \lor (\neg B)</m></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+					</row>
+				</tabular>
+			</sidebyside>
+		<!-- </solution> -->
+		</example>
+	</subsection>
 
 </section>
