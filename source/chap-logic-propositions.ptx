@@ -230,4 +230,128 @@
 			</example>
 		</subsubsection>
 	</subsection>
+	<subsection>
+		<title>Logical Connectors: <em>and</em> and <em>or</em></title>
+	
+		<p>
+			When we use the word <q><term>and</term></q> between two propositions, it connects them to create a new statement that is also a proposition. For example, if you said <q>To finish this project, I need a screwdriver <alert>and</alert> a wrench,</q> then you are expressing the need for both tools. For an <q>and</q> statement to be true, the connected propositions must both be true. If even one proposition is false (for instance, you didn't need a wrench) then the entire connected statement is false.
+		</p>
+		<p>
+			The word <q><term>or</term></q> between two propositions similarly connects the propositions to create a new statement. In this case, if you said <q>To finish this project, I need a screwdriver <alert>or</alert> a wrench,</q> then you are expressing the need for one of the tools (but probably not both). For an <q>or</q> statement to be true, at least one of the propositions must be true (or both could be true).
+		</p>
+		<example>
+			<statement>
+			<p>
+				Determine whether each compound statement is true or false.
+			<ol marker="a">
+				<li>
+					<p>
+						Six is an even number and Olympia is the capital of Washington.
+					</p>
+				</li>
+				<li>
+					<p>
+						Six is an even number or Olympia is the capital of Washington.
+					</p>
+				</li>
+				<li>
+					<p>
+						Guitars have strings and cats do not have whiskers.
+					</p>
+				</li>
+				<li>
+					<p>
+						Guitars have strings or cats do not have whiskers.
+					</p>
+				</li>
+				<li>
+					<p>
+						Whales are not mammals and spiders have ten legs.
+					</p>
+				</li>
+				<li>
+					<p>
+						Whales are not mammals or spiders have ten legs.
+					</p>
+				</li>
+			</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a">
+					<li>
+						<p>
+							True. Six is even and Olympia is the capital of Washington. Since both parts are true, the <q>and</q> statement is true.
+						</p>
+					</li>
+					<li>
+						<p>
+							True. Since both parts are true, the <q>or</q> statement is true.
+						</p>
+					</li>
+					<li>
+						<p>
+							False. Guitars have strings but cats do have whiskers. Both statements must be true for an <q>and</q> statement to be true.
+						</p>
+					</li>
+					<li>
+						<p>
+							True. Since the first part is true, the <q>or</q> statement is true.
+						</p>
+					</li>
+					<li>
+						<p>
+							False. Whales are mammals and spiders have eight legs, so both parts are false, making the <q>and</q> statement false.
+						</p>
+					</li>
+						<li>
+						<p>
+							False. Neither of the parts are true, so the <q>or</q> statement is false.
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</example>
+		<p>
+			In English we often mean for <em>or</em> to be <term>exclusive</term>: one or the other, but not both. 
+			For example, when you order at a restaurant and are offered a soup <em>or</em> salad with your meal, you understand the <q>or</q> to be exclusive: you may choose a salad or a soup with your meal but not both.
+			In math, however, <em>or</em> is usually <term>inclusive</term>: one or the other, or both. The thing we are including, or excluding is the <q>both</q> option.
+		</p>
+		<example>
+			<statement>
+			<p>
+				Determine whether each <em>or</em> statement is inclusive or exclusive.
+				<ol marker="a">
+					<li>
+						<p>
+							Would you like a chicken or vegan meal?
+						</p>
+					</li>
+					<li>
+						<p>
+							We want to hire someone who speaks Spanish or Chinese.
+						</p>
+					</li>
+					<li>
+						<p>
+							Are you going to wear sandals or tennis shoes?
+						</p>
+					</li>
+					<li>
+						<p>
+							Are you going to visit Thailand or Vietnam on your trip?
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+					The first <em>or</em> statement is a choice of one or the other, but not both, so it is exclusive. The second statement is inclusive because they could find a candidate who speaks both languages. The third statement is exclusive because you can't wear both at the same time. The fourth statement is inclusive because you could visit both countries on your trip.
+				</p>
+			</solution>
+		</example>
+	</subsection>
 </section>
