@@ -232,7 +232,6 @@
 	</subsection>
 	<subsection>
 		<title>Logical Connectors: <em>and</em> and <em>or</em></title>
-	
 		<p>
 			When we use the word <q><term>and</term></q> between two propositions, it connects them to create a new statement that is also a proposition. For example, if you said <q>To finish this project, I need a screwdriver <alert>and</alert> a wrench,</q> then you are expressing the need for both tools. For an <q>and</q> statement to be true, the connected propositions must both be true. If even one proposition is false (for instance, you didn't need a wrench) then the entire connected statement is false.
 		</p>
@@ -354,4 +353,136 @@
 			</solution>
 		</example>
 	</subsection>
+	<subsection>
+		<title>Conditional Statements: <em>if, then</em></title>
+		<p>
+			A <term>conditional</term> statement connects two propositions with <em>if, then</em>. An example of a conditional statement would be <q><em>If</em> it is raining, <em>then</em> we'll go to the mall.</q> The first part (the <q><em>if</em></q> part) is called the <term>hypothesis</term> and the second part (the <q><em>then</em></q> part) is called the <term>conclusion</term>.
+		</p>
+		<p>
+			The statement, <q>It is raining,</q> may be true or false for any given day. If the hypothesis is true, then we will follow the course of action and go to the mall. If the hypothesis is false, though, we haven't said anything about what we will or won't do.
+		</p>
+		<p>
+			 To understand the truth values for a conditional statement it is helpful to look at an example. Let's say a friend tells you, <q>If you post that photo on social media, you'll lose your job.</q> Under what conditions can you say that your friend was wrong?
+		</p>
+		<p>
+			 There are four possible outcomes:
+			 <ol>
+				 <li>
+					 <p>
+						 You post the photo and lose your job.
+					 </p>
+				 </li>
+				 <li>
+					 <p>
+						 You post the photo and don't lose your job.
+					 </p>
+				 </li>
+				 <li>
+					 <p>
+						 You don't post the photo and lose your job.
+					 </p>
+				 </li>
+				 <li>
+					 <p>
+						 You don't post the photo and don't lose your job.
+					 </p>
+				 </li>
+			 </ol>
+		</p>
+		<p>
+			 The only case where you can say your friend was wrong is the second case, in which you post the photo but still keep your job. This is the only time when a conditional statement is false.
+		</p>
+		<p>
+			 Your friend didn't say anything about what would happen if you didn't post the photo, so you can't say the last two statements are wrong. Even if you didn't post the photo and lost your job anyway, your friend never said that you were guaranteed to keep your job if you didn't post it.
+		</p>
+		<p>
+			In this case it can be useful to outline the possibilities and outcomes in a table. The four cases above correspond to the four rows of a truth table. If your class is using truth tables they are covered in a later section. For this table we will use P for <q>posting the photo,</q> and L for <q>losing your job.</q>
+		</p>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row header="yes">
+					<cell><em>Posting the Photo (P)</em></cell>
+					<cell><em>Losing Your Job (L)</em></cell>
+					<cell>If <em>P</em>, then <em>L</em></cell>
+				</row>
+				<row>
+					<cell>You post the photo (T)</cell>
+					<cell>You lose your job (T)</cell>
+					<cell>True</cell>
+				</row>
+				<row>
+					<cell>You post the photo (T)</cell>
+					<cell>You don't lose your job (F)</cell>
+					<cell>False</cell>
+				</row>
+				<row>
+					<cell>You don't post the photo (F)</cell>
+					<cell>You lose your job (T)</cell>
+					<cell>True</cell>
+				</row>
+				<row>
+					<cell>You don't post the photo (F)</cell>
+					<cell>You don't lose your job (F)</cell>
+					<cell>True</cell>
+				</row>
+			</tabular>
+		<p>
+			If the hypothesis (the <q>if</q> part) is false, we cannot say that the statement is a lie, so the result of the third and fourth rows is true. Notice that we are using a double negation in this explanation.
+		</p>
+		<example>
+			<statement>
+			<p>
+				Determine whether each conditional statement is true or false.
+			<ol marker="a">
+				<li>
+					<p>
+						If tricycles have three wheels, then bicycles have two wheels.
+					</p>
+				</li>
+				<li>
+					<p>
+						If tricycles have three wheels, then tricycles can fly.
+					</p>
+				</li>
+				<li>
+					<p>
+						If pigs can fly, then birds can fly.
+					</p>
+				</li>
+				<li>
+					<p>
+						If pigs can fly, then the sky is yellow.
+					</p>
+				</li>
+			</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a">
+					<li>
+						<p>
+							True. Tricycles have three wheels and bicycles have two wheels. The hypothesis and conclusion are both true, so the statement is true.
+						</p>
+					</li>
+					<li>
+						<p>
+							False. Tricycles have three wheels, but they cannot fly. The hypothesis is true but the conclusion is false, making the statement false.
+						</p>
+					</li>
+					<li>
+						<p>
+							True. Pigs cannot fly (on their own) but birds can. Since the hypothesis is false, the statement is true regardless of whether the conclusion is true or false.
+						</p>
+					</li>
+						<li>
+						<p>
+							True. Since the hypothesis is false, the statement is true regardless of whether the conclusion is true or false.
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</example>
+	</subsection>
+	
 </section>
