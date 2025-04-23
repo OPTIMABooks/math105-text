@@ -534,5 +534,765 @@
 			</p>
 		</assemblage>
 	</subsection>
-	
+	<exercises>
+		<!-- These are the first 18 exercises from PCC's second edition text. 
+		I did not include problems form the subsection I omitted, nor did I 	 
+		add any for the subsection I added on math notation.  
+		-->
+		<title>Exercises</title>
+			
+		<exercise><!--  #1 -->
+			<statement>
+			<p>
+				Which of the following are propositions?
+			</p>
+			<p>
+				<ol marker="a">
+					<li>
+						<p>
+							Pigs can fly.
+						</p>
+					</li>
+					<li>
+						<p>
+							What?
+						</p>
+					</li>
+					<li>
+						<p>
+							I don't know.
+						</p>
+					</li>
+					<li>
+						<p>
+							I like tofu.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Proposition
+						</p>
+					</li>
+					<li>
+						<p>
+							Not a proposition
+						</p>
+					</li>
+					<li>
+						<p>
+							Proposition
+						</p>
+					</li>
+					<li>
+						<p>
+							Proposition
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #2 -->
+			<statement>
+			<p>
+				Which of the following are propositions?
+			</p>
+			<p>
+				<ol marker="a">
+					<li>
+						<p>
+							How far?
+						</p>
+					</li>
+					<li>
+						<p>
+							Portland is not in Oregon.
+						</p>
+					</li>
+					<li>
+						<p>
+							Portland Community College.
+						</p>
+					</li>
+					<li>
+						<p>
+							It is raining.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Not a proposition
+						</p>
+					</li>
+					<li>
+						<p>
+							Proposition
+						</p>
+					</li>
+					<li>
+						<p>
+							Not a proposition
+						</p>
+					</li>
+					<li>
+						<p>
+							Proposition
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #3 -->
+			<statement>
+			<p>
+				Write the negation of each proposition.
+			</p>
+			<p>
+				<ol marker="a">
+					<li>
+						<p>
+							I ride my bike to campus.
+						</p>
+					</li>
+					<li>
+						<p>
+							Portland is not in Oregon.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							I do not ride my bike to campus.
+						</p>
+					</li>
+					<li>
+						<p>
+							Portland is in Oregon.
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #4 -->
+			<statement>
+			<p>
+				Write the negation of each proposition.
+			</p>
+			<p>
+				<ol marker="a">
+					<li>
+						<p>
+							You should see this movie.
+						</p>
+					</li>
+					<li>
+						<p>
+							Lashonda is wearing blue.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							You should not see this movie.
+						</p>
+					</li>
+					<li>
+						<p>
+							Lashonda is not wearing blue.
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #5 new -->
+			<statement>
+			<p>
+				Write the negation of each proposition.
+			</p>
+			<p>
+				<ol marker="a">
+					<li>
+						<p>
+							Nobody rides their bike to campus.
+						</p>
+					</li>
+					<li>
+						<p>
+							All cities named Portland are in Oregon.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Some people ride their bike to campus, or There are people who ride their bike to campus.
+						</p>
+					</li>
+					<li>
+						<p>
+							There are cities named Portland that are not in Oregon (in Maine and Michigan), or Some Portlands are not in Oregon.
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #6 new -->
+			<statement>
+			<p>
+				Write the negation of each proposition.
+			</p>
+			<p>
+				<ol marker="a">
+					<li>
+						<p>
+							Everyone should see this movie.
+						</p>
+					</li>
+					<li>
+						<p>
+							Lashonda never wears blue.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Not everyone should see this movie, or Some people should not see this movie.
+						</p>
+					</li>
+					<li>
+						<p>
+							Lashonda does wear blue, or Lashonda sometimes wears blue.
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #7 -->
+			<statement>
+			<p>
+				Write a proposition that contains a double negative.
+			</p>
+			</statement>
+			<solution>
+				<p>
+					Answers will vary. Example: You can't not do your homework.
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #8 -->
+			<statement>
+			<p>
+				Write a proposition that contains a triple negative.
+			</p>
+			</statement>
+			<solution>
+				<p>
+					Answers will vary. Example: They decided not to cancel the ban on pesticides.
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #9 -->
+			<statement>
+			<p>
+				For each situation, decide whether the “or” is most likely exclusive or inclusive.
+			</p>
+			<p>
+				<ol marker="a">
+					<li>
+						<p>
+							An entrée at a restaurant includes soup or salad.
+						</p>
+					</li>
+					<li>
+						<p>
+							You should bring an umbrella or a raincoat with you.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Exclusive
+						</p>
+					</li>
+					<li>
+						<p>
+							Inclusive
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #10 -->
+			<statement>
+			<p>
+				For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
+			</p>
+			<p>
+				<ol marker="a">
+					<li>
+						<p>
+							We can keep driving on I-5 or get on I-405 at the next exit.
+						</p>
+					</li>
+					<li>
+						<p>
+							You should save this document on your computer or a flash drive.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Exclusive
+						</p>
+					</li>
+					<li>
+						<p>
+							Inclusive
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #11 -->
+			<statement>
+			<p>
+				For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
+			</p>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							I will wear a sweater or a jacket.
+						</p>
+					</li>
+					<li>
+						<p>
+							My next vacation will be on the Oregon Coast or Mount Hood.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Inclusive
+						</p>
+					</li>
+					<li>
+						<p>
+							Exclusive
+						</p>
+					</li>
+				</ol>
+			</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #12 -->
+			<statement>
+			<p>
+				For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
+			</p>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							While in California I will go to the beach or Disneyland.
+						</p>
+					</li>
+					<li>
+						<p>
+							The insurance agent offers car or boat insurance.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Inclusive
+						</p>
+					</li>
+					<li>
+						<p>
+							Inclusive
+						</p>
+					</li>
+				</ol>
+			</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #13 -->
+			<statement>
+			<p>
+				Rewrite the statement in the conditional form <em>if p, then q.</em>
+			</p>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Whenever it is sunny, I go swimming.
+						</p>
+					</li>
+					<li>
+						<p>
+							I go see a movie on Fridays.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							If it is sunny, then I will go swimming.
+						</p>
+					</li>
+					<li>
+						<p>
+							If it is Friday, then I will go see a movie.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</solution>
+		</exercise>
+		
+		<exercise> <!-- #14 -->
+			<statement>
+			<p>
+				Rewrite the statement in the conditional form <em>if p, then q.</em>
+			</p>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							I always carry an umbrella when it rains.
+						</p>
+					</li>
+					<li>
+						<p>
+							On the weekend I like to hang out with friends.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							If it is raining, then I carry an umbrella.
+						</p>
+					</li>
+					<li>
+						<p>
+							If it is the weekend, then I am hanging out with friends.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #15 -->
+			<statement>
+			<p>
+				Determine whether the compound statement is true or false.
+			</p>
+			<p>
+				<ol marker="a">
+					<li>
+						<p>
+							An apple is a vegetable or an apple is a fruit.
+						</p>
+					</li>
+					<li>
+						<p>
+							Portland is not a city in Oregon.
+						</p>
+					</li>
+					<li>
+						<p>
+							Fish can walk and birds can swim.
+						</p>
+					</li>
+					<li>
+						<p>
+							If <m>2 + 5 = 10</m>, then <m>2 + 7 = 12</m>.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							True
+						</p>
+					</li>
+					<li>
+						<p>
+							False
+						</p>
+					</li>
+					<li>
+						<p>
+							False
+						</p>
+					</li>
+					<li>
+						<p>
+							True
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #16 -->
+			<statement>
+			<p>
+				Determine whether the compound statement is true or false.
+			</p>
+			<p>
+				<ol marker="a">
+					<li>
+						<p>
+							A horse is not a mammal.
+						</p>
+					</li>
+					<li>
+						<p>
+							If a horse is a mammal, then fish are mammals.
+						</p>
+					</li>
+					<li>
+						<p>
+							A triangle has three sides or four angles.
+						</p>
+					</li>
+					<li>
+						<p>
+							The Eiffel Tower is in London and the Taj Mahal is in India.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							False
+						</p>
+					</li>
+					<li>
+						<p>
+							False
+						</p>
+					</li>
+					<li>
+						<p>
+							True
+						</p>
+					</li>
+					<li>
+						<p>
+							False
+						</p>
+					</li>
+				</ol>
+				</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #17 -->
+			<statement>
+			<p>
+				Determine whether the compound statement is true or false.
+			</p>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							A square has four sides and all sides are equal.
+						</p>
+					</li>
+					<li>
+						<p>
+							A square is not a triangle.
+						</p>
+					</li>
+					<li>
+						<p>
+							Six is an odd number or a multiple of 5.
+						</p>
+					</li>
+					<li>
+						<p>
+							If dogs have wings, then seven is an even number.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							True
+						</p>
+					</li>
+					<li>
+						<p>
+							True
+						</p>
+					</li>
+					<li>
+						<p>
+							False
+						</p>
+					</li>
+					<li>
+						<p>
+							True
+						</p>
+					</li>
+				</ol>
+			</p>
+			</solution>
+		</exercise>
+		
+		<exercise><!--  #18 -->
+			<statement>
+			<p>
+				Determine whether the compound statement is true or false.
+			</p>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							An octagon has 8 sides or a rectangle has 5 sides.
+						</p>
+					</li>
+					<li>
+						<p>
+							An octagon does not have 8 sides.
+						</p>
+					</li>
+					<li>
+						<p>
+							If an octagon has 8 sides, then a triangle has three angles.
+						</p>
+					</li>
+					<li>
+						<p>
+							Whales are not mammals and cats are mammals.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							True
+						</p>
+					</li>
+					<li>
+						<p>
+							False
+						</p>
+					</li>
+					<li>
+						<p>
+							True
+						</p>
+					</li>
+					<li>
+						<p>
+							False
+						</p>
+					</li>
+				</ol>
+			</p>
+			</solution>
+		</exercise>
+	</exercises>
 </section>
