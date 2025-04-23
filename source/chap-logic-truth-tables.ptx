@@ -362,191 +362,191 @@
 			</sidebyside>
 		<!-- </solution> -->
 		</example>
-		<paragraphs>
+	</subsection>
+	<subsection>
 			<title>Truth Tables with Three Propositions</title>
+		<p>
+			To create a truth table with three propositions we need eight rows to list all possible truth combinations. First, we will determine the columns we need to get to our final statement. Next, we will fill in the first three columns using the same methodology as before. Start with half true, half false, then cut the pattern in half each time.
+		</p>
+		<example>
+			<statement>
+				<p>
+					Create a truth table for the statement <m>A \land \neg(B \lor C)</m>.
+				</p>
+			</statement>
+			<solution>
 			<p>
-				To create a truth table with three propositions we need eight rows to list all possible truth combinations. First, we will determine the columns we need to get to our final statement. Next, we will fill in the first three columns using the same methodology as before. Start with half true, half false, then cut the pattern in half each time.
-			</p>
-			<example>
-				<statement>
-					<p>
-						Create a truth table for the statement <m>A \land \neg(B \lor C)</m>.
-					</p>
-				</statement>
-				<solution>
-				<p>
-					First, write out the columns we need. We have <m>A,\ B,\ C,</m>, then we need the statement in the parentheses, <m>(B \lor C)</m>. Then we need the negation of that column, <m> \neg(B \lor C)</m>. The last column we need is the final statement, <m>A \land \neg(B \lor C)</m>. 
-				</p>
-				<p>
-					Here is the initial table:
-				</p>
-						<tabular halign= "center" top="minor" left="minor" right="minor" bottom="minor">
-							<row  header="yes">
-								<cell><m>A</m></cell>
-								<cell><m>B</m></cell>
-								<cell><m>C</m></cell>
-								<cell><m>(B \lor C)</m></cell>
-								<cell><m>\neg(B \lor C)</m></cell>
-								<cell><m>A \land\neg(B \lor C)</m></cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-						</tabular>
-				<p>
-					Now we complete the columns one at a time. We use the <m>B</m> column and <m>C</m> column to complete <m>B \lor C</m>. Then, <m>\neg(B \lor C)</m> is the opposite of that column. For the final column we only need to look at the first and fifth columns, shaded in blue, with AND. Here is the completed table.
-				</p>
-						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-							<row  header="yes">
-								<cell><m>A</m></cell>
-								<cell><m>B</m></cell>
-								<cell><m>C</m></cell>
-								<cell><m>(B \lor C)</m></cell>
-								<cell><m>\neg(B \lor C)</m></cell>
-								<cell><m>A \land\neg(B \lor C)</m></cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-							</row>
-						</tabular>
-				<p>
-					For this statement <m>A</m> must be true and neither <m>B</m> nor <m>C</m> can be true, so <m>A \land\neg(B \lor C)</m> is only true in the fourth row. 
-				</p>
-			</solution>
-			</example>
-			<p>
-				Perhaps the last example seems theoretical. What kind of application might require this kind of logic?  For an application, consider the following propositions taken from professional baseball:
+				First, write out the columns we need. We have <m>A,\ B,\ C,</m>, then we need the statement in the parentheses, <m>(B \lor C)</m>. Then we need the negation of that column, <m> \neg(B \lor C)</m>. The last column we need is the final statement, <m>A \land \neg(B \lor C)</m>. 
 			</p>
 			<p>
-				Let <m>A= </m> Anaheim wins, <m>B= </m> Baltimore wins, and <m>C =</m> Cleveland wins.
+				Here is the initial table:
 			</p>
+					<tabular halign= "center" top="minor" left="minor" right="minor" bottom="minor">
+						<row  header="yes">
+							<cell><m>A</m></cell>
+							<cell><m>B</m></cell>
+							<cell><m>C</m></cell>
+							<cell><m>(B \lor C)</m></cell>
+							<cell><m>\neg(B \lor C)</m></cell>
+							<cell><m>A \land\neg(B \lor C)</m></cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell></cell>
+							<cell></cell>
+							<cell></cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell></cell>
+							<cell></cell>
+							<cell></cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell></cell>
+							<cell></cell>
+							<cell></cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell></cell>
+							<cell></cell>
+							<cell></cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell></cell>
+							<cell></cell>
+							<cell></cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell></cell>
+							<cell></cell>
+							<cell></cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell></cell>
+							<cell></cell>
+							<cell></cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell></cell>
+							<cell></cell>
+							<cell></cell>
+						</row>
+					</tabular>
 			<p>
-				Suppose that Anaheim will make the playoffs if: (1) Anaheim wins, and (2) neither Baltimore nor Cleveland wins. When will Anaheim make the playoffs?  Only in the case that the statement <m>A \land \neg(B \lor C)</m> is true!  
-				As we saw above, TFF (<m>A=</m> T, <m>B=</m> F, and <m>C=</m> F) is the only scenario in which Anaheim will make the playoffs.
+				Now we complete the columns one at a time. We use the <m>B</m> column and <m>C</m> column to complete <m>B \lor C</m>. Then, <m>\neg(B \lor C)</m> is the opposite of that column. For the final column we only need to look at the first and fifth columns, shaded in blue, with AND. Here is the completed table.
 			</p>
-		</paragraphs>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row  header="yes">
+							<cell><m>A</m></cell>
+							<cell><m>B</m></cell>
+							<cell><m>C</m></cell>
+							<cell><m>(B \lor C)</m></cell>
+							<cell><m>\neg(B \lor C)</m></cell>
+							<cell><m>A \land\neg(B \lor C)</m></cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+						</row>
+					</tabular>
+			<p>
+				For this statement <m>A</m> must be true and neither <m>B</m> nor <m>C</m> can be true, so <m>A \land\neg(B \lor C)</m> is only true in the fourth row. 
+			</p>
+		</solution>
+		</example>
+		<p>
+			Perhaps the last example seems theoretical. What kind of application might require this kind of logic?  For an application, consider the following propositions taken from professional baseball:
+		</p>
+		<p>
+			Let <m>A= </m> Anaheim wins, <m>B= </m> Baltimore wins, and <m>C =</m> Cleveland wins.
+		</p>
+		<p>
+			Suppose that Anaheim will make the playoffs if: (1) Anaheim wins, and (2) neither Baltimore nor Cleveland wins. When will Anaheim make the playoffs?  Only in the case that the statement <m>A \land \neg(B \lor C)</m> is true!  
+			As we saw above, TFF (<m>A=</m> T, <m>B=</m> F, and <m>C=</m> F) is the only scenario in which Anaheim will make the playoffs.
+		</p>
 	</subsection>
 
 </section>
