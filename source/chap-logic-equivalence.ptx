@@ -32,9 +32,17 @@
     <title>Logical Equivalence and the Conditional</title>
     <p>
       It may seem counterintuitive at first, but the conditional statement <q>if p, then q</q> (<m>p \to q</m>) can be written using negation and an OR statement. To be precise,
-      <me>
-        p \to q \equiv \neg p \lor q.
-      </me>
+    </p>
+    <fact>
+      <statement>
+        <p>
+          <me>
+            p \to q \equiv \neg p \lor q.
+          </me>
+        </p>
+      </statement>
+    </fact>
+    <p>
       To understand this intuitively, consider the following example. Keep in mind that symbolic logic cannot represent the English language example, and we may need to change verb tenses or otherwise rephrase to make equivalent forms clear.
       (For a review of the conditional, re-read <xref text="global" ref="subsubsec-conditional-truth-table"/>.)
     </p>
@@ -96,6 +104,53 @@
           <p>
             Observe that the truth values in columns 4 and 5 match exactly. This demonstrates the equivalence of <m>p \to q</m> with <m>\neg p \lor q</m>.
           </p>
+      </solution>
+    </example>
+    <p>
+      The negation of a conditional also has an equivalent form written using AND. That is,
+    </p>
+    <fact>
+      <statement>
+        <p>
+          <me>
+            \neg(p \to q) \equiv p \land \neg{q}
+          </me>
+        </p>
+      </statement>
+    </fact>
+    <p>
+      Can you demonstrate this equivalence using a truth table? Doing so is very similar to the previous example. The intuitive sense of the above logical statement is illustrated by the following example.
+    </p>
+    <example>
+      <statement>
+        <p>
+          Consider the statement <q>If you park here, then you will get a ticket.</q> What set of conditions would prove this statement false?
+        </p>
+        <ol marker="a">
+          <li>
+            <p>
+              You don't park here and you get a ticket.
+            </p>
+          </li>
+          <li>
+            <p>
+              You don't park here and you don't get a ticket.
+            </p>
+          </li>
+          <li>
+            <p>
+              You park here and you don't get a ticket.
+            </p>
+          </li>
+        </ol>
+      </statement>
+      <solution>
+        <p>
+          The first two statements are irrelevant because we don't know what will happen if you park somewhere else. The third statement, however contradicts the conditional statement <q>If you park here, then you will get a ticket</q> because you parked here but didn't get a ticket.
+        </p>
+        <p>
+          This example demonstrates the general rule shown above that the negation of a conditional can be written as a conjunction: <q>It is not the case that if you park here, then you will get a ticket</q> is equivalent to <q>You park here and you do not get a ticket.</q>
+        </p>
       </solution>
     </example>
   </subsection>
