@@ -430,6 +430,12 @@
 		<p>
 			If the hypothesis (the <q>if</q> part) is false, we cannot say that the statement is a lie, so the result of the third and fourth rows is true. Notice that we are using a double negation in this explanation.
 		</p>
+		<assemblage xml:id="assemblage-conditional-tip">
+			<title>Note</title>
+			<p>
+				To better understand the conditional, think of it as a promise. A promise is false only if it is broken; otherwise, it is true.
+			</p>
+		</assemblage>
 		<example>
 			<statement>
 			<p>
