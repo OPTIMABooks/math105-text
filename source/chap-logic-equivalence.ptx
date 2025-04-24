@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-logic-equivalence" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Equivalence</title>
+
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Determine whether statements are logically equivalent.
+				</p>
+			</li>
+      <li>
+        <p>
+          Use equivalent forms of the conditional interchangeably.
+        </p>
+      </li>
+			<li>
+				<p>
+					Show statement are equivalent using truth tables.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+  <introduction>
+    <p>
+      Two statements are <term>logically equivalent</term> if they have the same truth value in every possible situation. In other words, no matter the circumstances, both statements are either true or false simultaneously.
+    This relationship is often denoted <m>P\equiv Q</m> symbolically, and means that statements <m>P</m> and <m>Q</m> are interchangeable in logical arguments.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-logic-contrapositive">
+    <title>Logical Equivalence and the Conditional</title>
+    <p>
+      
+    </p>
+  </subsection>
+
+</section>
