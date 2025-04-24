@@ -36,11 +36,67 @@
         p \to q \equiv \neg p \lor q.
       </me>
       To understand this intuitively, consider the following example. Keep in mind that symbolic logic cannot represent the English language example, and we may need to change verb tenses or otherwise rephrase to make equivalent forms clear.
+      (For a review of the conditional, re-read <xref text="global" ref="subsubsec-conditional-truth-table"/>.)
     </p>
     <example>
       <p>
         You are told <q>If the cookies contains nuts, then Alex cannot eat it</q>. With some thought, you should see that this is equivalent to saying <q>Either the cake does not contain nuts, or Alex cannot eat it</q>.
       </p>
+    </example>
+    <p>
+      While verbal example such as the one above illustrate our intuitive understanding that two statements are equivalent, equivalence is definitively demonstrated with a truth table. One advantage of a truth table is that the result can be shown independently of the specific details of a problem.
+    </p>
+    <example>
+      <statement>
+        <p>
+          Use a truth table to show that <m>p \to q \equiv \neg p \lor q</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We build a truth table as shown in <xref ref="sec-logic-truth-tables"/>. Begin by adding the standard columns for <m>p</m> and <m>q</m>, then continue by adding a third column for <m>\neg p</m> using column 1. Next, compute <m>\neg p \lor q</m> using columns 3 and 2. We end by adding a column for <m>p \to q</m> using columns 1 and 2.
+        </p>
+        <tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell><m>p</m></cell>
+            <cell><m>q</m></cell>
+            <cell><m>\neg p</m></cell>
+            <cell><m>\neg p \lor q</m></cell>
+            <cell><m>p\rightarrow q</m></cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell>F</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>F</cell>
+            <cell>F</cell>
+            <cell>F</cell>
+            <cell>F</cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>F</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+          </row>
+          </tabular>
+          <p>
+            Observe that the truth values in columns 4 and 5 match exactly. This demonstrates the equivalence of <m>p \to q</m> with <m>\neg p \lor q</m>.
+          </p>
+      </solution>
     </example>
   </subsection>
 

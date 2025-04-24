@@ -245,32 +245,32 @@
 			<p>
 				<term>If, then</term>: In the <m>P\rightarrow L</m> (read <q>If <m>P</m>, then <m>L</m></q>) column, the only outcome that is false is if you post the photo and don't lose your job. Otherwise <m>P\rightarrow L</m> is true.
 			</p>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row header="yes">
-					<cell><m>P</m></cell>
-					<cell><m>L</m></cell>
-					<cell><m>P\rightarrow L</m></cell>
-				</row>
-				<row>
-					<cell>T</cell>
-					<cell>T</cell>
-					<cell>T</cell>
-				</row>
-				<row>
-					<cell>T</cell>
-					<cell>F</cell>
-					<cell>F</cell>
-				</row>
-				<row>
-					<cell>F</cell>
-					<cell>T</cell>
-					<cell>T</cell>
-				</row>
-				<row>
-					<cell>F</cell>
-					<cell>F</cell>
-					<cell>T</cell>
-				</row>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row header="yes">
+				<cell><m>P</m></cell>
+				<cell><m>L</m></cell>
+				<cell><m>P\rightarrow L</m></cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
 			</tabular>
 		</sidebyside>
 		<p>
