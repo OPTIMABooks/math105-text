@@ -154,5 +154,97 @@
       </solution>
     </example>
   </subsection>
+  <subsection>
+    <title>The Contrapositive</title>
+    <p>
+      <em>And</em> and <em>or</em> statements can have their propositions reversed without affecting the truth value of the statement. If you need to buy beans <em>and</em> eggs, that's the same as buying eggs <em>and</em> beans. The order does matter for a conditional statement, however. Sometimes during an argument, an <em>if, then</em> statement will be reversed or combined with <em>not</em> in different ways. There are names for these combinations and it is helpful to look at which statements are equivalent to each other. Here are the names for the different combinations of <em>if, then</em> and <em>not</em> statements.
+    </p>
+    <!-- <table>
+      <title>Related Statements</title>   
+      <tabular>
+        <row >
+          <cell><term>Original Conditional</term></cell>
+          <cell>if <m>p</m>, then <m>q</m></cell>
+          <cell><m>p\to q</m></cell>
+        </row>
+        <row>
+          <cell><term>Converse</term></cell>
+          <cell>if <m>q</m>, then <m>p</m></cell>
+          <cell><m>q\to p</m></cell>
+        </row>
+      </tabular>
+    </table> -->
+    <p>
+      <ul>
+        <li>
+          <p>
+            <term> Original Conditional</term>: <m>p\to q</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Converse</term>: <m>q\to p</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Inverse</term>: <m>\neg p\to \neg q</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Contrapositive</term>: <m>\neg q\to \neg p</m>
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      The meaning of each of these forms is examined in the following example.
+    </p>
+    <example>
+      <statement>
+      <p>
+        Assume this original conditional statement is true: <q>If you take your dog to the park, they will be happy.</q> Write the converse, inverse and contrapositive of the original statement and determine which are equivalent to each other.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <ul>
+          <li>
+            <p>
+              Original Statement: <m>p</m> is, <q>You take your dog to the park,</q> and <q>q</q> is, <q>Your dog is happy.</q>
+            </p>
+          </li>
+          <li>
+            <p>
+              Converse: <q>If your dog is happy, then you took them to the park.</q> Notice we needed to change the tense to keep the order of events the same. If your dog is happy does that mean you took them to the park? Not necessarily, because there are other reasons your dog could be happy like getting a treat or taking a walk. So, this is false.
+            </p>
+          </li>
+          <li>
+            <p>
+              Inverse: <q>If you don't take your dog to the park, they will not be happy.</q> This is similar to the converse. Even if you don't take your dog to the park, they could be unhappy for another reason. This is false. The inverse is logically equivalent to the converse.
+            </p>
+          </li>
+          <li>
+            <p>
+              Contrapositive: <q>If your dog is not happy, then you did not take them to the park.</q> Since the original statement is true, then this is also true. Taking your dog to the park would result in them being happy, so if they are not happy we can say that they did not go to the park. The contrapositive is logically equivalent to the original statement.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </solution>
+    </example>
+    <p>
+      The above example provides intuition for the following fact.
+    </p>
+    <fact>
+      <title>Logical Equivalence of the Contrapositive</title>
+      <statement>
+        <p>
+          A <term>conditional</term> statement and its <term>contrapositive</term> are equivalent. The <term>converse</term> and <term>inverse</term> of a conditional statement are also equivalent.
+        </p>
+      </statement>
+    </fact>
+  </subsection>
 
 </section>
