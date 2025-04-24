@@ -28,12 +28,20 @@
     This relationship is often denoted <m>P\equiv Q</m> symbolically, and means that statements <m>P</m> and <m>Q</m> are interchangeable in logical arguments.
     </p>
   </introduction>
-
   <subsection xml:id="subsec-logic-contrapositive">
     <title>Logical Equivalence and the Conditional</title>
     <p>
-      
+      It may seem counterintuitive at first, but the conditional statement <q>if p, then q</q> (<m>p \to q</m>) can be written using negation and an OR statement. To be precise,
+      <me>
+        p \to q \equiv \neg p \lor q.
+      </me>
+      To understand this intuitively, consider the following example. Keep in mind that symbolic logic cannot represent the English language example, and we may need to change verb tenses or otherwise rephrase to make equivalent forms clear.
     </p>
+    <example>
+      <p>
+        You are told <q>If the cookies contains nuts, then Alex cannot eat it</q>. With some thought, you should see that this is equivalent to saying <q>Either the cake does not contain nuts, or Alex cannot eat it</q>.
+      </p>
+    </example>
   </subsection>
 
 </section>

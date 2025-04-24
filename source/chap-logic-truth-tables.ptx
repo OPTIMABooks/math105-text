@@ -196,7 +196,7 @@
 				</tabular>
 		</sidebyside>
 	</subsubsection>
-	<subsubsection>
+	<subsubsection xml:id="subsubsec-conditional-truth-table">
 		<title>Truth Tables for the Conditional</title>
 		<p>
 			 To understand the truth table values for a conditional statement it is really helpful to look at it in context. We used this example in <xref ref="sec-logic-propositions"/> and we'll summarize it again here. Let's say a friend tells you, <q>If you post that photo to social media, you'll lose your job.</q> Under what conditions can you say that your friend was wrong?
