@@ -309,4 +309,11 @@
 			</solution>
 		</example>
 	</subsection>
+	<subsection xml:id="subsec-logic-biconditional">
+		<title>The Biconditional</title>
+		<p>
+			In everyday life, we often have a stronger meaning in mind when we use a conditional statement. Consider the statement <q>If you submit your hours today, then you will be paid next Friday.</q> What the payroll representative really means is <q>If you submit your hours today, then you will be paid next Friday, and if you don't submit your hours today, then you won't be paid next Friday.</q> 
+			In this example, the conditional statement if <m>t</m>, then <m>p</m> also includes the (unspoken!) inverse of the statement: if not <m>t</m>, then not <m>p</m>. A more compact way to express this statement is <q>You will be paid next Friday if and only if you submit your timesheet today.</q> A statement of this form is called a <term>biconditional</term>.
+		</p>
+	</subsection>
 </section>

@@ -358,7 +358,8 @@
 	<subsection>
 		<title>Conditional Statements: <em>if, then</em></title>
 		<p>
-			A <term>conditional</term> statement connects two propositions with <em>if, then</em>. An example of a conditional statement would be <q><em>If</em> it is raining, <em>then</em> we'll go to the mall.</q> The first part (the <q><em>if</em></q> part) is called the <term>hypothesis</term> and the second part (the <q><em>then</em></q> part) is called the <term>conclusion</term>.
+			A <term>conditional</term> statement connects two propositions using <em>if, then</em>. An example of a conditional statement is <q><em>If</em> it is raining, <em>then</em> we'll go to the mall.</q>
+			The first part of the statement following <q><em>if</em></q> is called the <term>hypothesis</term> or the <term>antecedent</term>. The second part following <q><em>then</em></q> is called the <term>conclusion</term> or the <term>consequent</term>.
 		</p>
 		<p>
 			The statement, <q>It is raining,</q> may be true or false for any given day. If the hypothesis is true, then we will follow the course of action and go to the mall. If the hypothesis is false, though, we haven't said anything about what we will or won't do.
