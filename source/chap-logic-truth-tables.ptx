@@ -630,7 +630,7 @@
 					</row>
 				</tabular>
 				<p>
-					For the fourth column, we take the opposite of <m>p</m>. Then we use the first and fourth columns to complete <m>m \land \neg/,p</m>. Next, we use columns five and three to complete our conditional statement. 
+					For the fourth column, we take the opposite of <m>p</m>. Then we use the first and fourth columns to complete <m>m \land \neg\,p</m>. Next, we use columns five and three to complete our conditional statement. 
 					Be careful as we must read these columns right to left to get correct conditional values. Here is the completed table:
 				</p>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
