@@ -363,6 +363,12 @@
 		<p>
 			The statement, <q>It is raining,</q> may be true or false for any given day. If the hypothesis is true, then we will follow the course of action and go to the mall. If the hypothesis is false, though, we haven't said anything about what we will or won't do.
 		</p>
+		<assemblage xml:id="assemblage-conditional-tip">
+			<title>Tip</title>
+			<p>
+				To better understand the conditional, think of it as a promise. A promise is false only if it is broken; otherwise, it is true.
+			</p>
+		</assemblage>
 		<p>
 			 To understand the truth values for a conditional statement it is helpful to look at an example. Let's say a friend tells you, <q>If you post that photo on social media, you'll lose your job.</q> Under what conditions can you say that your friend was wrong?
 		</p>
@@ -398,7 +404,7 @@
 			 Your friend didn't say anything about what would happen if you didn't post the photo, so you can't say the last two statements are wrong. Even if you didn't post the photo and lost your job anyway, your friend never said that you were guaranteed to keep your job if you didn't post it.
 		</p>
 		<p>
-			In this case it can be useful to outline the possibilities and outcomes in a table. The four cases above correspond to the four rows of a truth table. If your class is using truth tables they are covered in a later section. For this table we will use P for <q>posting the photo,</q> and L for <q>losing your job.</q>
+			It may be helpful to outline the possibilities and outcomes of this example in a table. The four cases above correspond to the four rows of a <term>truth table</term>, a tool which will be covered in <xref ref="sec-logic-truth-tables"/>. For this table we will use <m>P</m> for <q>posting the photo,</q> and <m>L</m> for <q>losing your job.</q>
 		</p>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
@@ -430,12 +436,6 @@
 		<p>
 			If the hypothesis (the <q>if</q> part) is false, we cannot say that the statement is a lie, so the result of the third and fourth rows is true. Notice that we are using a double negation in this explanation.
 		</p>
-		<assemblage xml:id="assemblage-conditional-tip">
-			<title>Note</title>
-			<p>
-				To better understand the conditional, think of it as a promise. A promise is false only if it is broken; otherwise, it is true.
-			</p>
-		</assemblage>
 		<example>
 			<statement>
 			<p>
