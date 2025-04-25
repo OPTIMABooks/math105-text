@@ -361,5 +361,50 @@
 			and is read as <q><m>p</m> if and only if <m>q</m></q>.
 			</p>
 		</assemblage>
+		<example>
+			<statement>
+			<p>
+				Suppose this statement is true: <q>The garbage truck comes down my street if and only if it is Thursday morning.</q> Which of the following statements could be true?
+				<ol marker="a">
+					<li>
+						<p>
+							It is noon on Thursday and the garbage truck did not come down my street this morning.
+						</p>
+					</li>
+					<li>
+						<p>
+							It is Monday, and the garbage truck is coming down my street.
+						</p>
+					</li>
+					<li>
+						<p>
+							It is Wednesday at 11:59PM and the garbage truck did not come down my street today.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+			<p>
+				<ol marker="a">
+					<li>
+						<p>
+							This cannot be true. This is like the second row of the truth table; it is true that I just experienced Thursday morning, but it is false that the garbage truck came.
+						</p>
+					</li>
+					<li>
+						<p>
+							This cannot be true. This is like the third row of the truth table; it is false that it is Thursday, but it is true that the garbage truck came.
+						</p>
+					</li>
+					<li>
+						<p>
+							This could be true. This is like the fourth row of the truth table; it is false that it is Thursday, but it is also false that the garbage truck came, so everything worked out like it should.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</solution>
+		</example>
 	</subsection>
 </section>
