@@ -315,5 +315,38 @@
 			In everyday life, we often have a stronger meaning in mind when we use a conditional statement. Consider the statement <q>If you submit your hours today, then you will be paid next Friday.</q> What the payroll representative really means is <q>If you submit your hours today, then you will be paid next Friday, and if you don't submit your hours today, then you won't be paid next Friday.</q> 
 			In this example, the conditional statement if <m>t</m>, then <m>p</m> also includes the (unspoken!) inverse of the statement: if not <m>t</m>, then not <m>p</m>. A more compact way to express this statement is <q>You will be paid next Friday if and only if you submit your timesheet today.</q> A statement of this form is called a <term>biconditional</term>.
 		</p>
+		<sidebyside widths="60% 34%" margins="0% 0%" valign="middle">
+			<p>
+				Because a biconditional statement <m>p \leftrightarrow q</m> is equivalent to <m>(p \rightarrow q) \land (q \rightarrow p)</m>, we can think of it as a conditional statement combined with its converse: if <m>p</m>, then <m>q</m> and if <m>q</m>, then <m>p</m>. 
+				The double-headed arrow shows that the conditional statement goes from left to right and from right to left. A biconditional is considered true as long as the antecedent and the consequent have the same truth value; that is, they are either both true or both false.
+			</p>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row header="yes">
+					<cell><m>p</m></cell>
+					<cell><m>q</m></cell>
+					<cell><m>p \leftrightarrow q</m></cell>
+				</row>
+				<row>
+					<cell>T</cell>
+					<cell>T</cell>
+					<cell>T</cell>
+				</row>
+				<row>
+					<cell>T</cell>
+					<cell>F</cell>
+					<cell>F</cell>
+				</row>
+				<row>
+					<cell>F</cell>
+					<cell>T</cell>
+					<cell>F</cell>
+				</row>
+				<row>
+					<cell>F</cell>
+					<cell>F</cell>
+					<cell>F</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 	</subsection>
 </section>
