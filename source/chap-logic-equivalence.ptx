@@ -348,5 +348,18 @@
 				</row>
 			</tabular>
 		</sidebyside>
+		<assemblage xml:id="assemblage-logic-biconditional">
+			<title>Biconditional</title>
+			<p>
+				A biconditional is a logical conditional statement in which the antecedent and consequent are interchangeable.
+			</p>
+			<p>
+				A biconditional is written as 
+				<me>
+					p \leftrightarrow q
+				</me>
+			and is read as <q><m>p</m> if and only if <m>q</m></q>.
+			</p>
+		</assemblage>
 	</subsection>
 </section>
