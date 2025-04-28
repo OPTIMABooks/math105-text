@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-logic-arguments" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Arguments</title>
+
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Translate between symbolic logic and natural language.
+				</p>
+			</li>
+			<li>
+				<p>
+					Distinguish between deductive and inductive arguments.
+				</p>
+			</li>
+			<li>
+				<p>
+					Determine the validity and soundness of a deductive argument.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	
+    <p>
+        
+    </p>
+</section>

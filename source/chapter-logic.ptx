@@ -56,6 +56,7 @@
 	<xi:include href="chap-logic-propositions.ptx" />
 	<xi:include href="chap-logic-truth-tables.ptx" />
 	<xi:include href="chap-logic-equivalence.ptx" />
+	<xi:include href="chap-logic-arguments.ptx" />
 	<xi:include href="chap-logic-fallacies.ptx" />
 
 </chapter>
