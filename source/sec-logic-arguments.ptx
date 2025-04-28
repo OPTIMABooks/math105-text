@@ -111,5 +111,16 @@
 		<p>
 			We can determine whether an argument is inductive or deductive by looking at which part of the argument is general and which is specific. In the first example, the premises were specific and the conclusion was more general. This is an example of an <term>inductive</term> argument. In the second example, it was the premises that were more general and the conclusion that was specific. This is an example of a <term>deductive</term> argument. 
 		</p>
+		<p>
+			In general, an <term>inductive argument</term> uses a collection of <em>specific</em> examples (i.e. data) as its premises and uses them to propose a <em>general</em> conclusion. This is shown in the image on the left below, where the argument moves from the narrow specific premises at the bottom up to the wide general conclusion at the top. A <term>deductive argument</term> uses a collection of <em>general statements</em> (i.e. definitions) as its premises and uses them to propose a <em>specific conclusion</em>. This is shown in the image to the right below, where the argument moves from the wide general premises at the bottom to the narrow specific conclusion at the top.
+		</p>
+		<sidebyside widths="40% 40%">
+			<image source="images/logic/ind_ded_argument1.png">
+			<shortdescription>A pyramid upside down with the narrow end at the bottom for a specific premise, the middle section is another specific premise; the wide part at the top is for the general conclusion</shortdescription>
+			</image>
+			<image source="images/logic/ind_ded_argument2.png">
+			<shortdescription>A pyramid right-side up with the wide base at the bottom for a general premise; another general premise in the middle section, and a specific conclusion in the narrow part at the top</shortdescription>
+			</image>
+		</sidebyside>
 	</subsection>
 </section>
