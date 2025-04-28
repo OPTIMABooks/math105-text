@@ -45,10 +45,10 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="chap-finance-simple-interest.ptx" />
-  <xi:include href="chap-finance-compound-interest.ptx" />
-  <xi:include href="chap-finance-savings_plans.ptx" />
-  <xi:include href="chap-finance-loans.ptx" />
-  <xi:include href="chap-finance-income-tax.ptx" />
+  <xi:include href="sec-finance-simple-interest.ptx" />
+  <xi:include href="sec-finance-compound-interest.ptx" />
+  <xi:include href="sec-finance-savings_plans.ptx" />
+  <xi:include href="sec-finance-loans.ptx" />
+  <xi:include href="sec-finance-income-tax.ptx" />
 
 </chapter>
