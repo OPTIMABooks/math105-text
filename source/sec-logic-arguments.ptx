@@ -34,4 +34,46 @@
 			In this section we will look at <term>inductive</term> and <term>deductive</term> arguments and how to determine the strength, validity, and/or soundness of each. We will use truth tables as our primary tool for determining the validity of deductive arguments, but will also list several standard argument forms.
 		</p>
 	</introduction>
+	<subsection>
+		<title>Inductive and Deductive Arguments</title>
+		
+		<p>
+			The two types of arguments presented in this section are inductive and deductive arguments.  It is important to understand the difference between these two types because the analysis we apply is quite different. To better understand the difference between inductive and deductive arguments, let us begin by looking at a couple of examples.
+		</p>
+		<note>
+			<p>
+				To analyze an argument is is helpful to precisely state its premises and conclusion. Most arguments you encounter in the real world won't be stated in a precise <q>premise, premise, conclusion</q> form. Sometimes the conclusion will be stated before the premises, or the premises will be hidden within a bunch of rhetoric.
+			</p>
+		</note>
+		<example>
+			<p>
+				Consider the following argument:
+			</p>
+				<blockquote>
+					<p>
+						When I went to the store last week, I forgot my wallet, and I forgot it again when I went back today. I always forget my wallet when I go to the store.
+					</p>
+				</blockquote>
+			<p>
+				To begin our analysis of this first argument, let's first rewrite it in a more precise <q>premise, premise, conclusion</q> form.
+			</p>
+			<tabular>
+				<row>
+					<cell><alert>P1:</alert></cell>
+					<cell>I forgot my wallet when I went to the store last week.</cell>
+				</row>
+				<row bottom="minor">
+					<cell><alert>P2:</alert></cell>
+					<cell>I forgot my wallet when I went to the store today.</cell>
+				</row>
+				<row>
+					<cell><alert>C:</alert></cell>
+					<cell>I always forget my wallet when I go to the store.</cell>
+				</row>
+			</tabular>
+			<p>
+				Notice that both premises make a claim about a <alert>specific</alert> instance - the specific instance last week when I forgot my wallet, and the specific instance today when I forgot my wallet. The conclusion, on the other hand, states what we can expect to happen more generally.
+			</p>
+		</example>
+	</subsection>
 </section>
