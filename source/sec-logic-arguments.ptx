@@ -75,5 +75,41 @@
 				Notice that both premises make a claim about a <alert>specific</alert> instance - the specific instance last week when I forgot my wallet, and the specific instance today when I forgot my wallet. The conclusion, on the other hand, states what we can expect to happen more generally.
 			</p>
 		</example>
+		<p>
+			Now let's consider a different argument. As you read it, think about how it differs from the previous example.
+		</p>
+		<example>
+			<p>
+				Argument:
+			</p>
+			<blockquote>
+				<p>
+					Henry must know CPR because he is a nurse and all nurses know CPR.					
+				</p>
+			</blockquote>
+			<p>
+				Just as we did for the last example, rewrite the argument in its <q>premise, premise, conclusion</q> form for clarity:
+			</p>
+			<tabular>
+				<row>
+					<cell><alert>P1:</alert></cell>
+					<cell>All nurses know CPR.</cell>
+				</row>
+				<row bottom="minor">
+					<cell><alert>P2:</alert></cell>
+					<cell>Henry is a nurse.</cell>
+				</row>
+				<row>
+					<cell><alert>C:</alert></cell>
+					<cell>Henry knows CPR.</cell>
+				</row>
+			</tabular>
+			<p>
+				Unlike the first argument where the premises were specific and the conclusion was general, this argument's first premise is a general statement and the conclusion is specific.
+			</p>
+		</example>
+		<p>
+			We can determine whether an argument is inductive or deductive by looking at which part of the argument is general and which is specific. In the first example, the premises were specific and the conclusion was more general. This is an example of an <term>inductive</term> argument. In the second example, it was the premises that were more general and the conclusion that was specific. This is an example of a <term>deductive</term> argument. 
+		</p>
 	</subsection>
 </section>
