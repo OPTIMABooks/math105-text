@@ -406,5 +406,95 @@
 			</p>
 			</solution>
 		</example>
+		<p>
+			As shown in the next example, the biconditional can be used in truth table problems as seen in <xref ref="sec-logic-truth-tables"/>. 
+		</p>
+		<example>
+			<statement>
+				<p>
+					Create a truth table for the statement <m>(A\lor B)\leftrightarrow \neg C</m>.
+				</p>
+			</statement>
+			<solution>
+				<p>
+					We start by listing all the possible truth value combinations for <m>A,\ B</m>, and <m>C</m>. After creating those three columns, we create a fourth column for the antecedent, <m>A \lor B</m>, whose values we find by temporarily ignoring the column for <m>C</m> and focusing on <m>A</m> and <m>B</m>.
+					Next, we can create a column for the negation of <m>C</m>.  Finally, we find the truth values of <m>(A \lor B) \leftrightarrow \neg C</m>. Remember, a biconditional is true when the truth value of the two parts match, but it is false when the truth values do not match. The resulting table is shown below.
+				</p>
+				<tabular halign= "center" top="minor" left="minor" right="minor" bottom="minor">
+					<row  header="yes">
+						<cell><m>A</m></cell>
+						<cell><m>B</m></cell>
+						<cell><m>C</m></cell>
+						<cell><m>(A \lor B)</m></cell>
+						<cell><m>\neg C</m></cell>
+						<cell><m>(A\lor B)\leftrightarrow \neg C</m></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+					</row>
+				</tabular>
+			</solution>
+		</example>
 	</subsection>
 </section>

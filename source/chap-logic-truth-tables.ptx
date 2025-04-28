@@ -387,157 +387,157 @@
 				<p>
 					Here is the initial table:
 				</p>
-						<tabular halign= "center" top="minor" left="minor" right="minor" bottom="minor">
-							<row  header="yes">
-								<cell><m>A</m></cell>
-								<cell><m>B</m></cell>
-								<cell><m>C</m></cell>
-								<cell><m>(B \lor C)</m></cell>
-								<cell><m>\neg(B \lor C)</m></cell>
-								<cell><m>A \land\neg(B \lor C)</m></cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-						</tabular>
+				<tabular halign= "center" top="minor" left="minor" right="minor" bottom="minor">
+					<row  header="yes">
+						<cell><m>A</m></cell>
+						<cell><m>B</m></cell>
+						<cell><m>C</m></cell>
+						<cell><m>(B \lor C)</m></cell>
+						<cell><m>\neg(B \lor C)</m></cell>
+						<cell><m>A \land\neg(B \lor C)</m></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+				</tabular>
 				<p>
 					Now we complete the columns one at a time. We use the <m>B</m> column and <m>C</m> column to complete <m>B \lor C</m>. Then, <m>\neg(B \lor C)</m> is the opposite of that column. For the final column we only need to look at the first and fifth columns, shaded in blue, with AND. Here is the completed table.
 				</p>
-						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-							<row  header="yes">
-								<cell><m>A</m></cell>
-								<cell><m>B</m></cell>
-								<cell><m>C</m></cell>
-								<cell><m>(B \lor C)</m></cell>
-								<cell><m>\neg(B \lor C)</m></cell>
-								<cell><m>A \land\neg(B \lor C)</m></cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-							</row>
-							<row>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>F</cell>
-								<cell>T</cell>
-								<cell>F</cell>
-							</row>
-						</tabular>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row  header="yes">
+						<cell><m>A</m></cell>
+						<cell><m>B</m></cell>
+						<cell><m>C</m></cell>
+						<cell><m>(B \lor C)</m></cell>
+						<cell><m>\neg(B \lor C)</m></cell>
+						<cell><m>A \land\neg(B \lor C)</m></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+					</row>
+				</tabular>
 				<p>
 					For this statement <m>A</m> must be true and neither <m>B</m> nor <m>C</m> can be true, so <m>A \land\neg(B \lor C)</m> is only true in the fourth row. 
 				</p>
