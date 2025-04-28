@@ -7,6 +7,11 @@
 		<ul>
 			<li>
 				<p>
+					Understand the structure of logical arguments by identifying the premise(s) and conclusion.
+				</p>
+			</li>
+			<li>
+				<p>
 					Translate between symbolic logic and natural language.
 				</p>
 			</li>
@@ -22,8 +27,11 @@
 			</li>
 		</ul>
 	</objectives>
-	
-    <p>
-        
-    </p>
+
+	<introduction>
+		<p>
+			A <term>logical argument</term> is a claim that a set of propositions, called <term>premises</term> or <term>hypotheses</term>, support a proposition called the <alert>conclusion</alert>.
+			In this section we will look at <term>inductive</term> and <term>deductive</term> arguments and how to determine the strength, validity, and/or soundness of each. We will use truth tables as our primary tool for determining the validity of deductive arguments, but will also list several standard argument forms.
+		</p>
+	</introduction>
 </section>
