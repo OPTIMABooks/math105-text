@@ -159,21 +159,6 @@
 		<p>
 			<em>And</em> and <em>or</em> statements can have their propositions reversed without affecting the truth value of the statement. If you need to buy beans <em>and</em> eggs, that's the same as buying eggs <em>and</em> beans. The order does matter for a conditional statement, however. Sometimes during an argument, an <em>if, then</em> statement will be reversed or combined with <em>not</em> in different ways. There are names for these combinations and it is helpful to look at which statements are equivalent to each other. Here are the names for the different combinations of <em>if, then</em> and <em>not</em> statements.
 		</p>
-		<!-- <table>
-			<title>Related Statements</title>   
-			<tabular>
-				<row >
-					<cell><term>Original Conditional</term></cell>
-					<cell>if <m>p</m>, then <m>q</m></cell>
-					<cell><m>p\to q</m></cell>
-				</row>
-				<row>
-					<cell><term>Converse</term></cell>
-					<cell>if <m>q</m>, then <m>p</m></cell>
-					<cell><m>q\to p</m></cell>
-				</row>
-			</tabular>
-		</table> -->
 		<p>
 			<ul>
 				<li>

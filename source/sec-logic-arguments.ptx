@@ -219,6 +219,82 @@
 				There are various ways to evaluate deductive logical arguments. Our focus here will be the use of truth tables. In this method, the verbal argument is translated into mathematical notation and all possible truth values of the statement are organized in a table. The argument is valid when the conclusion is true whenever all premises are true, and invalid when there is at least one scenario where the premises are true but the conclusion is false. 
 				The advantage of this method is that it requires no knowledge of logical forms. However, it can be tedious for complicated problems, especially those requiring more than 2 or 3 propositions.
 			</p>
+			<example>
+				<statement>
+					<p>
+						Suppose each of the following statements are true:
+						<ol>
+							<li>Either the security system was activated or the alarm went off, but not both.</li>
+							<li>The alarm did not go off.</li>
+						</ol>
+						Prove that "The security system was activated."
+					</p>
+				</statement>
+				<solution>
+					<p>
+						First, define the necessary logical variables:
+						<ul>
+							<li>Let <m>S</m> = <q>The security system was activated</q></li>
+							<li>Let <m>A</m> = <q>The alarm went off</q></li>
+						</ul>
+						The first statement can be written as: <m>(S \lor A) \land \lnot(S \land A)</m>, which is more simply written using the symbol for the exclusive OR  <m>S \oplus A</m>.
+						Similarly, the second statement may be written as <m>\lnot A</m>, and the conclusion is simply <m>S</m>. 
+						In its briefest form, the argument is thus
+					</p>
+					<tabular>
+						<row>
+							<cell><alert>P1:</alert></cell>
+							<cell><m>S \oplus A</m>,</cell>
+						</row>
+						<row bottom="minor">
+							<cell><alert>P2:</alert></cell>
+							<cell><m>\lnot A</m>,</cell>
+						</row>
+						<row>
+							<cell><alert>C:</alert></cell>
+							<cell><m>S</m>.</cell>
+						</row>
+					</tabular>
+					<p>
+						To evaluate this argument we need a truth table with columns for <m>S</m>, <m>A</m>, <m>S \oplus A</m>, and <m>\neg A</m>.
+					</p>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row header="yes">
+							<cell><m>S</m></cell>
+							<cell><m>A</m></cell>
+							<cell><m>S \oplus A</m></cell>
+							<cell><m>\neg A</m></cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+						</row>
+					</tabular>
+					<p>
+						To evaluate the argument, we ask if the conclusion is true every time the premises are true. Row two of the truth table shows this to be the case. <alert>P1</alert> and <alert>P2</alert> (columns 2 and 4) are true and the conclusion (first column) is true as well.  Thus, this is a <alert>valid</alert> argument.
+					</p>
+				</solution>
+			</example>
 			
 		</subsection>
 
