@@ -186,4 +186,32 @@
 		</p>
 		</solution>
 	</example>
+	<subsection>
+		<title>Evaluating Arguments</title>
+		<p>
+			Inductive arguments cannot be proven. The best we can do is evaluate the <term>strength</term> of the argument based on the evidence it provides.
+		</p> 
+		<p>
+			A strong inductive argument is one that is well supported by its premises, while a weak inductive argument is one whose premises do a poor job of supporting the conclusion. The strength of an inductive argument is subjective, because where one person sees a strong argument, another may see a weak argument. Additionally, the strength and truth of an argument are not necessarily related; it is possible to have a weak argument that is true, and a strong argument that is false.
+		</p>
+		<example>
+			<statement>
+			<p>
+				Determine the strength of the inductive argument. 
+			</p>
+			<p>
+				James Franco, Jodie Foster, Jennifer Lawrence, and Jack Nicholson have all won Academy Awards for acting. Actors whose names start with J are bound to win an Academy Award.
+			</p>
+			</statement>
+			<solution>
+				<p>
+					The inductive argument provides a number of specific cases as evidence for the conclusion. However, we would not be surprised if a J-named actor <em>did not</em> win an Academy Award, so the argument is weak.
+				</p>
+			</solution>
+		</example>
+		<p>
+			Deductive arguments, on the other hand, can be proven and their validity and soundness can be evaluated. The <term>validity</term> of the argument is based on whether the conclusion follows logically from the premises, while the <term>soundness</term> of the argument is based on whether or not the premises are true. An argument cannot be sound if it is not valid, even if the premises seem reasonable. 
+		</p>
+	</subsection>
+	
 </section>
