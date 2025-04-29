@@ -122,70 +122,70 @@
 			<shortdescription>A pyramid right-side up with the wide base at the bottom for a general premise; another general premise in the middle section, and a specific conclusion in the narrow part at the top</shortdescription>
 			</image>
 		</sidebyside>
+		<example>
+			<statement>
+			<p>
+				Rewrite the following arguments in a precise <q>premise, premise, conclusion</q>> form, and determine if the argument is inductive or deductive.
+				<ol marker="a.">
+					<li>
+						<p>
+							A number is prime if it is only divisible by itself and one. Since the number 13 is only divisible by itself and one, 13 must be prime. 
+						</p>
+					</li>
+					<li>
+						<p>
+							Juan's dog Goober is having puppies. All three of Goober's previous litters have had 5 puppies so Goober is bound to have 5 puppies in this litter as well. 
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+			<p>
+				<ol marker="a.">
+					<li>
+						<tabular>
+							<row>
+								<cell><alert>P1:</alert></cell>
+								<cell>If a number is only divisible by itself and one, the number is prime.</cell>
+							</row>
+							<row bottom="minor">
+								<cell><alert>P2:</alert></cell>
+								<cell>The number 13 is only divisible by itself and one.</cell>
+							</row>
+							<row>
+								<cell><alert>C:</alert></cell>
+								<cell>13 is prime.</cell>
+							</row>
+						</tabular>
+						<p>
+							Since the premises are general definitions and properties of numbers and the conclusion is a specific statement about the number 13, the argument is <alert>deductive</alert>.
+						</p>
+					</li>
+					<li>
+						<tabular>
+							<row>
+								<cell><alert>P1:</alert></cell>
+								<cell>Goober is having puppies.</cell>
+							</row>
+							<row bottom="minor">
+								<cell><alert>P2:</alert></cell>
+								<cell>Goober's last three litters had 5 puppies.</cell>
+							</row>
+							<row>
+								<cell><alert>C:</alert></cell>
+								<cell>Goober's current litter will have 5 puppies.</cell>
+							</row>
+						</tabular>
+						<p>
+							This is an example of an <alert>inductive argument</alert> since it uses specific experiences/instances as its premises, and its conclusion is a general expectation based on those specific experiences.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</solution>
+		</example>
 	</subsection>
-	<example>
-		<statement>
-		<p>
-			Rewrite the following arguments in a precise <q>premise, premise, conclusion</q>> form, and determine if the argument is inductive or deductive.
-			<ol marker="a.">
-				<li>
-					<p>
-						A number is prime if it is only divisible by itself and one. Since the number 13 is only divisible by itself and one, 13 must be prime. 
-					</p>
-				</li>
-				<li>
-					<p>
-						Juan's dog Goober is having puppies. All three of Goober's previous litters have had 5 puppies so Goober is bound to have 5 puppies in this litter as well. 
-					</p>
-				</li>
-			</ol>
-		</p>
-		</statement>
-		<solution>
-		<p>
-			<ol marker="a.">
-				<li>
-					<tabular>
-						<row>
-							<cell><alert>P1:</alert></cell>
-							<cell>If a number is only divisible by itself and one, the number is prime.</cell>
-						</row>
-						<row bottom="minor">
-							<cell><alert>P2:</alert></cell>
-							<cell>The number 13 is only divisible by itself and one.</cell>
-						</row>
-						<row>
-							<cell><alert>C:</alert></cell>
-							<cell>13 is prime.</cell>
-						</row>
-					</tabular>
-					<p>
-						Since the premises are general definitions and properties of numbers and the conclusion is a specific statement about the number 13, the argument is <alert>deductive</alert>.
-					</p>
-				</li>
-				<li>
-					<tabular>
-						<row>
-							<cell><alert>P1:</alert></cell>
-							<cell>Goober is having puppies.</cell>
-						</row>
-						<row bottom="minor">
-							<cell><alert>P2:</alert></cell>
-							<cell>Goober's last three litters had 5 puppies.</cell>
-						</row>
-						<row>
-							<cell><alert>C:</alert></cell>
-							<cell>Goober's current litter will have 5 puppies.</cell>
-						</row>
-					</tabular>
-					<p>
-						This is an example of an <alert>inductive argument</alert> since it uses specific experiences/instances as its premises, and its conclusion is a general expectation based on those specific experiences.
-					</p>
-				</li>
-			</ol>
-		</p>
-		</solution>
-	</example>
 	<subsection>
 		<title>Evaluating Arguments</title>
 		<p>
