@@ -213,5 +213,14 @@
 			Deductive arguments, on the other hand, can be proven and their validity and soundness can be evaluated. The <term>validity</term> of the argument is based on whether the conclusion follows logically from the premises, while the <term>soundness</term> of the argument is based on whether or not the premises are true. An argument cannot be sound if it is not valid, even if the premises seem reasonable. 
 		</p>
 	</subsection>
+	<subsection>
+		<title>Evaluating Deductive Arguments Using Truth Tables</title>
+			<p>
+				There are various ways to evaluate deductive logical arguments. Our focus here will be the use of truth tables. In this method, the verbal argument is translated into mathematical notation and all possible truth values of the statement are organized in a table. The argument is valid when the conclusion is true whenever all premises are true, and invalid when there is at least one scenario where the premises are true but the conclusion is false. 
+				The advantage of this method is that it requires no knowledge of logical forms. However, it can be tedious for complicated problems, especially those requiring more than 2 or 3 propositions.
+			</p>
+			
+		</subsection>
+
 	
 </section>
