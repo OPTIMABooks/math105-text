@@ -260,10 +260,10 @@
 					</p>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
-							<cell><m>S</m></cell>
+							<cell>C: <m>S</m></cell>
 							<cell><m>A</m></cell>
-							<cell><m>S \oplus A</m></cell>
-							<cell><m>\neg A</m></cell>
+							<cell>P1: <m>S \oplus A</m></cell>
+							<cell>P2: <m>\neg A</m></cell>
 						</row>
 						<row>
 							<cell>T</cell>
@@ -294,6 +294,149 @@
 						To evaluate the argument, we ask if the conclusion is true every time the premises are true. Row two of the truth table shows this to be the case. <alert>P1</alert> and <alert>P2</alert> (columns 2 and 4) are true and the conclusion (first column) is true as well.  Thus, this is a <alert>valid</alert> argument.
 					</p>
 				</solution>
+			</example>
+			<p>
+				Here is an example requiring three proportions.
+			</p>
+			<example>
+				<statement>
+					<p>
+						Suppose each of the following statements are true:
+						<ol>
+							<li>It is snowing.</li>
+							<li>If it is warm, then it is not snowing.</li>
+							<li>If it is not warm, then I cannot go swimming.</li>
+						</ol>
+						Prove: I cannot go swimming.
+					</p>
+				</statement>
+				<solution>
+					<p>
+						Begin by clearly defining the necessary logical variables:
+						<ul>
+							<li>Let <m>p</m> = <q>It is snowing.</q></li>
+							<li>Let <m>q</m> = <q>It is warm.</q></li>
+							<li>Let <m>r</m> = <q>I can go swimming.</q></li>
+						</ul>
+						You could of course write <m>r</m> as the negative <q>I cannot go swimming</q>, but writing the statements without negatives reduces the confusion of potential double negatives later in a problem. Using these symbols, the argument can be summarized as:
+					</p>
+					<tabular>
+						<row>
+							<cell><alert>P1:</alert></cell>
+							<cell><m>p</m>,</cell>
+						</row>
+						<row>
+							<cell><alert>P2:</alert></cell>
+							<cell><m>q \rightarrow \neg r</m>,</cell>
+						</row>
+						<row bottom="minor">
+							<cell><alert>P3:</alert></cell>
+							<cell><m>\lnot q \rightarrow \neg r</m>,</cell>
+						</row>
+						<row>
+							<cell><alert>C:</alert></cell>
+							<cell><m>\lnot r</m>.</cell>
+						</row>
+					</tabular>
+					<p>
+						Next, create a truth table for the above argument, where each premise and the conclusion appear in a column. Here is the table for this example.
+					</p>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row header="yes">
+							<cell>P1: <m>p</m></cell>
+							<cell><m>q</m></cell>
+							<cell><m>r</m></cell>
+							<cell><m>\lnot p</m></cell>
+							<cell><m>\lnot q</m></cell>
+							<cell>C: <m>\lnot r</m></cell>
+							<cell>P2: <m>q \to\lnot p</m></cell>
+							<cell>P3: <m>\lnot q\to\lnot r</m></cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+						</row>
+					</tabular>
+				</solution>
+				<p>
+					Row 4 of this table shows that the argument is valid. In this row, each of the 3 premises is true as is the conclusion.
+				</p>
 			</example>
 			
 		</subsection>
