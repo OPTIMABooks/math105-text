@@ -638,6 +638,16 @@
 					</p>
 				</statement>
 			</fact>
+			<example>
+				<blockquote>
+					<p>
+						If you bought bread, then you went to the store. You bought bread. Therefore, you went to the store.
+					</p>
+				</blockquote>
+				<p>
+					This argument has the structure described by the law of detachment: the second premise and the conclusion are simply the two parts of the first premise detached from each other. Instead of making a truth table, we can say that this argument is valid by stating that it satisfies the law of detachment.
+				</p>
+			</example>
 		</subsubsection>
 	</subsection>
 </section>
