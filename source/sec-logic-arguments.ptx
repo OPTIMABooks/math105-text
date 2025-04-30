@@ -196,12 +196,14 @@
 		</p>
 		<example>
 			<statement>
-			<p>
-				Determine the strength of the inductive argument. 
-			</p>
-			<p>
-				James Franco, Jodie Foster, Jennifer Lawrence, and Jack Nicholson have all won Academy Awards for acting. Actors whose names start with J are bound to win an Academy Award.
-			</p>
+				<p>
+					Determine the strength of the inductive argument. 
+				</p>
+				<blockquote>
+					<p>
+						James Franco, Jodie Foster, Jennifer Lawrence, and Jack Nicholson have all won Academy Awards for acting. Actors whose names start with J are bound to win an Academy Award.
+					</p>
+				</blockquote>
 			</statement>
 			<solution>
 				<p>
@@ -679,6 +681,16 @@
 			<p>
 				Notice that the second premise and the conclusion look like the contrapositive of the first premise, <m>\neg q \to \neg p</m>, but they have been detached. Think of the law of contraposition as a combination of the law of detachment and the fact that the contrapositive is logically equivalent to the original statement.
 			</p>
+			<example>
+				<blockquote>
+					<p>
+						If I drop my phone into the swimming pool, my phone will be ruined. My phone isn't ruined. Therefore, I didn't drop my phone into the swimming pool.
+					</p>
+				</blockquote>
+				<p>
+					The form of this argument matches what we need to invoke the law of contraposition, so it is a valid argument.
+				</p>
+			</example>
 		</subsubsection>
 	</subsection>
 </section>
