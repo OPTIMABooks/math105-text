@@ -692,5 +692,45 @@
 				</p>
 			</example>
 		</subsubsection>
+		<subsubsection>
+			<title>The Transitive Property</title>
+			<p>
+				The transitive property (or <term>Hypothetical Syllogism</term>) has as its premises a series of conditionals, where the consequent of one is the antecedent of the next. The conclusion is a conditional with the same antecedent as the first premise and the same consequent as the final premise. 
+				In other words, the transitive property describes a chain reaction: if the first thing happens, then the second thing happens, and if the second thing happens, then the third thing happens. Therefore, if we want to ignore the second thing, we can say that if the first thing happens, then we know the third thing will happen. 
+				The general form is:
+			</p>
+			<tabular>
+				<row>
+					<cell><alert>P1:</alert></cell>
+					<cell><m>p \to q</m>,</cell>
+				</row>
+				<row bottom="minor">
+					<cell><alert>P2:</alert></cell>
+					<cell><m>q\to r</m>,</cell>
+				</row>
+				<row>
+					<cell><alert>C:</alert></cell>
+					<cell><m>p \to r</m>.</cell>
+				</row>
+			</tabular>
+			<fact>
+				<title>The Transitive Property</title>			
+				<statement>
+					<p>
+						If the conditional <m>p \to q</m> is true and the conditional <m>q \to r</m> is true, then <m>p \to r</m> must be true.
+					</p>
+				</statement>
+			</fact>
+			<example>
+				<blockquote>
+					<p>
+						If a soccer player commits a reckless foul, she will receive a yellow card. If Hayley receives a yellow card, she will be suspended for the next match. Therefore, if Hayley commits a reckless foul, she will be suspended for the next match.
+					</p>
+				</blockquote>
+				<p>
+					This argument has the exact structure required to use the transitive property, so it is a valid argument.
+				</p>
+			</example>
+		</subsubsection>
 	</subsection>
 </section>
