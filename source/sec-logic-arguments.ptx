@@ -453,7 +453,149 @@
 			<p>
 				Even one instance where the premises are true and the conclusion false invalidates an argument. It does not matter if there is another row in the table where the premises are true and the conclusion is true. The next example illustrates an invalid argument.
 			</p>
+			<example>
+				<statement>
+					<p>
+						Evaluate the validity of the following argument.
+					</p>
+					<blockquote>
+						<p>
+							If taxes are cut, then retail sales increase. If retail sales increase, then the economy improves. Thus, if taxes are not cut, the economy will not improve.
+						</p>
+					</blockquote>
+				</statement>
+				<solution>
+					<p>
+						First, define the necessary logical variables:
+						<ul>
+							<li>Let <m>p</m> = <q>Taxes are cut.</q></li>
+							<li>Let <m>q</m> = <q>Retail sales increase.</q></li>
+							<li>Let <m>r</m> = <q>The economy improves.</q></li>
+						</ul>
+						The argument is summarized symbolically as
+					</p>
+					<tabular>
+						<row>
+							<cell><alert>P1:</alert></cell>
+							<cell><m>p \to q</m>,</cell>
+						</row>
+						<row bottom="minor">
+							<cell><alert>P2:</alert></cell>
+							<cell><m>q \rightarrow  r</m>,</cell>
+						</row>
+						<row>
+							<cell><alert>C:</alert></cell>
+							<cell><m>\lnot p \rightarrow \lnot r</m>.</cell>
+						</row>
+					</tabular>
+					<p>
+						Next, create a truth table for the above argument. Make sure each premise and the conclusion appear in a column. Here we number the rows for easy reference, but in general this is not necessary.
+					</p>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row header="yes">
+							<cell>row</cell>
+							<cell><m>p</m></cell>
+							<cell><m>q</m></cell>
+							<cell><m>r</m></cell>
+							<cell>P1: <m>p\to q</m></cell>
+							<cell>P2: <m>q\to r</m></cell>
+							<cell><m>\neg p</m></cell>
+							<cell><m>\neg r</m></cell>
+							<cell>C: <m>\neg p \to \neg r</m></cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+						</row>
+						<row>
+							<cell>5</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>6</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+						</row>
+						<row>
+							<cell>7</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+						</row>
+						<row>
+							<cell>8</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>F</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+							<cell>T</cell>
+						</row>
+					</tabular>
+					<p>
+						Notice that in rows 1 and 8 each premise and the conclusion are true. This might make you think the argument is valid. However, in rows 5 and 7 the premises are true but the conclusion is false! This demonstrates that the argument is <em>invalid</em>. To be valid <em>every</em> row where the premises are true must have a true conclusion as well.
+					</p>
+				</solution>
+			</example>
 		</subsection>
-
-	
 </section>
