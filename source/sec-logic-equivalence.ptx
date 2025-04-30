@@ -222,7 +222,7 @@
 		<p>
 			The above example provides intuition for the following fact.
 		</p>
-		<fact>
+		<fact xml:id="fact-logic-equivalence-contrapositive">
 			<title>Logical Equivalence of the Contrapositive</title>
 			<statement>
 				<p>

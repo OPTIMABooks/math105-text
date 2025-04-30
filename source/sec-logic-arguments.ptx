@@ -597,5 +597,9 @@
 					</p>
 				</solution>
 			</example>
+			<p>
+				<xref ref="ex-logic-invalid-argument-table"/> is invalid because it commits the fallacy of <term>denying the antecedent</term>, which is based on the mistaken assumption that a conditional and its inverse are equivalent, as described in <xref ref="fact-logic-equivalence-contrapositive"/>.  
+				Even with the premises being true, the economy could still improve for reasons completely unrelated to tax cuts and retail sales. If you are interested in learning more about common logical fallacies, consider reading the next section of this chapter, <xref ref="sec-logic-fallacies"/>.
+			</p>
 		</subsection>
 </section>
