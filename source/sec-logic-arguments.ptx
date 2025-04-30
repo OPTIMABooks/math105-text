@@ -614,7 +614,7 @@
 		<introduction>
 			<p>
 				Evaluating arguments by truth table is accurate and powerful, it can be tedious and exhausting to make them. Also, it is sometimes redundant, as arguments about different topics may have the same logical form. 
-				If we are able to recognize certain common forms of arguments as valid (or invalid), we can evaluate validity without the tedium of creating a table. The following is a sampling of valid logical forms.
+				If we are able to recognize certain common forms of arguments as valid (or invalid), we can evaluate validity without the tedium of creating a table. The following is a sampling of valid logical forms. Invalid logical forms (or <term>fallacies</term>) are discussed in <xref ref="sec-logic-fallacies"/>.
 			</p>
 		</introduction>
 		<subsubsection >
