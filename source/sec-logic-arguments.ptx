@@ -453,7 +453,7 @@
 			<p>
 				Even one instance where the premises are true and the conclusion false invalidates an argument. It does not matter if there is another row in the table where the premises are true and the conclusion is true. The next example illustrates an invalid argument.
 			</p>
-			<example>
+			<example xml:id="ex-logic-invalid-argument-table">
 				<statement>
 					<p>
 						Evaluate the validity of the following argument.
