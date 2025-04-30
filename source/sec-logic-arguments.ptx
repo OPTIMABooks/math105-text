@@ -613,7 +613,7 @@
 		<subsubsection >
 			<title>The Law of Detachment</title>
 			<p>
-				Also called by its Latin name, <foreign>modus ponens</foreign> (<q>mode that affirms</q>), the law of detachment applies when a conditional and its antecedent are given as premises, and the consequent is the conclusion. The general form is:
+				Also called by its Latin name, <foreign>Modus Ponens</foreign> (<q>mode that affirms</q>), the law of detachment applies when a conditional and its antecedent are given as premises, and the consequent is the conclusion. The general form is:
 			</p>
 			<tabular>
 				<row>
@@ -648,6 +648,37 @@
 					This argument has the structure described by the law of detachment: the second premise and the conclusion are simply the two parts of the first premise detached from each other. Instead of making a truth table, we can say that this argument is valid by stating that it satisfies the law of detachment.
 				</p>
 			</example>
+		</subsubsection>
+		<subsubsection>
+			<title>The Law of Contraposition</title>
+			<p>
+				The law of contraposition applies when a conditional and the negation of its consequent are given as premises, and the negation of its antecedent is the conclusion. This form is also called <foreign>Modus Tollens</foreign> (<q>mode that denies</q>). The general form is:
+			</p>
+			<tabular>
+				<row>
+					<cell><alert>P1:</alert></cell>
+					<cell><m>p \to q</m>,</cell>
+				</row>
+				<row bottom="minor">
+					<cell><alert>P2:</alert></cell>
+					<cell><m>\lnot q</m>,</cell>
+				</row>
+				<row>
+					<cell><alert>C:</alert></cell>
+					<cell><m>\lnot p</m>.</cell>
+				</row>
+			</tabular>
+			<fact>
+				<title>The Law of Contraposition</title>			
+				<statement>
+					<p>
+						If the conditional <m>p \to q</m> is true and <m>\lnot q</m> is true, then <m>\lnot p</m> must be true.
+					</p>
+				</statement>
+			</fact>
+			<p>
+				Notice that the second premise and the conclusion look like the contrapositive of the first premise, <m>\neg q \to \neg p</m>, but they have been detached. Think of the law of contraposition as a combination of the law of detachment and the fact that the contrapositive is logically equivalent to the original statement.
+			</p>
 		</subsubsection>
 	</subsection>
 </section>
