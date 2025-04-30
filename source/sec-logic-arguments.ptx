@@ -438,7 +438,21 @@
 					Row 4 of this table shows that the argument is valid. In this row, each of the 3 premises is true as is the conclusion.
 				</p>
 			</example>
-			
+			<assemblage xml:id="assemblage-logic-tabular-proof">
+				<title>Summary: Tabular Method</title>
+				<p>
+					To test the validity of an argument (i.e. prove or disprove):
+					<ol>
+						<li> Write the verbal argument in symbolic form.</li>
+						<li> Draw a truth table where each premise and the conclusion gets its own column. Do this all in one (possibly large!) table.</li>
+						<li>Locate all rows where where <alert>all</alert> of the premises are true.</li>
+						<li>Look at each row from the previous step. Is the conclusion also true? If it is also true on each row, then the argument is valid (or true). Otherwise, the argument is not valid.</li>
+					</ol>
+				</p>
+			</assemblage>
+			<p>
+				Even one instance where the premises are true and the conclusion false invalidates an argument. It does not matter if there is another row in the table where the premises are true and the conclusion is true. The next example illustrates an invalid argument.
+			</p>
 		</subsection>
 
 	
