@@ -598,8 +598,46 @@
 				</solution>
 			</example>
 			<p>
-				<xref ref="ex-logic-invalid-argument-table"/> is invalid because it commits the fallacy of <term>denying the antecedent</term>, which is based on the mistaken assumption that a conditional and its inverse are equivalent, as described in <xref ref="fact-logic-equivalence-contrapositive"/>.  
+				<xref ref="ex-logic-invalid-argument-table"/> is invalid because it commits the fallacy of <term>denying the antecedent</term> (or <term>fallacy of the inverse</term>), which is based on the mistaken assumption that a conditional and its inverse are equivalent, as described in <xref ref="fact-logic-equivalence-contrapositive"/>.  
 				Even with the premises being true, the economy could still improve for reasons completely unrelated to tax cuts and retail sales. If you are interested in learning more about common logical fallacies, consider reading the next section of this chapter, <xref ref="sec-logic-fallacies"/>.
 			</p>
-		</subsection>
+	</subsection>
+	<subsection>
+		<title>Forms of Valid Arguments (Optional)</title>
+		<introduction>
+			<p>
+				Evaluating arguments by truth table is accurate and powerful, it can be tedious and exhausting to make them. Also, it is sometimes redundant, as arguments about different topics may have the same logical form. 
+				If we are able to recognize certain common forms of arguments as valid (or invalid), we can evaluate validity without the tedium of creating a table. The following is a sampling of valid logical forms.
+			</p>
+		</introduction>
+		<subsubsection >
+			<title>The Law of Detachment</title>
+			<p>
+				Also called by its Latin name, <foreign>modus ponens</foreign> (<q>mode that affirms</q>), the law of detachment applies when a conditional and its antecedent are given as premises, and the consequent is the conclusion. The general form is:
+			</p>
+			<tabular>
+				<row>
+					<cell><alert>P1:</alert></cell>
+					<cell><m>p \to q</m>,</cell>
+				</row>
+				<row bottom="minor">
+					<cell><alert>P2:</alert></cell>
+					<cell><m>p</m>,</cell>
+				</row>
+				<row>
+					<cell><alert>C:</alert></cell>
+					<cell><m>q</m>.</cell>
+				</row>
+			</tabular>
+
+			<fact>
+				<title>The Law of Detachment</title>			
+				<statement>
+					<p>
+						If the conditional <m>p \to q</m> is true and <m>p</m> is true, then <m>q</m> must be true.
+					</p>
+				</statement>
+			</fact>
+		</subsubsection>
+	</subsection>
 </section>
