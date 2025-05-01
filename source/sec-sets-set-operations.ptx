@@ -100,5 +100,25 @@
         </p>
       </statement>
     </definition>
+    <example>
+      <p>
+        Consider the three sets
+        <me>
+          A = \{1,2,3\},\quad B = \{1,2,3,4,5\},\quad C = \{3,2,1\}.
+        </me>
+        Then each of the following set relationships is true:
+        <ol marker="a)">
+          <li>
+            <p><m>A \subseteq B</m></p>
+          </li>
+          <li>
+            <p><m>A = C</m></p>
+          </li>
+          <li>
+            <p><m>A \subseteq C</m></p>
+          </li>
+        </ol>
+      </p>
+    </example>
   </subsection>
 </section>
