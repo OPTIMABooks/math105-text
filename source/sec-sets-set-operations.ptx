@@ -83,6 +83,18 @@
         </ol>
       </p>
     </example>
+    <example>
+      <statement>
+      <p>
+        Julia, Keenan, Jae and Colin took a test. They got the following scores: 70, 95, 85 and 70. Let <m>P</m> be the set of test takers and <m>S</m> be the set of test scores. List the elements of each set using set notation.
+      </p>
+      </statement>
+      <solution>
+        <p>
+          In this example, the set of people taking the test is <m>P= \{\text{Julia, Keenan, Jae, Colin}\}</m>, and the set of test scores is <m>S = \{70, 85, 95\}</m>. Notice in this example that even though two people scored a 70 on the test, the score of 70 is only listed once.
+        </p>
+      </solution>
+    </example>
     <p>
       Sometimes a collection might not contain all the elements of a set.  For example, suppose Chris owns three Madonna albums.  While Chris's collection is a set, we can also say it is a subset of the larger set of all Madonna albums.
     </p>
