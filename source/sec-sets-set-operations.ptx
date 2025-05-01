@@ -15,13 +15,23 @@
 
   <introduction>
     <p>
-      Text
+      The idea of a <term>set</term> allows us to treat distinct objects as a single entity. For example, we could use <m>S</m> to represent the four seasons: spring, summer, fall, and winter.  That is,
+      <me>
+        S = \left\{\text{spring, summer, fall, winter} \right\}.
+      </me>
+      By classifying items as groups (sets), we can also investigate relationships between groups, or consider overlap between groups when counting items.
     </p>
-
+    <definition>
+      <statement>
+        <p>
+          A <term>set</term> is an unordered collection of distinct objects, called the <term>elements</term> (or <term>members</term>) of the set.
+        </p>
+      </statement>
+    </definition>
   </introduction>
 
   <subsection>
-    <title>Title</title>
+    <title>Set Notation</title>
     <p>
       Text
     </p>
