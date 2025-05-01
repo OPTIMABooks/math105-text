@@ -93,5 +93,12 @@
         </p>
       </statement>
     </definition>
+    <definition>
+      <statement>
+        <p>
+          Let <m>A</m> and <m>B</m> be two sets. We say that <m>A</m> is a <term>equal</term> to <m>B</m>, written <m>A = B</m>, if and only if <m>A\subseteq B</m> and <m>B\subseteq A</m>. That is, <m>A</m> and <m>B</m> contain the same elements.
+        </p>
+      </statement>
+    </definition>
   </subsection>
 </section>
