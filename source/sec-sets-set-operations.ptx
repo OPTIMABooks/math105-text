@@ -132,5 +132,26 @@
         </ol>
       </p>
     </example>
+    <p>
+      It is possible to have a set with nothing in it. This set called the <term>null set</term> or <term>empty set</term>. It is like going to the grocery store to buy your favorite foods and realizing you left your wallet at home. 
+      You walk away with an empty bag. The set of items that you bought at the grocery store would written in set notation as <m>\emptyset</m>. The empty set is a subset of every set.
+    </p>
+    <p>
+      In applications of sets the elements that may be considered are often limited to some context or <term>universe of discourse</term>. This context is called the <term>universal set</term> and is the set containing every possible element of the described context. Every set is thus a subset of the universal set. The universal set is often labeled with a capital letter <m>U</m>. 
+    </p>
+    <definition>
+      <statement>
+        <p>
+          The set that contains no elements is called the <term>empty set</term> and is denoted <m>\emptyset</m>.
+        </p>
+      </statement>
+    </definition>
+    <definition>
+      <statement>
+        <p>
+          The <term>universal set</term> <m>U</m> is defined to be the set of all elements under consideration.
+        </p>
+      </statement>
+    </definition>
   </subsection>
 </section>
