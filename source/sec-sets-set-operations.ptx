@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-set-operations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sets and Set Operations</title>
+
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Objective 1
+        </p>
+      </li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>
+      Text
+    </p>
+
+  </introduction>
+
+  <subsection>
+    <title>Title</title>
+    <p>
+      Text
+    </p>
+  </subsection>
+</section>

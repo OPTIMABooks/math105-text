@@ -14,6 +14,7 @@
     <!-- Include chapters -->
     <xi:include href="./chapter-finance.ptx" />
     <xi:include href="./chapter-logic.ptx" />
+    <xi:include href="./chapter-sets.ptx" />
 
 
     <!-- Include backmatter -->

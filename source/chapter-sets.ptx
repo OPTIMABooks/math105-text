@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Sets, Counting, and Probability</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				Students will be able to:
+			</p>
+		</introduction>
+		<ul>
+			<li>
+				<p>
+					Perform basic set operations (union, intersection, and complement).
+				</p>
+			</li>
+			<li>
+				<p>
+					Use the addition rule to count the number of elements in the union of two sets.
+				</p>
+			</li>
+			<li>
+				<p>
+					Use counting to solve 3-set problems
+				</p>
+			</li>
+			<li>
+				<p>
+					Identify and use counting techniques such as the addition rule, multiplication principle, combinations, and permutations to count the number of outcomes in an event.
+				</p>
+			</li>
+			<li>
+				<p>
+					Compute basic probabilities as a ratio of the number of outcomes in an event to the total number of outcomes possible.
+				</p>
+			</li>
+			<li>
+				<p>
+					Illustrate, compute, and interpret conditional probabilities, including Bayesian problems.
+				</p>
+			</li>
+      <li>
+        <p>
+          Distinguish between mutually exclusive and independent events.
+        </p>
+      </li>
+		</ul>
+	</objectives>
+
+	<introduction>
+		<p>
+			Sets, counting, and probability are fundamental concepts in mathematics that are deeply interconnected. Sets provide a structured way to group objects, forming the basis for understanding collections and relationships. Counting techniques, such as permutations and combinations, allow us to determine the number of ways elements can be arranged or selected from sets. 
+      Probability builds on these principles by quantifying the likelihood of events occurring within a given set. Taken together, these topics form a cohesive framework for analyzing and predicting outcomes in various scenarios, from simple games to complex scientific experiments.
+		</p>
+	</introduction>
+
+	<!-- include sections -->
+	<xi:include href="sec-sets-set-operations.ptx" />
+
+
+</chapter>
