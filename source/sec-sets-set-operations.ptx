@@ -139,6 +139,9 @@
     <p>
       In applications of sets the elements that may be considered are often limited to some context or <term>universe of discourse</term>. This context is called the <term>universal set</term> and is the set containing every possible element of the described context. Every set is thus a subset of the universal set. The universal set is often labeled with a capital letter <m>U</m>. 
     </p>
+    <p>
+      When represented visually, the universal set is often illustrated by a rectangle labeled with a capital letter <em>U</em>. Subsets of the universal set are usually illustrated with circles for simplicity, but other shapes can be used. The visual representation of sets is further discussed in <xref text="title" ref="subsec-sets-Venn-diagrams"/>.
+    </p>
     <definition>
       <statement>
         <p>
@@ -153,5 +156,56 @@
         </p>
       </statement>
     </definition>
+    <example>
+      <p>
+        What contents of the universal set depends on context. Here are some examples.
+      </p>
+      <p>
+      <ol marker="a.">
+        <li>
+          <sidebyside valign="middle" width="40%">
+            <p>
+              If you are searching for books for a research project, the universal set might be all the books in the library, and the books in the library that are relevant to your research project would be a subset of the universal set.
+            </p>
+            <image source="images/sets_and_prob/UV_set_pic1.png">
+            <shortdescription>A rectangle is drawn for the universal set U, labeled all books in the library; there is a circle inside the rectangle, labeled books relevant to your research project.</shortdescription>
+            </image>
+          </sidebyside>
+        </li>
+        <li>
+          <sidebyside valign="middle" width="40%">
+            <p>
+              If you are wanting to create a group of your Facebook friends that are coworkers, the universal set would be all your Facebook friends and the group of coworkers would be a subset of the universal set.
+            </p>
+            <image source="images/sets_and_prob/UV_set_pic2.png">
+            <shortdescription>A rectangle is drawn for the universal set U, labeled all your facebook friends; there is a circle inside the rectangle, labeled coworkers.</shortdescription>
+            </image>
+          </sidebyside>
+        </li>
+        <li>
+          <sidebyside valign="middle" width="40%">
+            <p>
+              If you are working with sets of numbers, the universal set might be all whole numbers, and all prime numbers would be a subset of the universal set.
+            </p>
+            <image source="images/sets_and_prob/UV_set_pic3.png">
+            <shortdescription>A rectangle is drawn for the universal set U, labeled all whole numbers; there is a circle inside the rectangle, labeled all whole numbers.</shortdescription>
+            </image>
+          </sidebyside>
+        </li>
+      </ol>
+    </p>
+    </example>
+  </subsection>
+  <subsection xml:id="subsec-set-operations">
+    <title>Set Operations</title>
+    <p>
+      Text
+    </p>
+  </subsection>
+  <subsection xml:id="subsec-sets-Venn-diagrams">
+    <title>Venn Diagrams</title>
+    <p>
+      Text
+    </p>
   </subsection>
 </section>
