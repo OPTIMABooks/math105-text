@@ -294,6 +294,51 @@
 				</p>
   		</statement>
   	</definition>
+		<example>
+			<statement>
+			<p>
+				Consider the sets: <m>A = \{\text{red, green, blue}\}</m>, <m>B = \{\text{red, yellow, orange}\}</m>, and <m>C = \{\text{red, orange, yellow, green, blue, purple}\}</m>.
+				<ol marker="a.">
+					<li>
+						<p>
+							Determine <m>A \cap B </m>, and write it in set notation.
+						</p>
+					</li>
+					<li>
+						<p>
+							Determine <m>A \cup B</m>, and write it in set notation.
+						</p>
+					</li>
+					<li>
+						<p>
+							Determine <m>A^C \cap C</m> and write it in set notation.
+						</p>
+					</li>
+				</ol>
+			</p>
+			</statement>
+			<solution>
+				<p>
+					<ol marker="a.">
+						<li>
+							<p>
+								The intersection contains the elements in both sets: <m>A \cap B = \{\text{red}\}</m>.
+							</p>
+						</li>
+						<li>
+							<p>
+								The union contains all the elements in either set: <m>A \cup B = \{\text{red, green, blue, yellow, orange}\}</m>. Notice we only list red once.
+							</p>
+						</li>
+						<li>
+							<p>
+								Here we are looking for all the elements that are <em>not</em> in set <m>A</m> and are in set <m>C</m>: <m>A^C \cap C = \{\text{orange, yellow, purple}\}</m>.
+							</p>
+						</li>
+					</ol>
+				</p>
+			</solution>
+		</example>
 	</subsection>
 	<subsection xml:id="subsec-sets-Venn-diagrams">
 		<title>Venn Diagrams</title>
