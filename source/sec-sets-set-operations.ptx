@@ -192,8 +192,23 @@
 						<p>
 							If you are wanting to create a group of your Facebook friends that are coworkers, the universal set would be all your Facebook friends and the group of coworkers would be a subset of the universal set.
 						</p>
-						<image source="images/sets_and_prob/UV_set_pic2.png">
-						<shortdescription>A rectangle is drawn for the universal set U, labeled all your facebook friends; there is a circle inside the rectangle, labeled coworkers.</shortdescription>
+						<image xml:id="UV-set-ex2" width="100%">
+							<shortdescription>A rectangle is drawn for the universal set U, labeled all your facebook friends; there is a circle inside the rectangle, labeled coworkers.</shortdescription>
+							<latex-image>
+								\begin{tikzpicture}[font=\sffamily]
+									% Define the universe as a rectangle
+									\draw[thick] (0,0) rectangle (6,4);
+							
+									% Add label for the universe inside the box
+									\node[align=center] at (4.65,2) {U = All your \\ Facebook \\ friends};
+							
+									% Draw the yellow circle for research-relevant books
+									\filldraw[fill=yellow!70, draw=black, thick] (1.75,2) circle (1.5);
+							
+									% Add label for the research books - on three lines
+									\node[align=center] at (1.75,2) {Coworkers};
+								\end{tikzpicture}
+							</latex-image>
 						</image>
 					</sidebyside>
 				</li>
@@ -206,17 +221,17 @@
 							<shortdescription>A rectangle is drawn for the universal set U, labeled all whole numbers; there is a circle inside the rectangle, labeled all whole numbers.</shortdescription>
 							<latex-image>
 								\begin{tikzpicture}[font=\sffamily]
-								% Define the universe as a rectangle
-								\draw[thick] (0,0) rectangle (6,4);
-						
-								% Add label for the universe inside the box
-								\node[align=center] at (4.65,2) {U = All whole \\ numbers};
-						
-								% Draw the yellow circle for research-relevant books
-								\filldraw[fill=yellow!70, draw=black, thick] (1.75,2) circle (1.5);
-						
-								% Add label for the research books - on three lines
-								\node[align=center] at (1.75,2) {All prime \\numbers};
+									% Define the universe as a rectangle
+									\draw[thick] (0,0) rectangle (6,4);
+							
+									% Add label for the universe inside the box
+									\node[align=center] at (4.65,2) {U = All whole \\ numbers};
+							
+									% Draw the yellow circle for research-relevant books
+									\filldraw[fill=yellow!70, draw=black, thick] (1.75,2) circle (1.5);
+							
+									% Add label for the research books - on three lines
+									\node[align=center] at (1.75,2) {All prime \\numbers};
 								\end{tikzpicture}
 							</latex-image>
 						</image>
