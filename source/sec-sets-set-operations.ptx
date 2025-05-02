@@ -418,7 +418,38 @@
 					</latex-image>
 				</image>
 			</figure>
-	    </sidebyside>
-	 
+	  </sidebyside>
+		<example xml:id="examp_counting_addition_venn-diagram">
+			<title>Constructing a Venn Diagram</title>	  	
+			<statement>
+				<p>Let <m>A = \lbrace a, c, d, e \rbrace</m> and <m>B = \lbrace d, e, f \rbrace</m> be subsets of the universal set <m>U = \lbrace a, b, c, d, e, f \rbrace</m>.  Draw a Venn diagram representing these sets.</p>
+			</statement>
+			<solution>
+				<p>Draw a box to represent <m>U</m> and one circle for each of <m>A</m> and <m>B</m>, making sure that there is a region inside both circles.  Then place the elements in the appropriate region as shown below.</p>
+				<figure xml:id="fig_counting_ex_addition_venn-diagram">
+					<caption>Venn Diagram</caption>
+					<image width="50%" xml:id="image_counting_ex_addition_venn-diagram">
+						<shortdescription>
+							A Venn Diagram with two circles, one for A and one for B, which overlap in the middle.  Elements a and c are in circle A but not circle B, element f is in circle B but not circle A, elements d and e are in both circles, and element b is not in either circle.
+						</shortdescription>
+						<latex-image>
+							\begin{tikzpicture}
+								\draw (-1.5,-1.5) rectangle (2.5,1.5);
+								\draw (0,0) circle (1);
+								\draw (1,0) circle (1);
+								\node at (-1,1) {$A$};
+								\node at (2,1) {$B$};							  
+								\node at (0.5,0.35)  {\small $d$};
+								\node at (0.5,-0.35) {\small $e$};
+								\node at (-0.5,0.1)  {\small $a$};
+								\node at (-0.3,-0.3) {\small $c$};
+								\node at (1.4,0)     {\small $f$};
+								\node at (2,-1.2)  {\small $b$};
+							\end{tikzpicture}
+						</latex-image>
+					</image>
+				</figure>
+			</solution>
+		</example>
 	</subsection>
 </section>
