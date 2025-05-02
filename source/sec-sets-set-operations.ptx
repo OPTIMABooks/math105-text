@@ -242,9 +242,18 @@
 		</example>
 	</subsection>
 	<subsection xml:id="subsec-set-operations">
-		<title>Set Operations</title>
+		<title>Set Operations: Union, Intersection, and Complement</title>
 		<p>
-			Text
+			Suppose you and your roommate decide to have a house party, and you each invite your circle, or set, of friends. When you combine your two sets of friends, you discover that you have some friends in common.
+		</p>
+		<p>
+			The set of friends that you have in common is called the <term>intersection</term>. The intersection of two sets contains only the elements that are in both sets. To be in the intersection of set <em>A</em> and <em>B</em>, an element needs to be in both set <em>A</em> <term>and</term> set <em>B</em>.
+		</p>
+		<p>
+			The set of all friends that you and your roommate have invited is called the <term>union</term>. The union of two sets contains all the elements contained in either set (or both). To be in the union of set <em>A</em> and set <em>B</em>, an element must to be contained in just set <em>A</em>, just set <em>B</em>, <alert>or</alert> in the intersection of sets <em>A</em> and <em>B</em>. Notice that in this case that the <q>or</q> is inclusive.
+		</p>
+		<p>
+			What about the people who were <em>not</em> invited to the party and showed up anyway? They are not elements of your set of invited friends. Nor are they an element of your roommate's set of invited friends. These uninvited party crashers are the <term>complement</term> to your set of invited friends. The complement of a set <em>A</em> contains everything that is <em>not</em> in the set <em>A</em>. To be in the complement of set <em>A</em>, an element <alert>cannot</alert> be in set <em>A</em>, but it will be an element of the universal set.
 		</p>
 	</subsection>
 	<subsection xml:id="subsec-sets-Venn-diagrams">
