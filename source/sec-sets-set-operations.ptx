@@ -343,7 +343,8 @@
 	<subsection xml:id="subsec-sets-Venn-diagrams">
 		<title>Venn Diagrams</title>
 		<p>
-			Text
-		</p>
+			<term>Venn diagrams</term> are used to illustrate the relationships between two or more sets. To create a Venn diagram, start by drawing a rectangle to represent the universal set. Next draw and label overlapping circles to represent each of your sets. Most often there will be two or three sets illustrated in a Venn diagram. Finally, if you are given elements, fill in each region with its corresponding elements. Venn diagrams are also a great way to illustrate intersections, unions and complements of sets as shown below.
+	 </p>
+	
 	</subsection>
 </section>
