@@ -344,7 +344,81 @@
 		<title>Venn Diagrams</title>
 		<p>
 			<term>Venn diagrams</term> are used to illustrate the relationships between two or more sets. To create a Venn diagram, start by drawing a rectangle to represent the universal set. Next draw and label overlapping circles to represent each of your sets. Most often there will be two or three sets illustrated in a Venn diagram. Finally, if you are given elements, fill in each region with its corresponding elements. Venn diagrams are also a great way to illustrate intersections, unions and complements of sets as shown below.
-	 </p>
-	
+		</p>
+		<sidebyside widths="33% 33% 33%">
+			<figure>
+				<caption>The <alert>intersection</alert> is where the shading of the two sets overlaps in the center. It contains the elements of A <alert>and</alert> B.</caption>
+				<image xml:id="set-intersection" width="100%">
+				<shortdescription>A Venn diagram of two overlapping sets, labeled set A and set B, with 3 regions; the crescent shape in yellow indicates the region for members who are only in set A; the crescent shape shaded blue indicates the members who are only in set B; the overlapping region in the middle is shaded green to indicate member in both sets; the green area is called the intersection</shortdescription>
+				<latex-image>
+					\begin{tikzpicture}
+						% Define the universe as a rectangle
+						\draw[thick] (0,0) rectangle (2.625,2);
+						% Draw A
+						\draw[fill=white] (0.875,1) circle (0.75);
+						% Draw B
+						\draw[fill=white] (1.75,1) circle (0.75);
+						% Intersection area
+						\begin{scope}
+								\clip (0.875,1) circle (0.75);
+								\fill[yellow!70] (1.75,1) circle (0.75);
+						\end{scope}
+				
+						% Labels
+						\node[align=center] at (0.6,1) {$A$};
+						\node[align=center] at (2.025,1) {$B$};
+						\node[align=center] at (2.35,0.25) {$U$};
+				
+						% Draw borders
+						\draw[draw=black, thick] (0.875,1) circle (0.75);
+						\draw[draw=black, thick] (1.75,1) circle (0.75);
+					\end{tikzpicture}
+				</latex-image>
+				</image>
+      </figure>
+			<figure>
+				<caption>The <alert>union</alert> includes all elements of A <alert>or</alert> B or both. It contains all three of the shaded regions.</caption>
+				<image xml:id="set-union" width="100%">
+					<shortdescription>The same Venn diagram used to illustrate the union is all 3 regions</shortdescription>
+					<latex-image>
+						\begin{tikzpicture}
+							% Define the universe as a rectangle
+							\draw[thick] (0,0) rectangle (2.625,2);
+							% Draw A
+							\draw[fill=yellow!70] (0.875,1) circle (0.75);
+							% Draw B
+							\draw[fill=yellow!70] (1.75,1) circle (0.75);
+							% Labels
+							\node[align=center] at (0.6,1) {$A$};
+							\node[align=center] at (2.025,1) {$B$};
+							\node[align=center] at (2.35,0.25) {$U$};
+					
+							% Draw borders
+							\draw[draw=black, thick] (0.875,1) circle (0.75);
+							\draw[draw=black, thick] (1.75,1) circle (0.75);
+						\end{tikzpicture}
+					</latex-image>
+				</image>
+			</figure>
+			<figure>
+				<caption>The <alert>complement</alert> of set A includes all the elements <alert>not</alert> in A. It is the shaded region outside the set of A, but within the universal set.</caption>
+				<image xml:id="set-complement" width="100%">
+					<shortdescription>A Venn diagram with only one set A; The region outside the circle for A but inside the rectangle is shaded blue to represent the complement of the set or elements not in set A.</shortdescription>
+					<latex-image>
+						\begin{tikzpicture}
+							% Define the universe as a rectangle
+							\draw[thick, fill=yellow!70] (0,0) rectangle (2.625,2);
+							% Draw A
+							\filldraw[fill=white, draw=black, thick] (0.875,1) circle (0.75);
+							% labels
+							\node[align=center] at (0.875,1) {$A$};
+							\node[align=center] at (2.125,1) {$A^C$};
+							\node[align=center] at (2.35,0.25) {$U$};
+						\end{tikzpicture}
+					</latex-image>
+				</image>
+			</figure>
+	    </sidebyside>
+	 
 	</subsection>
 </section>
