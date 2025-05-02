@@ -253,15 +253,29 @@
 	  	<idx>intersection</idx>
 	  	<idx><h>sets</h><h>intersection</h></idx>
 	  	<statement>
-	  		<p>The <term>intersection</term> of two sets, <m>A</m> and <m>B</m>, denoted <m>A \cap B</m>, the set containing all elements that are in both <m>A</m> and <m>B</m>.  That is,</p>
-				<me>
-					A \cap B = \{x\mid x\in A \text{ AND } x\in B \}.
-				</me>
+	  		<p>
+					The <term>intersection</term> of two sets, <m>A</m> and <m>B</m>, denoted <m>A \cap B</m>, the set containing all elements that are in both <m>A</m> and <m>B</m>.  That is,
+					<me>
+						A \cap B = \{x\mid x\in A \text{ AND } x\in B \}.
+					</me>
+				</p>
 	  	</statement>
 	  </definition>
 		<p>
 			The set of all friends that you and your roommate have invited is called the <term>union</term>. The union of two sets contains all the elements contained in either set (or both). To be in the union of set <em>A</em> and set <m>B</m>, an element must to be contained in just set <m>A</m>, just set <m>B</m>, <alert>or</alert> in the intersection of sets <m>A</m> and <m>B</m>. Notice that in this case that the <q>or</q> is <alert>inclusive</alert>.
 		</p>
+		<definition xml:id="def_union">
+	  	<idx>union</idx>
+	  	<idx><h>sets</h><h>union</h></idx>
+	  	<statement>
+	  		<p>
+					The <term>union</term> of two sets, <m>A</m> and <m>B</m>, denoted <m>A\cup B</m>, the set containing all elements that are in <m>A</m> or in <m>B</m> (or both). That is,
+					<me>
+						A \cup B = \{x\mid x\in A \text{ OR } x\in B \}.
+					</me>
+				</p>
+	  	</statement>
+	  </definition>
 		<p>
 			What about the people who were <em>not</em> invited to the party and showed up anyway? They are not elements of your set of invited friends. Nor are they an element of your roommate's set of invited friends. These uninvited party crashers are the <term>complement</term> to your set of invited friends. The complement of a set <em>A</em> contains everything that is <em>not</em> in the set <m>A</m>. To be in the complement of set <m>A</m>, an element <alert>cannot</alert> be in set <m>A</m>, but it will be an element of the universal set.
 		</p>
