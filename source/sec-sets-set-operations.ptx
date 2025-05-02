@@ -279,6 +279,21 @@
 		<p>
 			What about the people who were <em>not</em> invited to the party and showed up anyway? They are not elements of your set of invited friends. Nor are they an element of your roommate's set of invited friends. These uninvited party crashers are the <term>complement</term> to your set of invited friends. The complement of a set <em>A</em> contains everything that is <em>not</em> in the set <m>A</m>. To be in the complement of set <m>A</m>, an element <alert>cannot</alert> be in set <m>A</m>, but it will be an element of the universal set.
 		</p>
+		<definition xml:id="def_complement">
+  		<idx>complement</idx>
+  		<idx><h>sets</h><h>complement</h></idx>
+  		<statement>
+  			<p>
+					The <term>complement</term> of a set <m>A</m> in a universal set <m>U</m> is the set <m>A^C</m> consisting of all elements in <m>U</m> that are not in <m>A</m>. That is,
+					<me>
+						A^{C} = \{x\in U\mid x \text{is NOT in } B \}.
+					</me>
+				</p>
+				<p>
+					<alert>Note:</alert> The complement of a set <m>A</m> may also be denoted by <m>\overline{A}</m> or <m>A'</m>.
+				</p>
+  		</statement>
+  	</definition>
 	</subsection>
 	<subsection xml:id="subsec-sets-Venn-diagrams">
 		<title>Venn Diagrams</title>
