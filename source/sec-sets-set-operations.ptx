@@ -249,6 +249,16 @@
 		<p>
 			The set of friends that you have in common is called the <term>intersection</term>. The intersection of two sets contains only the elements that are in both sets. To be in the intersection of set <m>A</m> and <m>B</m>, an element needs to be in both set <m>A</m> <term>and</term> set <m>B</m>.
 		</p>
+		<definition xml:id="def_intersection">
+	  	<idx>intersection</idx>
+	  	<idx><h>sets</h><h>intersection</h></idx>
+	  	<statement>
+	  		<p>The <term>intersection</term> of two sets, <m>A</m> and <m>B</m>, denoted <m>A \cap B</m>, the set containing all elements that are in both <m>A</m> and <m>B</m>.  That is,</p>
+				<me>
+					A \cap B = \{x\mid x\in A \text{ AND } x\in B \}.
+				</me>
+	  	</statement>
+	  </definition>
 		<p>
 			The set of all friends that you and your roommate have invited is called the <term>union</term>. The union of two sets contains all the elements contained in either set (or both). To be in the union of set <em>A</em> and set <m>B</m>, an element must to be contained in just set <m>A</m>, just set <m>B</m>, <alert>or</alert> in the intersection of sets <m>A</m> and <m>B</m>. Notice that in this case that the <q>or</q> is <alert>inclusive</alert>.
 		</p>
