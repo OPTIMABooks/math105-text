@@ -22,6 +22,18 @@
       Counting is a core idea in mathematics, practiced since the dawn of history. Finite sets, with a specific number of distinct elements, are essential to this process. When dealing with two or three sets, we track elements that occur in multiple sets. Set operations—intersections, unions, and complements—are crucial tools for solving these counting problems.
     </p>
   </introduction>
-
+  <subsection>
+    <title>Counting Problems with 2 Sets</title>
+    <p>
+      The number of elements in a set is called the <term>cardinality</term> of the set. Sometimes we are interested in the cardinality of the union or intersection of sets, but not know the actual elements of each set. The following sections explore these ideas in problems involving two or three sets.
+    </p>
+    <definition xml:id="def-sets-cardinality">
+      <statement>      
+        <p>
+          The number of elements in a set is called the <term>cardinality</term> of the set. The cardinality of set <m>A</m> is denoted <m>\lvert A \rvert</m> or <m>n(A)</m>.
+        </p>
+      </statement>
+    </definition>
+  </subsection>
 
 </section>
