@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-set-cardinality" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>The Number of Elements in a Finite Set</title>
+
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Use the addition rule to count the number of elements in the union of two sets.
+				</p>
+			</li>
+      <li>
+        <p>
+          Count the number of elements needed to solve 3-set problems.
+        </p>
+      </li>
+		</ul>
+	</objectives>
+  <p>
+    
+  </p>
+
+</section>
