@@ -402,7 +402,7 @@
 			</figure>
 			<figure>
 				<caption>The <alert>complement</alert> of set A includes all the elements <alert>not</alert> in A. It is the shaded region outside the set of A, but within the universal set.</caption>
-				<image xml:id="set-complement" width="100%">
+				<image xml:id="set-complement" width="50%">
 					<shortdescription>A Venn diagram with only one set A; The region outside the circle for A but inside the rectangle is shaded blue to represent the complement of the set or elements not in set A.</shortdescription>
 					<latex-image>
 						\begin{tikzpicture}
@@ -419,24 +419,25 @@
 				</image>
 			</figure>
 	  </sidebyside>
-		<example xml:id="examp_counting_addition_venn-diagram">
+		<example xml:id="ex_venn-diagram-construction">
 			<title>Constructing a Venn Diagram</title>	  	
 			<statement>
 				<p>Let <m>A = \lbrace a, c, d, e \rbrace</m> and <m>B = \lbrace d, e, f \rbrace</m> be subsets of the universal set <m>U = \lbrace a, b, c, d, e, f \rbrace</m>.  Draw a Venn diagram representing these sets.</p>
 			</statement>
 			<solution>
 				<p>Draw a box to represent <m>U</m> and one circle for each of <m>A</m> and <m>B</m>, making sure that there is a region inside both circles.  Then place the elements in the appropriate region as shown below.</p>
-				<figure xml:id="fig_counting_ex_addition_venn-diagram">
+				<figure xml:id="fig_ex_venn-diagram-const-letters">
 					<caption>Venn Diagram</caption>
-					<image width="50%" xml:id="image_counting_ex_addition_venn-diagram">
+					<image width="50%" xml:id="image-ex_venn-diagram-const-letters">
 						<shortdescription>
 							A Venn Diagram with two circles, one for A and one for B, which overlap in the middle.  Elements a and c are in circle A but not circle B, element f is in circle B but not circle A, elements d and e are in both circles, and element b is not in either circle.
 						</shortdescription>
 						<latex-image>
 							\begin{tikzpicture}
-								\draw (-1.5,-1.5) rectangle (2.5,1.5);
-								\draw (0,0) circle (1);
-								\draw (1,0) circle (1);
+								\draw[fill=white] (-1.5,-1.5) rectangle (2.5,1.5);
+								\draw[fill=white] (0,0) circle (1);
+								\draw[fill=white] (1,0) circle (1);
+								\draw (0,0) circle (1); % outline
 								\node at (-1,1) {$A$};
 								\node at (2,1) {$B$};							  
 								\node at (0.5,0.35)  {\small $d$};
@@ -445,6 +446,54 @@
 								\node at (-0.3,-0.3) {\small $c$};
 								\node at (1.4,0)     {\small $f$};
 								\node at (2,-1.2)  {\small $b$};
+							\end{tikzpicture}
+						</latex-image>
+					</image>
+				</figure>
+			</solution>
+		</example>
+		<example>
+			<statement>
+				<p>
+					Create a Venn diagram to illustrate <m>A^C \cap B</m>.
+				</p>
+			</statement>
+			<solution>
+				<p>
+					The set <m>A^C</m> contains all elements <em>not</em> in set <m>A</m>. THis means that <m>A^C \cap B</m> contains elements that are not in <m>A</m> <em>and</em> in <m>B</m>. That is, it contains the elements of <m>B</m> that are not in <m>A</m> as shown in the following Venn Diagram.
+				</p>
+				<figure xml:id="fig_Venn_ex_with-complement">
+					<caption>A Venn diagram illustrating the set <m>A^C \cap B</m> shaded in yellow.</caption>
+					<image width="40%" xml:id="image_Venn_ex_with-complement">
+						<shortdescription>
+							A Venn Diagram with two circles, one for A and one for B, which overlap in the middle.  The shaded region is a crescent shape in B that is not in A.
+						</shortdescription>
+						<latex-image>
+							\begin{tikzpicture}
+								% Define the universe as a rectangle
+								\draw[thick,fill=white] (0,0) rectangle (2.625,2);
+								% Draw A
+								\draw[fill=white] (0.875,1) circle (0.75);
+								% Draw B
+								\draw[fill=white] (1.75,1) circle (0.75);
+								% A complement intersect B area
+								\begin{scope}
+										\clip (0,0) rectangle (2.625,2);
+										\fill[yellow!70] (1.75,1) circle (0.75);
+										\begin{scope}
+												\clip (0.875,1) circle (0.75);
+												\fill[white] (1.75,1) circle (0.75);
+										\end{scope}
+								\end{scope}
+						
+								% Labels
+								\node[align=center] at (0.6,1) {$A$};
+								\node[align=center] at (2.025,1) {$B$};
+								\node[align=center] at (2.35,0.25) {$U$};
+						
+								% Draw borders
+								\draw[draw=black, thick] (0.875,1) circle (0.75);
+								\draw[draw=black, thick] (1.75,1) circle (0.75);
 							\end{tikzpicture}
 						</latex-image>
 					</image>
