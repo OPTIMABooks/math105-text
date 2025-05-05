@@ -10,30 +10,83 @@
 					Use the addition rule to count the number of elements in the union of two sets.
 				</p>
 			</li>
-      <li>
-        <p>
-          Count the number of elements needed to solve 3-set problems.
-        </p>
-      </li>
+			<li>
+				<p>
+					Count the number of elements needed to solve 3-set problems.
+				</p>
+			</li>
 		</ul>
 	</objectives>
-  <introduction>
-    <p>
-      Counting is a core idea in mathematics, practiced since the dawn of history. Finite sets, with a specific number of distinct elements, are essential to this process. When dealing with two or three sets, we track elements that occur in multiple sets. Set operations—intersections, unions, and complements—are crucial tools for solving these counting problems.
-    </p>
-  </introduction>
-  <subsection>
-    <title>Counting Problems with 2 Sets</title>
-    <p>
-      The number of elements in a set is called the <term>cardinality</term> of the set. Sometimes we are interested in the cardinality of the union or intersection of sets, but not know the actual elements of each set. The following sections explore these ideas in problems involving two or three sets.
-    </p>
-    <definition xml:id="def-sets-cardinality">
-      <statement>      
-        <p>
-          The number of elements in a set is called the <term>cardinality</term> of the set. The cardinality of set <m>A</m> is denoted <m>\lvert A \rvert</m> or <m>n(A)</m>.
-        </p>
-      </statement>
-    </definition>
-  </subsection>
+	<introduction>
+		<p>
+			Counting is a core idea in mathematics, practiced since the dawn of history. Finite sets, with a specific number of distinct elements, are essential to this process. When dealing with two or three sets, we track elements that occur in multiple sets. Set operations—intersections, unions, and complements—are crucial tools for solving these counting problems.
+		</p>
+	</introduction>
+	<subsection>
+		<title>Counting Problems with 2 Sets</title>
+		<p>
+			The number of elements in a set is called the <term>cardinality</term> of the set. Sometimes we are interested in the cardinality of the union or intersection of sets, but not know the actual elements of each set. The following sections explore these ideas in problems involving two or three sets.
+		</p>
+		<definition xml:id="def-sets-cardinality">
+			<statement>      
+				<p>
+					The number of elements in a set is called the <term>cardinality</term> of the set. The cardinality of set <m>A</m> is denoted <m>\lvert A \rvert</m> or <m>n(A)</m>.
+				</p>
+			</statement>
+		</definition>
+		<example>
+			<p>
+				A survey asks 200 people <q>What beverage do you drink in the morning</q>, and offers choices:
+				<ul>
+					<li>
+						<p>
+							Tea only,
+						</p>
+					</li>
+					<li>
+						<p>
+							Coffee only,
+						</p>
+					</li>
+					<li>
+						<p>
+							Both coffee and tea.
+						</p>
+					</li>
+				</ul>
+				Suppose 20 report tea only, 80 report coffee only, 40 report both. How many people drink tea in the morning? How many people drink neither tea or coffee?
+			</p>
+			<sidebyside widths="50% 45%" margins="2.5% 0%" valign="top">
+				<p>
+					This question can most easily be answered by creating a Venn diagram.  We can see that we can find the people who drink tea by adding those who drink only tea to those who drink both: 60 people.
+					We can also see that those who drink neither are those not contained in the any of the three other groupings, so we can count those by subtracting from the cardinality of the universal set, 200.  
+					<me>
+						200 - 20 - 80 - 40 = 60
+					</me>
+					people who drink neither.
+				</p>
+				<image xml:id="tigs-2venn-coffee-tea" width="100%">
+					<shortdescription>A rectangle is drawn for the universal set U. There are two overlapping circles inside. One is labeled coffee and contains the number 80. The other is labeled tea and contains the number 20. The intersection of the two circles contains the number 40.</shortdescription>
+					<latex-image>
+						\begin{tikzpicture}[scale=2/7,font=\sffamily]
+							\draw[semithick] (0,0) rectangle (21,14);
+							% Sets: Path is fill, draw is bddry
+							\path[fill=white] (7,7) circle (5);
+							\path[fill=gray!25] (14,7) circle (5);
+							\draw[semithick] (7,7) circle (5);
+							\draw[semithick] (14,7) circle (5);
+							% Set names
+							\node at (7,1) {Coffee};
+							\node at (14,1) {Tea};
+							% Numbers in each region
+							\node at (6,7) {80};  % Only in X
+							\node at (10.5,7) {40};    % Intersection
+							\node at (15,7) {20};   % Only in Y
+					\end{tikzpicture}
+					</latex-image>
+				</image>
+			</sidebyside>
+		</example>
+	</subsection>
 
 </section>
