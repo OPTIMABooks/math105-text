@@ -87,6 +87,45 @@
 				</image>
 			</sidebyside>
 		</example>
+		<p>
+			The next example illustrates again how to deal with overlapping counts and develops an important counting formula.
+		</p>
+		<example>
+			<p>
+				Suppose a survey asks participants <q>Which online services have you used in the last month?</q> and offers a choice of
+				<ul>
+					<li>
+						<p>
+							Twitter,
+						</p>
+					</li>
+					<li>
+						<p>
+							Facebook,
+						</p>
+					</li>
+					<li>
+						<p>
+							Have used both.
+						</p>
+					</li>
+				</ul>
+				The results show 40% of those surveyed have used Twitter, 70% have used Facebook, and 20% have used both.  How many people have used either Twitter or Facebook?  How many people have used neither?
+			</p>
+			<p>
+				Let <m>T</m> be the set of all people who have used Twitter, and <m>F</m> be the set of all people who have used Facebook.  Notice that <m>n(F)=0.70</m> and <m>n(T)=0.40</m>. It is tempting to simply add these two numbers together to compute the  size of <m>F \cup T</m>, but this is <em>incorrect</em> because doing so will count those who use both services twice.  
+				To correct for this, we can add <m>n(T)</m> to <m>n(F)</m>  and then subtract those in the intersection that have been added twice. That is,
+				<md>
+					<mrow>n(F\cup T) =\amp n(F) + n(T) - n(F\cap T) </mrow>
+					<mrow> =\amp 0.70+0.40-0.20 </mrow>
+					<mrow> =\amp 0.90</mrow>
+				</md>
+				Thus, 90% of the people surveyed have used Facebook or Twitter.
+			</p>
+			<p>
+				To find how many people have not used either service, we want the size of <m>(F \cup T)^C</m>. Since <m>U</m> is 100%, and <m>n(F\cup T) = 0.9</m>, it follows that <m>n((F\cup T)^C) = 1.0 - 0.9 = 0.1</m>, or 10% of those surveyed. These quantities are illustrated in the Venn diagram below.
+			</p>
+		</example>
 	</subsection>
 
 </section>
