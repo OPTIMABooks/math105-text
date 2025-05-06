@@ -159,6 +159,46 @@
 				</p>
 			</statement>
 		</fact>
+		<p>
+			A 2-set Venn diagram can be solved for any of the four regions found in such a diagram, as illustrated by the next example.
+		</p>
+		<example>
+			<statement>
+				<p>
+					At a movie theater, 200 people bought popcorn and 150 bought soda. If 90 people bought both popcorn and soda, how many people bought popcorn but no soda?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Let <m>P</m> represent the set of people who bought popcorn, and <m>S</m> represent the set of people who bought soda. Then we are told that <m>n(P)=200</m>, <m>n(S)=150</m>, and <m>n(P\cap S) = 90</m>. 
+					The number of people who bought popcorn but so soda is the cardinality of <m>P\cap S^C</m>. This is the part of the Venn diagram inside of <m>P</m> but outside of <m>S</m>. Note that
+					<me>
+						n\left(P\cap S^C\right) = n(P)-n(P\cap S) = 200-90 = 110.
+					</me>
+					That is, 110 people bought popcorn but not soda.
+				</p>
+				<image xml:id="tigs-2venn-popcorn" width="45%">
+					<shortdescription>A rectangle is drawn for the universal set U. There are two overlapping circles inside. One is labeled P and contains the number 110. The other is labeled S and contains the number 60. The intersection of the two circles contains the number 90.</shortdescription>
+					<latex-image>
+						\begin{tikzpicture}[scale=2/7,font=\sffamily]
+							\draw[semithick,fill=white] (0,0) rectangle (21,14);
+							% Sets: Path is fill, draw is bddry
+							\path[fill=white] (7,7) circle (5);
+							\path[fill=gray!25] (14,7) circle (5);
+							\draw[semithick] (7,7) circle (5);
+							\draw[semithick] (14,7) circle (5);
+							% Set names
+							\node at (7,11) {$P$};
+							\node at (14,11) {$S$};
+							% Numbers in each region
+							\node at (6,7) {110};      % Only in P
+							\node at (10.5,7) {90};   % Intersection
+							\node at (15,7) {60};     % Only in S
+						\end{tikzpicture}
+					</latex-image>
+				</image>
+			</solution>
+		</example>
 	</subsection>
 
 </section>
