@@ -58,7 +58,7 @@
 			</p>
 			<sidebyside widths="50% 45%" margins="2.5% 0%" valign="top">
 				<p>
-					This question can most easily be answered by creating a Venn diagram.  We can see that we can find the people who drink tea by adding those who drink only tea to those who drink both: 60 people.
+					This question can be most easily answered by creating a Venn diagram.  We see that we can find the people who drink tea by adding those who drink only tea to those who drink both: 60 people.
 					We can also see that those who drink neither are those not contained in the any of the three other groupings, so we can count those by subtracting from the cardinality of the universal set, 200.  
 					<me>
 						200 - 20 - 80 - 40 = 60
