@@ -123,8 +123,29 @@
 				Thus, 90% of the people surveyed have used Facebook or Twitter.
 			</p>
 			<p>
-				To find how many people have not used either service, we want the size of <m>(F \cup T)^C</m>. Since <m>U</m> is 100%, and <m>n(F\cup T) = 0.9</m>, it follows that <m>n((F\cup T)^C) = 1.0 - 0.9 = 0.1</m>, or 10% of those surveyed. These quantities are illustrated in the Venn diagram below.
+				To find how many people have <em>not</em> used either service, we want the size of <m>(F \cup T)^C</m>. Since <m>U</m> is 100%, and <m>n(F\cup T) = 0.9</m>, it follows that <m>n((F\cup T)^C) = 1.0 - 0.9 = 0.1</m>, or 10% of those surveyed. These quantities are illustrated in the Venn diagram below.
 			</p>
+			<image xml:id="tigs-2venn-social-media" width="50%">
+				<shortdescription>A rectangle is drawn for the universal set U. There are two overlapping circles inside. One is labeled F and contains the number 50%. The other is labeled T and contains the number 20%. The intersection of the two circles contains the number 20%.</shortdescription>
+				<latex-image>
+					\begin{tikzpicture}[scale=2/7,font=\sffamily]
+						\draw[semithick] (0,0) rectangle (21,14);
+						% Sets: Path is fill, draw is bddry
+						\path[fill=white] (7,7) circle (5);
+						\path[fill=gray!25] (14,7) circle (5);
+						\draw[semithick] (7,7) circle (5);
+						\draw[semithick] (14,7) circle (5);
+						% Set names
+						\node at (7,11) {$F$};
+						\node at (14,11) {$T$};
+						% Numbers in each region
+						\node at (6,7) {0.50};  % Only in X
+						\node at (10.5,7) {0.20};    % Intersection
+						\node at (15,7) {0.20};   % Only in Y
+						\node at (19,1.5) {0.10};   % Complement of union
+					\end{tikzpicture}
+				</latex-image>
+			</image>
 		</example>
 	</subsection>
 
