@@ -200,5 +200,59 @@
 			</solution>
 		</example>
 	</subsection>
-
+	<subsection>
+		<title>Counting Problems with 3 Sets</title>
+		<p>
+			Counting problems involving three sets are solved similarly to those involving two sets. The primary difference is that while two sets divide the universal set into four potential regions, three sets divide the universal set into eight total regions. Computing the cardinality of these regions is thus more complex and it requires care to tease out correct values without double (or triple!) counting elements.
+			Note that the <xref text="title" ref="fact-sets-addition-rule"/> can be updated for three-set problems, but we do not include the formula here.
+		</p>
+		<example>
+			<p>
+				Suppose that fifty students are surveyed and asked if they were taking a science (<m>S</m>), humanities (<m>H</m>) or a religion (<m>R</m>) course next quarter. The results are:
+				<ul>
+					<li>
+						<p>
+							21 were taking a science course,
+						</p>
+					</li>
+					<li>
+						<p>
+							26 were taking a humanities course,
+						</p>
+					</li>
+					<li>
+						<p>
+							19 were taking a religion,
+						</p>
+					</li>
+					<li>
+						<p>
+							9 were taking science and humanities,
+						</p>
+					</li>
+					<li>
+						<p>
+							7 were taking science and religion,
+						</p>
+					</li>
+					<li>
+						<p>
+							10 were taking humanities and religion,
+						</p>
+					</li>
+					<li>
+						<p>
+							3 were taking all three,
+						</p>
+					</li>
+					<li>
+						<p>
+							7 were taking none of these classes.
+						</p>
+					</li>
+				</ul>
+				How many students are only taking a science course? 
+			</p>
+		</example>
+	</subsection>
 </section>
