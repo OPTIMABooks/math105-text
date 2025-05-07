@@ -73,7 +73,7 @@
 							\draw[semithick] (0,0) rectangle (21,14);
 							% Sets: Path is fill, draw is bddry
 							\path[fill=white] (7,7) circle (5);
-							\path[fill=gray!25] (14,7) circle (5);
+							\path[fill=yellow!50] (14,7) circle (5);
 							\draw[semithick] (7,7) circle (5);
 							\draw[semithick] (14,7) circle (5);
 							% Set names
@@ -133,7 +133,7 @@
 						\draw[semithick,fill=white] (0,0) rectangle (21,14);
 						% Sets: Path is fill, draw is boundary only
 						\path[fill=white] (7,7) circle (5);
-						\path[fill=gray!25] (14,7) circle (5);
+						\path[fill=yellow!50] (14,7) circle (5);
 						\draw[semithick] (7,7) circle (5);
 						\draw[semithick] (14,7) circle (5);
 						% Set names
@@ -184,7 +184,7 @@
 							\draw[semithick,fill=white] (0,0) rectangle (21,14);
 							% Sets: Path is fill, draw is boundary only
 							\path[fill=white] (7,7) circle (5);
-							\path[fill=gray!25] (14,7) circle (5);
+							\path[fill=yellow!50] (14,7) circle (5);
 							\draw[semithick] (7,7) circle (5);
 							\draw[semithick] (14,7) circle (5);
 							% Set names
