@@ -359,5 +359,12 @@
 				</sidebyside>
 			</solution>
 		</example>
+		<example>
+			<statement>
+				<p>
+					In a survey of 75 consumers, 12 indicated they were going to buy a new couch, 18 said they were going to buy a new rug, and 24 said they were going to buy a new sofa. Of these, 6 were going to buy both a couch and a rug, 4 were going to buy a couch and a sofa, and 10 were going to buy a sofa and a rug. One person indicated he was going to buy all three.
+				</p>
+			</statement>
+		</example>
 	</subsection>
 </section>
