@@ -299,6 +299,12 @@
 				<p>
 					From the given data, we know that there are 3 students in region <m>e</m> and 7 students in region <m>h</m>. Since 7 students were taking a science and a religion course, we know that <m>n(d) + n(e) = 7</m>.  Since we know there are 3 students in region 3, there must be <m>7 - 3 = 4</m> students in region <m>d</m>. 
 				</p>
+				<p>
+					Similarly, because there are 10 students taking both humanities and religion, which includes regions <m>e</m> and <m>f</m>, there must be <m>10 - 3 = 7</m> students in region <m>f</m>.  With 9 students were taking science and humanities courses, there must be <m>9 - 3 = 6</m> students in region <m>b</m>. 
+				</p>
+				<p>
+					Finally, we know that 21 students were taking a science course.  This includes students from regions <m>a,\ b,\ d</m>, and <m>e</m>.  Since we know the number of students in all but region <m>a</m>, we can determine that <m>a = 21 -6 -4 -3 = 8</m>. That is, 8 students are only taking a science course.
+				</p>
 			</solution>
 		</example>
 	</subsection>
