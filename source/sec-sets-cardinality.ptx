@@ -203,7 +203,7 @@
 	<subsection>
 		<title>Counting Problems with 3 Sets</title>
 		<p>
-			Counting problems involving three sets are solved similarly to those involving two sets. The primary difference is that while two sets divide the universal set into four potential regions, three sets divide the universal set into eight total regions. 
+			Counting problems involving three sets are solved similarly to those involving two sets. The primary difference is that while two sets divide the universal set into four potential regions, three sets divide the universal set into eight total regions as shown in <xref ref="fig-3-set-venn-diagram"/>. 
 			Computing the cardinality of these regions is thus more complex than for two-set problems and, as we shall see in the following examples, it requires care to tease out correct values without double (or triple!) counting elements.
 			Note that the <xref text="title" ref="fact-sets-addition-rule"/> can be updated for three-set problems, but we do not include the formula here.
 		</p>
@@ -250,7 +250,7 @@
 						To answer this question, it helps to create a Venn diagram that shows all the ways the three sets could overlap. We then work through the given survey results and use them to find the cardinality of each region of the diagram, starting at the center and working outward. When working by hand, we simply fill in the regions with the computed cardinality. However, to help understand the process, in this example we will refer to regions by the letters shown in the provided image. 
 					</p>
 					<figure xml:id="fig-3-set-venn-diagram">
-						<caption>A 3-set Venn diagram divides the plane into 8 distinct regions, here marked with <m>a</m> through <m>g</m>.</caption>
+						<caption>A 3-set Venn diagram divides the plane into 8 distinct regions, here marked with <m>a</m> through <m>h</m>.</caption>
 						<image xml:id="tikz-3venn-courses" width="100%">
 							<shortdescription>A rectangle is drawn for the universal set U. There are three overlapping circles inside. One is labeled S, one H, and one R. The distinct regions are labeled with lower case letters a through g.</shortdescription>
 							<latex-image>
