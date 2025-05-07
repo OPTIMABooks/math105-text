@@ -300,11 +300,63 @@
 					From the given data, we know that there are 3 students in region <m>e</m> and 7 students in region <m>h</m>. Since 7 students were taking a science and a religion course, we know that <m>n(d) + n(e) = 7</m>.  Since we know there are 3 students in region 3, there must be <m>7 - 3 = 4</m> students in region <m>d</m>. 
 				</p>
 				<p>
-					Similarly, because there are 10 students taking both humanities and religion, which includes regions <m>e</m> and <m>f</m>, there must be <m>10 - 3 = 7</m> students in region <m>f</m>.  With 9 students were taking science and humanities courses, there must be <m>9 - 3 = 6</m> students in region <m>b</m>. 
+					Similarly, because there are 10 students taking both humanities and religion, which includes regions <m>e</m> and <m>f</m>, there must be <m>10 - 3 = 7</m> students in region <m>f</m>.  With 9 students taking science and humanities courses, there must be <m>9 - 3 = 6</m> students in region <m>b</m>. 
 				</p>
 				<p>
-					Finally, we know that 21 students were taking a science course.  This includes students from regions <m>a,\ b,\ d</m>, and <m>e</m>.  Since we know the number of students in all but region <m>a</m>, we can determine that <m>a = 21 -6 -4 -3 = 8</m>. That is, 8 students are only taking a science course.
+					Finally, we know that 21 students were taking a science course.  This includes students from regions <m>a,\ b,\ d</m>, and <m>e</m>.  Since we know the number of students in all but region <m>a</m>, we can determine that <m>n(a) = 21 -6 -4 -3 = 8</m>. That is, 8 students are only taking a science course.
 				</p>
+				<sidebyside widths="48% 48%" margins="0% 0%" valigns="top top">
+					<p>
+						<alert>Note:</alert> The above work was directed at finding the number of students who were only taking a science class. However, it is a good idea to <q>solve</q> the 3-set diagram completely if possible. 
+						Once this is done, any question about cardinality can be solved quickly. In this case, we can find that <m>n(c)=26-6-3-7=10</m>, and <m>n(g)=19-4-6-7=5</m>. The solved diagram is shown here.
+					</p>
+					<figure xml:id="fig-3-set-venn-diagram-solved">
+						<caption>The <q>solved</q> 3-set Venn diagram showing the cardinality of each region.</caption>
+						<image xml:id="tikz-3venn-courses-solved" width="100%">
+							<shortdescription>A rectangle is drawn for the universal set U. There are three overlapping circles inside. One is labeled S, one H, and one R. The distinct regions are labeled with lower case letters a through g.</shortdescription>
+							<latex-image>
+								\begin{venndiagram3sets}[
+										labelA={},
+										labelB={},
+										labelC={},
+										labelOnlyA={8},
+										labelOnlyB={10},
+										labelOnlyC={5},
+										labelOnlyAB={6},
+										labelOnlyAC={4},
+										labelOnlyBC={7},
+										labelABC={3},
+										labelNotABC={7},
+								]
+
+								% Add shading for subregions
+								\setkeys{venn}{shade=yellow!25}
+								\fillOnlyA
+								\setkeys{venn}{shade=cyan!25}
+								\fillOnlyB
+								\setkeys{venn}{shade=magenta!25}
+								\fillOnlyC
+								\setkeys{venn}{shade=green!15}
+								\fillACapBNotC
+								\setkeys{venn}{shade=orange!15}
+								\fillACapCNotB
+								\setkeys{venn}{shade=violet!25}
+								\fillBCapCNotA
+								\setkeys{venn}{shade=white!25}
+								\fillACapBCapC
+								\setkeys{venn}{shade=white}
+								\fillNotABC
+
+								% Add labels outside the circles
+								\node at (.5, 4.25) {$S$}; % S above and left of set A
+								\node at (4.5, 4.25) {$H$};  % H above and right of set B
+								\node at (1.75, 0.33) {$R$}; % R below and left of set C
+
+								\end{venndiagram3sets}
+							</latex-image>
+						</image>
+					</figure>
+				</sidebyside>
 			</solution>
 		</example>
 	</subsection>
