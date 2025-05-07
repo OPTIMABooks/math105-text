@@ -16,11 +16,6 @@
         labelNotABC={$h$},
     ]
 
-    % Add labels outside the circles
-    \node at (.5, 4.25) {$S$}; % S above and left of set A
-    \node at (4.5, 4.25) {$H$};  % H above and right of set B
-    \node at (1.75, 0.33) {$R$}; % R below and left of set C
-
     % Add shading for subregions
     \setkeys{venn}{shade=yellow!25}
     \fillOnlyA
@@ -38,6 +33,11 @@
     \fillACapBCapC
     \setkeys{venn}{shade=white}
     \fillNotABC
+
+    % Add labels outside the circles
+    \node at (.5, 4.25) {$S$}; % S above and left of set A
+    \node at (4.5, 4.25) {$H$};  % H above and right of set B
+    \node at (1.75, 0.33) {$R$}; % R below and left of set C
 
     \end{venndiagram3sets}
 \end{document}
