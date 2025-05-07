@@ -1,0 +1,43 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{venndiagram}
+\begin{document}
+    \begin{venndiagram3sets}[
+        labelA={},
+        labelB={},
+        labelC={},
+        labelOnlyA={$a$},
+        labelOnlyB={$c$},
+        labelOnlyC={$g$},
+        labelOnlyAB={$b$},
+        labelOnlyAC={$d$},
+        labelOnlyBC={$f$},
+        labelABC={$e$},
+        labelNotABC={$h$},
+    ]
+
+    % Add labels outside the circles
+    \node at (.5, 4.25) {$S$}; % S above and left of set A
+    \node at (4.5, 4.25) {$H$};  % H above and right of set B
+    \node at (1.75, 0.33) {$R$}; % R below and left of set C
+
+    % Add shading for subregions
+    \setkeys{venn}{shade=yellow!25}
+    \fillOnlyA
+    \setkeys{venn}{shade=cyan!25}
+    \fillOnlyB
+    \setkeys{venn}{shade=magenta!25}
+    \fillOnlyC
+    \setkeys{venn}{shade=green!15}
+    \fillACapBNotC
+    \setkeys{venn}{shade=orange!15}
+    \fillACapCNotB
+    \setkeys{venn}{shade=violet!25}
+    \fillBCapCNotA
+    \setkeys{venn}{shade=white!25}
+    \fillACapBCapC
+    \setkeys{venn}{shade=white}
+    \fillNotABC
+
+    \end{venndiagram3sets}
+\end{document}

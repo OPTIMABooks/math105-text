@@ -203,56 +203,97 @@
 	<subsection>
 		<title>Counting Problems with 3 Sets</title>
 		<p>
-			Counting problems involving three sets are solved similarly to those involving two sets. The primary difference is that while two sets divide the universal set into four potential regions, three sets divide the universal set into eight total regions. Computing the cardinality of these regions is thus more complex and it requires care to tease out correct values without double (or triple!) counting elements.
+			Counting problems involving three sets are solved similarly to those involving two sets. The primary difference is that while two sets divide the universal set into four potential regions, three sets divide the universal set into eight total regions. 
+			Computing the cardinality of these regions is thus more complex than for two-set problems and, as we shall see in the following examples, it requires care to tease out correct values without double (or triple!) counting elements.
 			Note that the <xref text="title" ref="fact-sets-addition-rule"/> can be updated for three-set problems, but we do not include the formula here.
 		</p>
+		<p>
+			The following examples illustrate how we count three
+		</p>
 		<example>
-			<p>
-				Suppose that fifty students are surveyed and asked if they were taking a science (<m>S</m>), humanities (<m>H</m>) or a religion (<m>R</m>) course next quarter. The results are:
-				<ul>
-					<li>
-						<p>
-							21 were taking a science course,
-						</p>
-					</li>
-					<li>
-						<p>
-							26 were taking a humanities course,
-						</p>
-					</li>
-					<li>
-						<p>
-							19 were taking a religion,
-						</p>
-					</li>
-					<li>
-						<p>
-							9 were taking science and humanities,
-						</p>
-					</li>
-					<li>
-						<p>
-							7 were taking science and religion,
-						</p>
-					</li>
-					<li>
-						<p>
-							10 were taking humanities and religion,
-						</p>
-					</li>
-					<li>
-						<p>
-							3 were taking all three,
-						</p>
-					</li>
-					<li>
-						<p>
-							7 were taking none of these classes.
-						</p>
-					</li>
-				</ul>
-				How many students are only taking a science course? 
-			</p>
+			<statement>
+				<p>
+					Suppose that fifty students are surveyed and asked if they were taking a science (<m>S</m>), humanities (<m>H</m>) or a religion (<m>R</m>) course next quarter. The results are:
+					<ul>
+						<li>
+							<p> 21 were taking a science course,</p>
+						</li>
+						<li>
+							<p> 26 were taking a humanities course,</p>
+						</li>
+						<li>
+							<p> 19 were taking a religion,</p>
+						</li>
+						<li>
+							<p>	9 were taking science and humanities,	</p>
+						</li>
+						<li>
+							<p>	7 were taking science and religion,	</p>
+						</li>
+						<li>
+							<p>	10 were taking humanities and religion,	</p>
+						</li>
+						<li>
+							<p> 3 were taking all three,</p>
+						</li>
+						<li>
+							<p>	7 were taking none of these classes. </p>
+						</li>
+					</ul>
+					How many students are only taking a science course? 
+				</p>
+			</statement>
+			<solution>
+				<p>
+					To answer this question it helps to create a Venn diagram that shows all the ways that the three sets could overlap. We then must work through the given survey results and use them to find the cardinality of each region of the diagram.
+				</p>
+				<image xml:id="tikz-3venn-courses" width="60%">
+					<shortdescription>A rectangle is drawn for the universal set U. There are three overlapping circles inside. One is labeled S, one H, and one R. The distinct regions are labeled with lower case letters a through g.</shortdescription>
+					<latex-image>
+						\begin{venndiagram3sets}[
+								labelA={},
+								labelB={},
+								labelC={},
+								labelOnlyA={$a$},
+								labelOnlyB={$c$},
+								labelOnlyC={$g$},
+								labelOnlyAB={$b$},
+								labelOnlyAC={$d$},
+								labelOnlyBC={$f$},
+								labelABC={$e$},
+								labelNotABC={$h$},
+						]
+
+						% Add labels outside the circles
+						\node at (.5, 4.25) {$S$}; % S above and left of set A
+						\node at (4.5, 4.25) {$H$};  % H above and right of set B
+						\node at (1.75, 0.33) {$R$}; % R below and left of set C
+
+						% Add shading for subregions
+						\setkeys{venn}{shade=yellow!25}
+						\fillOnlyA
+						\setkeys{venn}{shade=cyan!25}
+						\fillOnlyB
+						\setkeys{venn}{shade=magenta!25}
+						\fillOnlyC
+						\setkeys{venn}{shade=green!15}
+						\fillACapBNotC
+						\setkeys{venn}{shade=orange!15}
+						\fillACapCNotB
+						\setkeys{venn}{shade=violet!25}
+						\fillBCapCNotA
+						\setkeys{venn}{shade=white!25}
+						\fillACapBCapC
+						\setkeys{venn}{shade=white}
+						\fillNotABC
+
+						\end{venndiagram3sets}
+					</latex-image>
+				</image>
+				<p>
+					From the given data, we know that there are 3 students in region <m>e</m> and 7 students in region <m>h</m>. 
+				</p>
+			</solution>
 		</example>
 	</subsection>
 </section>
