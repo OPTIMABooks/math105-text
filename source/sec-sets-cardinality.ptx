@@ -245,58 +245,59 @@
 				</p>
 			</statement>
 			<solution>
-				<sidebyside widths="40% 50%" margins="0% 5%" valigns="top top">
+				<sidebyside widths="48% 48%" margins="0% 0%" valigns="top top">
 					<p>
-						To answer this question it helps to create a Venn diagram that shows all the ways that the three sets could overlap. We then work through the given survey results and use them to find the cardinality of each region of the diagram, starting at the center and working out.
+						To answer this question, it helps to create a Venn diagram that shows all the ways the three sets could overlap. We then work through the given survey results and use them to find the cardinality of each region of the diagram, starting at the center and working outward. When working by hand, we simply fill in the regions with the computed cardinality. However, to help understand the process, in this example we will refer to regions by the letters shown in the provided image. 
 					</p>
-					<image xml:id="tikz-3venn-courses" width="100%">
-						<shortdescription>A rectangle is drawn for the universal set U. There are three overlapping circles inside. One is labeled S, one H, and one R. The distinct regions are labeled with lower case letters a through g.</shortdescription>
-						<latex-image>
-							\begin{venndiagram3sets}[
-									labelA={},
-									labelB={},
-									labelC={},
-									labelOnlyA={$a$},
-									labelOnlyB={$c$},
-									labelOnlyC={$g$},
-									labelOnlyAB={$b$},
-									labelOnlyAC={$d$},
-									labelOnlyBC={$f$},
-									labelABC={$e$},
-									labelNotABC={$h$},
-							]
+					<figure xml:id="fig-3-set-venn-diagram">
+						<caption>A 3-set Venn diagram divides the plane into 8 distinct regions, here marked with <m>a</m> through <m>g</m>.</caption>
+						<image xml:id="tikz-3venn-courses" width="100%">
+							<shortdescription>A rectangle is drawn for the universal set U. There are three overlapping circles inside. One is labeled S, one H, and one R. The distinct regions are labeled with lower case letters a through g.</shortdescription>
+							<latex-image>
+								\begin{venndiagram3sets}[
+										labelA={},
+										labelB={},
+										labelC={},
+										labelOnlyA={$a$},
+										labelOnlyB={$c$},
+										labelOnlyC={$g$},
+										labelOnlyAB={$b$},
+										labelOnlyAC={$d$},
+										labelOnlyBC={$f$},
+										labelABC={$e$},
+										labelNotABC={$h$},
+								]
 
-							% Add shading for subregions
-							\setkeys{venn}{shade=yellow!25}
-							\fillOnlyA
-							\setkeys{venn}{shade=cyan!25}
-							\fillOnlyB
-							\setkeys{venn}{shade=magenta!25}
-							\fillOnlyC
-							\setkeys{venn}{shade=green!15}
-							\fillACapBNotC
-							\setkeys{venn}{shade=orange!15}
-							\fillACapCNotB
-							\setkeys{venn}{shade=violet!25}
-							\fillBCapCNotA
-							\setkeys{venn}{shade=white!25}
-							\fillACapBCapC
-							\setkeys{venn}{shade=white}
-							\fillNotABC
+								% Add shading for subregions
+								\setkeys{venn}{shade=yellow!25}
+								\fillOnlyA
+								\setkeys{venn}{shade=cyan!25}
+								\fillOnlyB
+								\setkeys{venn}{shade=magenta!25}
+								\fillOnlyC
+								\setkeys{venn}{shade=green!15}
+								\fillACapBNotC
+								\setkeys{venn}{shade=orange!15}
+								\fillACapCNotB
+								\setkeys{venn}{shade=violet!25}
+								\fillBCapCNotA
+								\setkeys{venn}{shade=white!25}
+								\fillACapBCapC
+								\setkeys{venn}{shade=white}
+								\fillNotABC
 
-							% Add labels outside the circles
-							\node at (.5, 4.25) {$S$}; % S above and left of set A
-							\node at (4.5, 4.25) {$H$};  % H above and right of set B
-							\node at (1.75, 0.33) {$R$}; % R below and left of set C
+								% Add labels outside the circles
+								\node at (.5, 4.25) {$S$}; % S above and left of set A
+								\node at (4.5, 4.25) {$H$};  % H above and right of set B
+								\node at (1.75, 0.33) {$R$}; % R below and left of set C
 
-							\end{venndiagram3sets}
-						</latex-image>
-					</image>
+								\end{venndiagram3sets}
+							</latex-image>
+						</image>
+					</figure>
 				</sidebyside>
 				<p>
-					From the given data, we know that there are 3 students in region <m>e</m> and 7 students in region <m>h</m>. Since 7 students were taking a SS and NS course, we know that n(d) + n(e) = 7.  Since we know there are 3 students in region 3, there must be 
-
-					7 – 3 = 4 students in region d. 
+					From the given data, we know that there are 3 students in region <m>e</m> and 7 students in region <m>h</m>. Since 7 students were taking a science and a religion course, we know that <m>n(d) + n(e) = 7</m>.  Since we know there are 3 students in region 3, there must be <m>7 - 3 = 4</m> students in region <m>d</m>. 
 				</p>
 			</solution>
 		</example>
