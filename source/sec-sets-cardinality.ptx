@@ -208,7 +208,8 @@
 			Note that the <xref text="title" ref="fact-sets-addition-rule"/> can be updated for three-set problems, but we do not include the formula here.
 		</p>
 		<p>
-			The following examples illustrate how we count three
+			To compute cardinality in 3-set counting problems, begin by finding the central intersection where all three sets overlap, if possible. Then, calculate the pairwise intersections where exactly two sets meet. 
+			Using these values, determine how many elements belong uniquely to each individual set. Finally, add all these regions together and verify that they match the given total, or use the total to compute any missing values. The following examples demonstrate this approach.
 		</p>
 		<example>
 			<statement>
