@@ -409,7 +409,52 @@
 						<mrow> n((C\cup R\cup S)^C) =\amp 75-(3+5+1+3+3+9+11) </mrow>
 						<mrow> =\amp 75-35 =40. </mrow>
 					</md>
+					These values are shown in the figure below.
 				</p>
+				<figure xml:id="fig-3-set-venn-diagram-consumer">
+					<caption>The <q>solved</q> 3-set Venn diagram showing the cardinality of each region.</caption>
+					<image xml:id="tikz-3venn-consumers-solved" width="45%">
+						<shortdescription>A rectangle is drawn for the universal set U. There are three overlapping circles inside. One is labeled C, one R, and one S. The distinct regions are labeled with numbers representing their cardinality.</shortdescription>
+						<latex-image>
+							\begin{venndiagram3sets}[
+							labelA={$C$},
+							labelB={$R$},
+							labelC={$S$},
+							labelOnlyA={3},
+							labelOnlyB={3},
+							labelOnlyC={11},
+							labelOnlyAB={5},
+							labelOnlyAC={3},
+							labelOnlyBC={9},
+							labelABC={1},
+							labelNotABC={40},
+							]
+					
+							% Add shading for subregions
+							\setkeys{venn}{shade=yellow!25}
+							\fillOnlyA
+							\setkeys{venn}{shade=cyan!25}
+							\fillOnlyB
+							\setkeys{venn}{shade=magenta!25}
+							\fillOnlyC
+							\setkeys{venn}{shade=green!15}
+							\fillACapBNotC
+							\setkeys{venn}{shade=orange!15}
+							\fillACapCNotB
+							\setkeys{venn}{shade=violet!25}
+							\fillBCapCNotA
+							\setkeys{venn}{shade=white!25}
+							\fillACapBCapC
+							\setkeys{venn}{shade=white}
+							\fillNotABC
+					
+							% Add label for U
+							\node at (4.75, 4.75) {$U$};
+					
+							\end{venndiagram3sets}
+						</latex-image>
+					</image>
+				</figure>
 				<p>
 					The Venn diagram resulting from these calculations is shown above. From this figure, we can conclude that
 					<ol marker="a)">
