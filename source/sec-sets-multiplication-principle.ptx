@@ -22,13 +22,20 @@
     <p>
       In the previous section, we explored the art of counting by examining the number of elements in finite sets. Building on that foundation, particularly the inclusion-exclusion principle, we now introduce our first result in this section: the addition rule. Following our discussion on the addition rule, we will further expand our counting techniques by introducing and applying another foundational tool, the multiplication principle.
     </p>
-
   </introduction>
 	<subsection>
 		<title>The Addition Rule</title>
 		<p>
-			
+			The <term>addition rule</term> is a reformulation of the <xref text="title" ref="fact-sets-inclusion-exclusion-rule"/> for mutually elusive sets.
 		</p>
+		<principle xml:id="thm_counting-rule_addition-informal">
+			<title>Addition Rule</title>
+			<statement>
+				<p>
+					The <term>addition rule</term> states that if a process can occur in one of two distinct ways, where the first way has <m>n</m> possibilities and the second way has <m>m</m> possibilities, then the entire process can occur in <m>n+m</m> ways.
+				</p>
+		  </statement>
+	  </principle>
 	</subsection>
 
 </section>
