@@ -148,9 +148,9 @@
 				</latex-image>
 			</image>
 		</example>
-		<fact xml:id="fact-sets-addition-rule">
-			<title>Addition Rule</title>
-			<statement>				
+		<fact xml:id="fact-sets-inclusion-exclusion-rule">
+			<title>Inclusion-Exclusion Rule</title>
+			<statement>
 				<p>
 					Let <m>A</m> and <m>B</m> be two finite sets. Then
 					<me>
@@ -214,7 +214,7 @@
 		<p>
 			Counting problems involving three sets are solved similarly to those involving two sets. The primary difference is that while two sets divide the universal set into four potential regions, three sets divide the universal set into eight total regions as shown in <xref ref="fig-3-set-venn-diagram"/>. 
 			Computing the cardinality of these regions is thus more complex than for two-set problems and, as we shall see in the following examples, it requires care to tease out correct values without double (or triple!) counting elements.
-			Note that the <xref text="title" ref="fact-sets-addition-rule"/> can be updated for three-set problems, but we do not include the formula here.
+			Note that the <xref text="title" ref="fact-sets-inclusion-exclusion-rule"/> can be updated for three-set problems, but we do not include the formula here.
 		</p>
 		<p>
 			To compute cardinality in 3-set counting problems, begin by finding the central intersection where all three sets overlap, if possible. Then, calculate the pairwise intersections where exactly two sets meet. 
