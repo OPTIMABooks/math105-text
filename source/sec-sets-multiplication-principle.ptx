@@ -36,7 +36,14 @@
 				</p>
 			</statement>
 		</principle>
-		<p>To see this common-sense counting rule in action, consider the following example.</p>
+		<p>
+			Note that the addition rule can be extended to include process or tasks that requires <m>k</m> steps. In that case, if there are <m>n_1</m> ways to complete the first step, <m>n_2</m> ways to complete the second and so forth, then there are 
+			<me>
+				n_1 + n_2 + \cdots + n_k
+			</me>
+			total ways to complete the task. 
+			To see this common-sense counting rule in action, consider the following example.
+		</p>
 		<example xml:id="ex_counting_addition-informal">
 			<title>Using the Addition Rule</title>
 			<statement>
