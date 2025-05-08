@@ -52,5 +52,26 @@
 			The addition rule is useful for counting mutually exclusive cases. For non-mutually exclusive scenarios, use <xref text="custom" ref="fact-sets-inclusion-exclusion-rule"> Inclusion-Exclusion Rule</xref>.
 		</p>
 	</subsection>
+	<subsection xml:id="sec_counting_multiplication">
+		<title>The Multiplication Rule</title>
+		<p>
+			Some processes have two or more steps, rather than cases, each of which can happen in several different ways. In order to determine the total number of ways that such a multi-step process can happen, we need to use a new rule, called the <term>multiplication rule</term>.
+		</p>
+		<principle xml:id="thm_counting-rule_multiplication">
+			<idx>multiplication rule (counting)</idx>
+			<idx><h>counting rules</h><h>multiplication</h></idx>
+			<statement>
+				<p>
+					The <term>multiplication rule</term> states that if a tasks consists of two steps where step one can happen in <m>n_1</m> ways and step two can happen in <m>n_2</m> ways, then the entire task can be done in <m>n_1 \times n_2</m> different ways.
+				</p>
+			</statement>
+		</principle>
+		<p>
+			<alert>Note:</alert> The multiplication rule can be expanded to a process which includes <m>k</m> stages, the <m>i^\text{th}</m> of which can happen in <m>n_i</m> ways, then the total number of ways the task can be done is:
+		<me>
+			n_1 \times n_2 \times \cdots \times n_k
+		</me>.
+	</p>
+		</subsection>
 
 </section>
