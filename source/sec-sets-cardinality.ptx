@@ -159,6 +159,15 @@
 				</p>
 			</statement>
 		</fact>
+		<definition xml:id="def_mutually-exclusive">
+	  	<idx>mutually exclusive</idx>
+	  	<idx><h>sets</h><h>mutually exclusive</h></idx>
+	  	<statement>
+	  		<p>
+					Two sets, <m>A</m> and <m>B</m>, are <term>mutually exclusive</term> if their intersection is empty.  That is, <m>A\cap B = \emptyset</m>, which means that <m>n(A\cap B) = 0</m>.
+				</p>
+	  	</statement>
+	  </definition>
 		<p>
 			A 2-set Venn diagram can be solved for any of the four regions found in such a diagram, as illustrated by the next example.
 		</p>
