@@ -162,6 +162,7 @@
 		<definition xml:id="def_mutually-exclusive">
 	  	<idx>mutually exclusive</idx>
 	  	<idx><h>sets</h><h>mutually exclusive</h></idx>
+			<title>mutually exclusive</title>
 	  	<statement>
 	  		<p>
 					Two sets, <m>A</m> and <m>B</m>, are <term>mutually exclusive</term> if their intersection is empty.  That is, <m>A\cap B = \emptyset</m>, which means that <m>n(A\cap B) = 0</m>.

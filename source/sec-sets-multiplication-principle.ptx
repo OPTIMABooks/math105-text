@@ -26,7 +26,7 @@
 	<subsection>
 		<title>The Addition Rule</title>
 		<p>
-			The <term>addition rule</term> is a reformulation of the <xref text="title" ref="fact-sets-inclusion-exclusion-rule"/> for mutually elusive sets.
+			The <term>addition rule</term> is a reformulation of the <xref text="title" ref="fact-sets-inclusion-exclusion-rule"/> for <xref text="title" ref="def_mutually-exclusive"/> sets.
 		</p>
 		<principle xml:id="thm_counting-rule_addition-informal">
 			<title>Addition Rule</title>
