@@ -18,11 +18,11 @@
 		</ul>
 	</objectives>
 
-  <introduction>
-    <p>
-      In the previous section, we explored the art of counting by examining the number of elements in finite sets. Building on that foundation, particularly the inclusion-exclusion principle, we now introduce our first result in this section: the addition rule. Following our discussion on the addition rule, we will further expand our counting techniques by introducing and applying another foundational tool, the multiplication principle.
-    </p>
-  </introduction>
+	<introduction>
+		<p>
+			In the previous section, we explored the art of counting by examining the number of elements in finite sets. Building on that foundation, particularly the inclusion-exclusion principle, we now introduce our first result in this section: the addition rule. Following our discussion on the addition rule, we will further expand our counting techniques by introducing and applying another foundational tool, the multiplication principle.
+		</p>
+	</introduction>
 	<subsection>
 		<title>The Addition Rule</title>
 		<p>
@@ -34,8 +34,20 @@
 				<p>
 					The <term>addition rule</term> states that if a process can occur in one of two distinct ways, where the first way has <m>n</m> possibilities and the second way has <m>m</m> possibilities, then the entire process can occur in <m>n+m</m> ways.
 				</p>
-		  </statement>
-	  </principle>
+			</statement>
+		</principle>
+		<p>To see this common-sense counting rule in action, consider the following example.</p>
+		<example xml:id="ex_counting_addition-informal">
+			<title>Using the Addition Rule</title>
+			<statement>
+				<p>You have won a church raffle. The winning ticket entitles you to choose either one of eight possible home-made pies, or one of six types of home-made cakes. In how many ways can you make your choice?</p>
+			</statement>
+			<solution>
+				<p>
+					Since you may choose either a pie <em>or</em> a cake, and none of your choices are <em>both</em> a pie and a cake, according to the addition rule you have <m>8+6=14</m> choices.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 
 </section>
