@@ -137,34 +137,37 @@
 				<p>
 					Note that the tree has 6 <em>leaves</em> <mdash></mdash> the number of outfits (outcomes) predicted by the multiplication rule.
 				</p>
-				<image xml:id="tikz-ex-counting-tree-2-step" width="55%">
-					<shortdescription>A tree diagram with one branch from the starting point for each of of two pairs of pants, and three branches from each pair or pants, one for each clean shirt (1 through 3).</shortdescription>
-					<latex-image>
-						% Tree options
-						% Set the overall layout of the tree
-						\tikzstyle{level 1}=[level distance=2cm, sibling distance=3cm]
-						\tikzstyle{level 2}=[level distance=2.5cm, sibling distance=1cm]
-						\tikzstyle{end} = [circle, minimum width=1pt, fill, inner sep=0pt]
-						% Define styles for bags and leaves
-						\tikzstyle{drawer} = [text width=4em, text centered]
+				<figure xml:id="fig_counting_multiplication_2-step">
+					<caption>Tree diagram illustrating the 6 outcomes possible in <xref ref="ex_counting_multiplication_2-step"/>..</caption>
+					<image xml:id="tikz-ex-counting-tree-2-step" width="55%">
+						<shortdescription>A tree diagram with one branch from the starting point for each of of two pairs of pants, and three branches from each pair or pants, one for each clean shirt (1 through 3).</shortdescription>
+						<latex-image>
+							% Tree options
+							% Set the overall layout of the tree
+							\tikzstyle{level 1}=[level distance=2cm, sibling distance=3cm]
+							\tikzstyle{level 2}=[level distance=2.5cm, sibling distance=1cm]
+							\tikzstyle{end} = [circle, minimum width=1pt, fill, inner sep=0pt]
+							% Define styles for bags and leaves
+							\tikzstyle{drawer} = [text width=4em, text centered]
 
-						\begin{tikzpicture}[grow=right, sloped, scale=1.0,font=\sffamily]
-							\node[drawer] {outfits}
-								child {
-									node[drawer] {pants 2}
-										child { node[end, label=right:{shirt 3}] {} }
-										child { node[end, label=right:{shirt 2}] {} }
-										child { node[end, label=right:{shirt 1}] {} }
-								}
-								child {
-									node[drawer] {pants 1}
-										child { node[end, label=right:{shirt 3}] {} }
-										child { node[end, label=right:{shirt 2}] {} }
-										child { node[end, label=right:{shirt 1}] {} }
-								};
-						\end{tikzpicture}
-					</latex-image>
-				</image>
+							\begin{tikzpicture}[grow=right, sloped, scale=1.0,font=\sffamily]
+								\node[drawer] {outfits}
+									child {
+										node[drawer] {pants 2}
+											child { node[end, label=right:{shirt 3}] {} }
+											child { node[end, label=right:{shirt 2}] {} }
+											child { node[end, label=right:{shirt 1}] {} }
+									}
+									child {
+										node[drawer] {pants 1}
+											child { node[end, label=right:{shirt 3}] {} }
+											child { node[end, label=right:{shirt 2}] {} }
+											child { node[end, label=right:{shirt 1}] {} }
+									};
+							\end{tikzpicture}
+						</latex-image>
+					</image>
+				</figure>
 			</solution>
 		</example>
 		<p>
@@ -180,10 +183,13 @@
 				<p>
 					Sixty branches makes this tree inconvenient to use, though it does visually represent all possible lunch options. For problems with many levels or options, the multiplication rule is a more efficient way to solve counting problems.
 				</p>
-				<!-- For unknown reasons, the tikz code for this image won't create an SVG file in Pretext (the file is blank). To update this diagram, edit /assets/images/sets_and_prob/tikz-source/tree-3-step-code_v1.tex (or v2) and turn the resulting PDF into a PNG file. -->
-				<image xml:id="tikz-ex-counting-tree-3-step" width="85%" source="images/sets_and_prob/tree-3-step-code_v1.png">
-					<shortdescription>A tree diagram with one branch from the starting point for each of three sandwich options, and five branches from each sandwich option representing drinks, and three from each drink representing drink choices. This leads to 60 total options, which agrees with the multiplication rule.</shortdescription>
-				</image>
+				<figure xml:id="fig_counting_multiplication_3-step">
+					<caption>Tree diagram showing all 60 outcomes possible in <xref ref="ex_counting_multiplication_3-step"/>.</caption>
+					<!-- For unknown reasons, the tikz code for this image won't create an SVG file in Pretext (the file is blank). To update this diagram, edit /assets/images/sets_and_prob/tikz-source/tree-3-step-code_v1.tex (or v2) and turn the resulting PDF into a PNG file. -->
+					<image xml:id="tikz-ex-counting-tree-3-step" width="85%" source="images/sets_and_prob/tree-3-step-code_v1.png">
+						<shortdescription>A tree diagram with one branch from the starting point for each of three sandwich options, and five branches from each sandwich option representing drinks, and three from each drink representing drink choices. This leads to 60 total options, which agrees with the multiplication rule.</shortdescription>
+					</image>
+				</figure>
 			</solution>
 		</example>
 		<p>
