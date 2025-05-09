@@ -127,6 +127,46 @@
 				</p>
 			</statement>
 		</definition>
+		<example>
+			<statement>
+				<p>
+					Construct a tree diagram to illustrate the solution to <xref ref="ex_counting_multiplication_2-step"/>.
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Note that the tree has 6 <em>leaves</em> <mdash></mdash> the number of outfits (outcomes) predicted by the multiplication rule.
+				</p>
+				<image xml:id="tikz-ex-counting-tree-2-step" width="55%">
+					<shortdescription>A tree diagram with one branch from the starting point for each of of two pairs of pants, and three branches from each pair or pants, one for each clean shirt (1 through 3).</shortdescription>
+					<latex-image>
+						% Tree options
+						% Set the overall layout of the tree
+						\tikzstyle{level 1}=[level distance=2cm, sibling distance=3cm]
+						\tikzstyle{level 2}=[level distance=2.5cm, sibling distance=1cm]
+						\tikzstyle{end} = [circle, minimum width=1pt, fill, inner sep=0pt]
+						% Define styles for bags and leaves
+						\tikzstyle{drawer} = [text width=4em, text centered]
+
+						\begin{tikzpicture}[grow=right, sloped, scale=1.0,font=\sffamily]
+							\node[drawer] {outfits}
+								child {
+									node[drawer] {pants 2}
+										child { node[end, label=right:{shirt 3}] {} }
+										child { node[end, label=right:{shirt 2}] {} }
+										child { node[end, label=right:{shirt 1}] {} }
+								}
+								child {
+									node[drawer] {pants 1}
+										child { node[end, label=right:{shirt 3}] {} }
+										child { node[end, label=right:{shirt 2}] {} }
+										child { node[end, label=right:{shirt 1}] {} }
+								};
+						\end{tikzpicture}
+					</latex-image>
+				</image>
+			</solution>
+		</example>
 	</subsection>
 
 </section>
