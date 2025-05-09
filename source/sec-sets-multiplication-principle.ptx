@@ -81,16 +81,38 @@
 		</p>
 		<example xml:id="ex_counting_multiplication_2-step">
 			<statement>
-				<p>A college student has two pairs of clean pants and three clean shirts. How many outfits are possible, where an <q>outfit</q> is a pair of pants and a shirt?</p>
+				<p>
+					A college student has two pairs of clean pants and three clean shirts. How many outfits are possible, where an <q>outfit</q> is a pair of pants and a shirt?
+				</p>
 			</statement>
 			<solution>
-				<p>Picking an outfit requires two steps:
+				<p>
+					Picking an outfit requires two steps:
 					<ol>
 						<li><p>Choosing a pair of pants from 2 choices,</p></li>
 						<li><p>Choosing a shirt from 3 choices.</p></li>
 					</ol>
 					Thus, by the multiplication rule the total number of outfits is:
 					<me>2 \times 3 = 6</me>.
+				</p>
+			</solution>
+		</example>
+		<example xml:id="ex_counting_multiplication_3-step">
+			<statement>
+				<p>
+					At a lunch buffet, you can choose from 4 types of sandwiches, 5 types of drinks, and 3 types of desserts. How many different meal combinations can you create by selecting one item from each category?
+				</p>
+			</statement>
+			<solution>
+				<p> 
+					Selecting a meal requires three steps::
+					<ol>
+						<li><p>Choosing a sandwich from 4 options,</p></li>
+						<li><p>Choosing a drink from 5 options,</p></li>
+						<li><p>Choosing a dessert from 3 options.</p></li>
+					</ol>
+					The total number of lunch combinations is thus:
+					<me>4\times 5\times 3 = 60</me>.
 				</p>
 			</solution>
 		</example>
