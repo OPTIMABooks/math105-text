@@ -116,6 +116,17 @@
 				</p>
 			</solution>
 		</example>
+		<p>
+			Both examples above can be represented using a <term>tree diagram</term>. Tree diagrams are helpful tools for visualizing the multiplication rule and solving multi-step problems. They work well when each step in a process leads to a set of possible outcomes. However, when a process involves many steps or numerous options at each stage, tree diagrams can become cumbersome to create and use.
+		</p>
+		<definition xml:id="def_tree-diagram">
+			<idx>tree diagram</idx>
+			<statement>
+				<p>
+					In a <term>tree diagram</term>, each step in a process is represented by a branching point, with each branch showing a possible outcome of that step.
+				</p>
+			</statement>
+		</definition>
 	</subsection>
 
 </section>
