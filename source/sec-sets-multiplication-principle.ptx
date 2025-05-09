@@ -75,10 +75,10 @@
 		</principle>
 		<p>
 			<alert>Note:</alert> The multiplication rule can be expanded to a process which includes <m>k</m> stages, the <m>i^\text{th}</m> of which can happen in <m>n_i</m> ways, then the total number of ways the task can be done is:
-		<me>
-			n_1 \times n_2 \times \cdots \times n_k
-		</me>.
-	</p>
+			<me>
+				n_1 \times n_2 \times \cdots \times n_k
+			</me>.
+		</p>
 		</subsection>
 
 </section>
