@@ -202,8 +202,8 @@
 				<sidebyside widths="50% 40%" margins="3% 4% 3%">
 					<p>This process can be broken up into two steps:
 						<ol>
-							<li><p>pick a destination (there are three of them)</p></li>
-							<li><p>pick a resort (the number depends on the destination chosen in step 1)</p></li>
+							<li><p>pick a destination (there are three of them);</p></li>
+							<li><p>pick a resort (the number depends on the destination chosen in step 1).</p></li>
 						</ol>
 					</p>
 					<figure xml:id="fig_counting_multiplication_ex_unbalanced-tree">
