@@ -186,6 +186,12 @@
 				</image>
 			</solution>
 		</example>
+		<p>
+			Notice that in a tree diagram we represent a particular sequence of choices by following a path through the tree. For example, in the second tree diagram, going along the second branch to sandwich 2, then the first branch to drink 1, and then the third branch to dessert 3 gives us one complete lunch option. The total number of possible lunches is the same as the total number of branches at the last step.
+		</p>
+		<p>
+			There are some instances where the number of choices we have at a given step depends on the choice we made at the previous step. In these cases, the multiplication rule will not work. However, as shown in the next example, a tree diagram can still be a useful tool for counting the total number of ways to complete such a process.
+		</p>
 	</subsection>
 
 </section>
