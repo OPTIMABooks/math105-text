@@ -167,6 +167,25 @@
 				</image>
 			</solution>
 		</example>
+		<p>
+			The next example demonstrates that while a tree diagram faithful represents a counting problem that uses the multiplication principle, it can be very large an unwieldy to use!
+		</p>
+		<example>
+			<statement>
+				<p>
+					Construct a tree diagram to illustrate the solution to <xref ref="ex_counting_multiplication_3-step"/>.
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Sixty branches makes this tree inconvenient to use, though it does visually represent all possible lunch options. For problems with many levels or options, the multiplication rule is a more efficient way to solve counting problems.
+				</p>
+				<!-- For unknown reasons, the tikz code for this image won't create an SVG file in Pretext (the file is blank). To update this diagram, edit /assets/images/sets_and_prob/tikz-source/tree-3-step-code_v1.tex (or v2) and turn the resulting PDF into a PNG file. -->
+				<image xml:id="tikz-ex-counting-tree-3-step" width="85%" source="images/sets_and_prob/tree-3-step-code_v1.png">
+					<shortdescription>A tree diagram with one branch from the starting point for each of three sandwich options, and five branches from each sandwich option representing drinks, and three from each drink representing drink choices. This leads to 60 total options, which agrees with the multiplication rule.</shortdescription>
+				</image>
+			</solution>
+		</example>
 	</subsection>
 
 </section>

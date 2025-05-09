@@ -26,7 +26,7 @@
     </p>
   </introduction>
   <subsection>
-    <title>APR – Annual Percentage Rate</title>
+    <title>APR <mdash></mdash> Annual Percentage Rate</title>
     <p>
       Interest rates are usually stated as an <term>annual percentage rate (APR)</term> – the total interest that will be paid in the year. If not stated otherwise, assume that the interest rate is an annual rate or APR. If the interest is paid in smaller time increments, the APR will be divided by the number of time periods.
       The APR divided by the number of time periods is called the <term>periodic interest rate</term>.
@@ -97,7 +97,7 @@
       Suppose that we deposit $1000 in a bank account offering 3% interest, compounded monthly. How will our money grow?
     </p>
     <p>
-      The 3% interest is an annual percentage rate (APR) – the total interest to be paid during the year. Since interest is being paid monthly, each month, we will earn <m>\frac{0.03}{12}=0.0025</m> per month.
+      The 3% interest is an annual percentage rate (APR) <mdash></mdash> the total interest to be paid during the year. Since interest is being paid monthly, each month, we will earn <m>\frac{0.03}{12}=0.0025</m> per month.
     </p>
     <p>
       In the first month,
