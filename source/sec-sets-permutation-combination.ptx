@@ -112,7 +112,7 @@
 	<subsection xml:id="sec_counting_permutations">
 		<title>Permutations</title>
 		<p>
-			In some counting problems, we find a process that looks much like the <q>factorial</q> questions seen above, but we are not asked to use up or arrange all of the items.
+			In some counting problems, the process resembles the one used in factorial-based problems, but we are not required to use or arrange all of the items. Here is an example.
 		</p>
 		<example xml:id="examp_counting_permutation_runners">
 			<title>Ordering a Subset</title>
@@ -135,6 +135,9 @@
 				</p>
 			</solution>
 		</example>
+		<p>
+			While the solution to the above problem started off looking like a factorial, <m>10 \times 9 \times 8</m>, it stopped after 8 because we didn't need to order the remaining seven runners in this race. In general, when we need to count the number of ways to order or arrange <m>r</m> items chosen from <m>n</m> possible items, we are using a <term>permutation</term>.
+		</p>
 	</subsection>
 
 </section>
