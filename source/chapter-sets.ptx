@@ -45,6 +45,11 @@
           Distinguish between mutually exclusive and independent events.
         </p>
       </li>
+			<li>
+				<p>
+					Solve counting problems using combined methods.
+				</p>
+			</li>
 		</ul>
 	</objectives>
 
@@ -59,6 +64,7 @@
 	<xi:include href="sec-sets-set-operations.ptx" />
 	<xi:include href="sec-sets-cardinality.ptx" />
 	<xi:include href="sec-sets-multiplication-principle.ptx" />
+	<xi:include href="sec-sets-permutation-combination.ptx" />
 
 
 </chapter>

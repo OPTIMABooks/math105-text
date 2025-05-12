@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-set-permutation-combination" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Permutations and Combinations</title>
+
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Use Permutations to solve counting problems.
+				</p>
+			</li>
+			<li>
+				<p>
+					Use Permutations to solve counting problems.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+
+	<introduction>
+		<p>
+			In this section we build on the multiplication principle discussed in the previous section. We start with factorials, which establish the mathematical foundation for the second topic, permutations, which are in turn the building block of combinations. Taken together with the addition and multiplication rule, these three mathematical tools allow us to solve a variety of useful counting problems.
+		</p>
+	</introduction>
+  <subsection xml:id="subsec-sets-factorial">
+    <title>Factorials</title>
+    <p>
+      
+    </p>
+  </subsection>
+
+  
+
+</section>
