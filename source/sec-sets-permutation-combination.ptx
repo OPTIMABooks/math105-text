@@ -92,6 +92,22 @@
 				</p>
 			</solution>
 		</example>
+		<example>
+			<statement>
+				<p>
+					Six WWU students line up for a photo that will appear in the local paper. The photographer arranges them in a line down the steps of Meske Hall. How many different ways can the student be arranged?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Because each student can only be placed in one position, the number of students decreases with each choice. That is, 6 students can be on the top step, but then only 5 remain to be selected for the second step, 4 for the third step, and so on. Thus, there are
+					<me>
+						6! = 6\times 5\times 4\times 3\times 2\times 1 = 720
+					</me>
+					possible arrangements.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 
 	
