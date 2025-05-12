@@ -109,7 +109,32 @@
 			</solution>
 		</example>
 	</subsection>
-
-	
+	<subsection xml:id="sec_counting_permutations">
+		<title>Permutations</title>
+		<p>
+			In some counting problems, we find a process that looks much like the <q>factorial</q> questions seen above, but we are not asked to use up or arrange all of the items.
+		</p>
+		<example xml:id="examp_counting_permutation_runners">
+			<title>Ordering a Subset</title>
+			<statement>
+				<p>
+					Suppose that ten runners compete in a race in which first, second, and third prizes are awarded. In how many ways can these prizes be won?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Using the multiplication rule, the steps in this process are:
+					<ol>
+						<li><p>Award first prize. Any of the 10 runners could be 1st.</p></li>
+						<li><p>Award second prize. Nine runners could come in 2nd.</p></li>
+						<li><p>Award third prize. Eight runners could come in 3rd.</p></li>
+					</ol>
+					Thus, prizes can be awarded
+					<me>10\times 9\times 8 = 720</me>
+					ways.
+				</p>
+			</solution>
+		</example>
+	</subsection>
 
 </section>
