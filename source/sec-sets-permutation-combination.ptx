@@ -23,13 +23,52 @@
 			In this section we build on the multiplication principle discussed in the previous section. We start with factorials, which establish the mathematical foundation for the second topic, permutations, which are in turn the building block of combinations. Taken together with the addition and multiplication rule, these three mathematical tools allow us to solve a variety of useful counting problems.
 		</p>
 	</introduction>
-  <subsection xml:id="subsec-sets-factorial">
-    <title>Factorials</title>
-    <p>
-      
-    </p>
-  </subsection>
+	<subsection xml:id="subsec-sets-factorial">
+		<title>Factorials</title>
+		<p>
+			The following example shows how the <term>factorial</term> is a special case of the <xref ref="thm_counting-rule_multiplication" text="custom"> multiplication principle</xref>.
+		</p>
+		<example xml:id="examp_counting_factorial_dolls">
+			<title>Arranging Items</title>
+			<statement>
+				<p>
+					You want to display your four favorite collectibles on your shelf: a Minecraft Steve figure, a Pikachu plush, a Lego Harry Potter minifigure, and a Mario Kart Hot Wheels car. In how many different ways can you arrange them in a row?
+				</p>
+			</statement>
+			<solution>
+				<p>This is an example of the multiplication rule using the following steps.
+					<ol>
+						<li><p>Chose which of the 4 items to place first (4 choices)</p></li>
+						<li><p>Choose which of the 3 remaining items to place 2nd (3 choices)</p></li>
+						<li><p>Choose which of the 2 remaining items to place 3rd (2 choices left)</p></li>
+						<li><p>Choose which of the 1 remaining items to place at the end of the row (only one choice).</p></li>
+					</ol>
+					Therefore, according to the multiplication rule, the number of orderings is:
+					<me> 4\times 3\times 2 \times 1 = 24</me>.
+				</p>
+			</solution>
+		</example>
+		<p>
+			Notice that because we were selecting from our group of items without replacing them, the number of choices went down by one each time. When we use the multiplication rule with this sort of process, we wind up multiplying the numbers between 1 and the original number of choices. This product has a special name.
+		</p>
+		<definition xml:id="def_factorial">
+			<idx>factorial</idx>
+			<statement>
+				<p>
+					For any positive integer <m>n</m>, <m>n!</m> (read <q><m>n</m> <em>factorial</em></q>) is the product of the numbers between <m>1</m> and <m>n</m>. That is:
+					<me>
+						n! = n\times(n-1)\times \cdots \times 2\times 1
+					</me>.
+					Also, by definition, 
+					<me>
+						0! = 1.
+					</me>
+				</p>
+			</statement>
+		</definition>
 
-  
+	</subsection>
+
+	
 
 </section>
