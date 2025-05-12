@@ -138,6 +138,25 @@
 		<p>
 			While the solution to the above problem started off looking like a factorial, <m>10 \times 9 \times 8</m>, it stopped after 8 because we didn't need to order the remaining seven runners in this race. In general, when we need to count the number of ways to order or arrange <m>r</m> items chosen from <m>n</m> possible items, we are using a <term>permutation</term>.
 		</p>
+		<definition xml:id="def-sets-permutation-in-words">
+			<statement>
+				<p>
+					A <term>permutation</term> of a set of elements is an ordered arrangement where each element is used once. 
+				</p>
+			</statement>
+		</definition>
+		<fact xml:id="fact-sets-permutation-formula">
+			<idx>permutation</idx>
+			<idx><h>counting rules</h><h>permutation</h></idx>
+			<statement>
+				<p>
+					A <term>permutation of <m>n</m> items taken <m>r</m> at a time</term> is used to count the number of ways to arrange (or permute) <m>r</m> items chosen from <m>n</m> possible items. The formula for this permutation is:
+					<me>
+						P(n,r) = \frac{n!}{(n-r)!}
+					</me>.
+			</p>
+			</statement>
+		</fact>
 	</subsection>
 
 </section>
