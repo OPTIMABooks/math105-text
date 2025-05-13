@@ -302,5 +302,27 @@
 			</me>.
 		</p>
 	</subsection>
+	<subsection xml:id="sec_counting_mixed">
+	<title>Mixed Counting Techniques</title>
+		<p>
+			One of the most challenging aspects of counting problems is deciding which rules<mdash/>or combinations of rules<mdash/>to apply to a given question. To complicate things further, there are often multiple approaches to reach the correct answer. Here are a few general rules of thumb to keep in mind.
+		</p>
+		<assemblage xml:id="assemblage-sets-counting-rules_principles">
+			<title>Combining Counting Rules</title>
+			<idx><h>counting rules</h><h>combining</h></idx>
+				<p>
+					<ol>
+						<li><p>If the things you are counting come in two distinct groups, count each group then add together the results. (<xref ref="thm_counting-rule_addition-informal" text="custom">addition rule</xref> <mdash/> goes with <q>or</q>)</p></li>
+						<li><p>If there is overlap between the two groups, remember to subtract the intersection. (<xref ref="fact-sets-inclusion-exclusion-rule" text="custom">inclusion/exclusion rule</xref>)</p></li>
+						<li><p>If the process you are counting can be broken down into steps, count the number of ways each step can be performed and multiply. (<xref ref="thm_counting-rule_multiplication" text="custom">multiplication rule</xref> <mdash/> goes with <q>and</q>)</p></li>
+						<li><p>If you are arranging things or selecting multiple items and the order of selection matters, use a permutation. (<xref ref="fact-sets-permutation-formula">permutation rule</xref>).</p></li>
+						<li><p>If you are selecting multiple items from a group of items and the order in which you pick them does not matter, use a combination. (<xref ref="fact_sets_counting-rule_combination" text="custom">combination rule</xref>).</p></li>
+					</ol>
+				</p>
+		</assemblage>
+		<p>
+			The following examples illustrate these principles. Remember that the first step should always be to identify the rule or rules that should be used to solve a counting problem.
+		</p>
+	</subsection>
 
 </section>
