@@ -202,6 +202,54 @@
 		<p>
 			Permutations are useful when the order in which we select objects matters<mdash/>as in running a race or creating a schedule. However, order does not always matter. In such cases, we need to change the way we count. This important distinction is illustrated in the following example.
 		</p>
+		<example xml:id="ex_sets_counting_combination_movies">
+			<title>Counting when Order Doesn't Matter</title>
+			<statement>
+				<p>
+					You have two extra movie tickets and want to invite two of your four good friends to join you. In how many different ways can you choose which friends to take to the movies?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Suppose your friends names are: Alice, Bob, Candace, and David. If you try to count the number of ways you could invite two friends using a permutation, you get:
+					<me>
+						P(4,2) = 4\times 3 = 12
+					</me>.
+					However, this is not the correct answer. To see why, make a list of possible choices that the permutation counts.
+				</p>
+				<table>
+					<title>Possible Selections</title>
+					<tabular>
+						<row>
+							<cell>AB</cell>
+							<cell>BA</cell>
+							<cell>CA</cell>
+							<cell>DA</cell>
+						</row>
+						<row>
+							<cell>AC</cell>
+							<cell>BC</cell>
+							<cell>CB</cell>
+							<cell>DB</cell>
+						</row>
+						<row>
+							<cell>AD</cell>
+							<cell>BD</cell>
+							<cell>CD</cell>
+							<cell>DC</cell>
+						</row>
+					</tabular>
+				</table>
+				<p>
+					Notice that each pair appears twice. For example, AB and BA are counted separately but these two pairs represent inviting the same group of friends to a movie. This is because in a permutation, the order in which we hand out the tickets makes a difference. 
+					But really, we don't care who got the first ticket<mdash/>we just want to know who is going. Since there are two of each possible pairs, the actual number of ways to pick the two friends to go with us is:
+					<me>
+						\frac{P(4,2)}{2!} = \frac{12}{2} = 6
+					</me>.
+					The <m>2!</m> in the denominator is the number of orderings of 2 objects, which needs to be divided out of the permutation because order doesn't matter here.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 
 </section>
