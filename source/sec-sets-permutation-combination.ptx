@@ -165,37 +165,37 @@
 			<me>
 				P(10,3) = \frac{10!}{(10-3)!} = \frac{10\times 9\times 8\times 7!}{7!} = 10\times 9\times 8 = 720
 			</me>.
-		Permutations are a general method used to count the number of ways to complete a process when the order of completion matters. A race is a good example of a situation where order is important. Another example is provided below.
-	</p>
-	<example xml:id="examp_counting_permutation_bands">
-		<title>Using Permutations</title>
-		<statement>
-			<p>
-				Six bands have expressed interest in performing at a concert, which has time slots for three performances. In how many different ways can the concert manager schedule the performances?
-			</p>
-		</statement>
-		<solution>
-			<p>
-				Since there are 6 bands to choose from and only 3 are needed, and because the order of performance matters (changing the order creates a different schedule), the number of possible schedules is:
-				<me>
-					P(6,3) = \frac{6!}{3!} = 6\times 5\times 4 = 120
-				</me>.
-			</p>
-		</solution>
-	</example>
-	<p>
-		There are a few general results that hold no matter what <m>n</m> is used in a permutation. Three of these are shown below.
-	<ul>
-		<li><p><m>P(n,n) = \frac{n!}{(n-n)!} = \frac{n!}{0!} = n!</m></p></li>
-		<li><p><m>P(n,0) = \frac{n!}{(n-0)!} = \frac{n!}{n!} = 1</m></p></li>
-		<li><p><m>P(n,1) = \frac{n!}{(n-1)!} = \frac{n\times (n-1)!}{(n-1)!} = n</m></p></li>
-	</ul>
-	Additionally, the formula shown in <xref ref="fact-sets-permutation-formula"/> algebraically reduces to the following form,
-	<me>
-		P(n,r) = \underbrace{n\times (n-1) \times \cdots \times (n-r+1)}_{r \text { items}}
-	</me>,
-	which looks like the multiplication rule.  You may find this easier to use than the version written with factorials.
-</p>
+			Permutations are a general method used to count the number of ways to complete a process when the order of completion matters. A race is a good example of a situation where order is important. Another example is provided below.
+		</p>
+		<example xml:id="examp_counting_permutation_bands">
+			<title>Using Permutations</title>
+			<statement>
+				<p>
+					Six bands have expressed interest in performing at a concert, which has time slots for three performances. In how many different ways can the concert manager schedule the performances?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Since there are 6 bands to choose from and only 3 are needed, and because the order of performance matters (changing the order creates a different schedule), the number of possible schedules is:
+					<me>
+						P(6,3) = \frac{6!}{3!} = 6\times 5\times 4 = 120
+					</me>.
+				</p>
+			</solution>
+		</example>
+		<p>
+			There are a few general results that hold no matter what <m>n</m> is used in a permutation. Three of these are shown below.
+		<ul>
+			<li><p><m>P(n,n) = \frac{n!}{(n-n)!} = \frac{n!}{0!} = n!</m></p></li>
+			<li><p><m>P(n,0) = \frac{n!}{(n-0)!} = \frac{n!}{n!} = 1</m></p></li>
+			<li><p><m>P(n,1) = \frac{n!}{(n-1)!} = \frac{n\times (n-1)!}{(n-1)!} = n</m></p></li>
+		</ul>
+		Additionally, the formula shown in <xref ref="fact-sets-permutation-formula"/> algebraically reduces to the following form,
+		<me>
+			P(n,r) = \underbrace{n\times (n-1) \times \cdots \times (n-r+1)}_{r \text { items}}
+		</me>,
+		which looks like the multiplication rule.  You may find this easier to use than the version written with factorials.
+		</p>
 	</subsection>
 
 </section>
