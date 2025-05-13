@@ -289,6 +289,20 @@
 				</p>
 			</solution>
 		</example>
+		<p>
+			As with permutations, there are a few general rules that combinations follow no matter what the value of <m>n</m> is. Several of these rules are shown below.
+		  <ul>
+		  	<li><p><m>C(n,n) = 1</m></p></li>
+		  	<li><p><m>C(n,1) = n</m></p></li>
+		  	<li><p><m>C(n,r) = C(n,n-r)</m></p></li>
+		  </ul>
+		</p>
+		<p>
+			The definition of the combination shown above simplifies to a form you may find easier to use: 
+		 	<me> 
+				C(n,r) = \frac{\overbrace{n\times (n-1) \times \cdots \times (n-r+1)}^{r \text{ values}}}{r!}
+			</me>.
+		</p>
 	</subsection>
 
 </section>
