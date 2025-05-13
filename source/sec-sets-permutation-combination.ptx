@@ -273,6 +273,22 @@
 					C(4,2) = \frac{4!}{2!(4-2)!} = \frac{4\times 3\times 2!}{2!\times 2!} = \frac{4\times 3}{2\times 1} = 6
 				</me>.
 			</p>
+		<example xml:id="ex_sets_counting_combination_committee">
+			<title>Using a Combination</title>
+			<statement>
+				<p>
+					A committee of 10 business executives wishes to form a subcommittee of 3 members to research a strategic initiative. In how many ways can this subcommittee be selected?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					The order in which a subcommittee is selected does not matter<mdash/>a person is either on the committee or not on the committee. Therefore, this is a combination and the solution is:
+					<me>
+						C(10,3) = \frac{10!}{3!(10-3)!} = \frac{10\times 9\times 8 \times 7!}{3!\times 7!} = \frac{10\times 9\times 8}{3\times 2\times 1} = 120
+					</me>.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 
 </section>
