@@ -365,6 +365,51 @@
 				</p>
 			</solution>
 		</example>
+		<example xml:id="ex_sets-counting_mixed_permutation-2">
+			<title>Counting by Combining Objects</title>
+			<statement>
+				<p>
+					Trains arrive at a station in random order from Berlin, Munich, Salzberg, Vienna, and Hamburg. In how many ways can the trains arrive so that the train from Berlin arrives immediately after the train from Salzberg?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					This problem specifically mentions the order of the trains, so the order will matter. However, we are not asked in how many ways the trains can arrive in general, which would be 
+					<me>
+						P(5,5) = 5!
+					</me>.
+					Instead, we specify that the Berlin and Salzberg train must arrive one after the other. Symbolically, we want to arrange the following four trains in order: BS, M, V, H. BS is listed together because of the condition mentioned above. We can order these in 
+					<me>
+						P(4,4) = 4! = 24
+					</me> 
+					ways.
+				</p>
+			</solution>
+		</example>
+		<example xml:id="ex_sets-counting_mixed_at-least">
+			<title>Counting Cases with <q>At Least</q></title>
+			<statement>
+				<p>
+					A deli sells 6 types of salads, 8 types of sandwiches, and 3 types of chips. Picnic baskets are available for purchase and must contain 4 different items selected from these 17. How many different picnic baskets can be made that include at least two different sandwiches?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					This is actually the most challenging problem in this section. The reason is that we have to use both the multiplication rule to split the process into steps, and the addition rule to split the process into cases. Here's how we do it:
+					<ul>
+						<li><title>Case 1</title><p>Pick two from 8 sandwiches and 2 from the remaining 9 items
+						  <me>C(8,2)\times C(9,2) = \frac{8\times 7}{2\times 1}\times\frac{9\times 8}{2\times 1} = 1008</me>.</p></li>
+						<li><title>Case 2</title><p>Pick three sandwiches from 8 available and 1 item from remaining 9
+						  <me>C(8,3)\times C(9,1) = \frac{8\times 7\times 6}{3\times 2\times 1} \times 9 = 504</me>.</p></li>
+						<li><title>Case 3</title><p>Pick four sandwiches from 8 available and none of the remaining 9 items
+						  <me>C(8,4)\times C(9,0) = \frac{8\times 7\times 6\times 5}{4\times 3\times 2\times 1}\times 1 = 70</me>.</p></li>
+					</ul>
+				Note that these three cases are mutually exclusive based on the number of sandwiches chosen, and that a picnic basket with at least two sandwiches would fall into one of these cases. So using the addition rule, the total number of picnic baskets is:
+				<me>
+					1008 + 504 + 70 = 1582
+				</me>.
+			</p>
+			</solution>
+		</example>
 	</subsection>
-
 </section>
