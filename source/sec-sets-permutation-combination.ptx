@@ -197,10 +197,10 @@
 		which looks like the multiplication rule.  You may find this easier to use than the version written with factorials.
 		</p>
 	</subsection>
-	<subsection xml:id="subsec_counting_combinations">
+	<subsection xml:id="subsec_sets_counting_combinations">
 		<title>Combinations</title>
 		<p>
-
+			Permutations are useful when the order in which we select objects matters<mdash/>as in running a race or creating a schedule. However, order does not always matter. In such cases, we need to change the way we count. This important distinction is illustrated in the following example.
 		</p>
 	</subsection>
 
