@@ -218,7 +218,7 @@
 					However, this is not the correct answer. To see why, make a list of possible choices that the permutation counts.
 				</p>
 				<table>
-					<title>Possible Selections</title>
+					<title>Possible selections.</title>
 					<tabular>
 						<row>
 							<cell>AB</cell>
@@ -244,12 +244,35 @@
 					Notice that each pair appears twice. For example, AB and BA are counted separately but these two pairs represent inviting the same group of friends to a movie. This is because in a permutation, the order in which we hand out the tickets makes a difference. 
 					But really, we don't care who got the first ticket<mdash/>we just want to know who is going. Since there are two of each possible pairs, the actual number of ways to pick the two friends to go with us is:
 					<me>
-						\frac{P(4,2)}{2!} = \frac{12}{2} = 6
+						\frac{P(4,2)}{P(2,2)} = \frac{12}{2} = 6
 					</me>.
-					The <m>2!</m> in the denominator is the number of orderings of 2 objects, which needs to be divided out of the permutation because order doesn't matter here.
+					The <m>P(2,2)</m> in the denominator is the number of orderings of 2 objects, which needs to be divided out of the permutation because order doesn't matter here.
 				</p>
 			</solution>
 		</example>
+		<p>
+			In the example above, we arrived at the final solution using two steps. First, we counted the number of ways to pick the friends to go with us if the order did matter, in this case it was 12. Then we counted the number of ways that those two friends could be arranged, which was 2. 
+			Finally, we divide the 12 ordered ways by the 2 different orderings to get a total of 6 ways to choose our two friends if the order does not matter. This process can be combined into a single counting rule called a combination.
+		</p>
+		<fact xml:id="fact_sets_counting-rule_combination">
+			<idx>combination</idx>
+			<idx><h>counting rules</h><h>combination</h></idx>
+			<statement>
+				<p>
+					A <term>combination of n items taken r at a time </term> is used to count the number of ways to choose <m>r</m> items from <m>n</m> possible items if the order in which we select them does not matter. The formula for this combination is:
+					<me>C(n,r) = \frac{P(n,r)}{r!} = \frac{n!}{r!(n-r)!}</me>.
+				</p>
+				<p>
+					<alert>Note:</alert> Scientific calculators also have built-in combination functions. Ask your instructor for help finding this if appropriate.
+				</p>
+			</statement>
+		</fact>
+			<p>
+				Applying this formula to the movie ticket example, we get:
+				<me>
+					C(4,2) = \frac{4!}{2!(4-2)!} = \frac{4\times 3\times 2!}{2!\times 2!} = \frac{4\times 3}{2\times 1} = 6
+				</me>.
+			</p>
 	</subsection>
 
 </section>
