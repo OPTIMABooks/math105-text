@@ -296,8 +296,6 @@
 		  	<li><p><m>C(n,1) = n</m></p></li>
 		  	<li><p><m>C(n,r) = C(n,n-r)</m></p></li>
 		  </ul>
-		</p>
-		<p>
 			The definition of the combination shown above simplifies to a form you may find easier to use: 
 		 	<me> 
 				C(n,r) = \frac{\overbrace{n\times (n-1) \times \cdots \times (n-r+1)}^{r \text{ values}}}{r!}
