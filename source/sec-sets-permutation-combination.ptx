@@ -404,12 +404,12 @@
 						<li><title>Case 3</title><p>Pick four sandwiches from 8 available and none of the remaining 9 items
 						  <me>C(8,4)\times C(9,0) = \frac{8\times 7\times 6\times 5}{4\times 3\times 2\times 1}\times 1 = 70</me>.</p></li>
 					</ul>
-				Note that these three cases are mutually exclusive based on the number of sandwiches chosen, and that a picnic basket with at least two sandwiches would fall into one of these cases. So using the addition rule, the total number of picnic baskets is:
-				<me>
-					1008 + 504 + 70 = 1582
-				</me>.
-			</p>
-			</solution>
+					Note that these three cases are mutually exclusive based on the number of sandwiches chosen, and that a picnic basket with at least two sandwiches would fall into one of these cases. So using the addition rule, the total number of picnic baskets is:
+					<me>
+						1008 + 504 + 70 = 1582
+					</me>.
+				</p>
+				</solution>
 		</example>
 	</subsection>
 </section>
