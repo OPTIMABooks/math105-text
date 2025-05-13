@@ -155,6 +155,9 @@
 						P(n,r) = \frac{n!}{(n-r)!}
 					</me>.
 			</p>
+			<p>
+				<alert>Note:</alert> Scientific calculators have built-in permutation functions. If you're unsure how to use yours or whether to use it instead of the formula above, ask your instructor for guidance.
+			</p>
 			</statement>
 		</fact>
 		<p>
@@ -190,8 +193,8 @@
 	Additionally, the formula shown in <xref ref="fact-sets-permutation-formula"/> algebraically reduces to the following form,
 	<me>
 		P(n,r) = \underbrace{n\times (n-1) \times \cdots \times (n-r+1)}_{r \text { items}}
-	</me>.
-	You may find this easier to use than the version written with factorials.
+	</me>,
+	which looks like the multiplication rule.  You may find this easier to use than the version written with factorials.
 </p>
 	</subsection>
 
