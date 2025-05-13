@@ -28,7 +28,7 @@
 		<p>
 			The following example shows how the <term>factorial</term> is a special case of the <xref ref="thm_counting-rule_multiplication" text="custom"> multiplication principle</xref>.
 		</p>
-		<example xml:id="examp_counting_factorial_dolls">
+		<example xml:id="ex_counting_factorial_dolls">
 			<title>Arranging Items</title>
 			<statement>
 				<p>
@@ -69,7 +69,7 @@
 		<p>
 			In the next example we practice computing factorials. Note how quickly the value of a factorial grows as <m>n</m> grows. Also, notice that when dividing factorials, canceling is a very useful tool.
 		</p>
-		<example xml:id="examp_counting_factorial_compute">
+		<example xml:id="ex_counting_factorial_compute">
 			<title>Computing Factorials</title>
 			<statement>
 				<p>
@@ -109,12 +109,12 @@
 			</solution>
 		</example>
 	</subsection>
-	<subsection xml:id="sec_counting_permutations">
+	<subsection xml:id="subsec_sets_counting_permutations">
 		<title>Permutations</title>
 		<p>
 			In some counting problems, the process resembles the one used in factorial-based problems, but we are not required to use or arrange all of the items. Here is an example.
 		</p>
-		<example xml:id="examp_counting_permutation_runners">
+		<example xml:id="ex_counting_permutation_runners">
 			<title>Ordering a Subset</title>
 			<statement>
 				<p>
@@ -167,7 +167,7 @@
 			</me>.
 			Permutations are a general method used to count the number of ways to complete a process when the order of completion matters. A race is a good example of a situation where order is important. Another example is provided below.
 		</p>
-		<example xml:id="examp_counting_permutation_bands">
+		<example xml:id="ex_counting_permutation_bands">
 			<title>Using Permutations</title>
 			<statement>
 				<p>
@@ -195,6 +195,12 @@
 			P(n,r) = \underbrace{n\times (n-1) \times \cdots \times (n-r+1)}_{r \text { items}}
 		</me>,
 		which looks like the multiplication rule.  You may find this easier to use than the version written with factorials.
+		</p>
+	</subsection>
+	<subsection xml:id="subsec_counting_combinations">
+		<title>Combinations</title>
+		<p>
+
 		</p>
 	</subsection>
 
