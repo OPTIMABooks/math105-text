@@ -323,6 +323,48 @@
 		<p>
 			The following examples illustrate these principles. Remember that the first step should always be to identify the rule or rules that should be used to solve a counting problem.
 		</p>
+		<example xml:id="ex_sets-counting_mixed_permutation">
+			<title>Picking a Counting Rule</title>
+			<statement>
+				<p>The front row of Professor Jackson's classroom has only 4 seats. There are 8 students who wish to sit in these seats. In how many ways can the seats be assigned?</p>
+			</statement>
+			<solution>
+				<p>In a seating chart, the order would matter. Therefore, this must a permutation, and the solution is:
+					<me>
+						P(8,4) = 8\times 7\times 6\times 5 = 1680
+					</me>.
+				</p>
+			</solution>
+		</example>
+		<example xml:id="ex_sets-counting_mixed_two-combinations">
+			<title>Combining Counting Rules</title>
+			<statement>
+				<p>
+					A committee consists of 6 men and 3 women. Four members of the committee are to be selected for a fact-finding trip. In how many ways can the selection be made if exactly three men and one woman are to be chosen?
+				</p>
+			</statement>
+			<solution>
+				<p>
+						The order in which we pick members of a committee to go on a trip does not matter<mdash/>a member either goes on the trip or does not. However, notice that we have two steps to this problem.
+					<ol>
+						<li><p>Pick the three men to go on the trip.</p></li>
+						<li><p>Pick the one woman to go on the trip.</p></li>
+					</ol>
+					The number of ways to pick the three men from the 6 male committee members is:
+					<me>
+						C(6,3) = \frac{6\times 5\times 4}{3\times 2\times 1} = 20
+					</me>.
+					The number of ways to pick the one woman is:
+					<me>
+						C(3,1) = 3
+					</me>.
+					Therefore, by applying the multiplication rule, the total number of ways to select the four people for the trip is:
+					<me>
+						C(6,3)\times C(3,1) = 20\times 3 = 60
+					</me>.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 
 </section>
