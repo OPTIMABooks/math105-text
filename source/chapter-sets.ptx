@@ -65,6 +65,7 @@
 	<xi:include href="sec-sets-cardinality.ptx" />
 	<xi:include href="sec-counting-multiplication-principle.ptx" />
 	<xi:include href="sec-counting-permutation-combination.ptx" />
+	<xi:include href="sec-probability-basics.ptx" />
 
 
 </chapter>

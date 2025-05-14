@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-probability-basics" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Probability</title>
+
+	<objectives>
+			<ul>
+				<li>
+					<p>
+						Write the sample space for theoretical probability problems
+					</p>
+				</li>
+				<li>
+					<p>
+						Use basic probability rules for complements and unions.
+					</p>
+				</li>
+				<li>
+					<p>
+						Determine the difference between empirical and theoretical probability
+					</p>
+				</li>
+				<li>
+					<p>
+						Calculate probabilities as the ratio of the number of outcomes in an event to the total number of outcomes possible.
+					</p>
+				</li>
+			</ul>
+	</objectives>
+
+  <subsection xml:id="subsec-probability-XX">
+    <title>Title</title>
+    <p>
+      Text
+    </p>
+  </subsection>
+
+</section>
