@@ -45,15 +45,30 @@
 				</p>
 			</statement>
 		</definition>
+	</introduction>
+	<subsection>
+		<title>Theoretical Probability</title>
 		<p>
 			Probabilities calculated from counting data or simulated results are known as <term>experimental probabilities</term>. In contrast, when the likelihood (or chance) of an event is determined by analyzing all the possible outcomes and calculating the ratio of favorable outcomes to the total number of outcomes, it is referred to as a <term>theoretical probability</term>. A third type of probability, called <term>subjective probability</term>, is essentially an educated guess based on personal experience or intuition. This section will primarily focus on theoretical probabilities.
 		</p>
-	</introduction>
+		<definition xml:id="def_theoretical-probability">
+  		<idx>theoretical probability</idx>
+  		<idx><h>probability</h><h>types</h><h>theoretical</h></idx>
+			<statement>
+				<p>
+					The <term>theoretical probability</term> of a certain event <m>E</m> happening in an experiment is found by counting the number of possible outcomes of the experiment in which <m>E</m> happens and dividing by the total number of outcomes, assuming each outcome is equally likely. That is:
+					<me>
+						P(E)=\frac{\text{number of outcomes corresponding to the event E}}{\text{total number of equally-likely outcomes}}
+					</me>
+				</p>
+			</statement>
+		</definition>
+	</subsection>
 
 	<subsection xml:id="subsec-probability-rules">
 		<title>Basic Probability Rules</title>
 		<p>
-			Before we can discuss the basic rules of probability, it is important to understand the terminology used. The terms we need to define are rooted in <em>sets</em>, which we discussed earlier in this chapter.  Consider the following example.
+			Before we can discuss the basic rules of probability, it is important to understand the terminology used. The terms we need to define are rooted in <em>sets</em>, which we discussed earlier in this chapter.  Consider the following example, which introduces two of these terms.
 		</p>
 		<example xml:id="ex_probabilty_basic-rules_coin-flip">
 			<title>Analyzing a Simple Experiment</title>
@@ -89,6 +104,22 @@
 				</p>
 			</statement>
 		</definition>
+				<example xml:id="ex_probability_basic-rules-2">
+			<statement>
+				<p>
+					An experiment consists of rolling two fair die and noting the sum of the numbers rolled. Below are several sets related to this experiment.
+					<ol label="a.">
+						<li><p><m>\lbrace 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 , 11, 12 \rbrace</m></p></li>
+						<li><p><m>\lbrace 2, 4, 6, 8, 10, 12 \rbrace</m></p></li>
+						<li><p><m>\lbrace (1,1), (1,2), ... , (5,6), (6,6) \rbrace</m></p></li>
+						<li><p><m>\lbrace 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 \rbrace</m></p></li>
+						<li><p><m>\lbrace 3, 5, 7, 9, 11 \rbrace</m></p></li>
+					</ol>
+					Which of these sets is the sample space of the experiment?
+				</p>
+			</statement>
+			<answer><p>the set in (d) gives the possible sums.</p></answer>
+		</example>
 		<definition xml:id="def_event">
 			<idx>event</idx>
 			<idx><h>probability</h><h>event</h></idx>
@@ -98,6 +129,26 @@
 				</p>
 			</statement>
 		</definition>
+		<p>
+			In <xref ref="ex_probabilty_basic-rules_coin-flip"/>, the event of interest was <m>E = \lbrace HT, TH \rbrace</m>. Notice that every outcome in that event is also an outcome in the sample space <m>S</m>. This is what it means to say that <m>E</m> is a <idx><h>sets</h><h>subset</h></idx><term>subset</term> of <m>S</m>. 
+			Also notice that because <m>E</m> is a subset of <m>S</m>, it must always be true that <m>E</m> contains at most the same number of elements as <m>S</m>. That is, <m>n(E) \leq n(S)</m>. This, together with our definition of <xref ref="def_theoretical-probability" text="custom">theoretical probability</xref>, leads to the following rules.
+		</p>
+		<fact xml:id="thm_basic-probability">
+			<title>Basic Probability Rules</title>
+			<idx><h>probability</h><h>formula</h><h>basic rules</h></idx>
+			<statement>
+				<p>For any event <m>E</m> in a sample space <m>S</m>, the following rules must hold.
+				  <ul cols="2">
+				  	<li><p><m>0 \leq P(E) \leq 1</m></p></li>
+				  	<li><p><m>P(S) = 1</m></p></li>
+				  </ul>
+				</p>
+			</statement>
+		</fact>
+		<p>
+			The first rule says that because <m>E</m> is a subset of <m>S</m>, the ratio of <m>n(E)</m> to <m>n(S)</m> can be at most one, and as with any ratio, must be at least 0. 
+			The second rule tells us that the probability of something in the sample space happening is 1. Since the sample space contains all possible outcomes, this gives us the maximum possible probability of 1.
+		</p>
 	</subsection>
 
 </section>
