@@ -28,11 +28,30 @@
 			</ul>
 	</objectives>
 
-  <subsection xml:id="subsec-probability-XX">
-    <title>Title</title>
-    <p>
-      Text
-    </p>
-  </subsection>
+	<introduction>
+		<p>
+			Now that we have learned about sets and counting techniques, we are ready to talk about <term>probability</term>. Probability is something we use in many different ways in everyday life. Consider the following examples.
+			<ul>
+				<li><p>A weather forecaster predicts that there is a 20% chance of rain tomorrow.</p></li>
+				<li><p>A news cast predicts that the probability a ballot measure will pass is 60%.</p></li>
+				<li><p>The lottery introduces a new scratch ticket in which the odds of winning are 1 in 200.</p></li>
+			</ul>
+			In each of these cases, we are measuring how likely a certain event is to take place. This is probability.
+		</p>
+		<definition xml:id="def-probability-branch-of-math">
+			<statement>
+				<p>
+					<term>Probability</term> is the branch of mathematics that studies possible outcomes of events, their relative likelihoods, and how they are distributed.
+				</p>
+			</statement>
+		</definition>
+	</introduction>
+
+	<subsection xml:id="subsec-probability-XX">
+		<title>Title</title>
+		<p>
+			Text
+		</p>
+	</subsection>
 
 </section>
