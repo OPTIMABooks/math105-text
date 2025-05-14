@@ -79,6 +79,25 @@
 				</me>.
 			</p>
 		</example>
+		<p>In the example above, two sets are described, and their names are particularly important.</p>
+		<definition xml:id="def_sample-space">
+			<idx>sample space</idx>
+			<idx><h>probability</h><h>sample space</h></idx>
+			<statement>
+				<p>
+					The <term>sample space</term> for an experiment is the set of all possible outcomes of the experiment.
+				</p>
+			</statement>
+		</definition>
+		<definition xml:id="def_event">
+			<idx>event</idx>
+			<idx><h>probability</h><h>event</h></idx>
+			<statement>
+				<p>
+					An <term>event</term> for a particular experiment is a subset of the sample space for that experiment.
+				</p>
+			</statement>
+		</definition>
 	</subsection>
 
 </section>
