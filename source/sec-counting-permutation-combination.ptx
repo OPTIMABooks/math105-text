@@ -23,7 +23,7 @@
 			In this section we build on the multiplication principle discussed in the previous section. We start with factorials, which establish the mathematical foundation for the second topic, permutations, which are in turn the building block of combinations. Taken together with the addition and multiplication rule, these three mathematical tools allow us to solve a variety of useful counting problems.
 		</p>
 	</introduction>
-	<subsection xml:id="subsec-sets-factorial">
+	<subsection xml:id="subsec-counting-factorial">
 		<title>Factorials</title>
 		<p>
 			The following example shows how the <term>factorial</term> is a special case of the <xref ref="thm_counting-rule_multiplication" text="custom"> multiplication principle</xref>.
@@ -109,7 +109,7 @@
 			</solution>
 		</example>
 	</subsection>
-	<subsection xml:id="subsec_sets_counting_permutations">
+	<subsection xml:id="subsec_counting_permutations">
 		<title>Permutations</title>
 		<p>
 			In some counting problems, the process resembles the one used in factorial-based problems, but we are not required to use or arrange all of the items. Here is an example.
@@ -138,14 +138,14 @@
 		<p>
 			While the solution to the above problem started off looking like a factorial, <m>10 \times 9 \times 8</m>, it stopped after 8 because we didn't need to order the remaining seven runners in this race. In general, when we need to count the number of ways to order or arrange <m>r</m> items chosen from <m>n</m> possible items, we are using a <term>permutation</term>.
 		</p>
-		<definition xml:id="def-sets-permutation-in-words">
+		<definition xml:id="def-permutation-in-words">
 			<statement>
 				<p>
 					A <term>permutation</term> of a set of elements is an ordered arrangement where each element is used once. 
 				</p>
 			</statement>
 		</definition>
-		<fact xml:id="fact-sets-permutation-formula">
+		<fact xml:id="fact-permutation-formula">
 			<idx>permutation</idx>
 			<idx><h>counting rules</h><h>permutation</h></idx>
 			<statement>
@@ -190,19 +190,19 @@
 			<li><p><m>P(n,0) = \frac{n!}{(n-0)!} = \frac{n!}{n!} = 1</m></p></li>
 			<li><p><m>P(n,1) = \frac{n!}{(n-1)!} = \frac{n\times (n-1)!}{(n-1)!} = n</m></p></li>
 		</ul>
-		Additionally, the formula shown in <xref ref="fact-sets-permutation-formula"/> algebraically reduces to the following form,
+		Additionally, the formula shown in <xref ref="fact-permutation-formula"/> algebraically reduces to the following form,
 		<me>
 			P(n,r) = \underbrace{n\times (n-1) \times \cdots \times (n-r+1)}_{r \text { items}}
 		</me>,
 		which looks like the multiplication rule.  You may find this easier to use than the version written with factorials.
 		</p>
 	</subsection>
-	<subsection xml:id="subsec_sets_counting_combinations">
+	<subsection xml:id="subsec_counting_combinations">
 		<title>Combinations</title>
 		<p>
 			Permutations are useful when the order in which we select objects matters<mdash/>as in running a race or creating a schedule. However, order does not always matter. In such cases, we need to change the way we count. This important distinction is illustrated in the following example.
 		</p>
-		<example xml:id="ex_sets_counting_combination_movies">
+		<example xml:id="ex_counting_combination_movies">
 			<title>Counting when Order Doesn't Matter</title>
 			<statement>
 				<p>
@@ -254,7 +254,7 @@
 			In the example above, we arrived at the final solution using two steps. First, we counted the number of ways to pick the friends to go with us if the order did matter, in this case it was 12. Then we counted the number of ways that those two friends could be arranged, which was 2. 
 			Finally, we divide the 12 ordered ways by the 2 different orderings to get a total of 6 ways to choose our two friends if the order does not matter. This process can be combined into a single counting rule called a combination.
 		</p>
-		<fact xml:id="fact_sets_counting-rule_combination">
+		<fact xml:id="fact_counting-rule_combination">
 			<idx>combination</idx>
 			<idx><h>counting rules</h><h>combination</h></idx>
 			<statement>
@@ -273,7 +273,7 @@
 					C(4,2) = \frac{4!}{2!(4-2)!} = \frac{4\times 3\times 2!}{2!\times 2!} = \frac{4\times 3}{2\times 1} = 6
 				</me>.
 			</p>
-		<example xml:id="ex_sets_counting_combination_committee">
+		<example xml:id="ex_counting_combination_committee">
 			<title>Using a Combination</title>
 			<statement>
 				<p>
@@ -307,7 +307,7 @@
 		<p>
 			One of the most challenging aspects of counting problems is deciding which rules<mdash/>or combinations of rules<mdash/>to apply to a given question. To complicate things further, there are often multiple approaches to reach the correct answer. Here are a few general rules of thumb to keep in mind.
 		</p>
-		<assemblage xml:id="assemblage-sets-counting-rules_principles">
+		<assemblage xml:id="assemblage-counting-rules_principles">
 			<title>Combining Counting Rules</title>
 			<idx><h>counting rules</h><h>combining</h></idx>
 				<p>
@@ -315,15 +315,15 @@
 						<li><p>If the things you are counting come in two distinct groups, count each group then add together the results. (<xref ref="thm_counting-rule_addition-informal" text="custom">addition rule</xref> <mdash/> goes with <q>or</q>)</p></li>
 						<li><p>If there is overlap between the two groups, remember to subtract the intersection. (<xref ref="fact-sets-inclusion-exclusion-rule" text="custom">inclusion/exclusion rule</xref>)</p></li>
 						<li><p>If the process you are counting can be broken down into steps, count the number of ways each step can be performed and multiply. (<xref ref="thm_counting-rule_multiplication" text="custom">multiplication rule</xref> <mdash/> goes with <q>and</q>)</p></li>
-						<li><p>If you are arranging things or selecting multiple items and the order of selection matters, use a permutation. (<xref ref="fact-sets-permutation-formula">permutation rule</xref>).</p></li>
-						<li><p>If you are selecting multiple items from a group of items and the order in which you pick them does not matter, use a combination. (<xref ref="fact_sets_counting-rule_combination" text="custom">combination rule</xref>).</p></li>
+						<li><p>If you are arranging things or selecting multiple items and the order of selection matters, use a permutation. (<xref ref="fact-permutation-formula">permutation rule</xref>).</p></li>
+						<li><p>If you are selecting multiple items from a group of items and the order in which you pick them does not matter, use a combination. (<xref ref="fact_counting-rule_combination" text="custom">combination rule</xref>).</p></li>
 					</ol>
 				</p>
 		</assemblage>
 		<p>
 			The following examples illustrate these principles. Remember that the first step should always be to identify the rule or rules that should be used to solve a counting problem.
 		</p>
-		<example xml:id="ex_sets-counting_mixed_permutation">
+		<example xml:id="ex_counting_mixed_permutation">
 			<title>Picking a Counting Rule</title>
 			<statement>
 				<p>The front row of Professor Jackson's classroom has only 4 seats. There are 8 students who wish to sit in these seats. In how many ways can the seats be assigned?</p>
@@ -336,7 +336,7 @@
 				</p>
 			</solution>
 		</example>
-		<example xml:id="ex_sets-counting_mixed_two-combinations">
+		<example xml:id="ex_counting_mixed_two-combinations">
 			<title>Combining Counting Rules</title>
 			<statement>
 				<p>
@@ -386,7 +386,7 @@
 				</p>
 			</solution>
 		</example>
-		<example xml:id="ex_sets-counting_mixed_at-least">
+		<example xml:id="ex_counting_mixed_at-least">
 			<title>Counting Cases with <q>At Least</q></title>
 			<statement>
 				<p>
