@@ -68,7 +68,17 @@
 	<subsection xml:id="subsec-probability-rules">
 		<title>Basic Probability Rules</title>
 		<p>
-			Before we can discuss the basic rules of probability, it is important to understand the terminology used. The terms we need to define are rooted in <em>sets</em>, which we discussed earlier in this chapter.  Consider the following example, which introduces two of these terms.
+			Before we can discuss the basic rules of probability, it is important to understand the terminology used. The terms we need to define are rooted in <em>sets</em>, which we discussed earlier in this chapter.  First, we need to define what we mean by an <term>experiment</term> in probability theory.
+		</p>
+		<definition xml:id="def-experiment_probability">
+			<statement>
+				<p>
+					An <term>experiment</term> or <term>trial</term> is any procedure that can be infinitely repeated and has a well-defined set of possible outcomes, known as the <term>sample space</term>.
+				</p>
+			</statement>
+		</definition>
+		<p>
+			The following example illustrates key terms.
 		</p>
 		<example xml:id="ex_probabilty_basic-rules_coin-flip">
 			<title>Analyzing a Simple Experiment</title>
@@ -76,25 +86,24 @@
 				A fair coin is flipped twice, and the number of heads is noted. What is the probability that exactly one heads appears in these two flips?
 			</p>
 			<p>
-				To better understand this question, let's look at two important sets. The first set is called the <term>sample space</term> and typically named <m>S</m>. <m>S</m> contains all of the possible outcomes of this experiment.  That is,
+				The <term>experiment</term> here is a coin toss. This experiment has the possible outcomes of the coin landing on <q>heads</q> or <q>tails</q>. This set of possible outcomes is called the <term>sample space</term> and typically named <m>S</m>.  We write the sample space as
 				<me>
 					S = \lbrace HH, HT, TH, TT \rbrace
 				</me>.
 			</p>
 			<p>
-				The second set is the set containing all of the outcomes from <m>S</m> which meet our criteria of having exactly one heads. Any <xref ref="def-subset" text="custom">subset</xref> of the sample space is called an <term>event</term>.  For this problem, the event of interest is:
+				The second set needed is the set containing all of the outcomes from <m>S</m> which meet our criterion of having exactly one heads. Any <xref ref="def-subset" text="custom">subset</xref> of the sample space is called an <term>event</term>.  For this problem, the event is
 				<me>
 					E = \lbrace HT, TH \rbrace
 				</me>.
 			</p>
 			<p>
-				If we assume that each of the outcomes is equally likely, then 
+				If we assume that each of the outcomes is equally likely, then (applying <xref ref="def_theoretical-probability"/>)
 				<me>
 					P(E) = \frac{ n(E)}{n(S)} = \frac{2}{4} = \frac{1}{2} = 0.50
 				</me>.
 			</p>
 		</example>
-		<p>In the example above, two sets are described, and their names are particularly important.</p>
 		<definition xml:id="def_sample-space">
 			<idx>sample space</idx>
 			<idx><h>probability</h><h>sample space</h></idx>
