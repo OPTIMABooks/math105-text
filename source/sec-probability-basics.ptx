@@ -159,5 +159,26 @@
 			The second rule tells us that the probability of something in the sample space happening is 1. Since the sample space contains all possible outcomes, this gives us the maximum possible probability of 1.
 		</p>
 	</subsection>
-
+	<subsection xml:id="sec_probability_more-rules">
+		<title>More Probability Rules</title>
+  	<p>
+			There are other useful probability rules for working with events. The first follows from the <xref ref="fact-sets-inclusion-exclusion-rule" text="custom">inclusion/exclusion rule</xref> that we saw in the previous section.
+		</p>
+  	<fact xml:id="thm_probability-rule_general-addition">
+  		<idx>general addition rule (probability)</idx>
+  		<idx><h>probability</h><h>formula</h><h>general addition rule</h></idx>
+  		<statement>
+  			<p>
+					The <term>general addition rule</term> states that if events <m>A</m> and <m>B</m> are events in a sample space, then:
+  				<me>
+						P(A\cup B) = P(A) + P(B) - P(A\cap B)
+					</me>.
+					<alert>Note:</alert> If <m>A</m> and <m>B</m> are <xref ref="def_mutually-exclusive" text="custom">mutually exclusive</xref> this reduces to
+					<me>
+						P(A\cup B) = P(A) + P(B)
+					</me>.
+				</p>
+  		</statement>
+  	</fact>
+	</subsection>
 </section>
