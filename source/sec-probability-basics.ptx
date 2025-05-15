@@ -260,5 +260,25 @@
 			</p>
 		</solution>
 	</example>
+	<p>
+		Note that the general addition rule can be used to find any of the four probabilities it relates. Here is an example where the rule is used to find the probability of the intersection term (the <q>joint probability</q>).
+	</p>
+	<example xml:id="ex_probability_more-rules_find-intersection">
+  		<title>Using the General Addition Rule to Find an Intersection</title>
+  		<statement>
+  			<p>
+					A sample space contains events <m>X</m> and <m>Y</m> with <m>P(X) = 0.45</m>, <m>P(Y) = 0.65</m>, and <m>P(X\cup Y) = 0.80</m>. Find <m>P(X \cap Y)</m>.
+				</p>
+  		</statement>
+  		<solution>
+  			<p>Using the general addition rule,
+  				<md>
+  					<mrow>P(X\cup Y) \amp= P(X) + P(X) - P(X\cap Y) </mrow>
+						<mrow> \Rightarrow 0.80 \amp= 0.45 + 0.65 - P(X\cap Y)</mrow>
+  					<mrow>\Rightarrow P(X\cap Y) \amp= 0.30.</mrow>
+  				</md>
+  			</p>
+  		</solution>
+  	</example>
 	</subsection>
 </section>
