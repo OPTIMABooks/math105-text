@@ -180,5 +180,85 @@
 				</p>
   		</statement>
   	</fact>
+		<example xml:id="ex_probability_more-rules_general-addition">
+			<title>Using the General Addition Rule</title>
+			<statement>
+			<p>
+				A prize machine is filled with 10 yellow erasers, 6 green erasers, 4 red pencil sharpeners, 8 yellow pencil sharpeners, and 5 red bouncy balls. Each prize is inside a plastic sphere, and the spheres are well mixed in the prize machine. Each game will get you just one prize. Determine the probability of
+				<ol marker="a.">
+					<li>
+						<p>
+							getting a yellow prize.
+						</p>
+					</li>
+					<li>
+						<p>
+							getting a prize that is yellow or an eraser.
+						</p>
+					</li>
+					<li>
+						<p>
+							getting a red or yellow prize.
+						</p>
+					</li>
+				</ol>
+			</p>
+		</statement>
+		<solution>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Since yellow is a single event, we just need to know how many prizes there are in total, and how many of the prizes are yellow. The yellow prizes include the 10 yellow erasers and the 8 yellow pencil sharpeners.
+							<md>
+								<mrow>P(\text{yellow})\amp=\frac{18}{33}</mrow>
+								<mrow>\amp\approx 0.545 \text{ or } 54.5\%</mrow>
+							</md>
+						</p>
+					</li>
+					<li>
+						<p>
+							To find the probability of getting a prize that is yellow or an eraser, we need to be careful because these are overlapping sets. There are two ways to calculate this. The first way is to add all the items separately, being careful not to double count.
+						</p>
+						<p>
+							<md>
+								<mrow>P(\text{yellow or eraser})\amp=P(\text{yellow eraser}) </mrow>
+								<mrow> \amp+P(\text{yellow pencil sharpener}) </mrow>
+								<mrow> \amp+P(\text{green eraser})</mrow>
+								<mrow>\amp=\frac{10}{33}+\frac{8}{33}+\frac{6}{33}</mrow>
+								<mrow>\amp=\frac{24}{33}</mrow>
+								<mrow>\amp\approx 0.727 \text{ or } 72.7\%</mrow>
+							</md>
+						</p>
+						<p>
+							The second way is to apply the <xref ref="thm_probability-rule_general-addition" text="custom">general addition rule</xref>: add the total of yellow items and the total of erasers, but since the yellow erasers are in both sets, subtract out their joint probability.
+						</p>
+						<p>
+							<md>
+								<mrow>P(\text{yellow or eraser})\amp=P(\text{yellow})+P(\text{eraser}) </mrow>
+								<mrow> \amp-P(\text{yellow and eraser})</mrow>
+								<mrow>\amp=\frac{18}{33}+\frac{16}{33}-\frac{10}{33}</mrow>
+								<mrow>\amp=\frac{24}{33}</mrow>
+								<mrow>\amp\approx 0.727 \text{ or } 72.7\%</mrow>
+							</md>
+						</p>
+					</li>
+					<li>
+						<p>
+							For a red or yellow prize, the set of red and the set of yellow do not overlap. They are mutually exclusive sets, so we will add the probability of getting a red prize to the probability of getting a yellow prize.
+						</p>
+						<p>
+							<md>
+								<mrow>P(\text{red or yellow})\amp=P(\text{red})+P(\text{yellow})</mrow>
+								<mrow>\amp=\frac{9}{33}+\frac{18}{33}</mrow>
+								<mrow>\amp=\frac{27}{33}</mrow>
+								<mrow>\amp\approx 0.818 \text{ or } 81.8\%</mrow>
+							</md>
+						</p>
+					</li>
+				</ol>
+			</p>
+		</solution>
+	</example>
 	</subsection>
 </section>
