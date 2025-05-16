@@ -247,6 +247,56 @@
 				</p>
 			</solution>
 		</example>
+		<example>
+			<statement>
+				<p>
+					On average, a 40-year-old man in the US has a 0.242% chance of dying in the next year<fn>According to the estimator at <url href="http://www.numericalexample.com/index.php?view=article;&amp;ampid=91" visual="numericalexample.com/index.php?view=article;&amp;ampid=91"/></fn>. An insurance company charges $275 annually for a life insurance policy that pays a $100,000 death benefit. What is the expected value for the insurance company on this policy?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					The first thing we want to do is organize the probabilities and outcomes in a probability distribution table. There are two outcomes<mdash/>either the policy holder dies, and the insurance company pays the benefit, or the policy holder does not die, and they do not pay anything. 
+				</p>
+				<p>
+					The probability of paying the death benefit is equal to the chance of the person dying in the next year, and the probability of paying nothing is equal to the complement of the chance of dying in the next year.
+				</p>
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row header="yes">
+							<cell>Insurance payout</cell>
+							<cell>Probability</cell>
+						</row>
+						<row>
+							<cell>$100000</cell>
+							<cell><m>0.00242</m></cell>
+						</row>
+						<row>
+							<cell>$0</cell>
+							<cell><m>1-0.00242=0.99758</m></cell>
+						</row>
+					</tabular>
+				<p>
+					Then we can calculate:
+				</p>
+				<p>
+					<md>
+					<mrow>\text{Expected Payout}\amp=\$100000(0.00242)+\$0(0.99758)</mrow>
+					<mrow>\amp =\$242</mrow>
+					</md>
+				</p>
+				<p>
+					So, the expected payout for the insurance company is $242, but they are charging $275 for the policy. Their net revenue would be
+				</p>
+				<p>
+					<md>
+					<mrow>\text{Net Value to Insurance Company}\amp=\$275-\$242</mrow>
+					<mrow> \amp=\$33</mrow>
+				</md>
+				</p>
+				<p>
+					The insurance company is making, on average, $33 per policy per year. It shouldn't be too surprising because there are overhead costs and the insurance company can only afford to offer policies if they, on average, make money on them. But how much money should they make? As a consumer it is important to know about expected value.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 
 </section>
