@@ -100,6 +100,101 @@
 			</md>
 			This means that, over the long run, players can expect to lose an average of $2.92 per game, while the organizers can expect to fundraise an average of $2.92 per game.
 		</p>
+		<example>
+			<statement>
+				<p>
+					Pick4 is a game by the Oregon Lottery that costs $1 to play. In this game you pick 4 numbers in a specific pattern. If the chosen number matches the winning number exactly, the player receives a big payout. Smaller payouts are possible for other matching conditions. Suppose that the payouts are as follows. Determine the player's expected net winnings.
+				</p>
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row header="yes">
+						<cell><alert>Prize ($)</alert></cell>
+						<cell><alert>Probability</alert></cell>
+					</row>
+					<row>
+						<cell>$250</cell>
+						<cell><m>\sfrac{1}{417}</m></cell>
+					</row>
+					<row>
+						<cell>$500</cell>
+						<cell><m>\sfrac{1}{1833}</m></cell>
+					</row>
+					<row>
+						<cell>$1000</cell>
+						<cell><m>\sfrac{1}{1667}</m></cell>
+					</row>
+					<row>
+						<cell>$1500</cell>
+						<cell><m>\sfrac{1}{2500}</m></cell>
+					</row>
+				</tabular>
+			</statement>
+			<solution>
+				<p>
+					The provided table is not quite a complete probability distribution since it is missing one important outcome: when the player loses. In that case the prize is $0. We need to add a line for this. The prize for this missing outcome is $0, and since losing is the complement to winning <em>something</em>, the probability will be:
+				</p>
+				<p>
+					<md>
+						<mrow>P(\text{Win }\$0)\amp=1-(\frac{1}{417}+\frac{1}{1833}+\frac{1}{1667}+\frac{1}{2500})</mrow>
+						<mrow>\amp=1-0.0039</mrow>
+						<mrow>\amp=0.9961</mrow>
+					</md>
+				</p>
+				<p></p>
+				
+				<p>
+					Adding this information to the table gives a complete probability distribution. Now we can see that players are going to lose more than 99% of the time, so the expected value will be heavily weighted toward winning $0.
+				</p>
+
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row header="yes">
+						<cell><alert>Prize ($)</alert></cell>
+						<cell><alert>Probability</alert></cell>
+					</row>
+					<row>
+						<cell>$250</cell>
+						<cell><m>\sfrac{1}{417}</m></cell>
+					</row>
+					<row>
+						<cell>$500</cell>
+						<cell><m>\sfrac{1}{1833}</m></cell>
+					</row>
+					<row>
+						<cell>$1000</cell>
+						<cell><m>\sfrac{1}{1667}</m></cell>
+					</row>
+					<row>
+						<cell>$1500</cell>
+						<cell><m>\sfrac{1}{2500}</m></cell>
+					</row>
+					<row>
+						<cell>$0</cell>
+						<cell>0.9961</cell>
+					</row>
+				</tabular>
+
+				<p>
+					<md>
+					<mrow>\text{Expected winnings}\amp=\$250\left(\frac{1}{417}\right)+\$500\left(\frac{1}{1833}\right)</mrow>
+					<mrow>\amp +\$1000\left(\frac{1}{16773}\right)+\$1500\left(\frac{1}{2500}\right) </mrow>
+					<mrow>\amp +\$0(0.9961)</mrow>
+					<mrow> \amp </mrow>
+					<mrow>\amp =\$2.07</mrow>
+				</md>
+				</p>
+
+				<p>
+					Therefore, the player's expected winnings are $2.07, on average, over the long run. To find the expected <alert>net</alert> winnings, we subtract the cost to play. Since it costs $1 to play,
+				</p>
+				<p>
+					<md>
+					<mrow>\text{Net Expected Winnings}=\$2.07-\$1.00=\$1.07.</mrow>
+					</md>
+				</p>
+				<p>
+					Assuming the given payouts are correct, this would be one game you would want to play for investment purposes since you can expect to earn $1.07 per game, on average, over the long run. Play a million times, and you just might become a millionaire!
+				</p>
+			</solution>
+		</example>
 	</subsection>
 
 </section>
