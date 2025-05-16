@@ -171,7 +171,6 @@
 						<cell>0.9961</cell>
 					</row>
 				</tabular>
-
 				<p>
 					<md>
 					<mrow>\text{Expected winnings}\amp=\$250\left(\frac{1}{417}\right)+\$500\left(\frac{1}{1833}\right)</mrow>
@@ -181,7 +180,6 @@
 					<mrow>\amp =\$2.07</mrow>
 				</md>
 				</p>
-
 				<p>
 					Therefore, the player's expected winnings are $2.07, on average, over the long run. To find the expected <alert>net</alert> winnings, we subtract the cost to play. Since it costs $1 to play,
 				</p>
@@ -192,6 +190,60 @@
 				</p>
 				<p>
 					Assuming the given payouts are correct, this would be one game you would want to play for investment purposes since you can expect to earn $1.07 per game, on average, over the long run. Play a million times, and you just might become a millionaire!
+				</p>
+			</solution>
+		</example>
+		<p>
+			In general, if the expected value of a game is negative, it is not a good idea to play, since in the long run you will lose money. It would be better to play a game with a positive expected value (good luck trying to find one!), although keep in mind that even if the average winnings are positive it could be the case that most people lose money and one very fortunate individual wins a great deal of money.
+		</p>
+		<p>
+			Not surprisingly, the expected value for casino games is always negative for the player, and therefore positive for the casino. It must be positive for the casino, or they would go out of business! Players just need to keep in mind that when they play a game repeatedly, they should expect to lose money. That is fine so long as you enjoy playing the game and think it is worth the cost, but it would be wrong to expect to come out ahead.
+		</p>
+		<p>
+			Expected value is not only used to determine the average amount won and lost at casinos and carnivals, it also has applications in business and insurance, just to name a few. Let's look at a couple of those applications.
+		</p>
+		<example>
+			<statement>
+				<p>
+					For 3 months, a coffee shop tracked their morning sales of coffee, between 6am and 10am. The following results were recorded:
+				</p>
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>Number of cups sold</cell>
+							<cell>145</cell>
+							<cell>150</cell>
+							<cell>155</cell>
+							<cell>160</cell>
+							<cell>170</cell>
+						</row>
+						<row>
+							<cell>Probability</cell>
+							<cell>0.15</cell>
+							<cell>0.22</cell>
+							<cell>0.37</cell>
+							<cell>0.19</cell>
+							<cell>0.07</cell>
+						</row>
+					</tabular>
+				<p>
+					How many cups of coffee should they expect to sell each morning?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					In this case the table tells us that 15% of the time they sell 145 cups of coffee between 6am and 10am, 22% of the time they sell 150 cups, 37% of the time they sell 155 cups, 19% of the time they sell 160 cups, and 7% of the time they sell 170 cups. Since the highest probability is associated with 155 cups, the expected value should lie somewhat close to this.
+				</p>
+				<p>
+					To find the expected number of coffees sold, we multiply each number of cups of coffee by its respective probability and then add the products.
+				</p>
+				<p>
+					<md>
+						<mrow> \text{Expected number of coffees sold}\amp=145(0.15)+150(0.22)</mrow>
+						<mrow> \amp +155(0.37)+160(0.19)</mrow>
+						<mrow> \amp +170(0.07)</mrow>
+						<mrow> \amp=154.4\text{ cups of coffee}</mrow>
+					</md>
+					This means that over the long run, the coffee shop can expect, on average, to sell around 154 cups of coffee each morning. This is an important tool for businesses since it helps inform them how much stock they should keep on hand.
 				</p>
 			</solution>
 		</example>
