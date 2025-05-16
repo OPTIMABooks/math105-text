@@ -360,19 +360,19 @@
 			The definition of theoretical probability shown in <xref ref="def_theoretical-probability" text="type-global"/> is fundamentally based on enumeration (counting). By applying the counting techniques introduced in <xref ref="sec-set-cardinality"/>, we can now address more complex probability problems. In the examples that follow, we will use a variety of counting rules to compute probabilities. Pay close attention to how, in each case, we must first determine which counting rule(s) to apply and how to combine them to count the number of outcomes in both the sample space and the event whose probability we wish to find.
 		</p>
 		<example xml:id="ex_probability_counting_basic">
-  		<title>Probability from Basic Counting Rules</title>
-  		<statement>
-  			<p>
+			<title>Probability from Basic Counting Rules</title>
+			<statement>
+				<p>
 					An elderly woman owns 12 cats. She has 3 male tabby cats, 4 female tabby cats, 3 female calico, and 2 male Siamese cats. A single cat is chosen from the herd at random. Find the probability that the cat is:
-  				<ol marker="a." cols="3">
-  					<li><p>male</p></li>
-  					<li><p>a tabby cat</p></li>
-  					<li><p>a male or a calico.</p></li>
-  				</ol>
-  			</p>
-  		</statement>
-  		<solution>
-  			<p>
+					<ol marker="a." cols="3">
+						<li><p>male</p></li>
+						<li><p>a tabby cat</p></li>
+						<li><p>a male or a calico.</p></li>
+					</ol>
+				</p>
+			</statement>
+			<solution>
+				<p>
 					Since we are told the cat is chosen at random, we know that each cat is equally likely to be chosen. Thus, we can use the theoretical probability definition to solve these problems. For each of these events, note that the sample space is all of the cats owned by this woman. Thus, <m>n(S) = 12</m> for each problem. 
 					<ol marker="a.">
 						<li><p>Since we are told that <m>n(M) = 5</m>, we compute <m>P(M) = \frac{5}{12}</m>.</p></li>
@@ -380,10 +380,68 @@
 						<li><p>Finally, <m>n(M \cup C) = 5 + 3 = 8</m>, so <m>P(M\cup C) = \frac{8}{12} = \frac{2}{3}</m>.</p></li>
 					</ol>
 				</p>
-  		</solution>
-  	</example>
+			</solution>
+		</example>
 		<p>
 			A process in which we choose one item, as we above when we chose a single cat, is often much easier to work with than a process in which we must choose two or more items. Consider the next example.
 		</p>
+		<example xml:id="ex_probability_counting_steps">
+			<title>Probability from Permutations and Combinations</title>
+			<statement>
+				<p>
+					A special deck of cards contains only 10 cards taken from a standard deck of 52 cards. These 10 cards are the two black aces, two red kings, all four queens, and the two red jacks from the regular deck. Four cards are drawn at random from the deck without replacement. What is the probability that:
+					<ol marker="a.">
+						<li><p>none of the cards are aces?</p></li>
+						<li><p>two of the cards are black, and two are red?</p></li>
+						<li><p>at least one of the cards is a queen?</p></li>
+						<li><p>the cards are the queen of hearts, diamonds, clubs, and spades in that order?</p></li>
+					</ol>
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Notice that nothing is said about the order in which cards are drawn for the first three events.  So we will use <xref ref="fact_counting-rule_combination" text="custom">combinations</xref> to count both the sample space and the number of outcomes in these events.  The common sample space is found by counting the number of ways to select 4 of the 10 cards if order doesn't matter: <m>C(10,4) = \frac{10 \times 9\times 8\times 7}{4\times 3\times 2\times 1} = 210</m>.
+					<ol marker="a.">
+						<li>
+							<p>
+								If none of the cards are aces, then all four are selected from the remaining 8 non-ace cards. This can be done in <m>C(8,4) = 70</m> ways. So, <m>P(\text{no aces}) = \frac{70}{210} = \frac{1}{3}</m>.
+							</p>
+						</li>
+						<li>
+							<p>
+								We first split the cards into black and red. There are two black aces and two black queens making 4 total black cards. There are two red kings, two red queens, and two red jacks making 6 red cards. Next we must pick 2 of the 4 black cards and 2 of the 6 red cards. This is a multi-step process, so using the multiplication rule: 
+								<md>
+									<mrow>n(\text{2 black and 2 red}) \amp = n(\text{2 black}) \times n(\text{2 red})</mrow>
+									<mrow>\amp = C(4,2) \times C(6,2)</mrow>
+									<mrow>\amp = 6 \times 15</mrow>
+									<mrow>\amp = 90.</mrow>
+								</md>
+								Thus, <m>P(\text{ 2 black and 2 red }) = \frac{90}{210} = \frac{3}{7}</m>.
+							</p>
+						</li>
+						<li>
+							<p>
+								<q>At least one queen</q> means we could have one queen, two queens, three queens, or all four queens. If we try to count this directly, we must count these four separate cases and then use the addition rule to add them together. Instead, let's take a short-cut. The opposite of <q>at least one queen</q> is <q>no queens</q>. 
+								If we can find the probability of no queens, then we can use the complement rule to find the probability of at least one queen. If we don't allow the queens to be chosen, there are only 6 cards available. We can pick our entire hand from these 6 cards in <m>C(6,4) = 15</m> ways. So, <m>P(\text{no queens}) = \frac{15}{210} = \frac{1}{14}</m>. Therefore,
+								<md>
+									<mrow> P(\text{at least one queen}) \amp = 1 - P(\text{no queens}) </mrow>
+									<mrow> \amp = 1-\frac{1}{14} = \frac{13}{14} </mrow>
+								</md>.
+							</p></li>
+						<li>
+							<p>
+								Our last event is different from the other three because the order in which we pick our cards matters.  We should therefore use a <xref ref="fact-permutation-formula" text="custom">permutation</xref> or the <xref ref="thm_counting-rule_multiplication" text="custom">multiplication rule</xref> instead of a combination. Keeping in mind that there is only one of each suite's queen in the deck, we compute
+								<md>
+									<mrow>P(\text{Queen of Hearts, }\amp\text{Diamonds, Clubs, then Spades}) </mrow>
+									<mrow>\amp = \frac{1\times 1\times 1\times 1}{P(10,4)}</mrow>
+									<mrow>\amp = \frac{1}{10\times 9\times 8\times 7}</mrow>
+									<mrow>\amp = \frac{1}{5040}</mrow>
+								</md>
+							</p>
+						</li>
+					</ol>
+				</p>
+			</solution>
+		</example>
 	</subsection>
 </section>
