@@ -70,5 +70,36 @@
 			</row>
 		</tabular>
 	</subsection>
+	<subsection xml:id="subsec-probability-expected-val">
+		<title>Expected Value</title>
+		<p>
+			Think of the expected value as a weighted average. In the Block Party example above, we could take the average of $10, $3, and $0, but they are not all equally likely. It is much more likely to win $0 than it is to win $10. So, to find the average, we multiply each outcome by the chance it will happen and add the products together. This is the <term>expected value</term> of the game.
+		</p>
+		<assemblage xml:id="assemblage-expected-value">
+			<title>Expected Value</title>
+			<p>
+				To find the <term>expected value</term> of an experiment, multiply each possible outcome by its probability and sum the products.
+			</p>
+		</assemblage>
+		<p>
+			For the Block Party example we have:
+			<md>
+				<mrow> \text{Expected winnings} \amp= \$10\left(\frac{1}{6}\right)+\$3\left(\frac{5}{36}\right)+\$0\left(\frac{25}{36}\right) </mrow>
+				<mrow> \amp =\$2.08 </mrow>
+			</md>
+			This tells us that over the long run, players can expect to win $2.08 per game. This also means that the game organizer will be paying out an average of $2.08 per game. Since the game is intended to be a fundraiser, the organizers need to charge <em>more</em> than $2.08 per game in order to raise money.
+		</p>
+		<p>
+			If the game organizers charge exactly $2.08 to play, the game is considered a <term>fair game</term> since the expected winnings would be $0. In a fair game, the player isn't expected to win anything, nor is the owner expected to earn anything over the long run. However, if organizers charge the player more than $2.08 to play, they will earn money over the long run.
+		</p>
+		<p>
+			Suppose you suggest charging $5 to play the game. We can determine the net winnings by subtracting the $5 the player has to pay from their expected winnings. This gives us:
+			<md>
+				<mrow>\text{Net player winnings}\amp=\$2.08-\$5</mrow>
+				<mrow> \amp=-\$2.92 </mrow>
+			</md>
+			This means that, over the long run, players can expect to lose an average of $2.92 per game, while the organizers can expect to fundraise an average of $2.92 per game.
+		</p>
+	</subsection>
 
 </section>
