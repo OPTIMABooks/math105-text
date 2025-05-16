@@ -158,6 +158,31 @@
 			The first rule says that because <m>E</m> is a subset of <m>S</m>, the ratio of <m>n(E)</m> to <m>n(S)</m> can be at most one, and as with any ratio, must be at least 0. 
 			The second rule tells us that the probability of something in the sample space happening is 1. Since the sample space contains all possible outcomes, this gives us the maximum possible probability of 1.
 		</p>
+		<example xml:id="ex_probability_measure_urn">
+			<!-- <title>Assigning Probabilities to Outcomes</title> -->
+			<statement>
+				<p>
+					An jar contains four red marbles, three blue marbles, two green marbles, and one white marble. A marble is drawn and its color is noted. Find the sample space in this experiment, and assign each outcome a probability.
+				</p>
+			</statement>
+			<solution>
+				<p>First, we must find the sample space. There are two ways we could look at this.
+					<ol>
+						<li><p>We could pretend that we can tell each marble apart, regardless of its color. In that case, the sample space is:
+							<me>S = \lbrace R_1, R_2, R_3, R_4, B_1, B_2, B_3, G_1, G_2, W_1 \rbrace</me>.</p></li>
+						<li><p>Since we can't actually tell the marbles of the same color apart, it is more accurate to say that the sample space is:
+							<me>S = \lbrace R, B, G, W\rbrace</me>.</p></li>
+					</ol>
+					The best answer for the sample space is <m>S = \lbrace R,B,G, W\rbrace</m> as shown in (2). However, the sample space from (1) can be a good way to answer the second part of the problem.
+					<ul marker="">
+						<li><p><m>P(R) = \frac{n(R)}{n(S)} = \frac{4}{10} = \frac{2}{5} = 0.40</m></p></li>
+						<li><p><m>P(B) = \frac{n(B)}{n(S)} = \frac{3}{10} = 0.30</m></p></li>
+						<li><p><m>P(G) = \frac{n(G)}{n(S)} = \frac{2}{10} = \frac{1}{5} = 0.20</m></p></li>
+						<li><p><m>P(W) = \frac{n(W)}{n(S)} = \frac{1}{10} = 0.10</m></p></li>
+					</ul>
+				</p>
+			</solution>
+		</example>
 	</subsection>
 	<subsection xml:id="sec_probability_more-rules">
 		<title>More Probability Rules</title>
@@ -322,7 +347,6 @@
 					<me>
 						P(F^C) = 1-\frac{1}{3} = \frac{2}{3}
 					</me>.
-					
 				</p>
 			</solution>
 		</example>
