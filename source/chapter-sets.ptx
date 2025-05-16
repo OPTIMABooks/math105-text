@@ -66,6 +66,7 @@
 	<xi:include href="sec-counting-multiplication-principle.ptx" />
 	<xi:include href="sec-counting-permutation-combination.ptx" />
 	<xi:include href="sec-probability-basics.ptx" />
+	<xi:include href="sec-probability-expected-value.ptx" />
 
 
 </chapter>
