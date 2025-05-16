@@ -359,6 +359,29 @@
 		<p>
 			The definition of theoretical probability shown in <xref ref="def_theoretical-probability" text="type-global"/> is fundamentally based on enumeration (counting). By applying the counting techniques introduced in <xref ref="sec-set-cardinality"/>, we can now address more complex probability problems. In the examples that follow, we will use a variety of counting rules to compute probabilities. Pay close attention to how, in each case, we must first determine which counting rule(s) to apply and how to combine them to count the number of outcomes in both the sample space and the event whose probability we wish to find.
 		</p>
+		<example xml:id="ex_probability_counting_basic">
+  		<title>Using Basic Counting Rules to Compute Probability</title>
+  		<statement>
+  			<p>
+					An elderly woman owns 12 cats. She has 3 male tabby cats, 4 female tabby cats, 3 female calico, and 2 male Siamese cats. A single cat is chosen from the herd at random. Find the probability that the cat is:
+  				<ol marker="a." cols="3">
+  					<li><p>male</p></li>
+  					<li><p>a tabby cat</p></li>
+  					<li><p>a male or a calico.</p></li>
+  				</ol>
+  			</p>
+  		</statement>
+  		<solution>
+  			<p>
+					Since we are told the cat is chosen at random, we know that each cat is equally likely to be chosen. Thus, we can use the theoretical probability definition to solve these problems. For each of these events, note that the sample space is all of the cats owned by this woman. Thus, <m>n(S) = 12</m> for each problem. 
+					<ol marker="a.">
+						<li><p>Since we are told that <m>n(M) = 5</m>, we compute <m>P(M) = \frac{5}{12}</m>.</p></li>
+						<li><p>Because <m>n(T) = 7</m>, we get <m>P(T) = \frac{7}{12}</m>.</p></li>
+						<li><p>Finally, <m>n(M \cup C) = 5 + 3 = 8</m>, so <m>P(M\cup C) = \frac{8}{12} = \frac{2}{3}</m>.</p></li>
+					</ol>
+				</p>
+  		</solution>
+  	</example>
 
 	</subsection>
 </section>
