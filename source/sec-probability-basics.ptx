@@ -360,7 +360,7 @@
 			The definition of theoretical probability shown in <xref ref="def_theoretical-probability" text="type-global"/> is fundamentally based on enumeration (counting). By applying the counting techniques introduced in <xref ref="sec-set-cardinality"/>, we can now address more complex probability problems. In the examples that follow, we will use a variety of counting rules to compute probabilities. Pay close attention to how, in each case, we must first determine which counting rule(s) to apply and how to combine them to count the number of outcomes in both the sample space and the event whose probability we wish to find.
 		</p>
 		<example xml:id="ex_probability_counting_basic">
-			<title>Probability from Basic Counting Rules</title>
+			<title>Probability Using Basic Counting Rules</title>
 			<statement>
 				<p>
 					An elderly woman owns 12 cats. She has 3 male tabby cats, 4 female tabby cats, 3 female calico, and 2 male Siamese cats. A single cat is chosen from the herd at random. Find the probability that the cat is:
@@ -386,7 +386,7 @@
 			A process in which we choose one item, as we above when we chose a single cat, is often much easier to work with than a process in which we must choose two or more items. Consider the next example.
 		</p>
 		<example xml:id="ex_probability_counting_steps">
-			<title>Probability from Permutations and Combinations</title>
+			<title>Probability Using Permutations and Combinations</title>
 			<statement>
 				<p>
 					A special deck of cards contains only 10 cards taken from a standard deck of 52 cards. These 10 cards are the two black aces, two red kings, all four queens, and the two red jacks from the regular deck. Four cards are drawn at random from the deck without replacement. What is the probability that:
@@ -437,6 +437,48 @@
 									<mrow>\amp = \frac{1}{10\times 9\times 8\times 7}</mrow>
 									<mrow>\amp = \frac{1}{5040}</mrow>
 								</md>
+							</p>
+						</li>
+					</ol>
+				</p>
+			</solution>
+		</example>
+		<example xml:id="exp_probability_counting_cases">
+			<title>Probabilities Using Cases</title>
+			<statement>
+				<p>
+					An experiment consists of randomly selecting three marbles from an jar containing six red marbles, four white marbles, and two green marbles. What is the probability that:
+					<ol marker="a.">
+						<li><p>All three marbles are green?</p></li>
+						<li><p>All three marbles are white?</p></li>
+						<li><p>All three marbles are of the same color?</p></li>
+					</ol>
+				</p>
+			</statement>
+			<solution>
+				<p>
+					We start by counting the sample space, which will be the same for all three events. We are drawing three marbles from an jar containing 12 total marbles. We don't care about the order in which we draw the marbles, just the colors that are drawn. Therefore, <m>n(S) = C(12,3) = 220</m>.
+					<ol marker="a.">
+						<li>
+							<p>
+								Since there are only two green marbles, it is impossible for all three of the marbles we draw to be green. Therefore, <m>P(\text{all three are green}) = 0</m>.
+							</p>
+						</li>
+						<li>
+							<p>
+								There are four white marbles. The number of ways we can draw three of the four is <m>C(4,3) = 4</m>. Therefore, <m>P(\text{all three are white}) = \frac{4}{220} = \frac{1}{55}</m>.
+							</p>
+						</li>
+						<li>
+							<p>
+								All three marbles can be the same color by being all green, all white, or all red. We said that <m>P(\text{all green}) = 0</m> and <m>P(\text{all white}) = \frac{1}{55}</m>. To determine the probability they are all red, we count <m>n(\text{all three red}) = C(6,3) = 20</m>. Thus, <m>P(\text{all red}) = \frac{20}{220} = \frac{1}{11}</m>.
+							</p>
+							<p>Now since these are three different ways that we can get all three marbles to be the same color, and since each of these events is mutually exclusive (we can't get all three red and all three white), we use the general addition rule to get:
+							<md>
+								<mrow>P(\text{same color}) \amp = P(\text{all green}) + P(\text{all white}) + P(\text{all red} )</mrow>
+								<mrow>\amp = 0 + \frac{4}{220} + \frac{20}{220} = \frac{24}{220}</mrow>
+								<mrow>\amp = \frac{6}{55}.</mrow>
+							</md>
 							</p>
 						</li>
 					</ol>
