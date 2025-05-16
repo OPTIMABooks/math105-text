@@ -357,7 +357,7 @@
 			Throughout this section, we have assumed that each outcome is equally likely. In <xref ref="ex_probability_measure_urn"/>, we pulled colored marbles from a jar in which each marble was equally likely, but not each color. This was because there were more marbles of some colors than others. In that example, we had two different ways to list the sample space, depending on how (or what) we counted. This illustrates how counting is an important tool for computing probabilities.
 		</p>
 		<p>
-			The definition of <xref text="custom" ref="def_theoretical-probability">theoretical probability</xref> is fundamentally based on enumeration (counting). By applying the counting techniques introduced in <xref ref="sec-set-cardinality"/>, we can now address more complex probability problems. In the examples that follow, we will use a variety of counting rules to compute probabilities. Pay close attention to how, in each case, we must first determine which counting rule(s) to apply and how to combine them to count the number of outcomes in both the sample space and the event whose probability we wish to find.
+			The definition of theoretical probability shown in <xref ref="def_theoretical-probability" text="type-global"/> is fundamentally based on enumeration (counting). By applying the counting techniques introduced in <xref ref="sec-set-cardinality"/>, we can now address more complex probability problems. In the examples that follow, we will use a variety of counting rules to compute probabilities. Pay close attention to how, in each case, we must first determine which counting rule(s) to apply and how to combine them to count the number of outcomes in both the sample space and the event whose probability we wish to find.
 		</p>
 
 	</subsection>
