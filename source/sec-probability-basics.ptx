@@ -280,5 +280,28 @@
   			</p>
   		</solution>
   	</example>
+		<p>
+			The word <q>not</q> often appears in probability problems, and you likely have an instinctive understanding on how to deal with it. For example, suppose you were told there was a 40% chance (probability) of rain. What is the probability that it does not rain? That is right <mdash/> 60%!  This is the <term>complement rule</term> and closely related to the idea of the <xref ref="def_complement" text="custom">complement of a set</xref>, discussed in a previous section.
+		</p>
+		<definition xml:id="def-complement_event">
+			<statement>
+				<p>
+					The <term>complement</term> of an event <m>E</m> is the set of outcomes in the sample space that are not in <m>E</m>. That is, <m>E^C</m> is the event <q><m>E</m> didn't happen.</q>
+				</p>
+			</statement>
+		</definition>
+		<p>
+			An event and its complement divide up the sample space.  That is, every element in the sample space is either in the event or in its complement, and never in both.  This observation leads to a rule for finding the probability of the complement of an event.
+		</p>
+  	<fact xml:id="def_probability-rule_complement">
+  		<idx>complement rule</idx>
+  		<idx><h>probability</h><h>formula</h><h>complement rule</h></idx>
+  		<statement>
+  			<p>
+					The <term>complement rule</term> states that if <m>E</m> is an event in a sample space <m>S</m>, then the probability of the complement of <m>E</m> is:
+  			  <me>P(E^C) = 1 - P(E)</me>.
+				</p>
+  		</statement>
+  	</fact>
 	</subsection>
 </section>
