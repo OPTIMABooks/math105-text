@@ -360,7 +360,7 @@
 			The definition of theoretical probability shown in <xref ref="def_theoretical-probability" text="type-global"/> is fundamentally based on enumeration (counting). By applying the counting techniques introduced in <xref ref="sec-set-cardinality"/>, we can now address more complex probability problems. In the examples that follow, we will use a variety of counting rules to compute probabilities. Pay close attention to how, in each case, we must first determine which counting rule(s) to apply and how to combine them to count the number of outcomes in both the sample space and the event whose probability we wish to find.
 		</p>
 		<example xml:id="ex_probability_counting_basic">
-  		<title>Using Basic Counting Rules to Compute Probability</title>
+  		<title>Probability from Basic Counting Rules</title>
   		<statement>
   			<p>
 					An elderly woman owns 12 cats. She has 3 male tabby cats, 4 female tabby cats, 3 female calico, and 2 male Siamese cats. A single cat is chosen from the herd at random. Find the probability that the cat is:
