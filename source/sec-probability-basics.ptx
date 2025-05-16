@@ -473,12 +473,13 @@
 							<p>
 								All three marbles can be the same color by being all green, all white, or all red. We said that <m>P(\text{all green}) = 0</m> and <m>P(\text{all white}) = \frac{1}{55}</m>. To determine the probability they are all red, we count <m>n(\text{all three red}) = C(6,3) = 20</m>. Thus, <m>P(\text{all red}) = \frac{20}{220} = \frac{1}{11}</m>.
 							</p>
-							<p>Now since these are three different ways that we can get all three marbles to be the same color, and since each of these events is mutually exclusive (we can't get all three red and all three white), we use the general addition rule to get:
-							<md>
-								<mrow>P(\text{same color}) \amp = P(\text{all green}) + P(\text{all white}) + P(\text{all red} )</mrow>
-								<mrow>\amp = 0 + \frac{4}{220} + \frac{20}{220} = \frac{24}{220}</mrow>
-								<mrow>\amp = \frac{6}{55}.</mrow>
-							</md>
+							<p>
+								Now since these are three different ways that we can get all three marbles to be the same color, and since each of these events is mutually exclusive (we can't get all three red and all three white), we use the general addition rule to get:
+								<md>
+									<mrow>P(\text{same color}) \amp = P(\text{all green}) + P(\text{all white}) + P(\text{all red} )</mrow>
+									<mrow>\amp = 0 + \frac{4}{220} + \frac{20}{220} = \frac{24}{220}</mrow>
+									<mrow>\amp = \frac{6}{55}.</mrow>
+								</md>
 							</p>
 						</li>
 					</ol>
