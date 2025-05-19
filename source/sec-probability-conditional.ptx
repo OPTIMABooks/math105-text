@@ -404,5 +404,22 @@
 				</ol></p>
 			</solution>
 		</example>
+		<p>
+			In the special case where <m>A</m> and <m>B</m> are <xref ref="def_independent" text="custom">independent</xref>, the conditional probability for <m>B</m> given <m>A</m> is the same as the probability for <m>B</m>. That is, <m>P(B|A) = P(B)</m>. The general multiplication rule then becomes:
+			<me>
+				P(A\cap B) = P(A)P(B)
+			</me>.
+			In fact, this is one of the best ways to test two events for independence.
+		</p>
+		<fact xml:id="thm_independence-test">
+			<title>Test of Independence</title>
+			<idx>independence (test of)</idx>
+			<idx><h>probability</h><h>formula</h><h>independence test</h></idx>
+			<statement>
+				<p>
+					Events <m>A</m> and <m>B</m> in a sample space <m>S</m> are independent if and only if <m>P(A\cap B) = P(A) P(B)</m>.
+				</p>
+			</statement>
+		</fact>
 	</subsection>
 </section>
