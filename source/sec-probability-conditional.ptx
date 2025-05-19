@@ -177,6 +177,9 @@
 				</p>
 			</solution>
 		</example>
-		</subsection>
+		<p>
+			One good tool for visualizing conditional probability is a <xref ref="def_venn-diagram" text="custom">Venn Diagram</xref>. In the two Venn Diagrams below, we see how the <q>extra</q> information that <m>B</m> has happened changes the probability of <m>A</m> by, in a sense, redefining the sample space.
+		</p>
+	</subsection>
 
 </section>
