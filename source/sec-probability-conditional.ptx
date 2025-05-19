@@ -27,5 +27,34 @@
 			In the previous section, we explored how calculating probabilities can become more complex when dealing with multiple events. In this section, we turn our attention to how the probability of an event can change when additional information is known. Sometimes, we calculate the probability of an event based solely on the overall sample space. Other times, we calculate the probability of an event given that another event has already occurred. Understanding which approach to use is essential for analyzing dependent and independent events.
 		</p>
 	</introduction>
+	<subsection xml:id="sec_probability_conditional_independence">
+		<title>Independence</title>
+		<p>
+			Sometimes knowledge about one event can change the probability of another event. When knowledge about one event happening or not happening changes the probability of another event happening, the events are called <term>dependent</term>. When knowledge about one event makes no difference in the probability of another event happening, the events are called <term>independent</term>.
+		</p>
+		<definition xml:id="def_independent">
+			<idx><h>independent events</h></idx>
+			<idx><h>probability</h><h>independence</h></idx>
+			<statement>
+				<p>Two events, <m>A</m> and <m>B</m>, are called independent if the occurrence of <m>A</m> has no influence on the probability of <m>B</m>.</p>
+			</statement>
+		</definition>
+		<p>
+			Coin flips and die rolls are common examples of independent events <mdash/> flipping heads does not change the probability of flipping heads the next time, nor does rolling a six change the probability that the next roll will be a six. Here is another example illustrating the difference between independent and dependent events.
+			<ul>
+				<li>
+					<p>
+						The events <q>it is raining in New York City</q> and <q>there is a traffic jam in Los Angeles</q> are <alert>independent</alert>.
+					</p>
+				</li>
+				<li>
+					<p>
+						The events <q>it is raining in New York City</q> and <q>there is a traffic jam in New York City</q> could be <alert>dependent</alert>.
+					</p>
+				</li>
+			</ul>
+			Why might rain and a traffic jam be <em>dependent</em>? Because heavy rain can make driving more difficult, increasing the likelihood of slowdowns or accidents that lead to traffic jams!
+		</p>
+	</subsection>
 
 </section>
