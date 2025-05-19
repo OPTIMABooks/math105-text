@@ -36,7 +36,9 @@
 			<idx><h>independent events</h></idx>
 			<idx><h>probability</h><h>independence</h></idx>
 			<statement>
-				<p>Two events, <m>A</m> and <m>B</m>, are called independent if the occurrence of <m>A</m> has no influence on the probability of <m>B</m>.</p>
+				<p>
+					Two events, <m>A</m> and <m>B</m>, are called <term>independent</term> if the occurrence of <m>A</m> has no influence on the probability of <m>B</m>.
+				</p>
 			</statement>
 		</definition>
 		<p>
