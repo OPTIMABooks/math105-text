@@ -22,6 +22,10 @@
 				</li>
 			</ul>
 	</objectives>
-
+	<introduction>
+		<p>
+			In the previous section, we explored how calculating probabilities can become more complex when dealing with multiple events. In this section, we turn our attention to how the probability of an event can change when additional information is known. Sometimes, we calculate the probability of an event based solely on the overall sample space. Other times, we calculate the probability of an event given that another event has already occurred. Understanding which approach to use is essential for analyzing dependent and independent events.
+		</p>
+	</introduction>
 
 </section>
