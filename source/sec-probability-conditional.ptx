@@ -367,5 +367,42 @@
 				</p>
 			</statement>
 		</fact>
+		<example xml:id="exa_conditional_multiplication-rule">
+			<title>Using the General Multiplication Rule</title>
+			<statement>
+				<p>
+					An jar contains 10 marbles: 7 red and 3 white. Two marbles are drawn randomly, one after the other, without replacement. Find the probabilities that:
+					<ol marker="a.">
+						<li>
+							<p>
+								The second marble is red given that the first marble was red.
+							</p>
+						</li>
+						<li>
+							<p>
+								The first and second marbles are both red.
+							</p>
+						</li>
+					</ol>
+				</p>
+			</statement>
+			<solution>
+				<p><ol marker="a.">
+					<li>
+						<p>
+							Since we are told that the first marble was red, when drawing the second marble we have 9 marbles remaining, 6 of which are red. Thus, the probability the second marble is red is <m>\frac{6}{9} = \frac{2}{3}</m>.
+						</p>
+					</li>
+					<li>
+						<p>
+							The probability that the first marble is red will be <m>\frac{7}{10}</m> since seven of the 10 marbles are red. In (a), we saw that the probability the second marble is red given that the first was red is <m>\frac{2}{3}</m>. Using the general multiplication rule, the probability that the first and second marbles are red is
+							<me>
+								P(\text{1st }R) \times P(\text{2nd }R\mid\text{1st }R) = \frac{7}{10} \times \frac{2}{3} = \frac{14}{30} = \frac{7}{15}
+							</me>.
+						</p>
+					</li>
+				</ol></p>
+			</solution>
+		</example>
 	</subsection>
 </section>
