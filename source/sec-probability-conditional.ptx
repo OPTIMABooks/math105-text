@@ -252,6 +252,102 @@
 				</p>
 			</statement>
 		</fact>
+		<p>
+			Having multiple ways to understand a challenging concept like conditional probability is helpful. Let's explore another example that uses a table to represent two events and calculate conditional probabilities.
+		</p>
+		<example xml:id="ex_conditional_table">
+			<title>Conditional Probabilities Using the Formula</title>
+			<statement>
+				<p>
+					A hospital conducts a research study on 138 patients who have a history of serious headaches. Several of the patients are given an experimental painkiller, while others are given ordinary Tylenol. Patients are then checked after 45 minutes to see if they are still suffering from headaches.  The resulting data is summarized in the table below.
+				</p>
+				<table>
+					<title>Study Results</title>
+					<tabular>
+						<col right="medium"></col>
+						<col right="medium" halign="center"></col>
+						<col right="major" halign="center"></col>
+						<col halign="center"></col>
+						<row bottom="medium">
+							<cell></cell>
+							<cell>Experimental Drug</cell>
+							<cell>Tylenol</cell>
+							<cell>Total</cell>
+						</row>
+						<row>
+							<cell>Headache Persists</cell>
+							<cell>12</cell>
+							<cell>40</cell>
+							<cell>52</cell>
+						</row>
+						<row bottom="major">
+							<cell>Headache Gone</cell>
+							<cell>53</cell>
+							<cell>33</cell>
+							<cell>86</cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>65</cell>
+							<cell>73</cell>
+							<cell>138</cell>
+						</row>
+					</tabular>
+				</table>
+				<p>
+					Suppose one of these people is randomly selected. Use the given table to answer the following questions.
+					<ol marker="a.">
+						<li>
+							<p>
+								Find <m>P(\text{H. Gone})</m>, the probability the person's headache is gone.
+							</p>
+						</li>
+						<li>
+							<p>
+								Find <m>P(\text{H. Gone}\mid\text{Tylenol})</m>, the probability the person's headache is gone given that they took Tylenol.
+							</p>
+						</li>
+						<li>
+							<p>
+								Are the events <q>H. Gone</q> and <q>Tylenol</q> independent? Explain.
+							</p>
+						</li>
+					</ol>
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Using the data table we compute the following probabilities.
+					<ol marker="a.">
+						<li>
+							<p>
+								<m>P(\text{H. Gone}) = \frac{86}{138} \approx 0.6232</m> since 86 of the 138 peoples' headaches were gone after 15 minutes.
+							</p>
+						</li>
+						<li>
+							<p>
+								To find <m>P(\text{H. Gone}\mid\text{Tylenol})</m>, we use the conditional probability formula. 
+								<md>
+									<mrow> P(\text{H. Gone}\mid\text{Tylenol}) \amp 
+										= \frac{P(\text{H. Gone}\,\cap\,\text{Tylenol})}{P(\text{Tylenol})}</mrow>
+									<mrow> \amp= \frac{\frac{33}{138}}{\frac{73}{138}}</mrow>
+									<mrow> \amp= \frac{33}{73} </mrow>
+									<mrow>	\amp\approx 0.4521 </mrow>
+								</md>.
+							</p>
+						</li>
+						<li>
+							<p>
+								Since the probability of the headache being gone changed when we were told the person took Tylenol, these two events are not independent<mdash/>they are dependent.
+							</p>
+						</li>
+					</ol>
+				</p>
+				<p>
+					<alert>Note:</alert> When we have tabular data, there is a short-cut to finding conditional probability. Since we are told in (b) that the person took Tylenol, we restrict ourselves to the Tylenol column. Then, the probability that their headache is gone is simply <m>\frac{33}{73} \approx 0.4521</m>, as above.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 
 </section>
