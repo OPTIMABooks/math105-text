@@ -367,11 +367,75 @@
 				</p>
 			</statement>
 		</fact>
-		<example xml:id="exa_conditional_multiplication-rule">
+		<example xml:id="ex_conditional_multiplication-rule-1">
+		<statement>
+			<p>
+				Suppose you have a bag containing 6 red Legos, 4 green Legos, and 3 black Legos. We will make exactly two lego selections from the bag. What is the probability of selecting:
+				<ol marker="a.">
+					<li>
+						<p>
+							two red Legos in a row if we put the first red Lego back in the bag?
+						</p>
+					</li>
+					<li>
+						<p>
+							two red Legos in a row if we don't put the first Lego back in the bag?
+						</p>
+					</li>
+					<li>
+						<p>
+							a red Lego and then a green Lego if we do not put the red Lego back in the bag?
+						</p>
+					</li>
+				</ol>
+			</p>
+		</statement>
+		<solution>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+								Since the outcomes are equally likely, the probability of selecting a red Lego is the number of red Legos divided by the total number of Legos, or <m>P(\text{red})=\frac{6}{13}</m>.
+							</p>
+							<p>
+								If we replace the red Lego we selected (selections are independent), we go back to having 6 red Legos in the bag of 13 Legos total. Therefore,
+								<md>
+								<mrow>P(\text{red and red})\amp=P(\text{red})\times P(\text{red})</mrow>
+								<mrow>\amp=\frac{6}{13}\times\frac{6}{13}</mrow>
+								<mrow>\amp\approx 0.213 \text{ or } 21.3\%</mrow>
+								</md>.
+							</p>
+						</li>
+						<li>
+							<p>
+								If we do not replace the first red Lego (so selections are dependent), then on our second draw there will only be 5 red Legos remaining, and 12 Legos in total. Therefore,
+								<md>
+								<mrow>P(\text{red and then red})\amp=P(\text{red})\times P(\text{red given red taken out})</mrow>
+								<mrow>\amp=\frac{6}{13}\times\frac{5}{12}</mrow>
+								<mrow>\amp\approx 0.192 \text{ or } 19.2\%</mrow>
+								</md>.
+							</p>
+						</li>
+						<li>
+							<p>
+								The probability of selecting a red Lego on the first draw is the same as in parts a and b. Since we are not putting the red Lego back into the bag, we will have only 12 Lego left in total, of which 4 are green. Therefore,
+								<md>
+								<mrow>P(\text{red and green})\amp=P(\text{red})\times P(\text{green given red taken out})</mrow>
+								<mrow>\amp=\frac{6}{13}\times\frac{4}{12}</mrow>
+								<mrow>\amp=\frac{6}{13}\times\frac{1}{3}</mrow>
+								<mrow>\amp\approx 0.154 \text{ or } 15.4\%</mrow>
+								</md>.
+							</p>
+						</li>
+					</ol>
+				</p>
+			</solution>
+		</example>
+		<example xml:id="ex_conditional_multiplication-rule-2">
 			<title>Using the General Multiplication Rule</title>
 			<statement>
 				<p>
-					An jar contains 10 marbles: 7 red and 3 white. Two marbles are drawn randomly, one after the other, without replacement. Find the probabilities that:
+					A jar contains 10 marbles: 7 red and 3 white. Two marbles are drawn randomly, one after the other, without replacement. Find the probabilities that:
 					<ol marker="a.">
 						<li>
 							<p>
