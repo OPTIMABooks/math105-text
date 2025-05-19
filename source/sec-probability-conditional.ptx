@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-probability-conditional" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Conditional Probability and Independent Events</title>
+
+	<objectives>
+			<ul>
+				<li>
+					<p>
+						Identify independent and dependent events
+					</p>
+				</li>
+				<li>
+					<p>
+						Compute and interpret conditional probabilities
+					</p>
+				</li>
+				<li>
+					<p>
+						Calculate probabilities using tree diagrams, including <q>Bayesian</q> problems.
+					</p>
+				</li>
+			</ul>
+	</objectives>
+
+
+</section>
