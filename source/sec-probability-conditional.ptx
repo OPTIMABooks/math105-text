@@ -114,5 +114,69 @@
 			</solution>
 		</example>
 	</subsection>
+	<subsection xml:id="sec_probability_conditional_formula">
+		<title>Conditional Probability</title>
+		<p>
+			As we saw above, the probability of one event can change depending on the occurrence of another. Because these probabilities can be different, we need a way to denote the probability of one event given than another has occurred. This is called the <term>conditional probability</term> of the first event, given that the second event happens. The formal definition is given below.
+		</p>
+		<definition xml:id="def_conditional-probability">
+			<idx>conditional probability</idx>
+			<idx><h>probability</h><h>conditional</h></idx>
+			<statement>
+				<p>
+					The <term>conditional probability</term> of <m>A</m> given <m>B</m> is the probability of event <m>A</m> given that event <m>B</m> has occurred. Symbolically, this is written as <m>P(A\mid B)</m>.
+				</p>
+			</statement>
+		</definition>
+		<p>
+			We read <m>P(A\mid B)</m> as <q>the probability of <m>A</m> given <m>B</m>.</q> This simply means the probability of <m>A</m> with the extra information that <m>B</m> has happened. In <xref ref="ex_conditional_independent-or-dependent"/> we saw several pairs <m>A</m> and <m>B</m> of events for which having the information that <m>B</m> happened changed the probability of <m>A</m>. These dependent events provide good examples for computing conditional probabilities.
+		</p>
+		<example xml:id="ex_conditional_compute">
+			<title>Computing Conditional Probabilities from Outcomes</title>
+			<statement>
+				<p>
+					A coin is flipped three times. Events <m>A</m> and <m>B</m> are defined as follows.
+				  <ul cols="2">
+				    <li><p><m>A</m>: the first flip is a heads</p></li>
+				    <li><p><m>B</m>: all three flips are heads</p></li>
+				  </ul>
+				</p>
+				<p>
+					Find the sample space for this experiment, the outcomes in <m>A</m>, and the outcomes in <m>B</m>. Use this information to find <m>P(A)</m> and <m>P(A\mid B)</m>.
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Since the experiment involves flipping a coin three times, a sample outcome would be <m>HHT</m>, representing the first flip coming up heads, the second heads, and the last tails. The set of all outcomes is therefore:
+				  <me>
+						S = \lbrace HHH, HHT, HTH, HTT, THH, THT, TTH, TTT \rbrace
+					</me>.
+				</p>
+				<p>
+					The first event of interest, <m>A</m>, consists of all of the outcomes above resulting in a heads on the first flip. This is:
+				  <me>
+						A = \lbrace HHH, HHT, HTH, HTT \rbrace
+					</me>.
+				  We can therefore conclude that
+				  <me>
+						P(A) = \frac{n(A)}{n(S)} = \frac{4}{8} = \frac{1}{2} = 0.50
+					</me>.
+				</p>
+				<p>
+					But what about <m>B</m>? The event <m>B</m> is:
+					<me>
+						B = \lbrace HHH \rbrace
+					</me>.
+					If we know that <m>B</m> has happened, then we automatically know that <m>A</m> has happened as well.  This is because if all three flips are heads, the first one must have been a heads (<m>B</m> is a subset of <m>A</m>). Therefore, 
+					<me>
+						P(A\mid B) = 1
+					</me>.
+				</p>
+				<p>
+					Note that <m>P(A\mid B)</m> and <m>P(A)</m> are different! This is equivalent to saying that <m>A</m> and <m>B</m> are dependent
+				</p>
+			</solution>
+		</example>
+		</subsection>
 
 </section>
