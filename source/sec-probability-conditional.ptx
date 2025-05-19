@@ -55,8 +55,64 @@
 					</p>
 				</li>
 			</ul>
-			Why might rain and a traffic jam be <em>dependent</em>? Because heavy rain can make driving more difficult, increasing the likelihood of slowdowns or accidents that lead to traffic jams!
+			Why might rain and a traffic jam be <em>dependent</em>? Because heavy rain can make driving more difficult, increasing the likelihood of slowdowns or accidents that lead to traffic jams! The following example gives more illustrations of dependent and independent events.
 		</p>
+		<example xml:id="ex_conditional_independent-or-dependent">
+			<!-- <title>Determining if Events are Independent or Dependent</title> -->
+			<statement>
+				<p>
+					Determine if the pairs of events <m>A</m> and <m>B</m> described below are independent or dependent.
+				  <ol marker="a.">
+				  	<li>
+							<p>
+								A coin is flipped three times and <m>A =</m> <q>the first flip is a heads</q> while <m>B =</m> <q>the last flip is a heads.</q>
+							</p>
+						</li>
+				  	<li>
+							<p>
+								A coin is flipped three times and <m>A =</m> <q>the first flip is a heads</q> while <m>B =</m> <q>all flips are heads.</q>
+							</p>
+						</li>
+				  	<li>
+							<p>
+								An jar contains three marbles: 2 red and 1 white. Two marbles are drawn, with replacement. <m>A =</m> <q>the first marble is white</q> while <m>B =</m> <q>the second marble is white.</q>
+							</p>
+						</li>
+				  	<li>
+							<p>
+								An jar contains three marbles: 2 red and 1 white. Two marbles are drawn, without replacement. <m>A =</m> <q>the first marble is white</q> while <m>B =</m> <q>the second marble is white.</q>
+							</p>
+						</li>
+				  </ol>
+				</p>
+			</statement>
+			<solution>
+				<p>
+					<ol marker="a.">
+						<li>
+							<p>
+								Does knowing if the first flip was a heads or tails change the probability that the third flip will be a heads? Coins do not have memories. Anything we know about the first flip has no effect on what happens on the second flip, so <m>A</m> and <m>B</m> are <term>independent</term>.
+							</p>
+						</li>
+						<li>
+							<p>
+								This experiment is different from the previous one. Knowing that the first flip came up a heads does have an effect on whether all three flips come up heads. After all, if <m>A</m> did not happen, then <m>B</m> can not possibly happen either. Therefore, <m>A</m> and <m>B</m> are <term>dependent</term>.
+							</p>
+						</li>
+						<li>
+							<p>
+								Since we are replacing the marbles after we draw them, the probability of getting a red on the first draw and on the second draw are the same: <m>\frac{2}{3}</m>. What happens on the first draw does not effect the probability of getting a red on the second draw. Because of this, <m>A</m> and <m>B</m> are <term>independent</term>.
+							</p>
+						</li>
+						<li>
+							<p>
+								In our final question, we are again drawing marbles, but this time what happens on the first draw does make a difference. Since we do not replace the marbles we draw, if <m>A</m> does not happen (we draw red), there are two marbles left: 1 red and 1 white. So <m>P(B) = \frac{1}{2}</m>. However, if <m>A</m> does happen (we draw a white), then there are two marbles left, both of which are red. So <m>P(B) = 0</m>. Since <m>P(B)</m> changes depending on whether <m>A</m> happens or not, <m>A</m> and <m>B</m> are <term>dependent</term>.
+							</p>
+						</li>
+					</ol>
+				</p>
+			</solution>
+		</example>
 	</subsection>
 
 </section>
