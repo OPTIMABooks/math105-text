@@ -62,28 +62,28 @@
 			<statement>
 				<p>
 					Determine if the pairs of events <m>A</m> and <m>B</m> described below are independent or dependent.
-				  <ol marker="a.">
-				  	<li>
+					<ol marker="a.">
+						<li>
 							<p>
 								A coin is flipped three times and <m>A =</m> <q>the first flip is a heads</q> while <m>B =</m> <q>the last flip is a heads.</q>
 							</p>
 						</li>
-				  	<li>
+						<li>
 							<p>
 								A coin is flipped three times and <m>A =</m> <q>the first flip is a heads</q> while <m>B =</m> <q>all flips are heads.</q>
 							</p>
 						</li>
-				  	<li>
+						<li>
 							<p>
 								An jar contains three marbles: 2 red and 1 white. Two marbles are drawn, with replacement. <m>A =</m> <q>the first marble is white</q> while <m>B =</m> <q>the second marble is white.</q>
 							</p>
 						</li>
-				  	<li>
+						<li>
 							<p>
 								An jar contains three marbles: 2 red and 1 white. Two marbles are drawn, without replacement. <m>A =</m> <q>the first marble is white</q> while <m>B =</m> <q>the second marble is white.</q>
 							</p>
 						</li>
-				  </ol>
+					</ol>
 				</p>
 			</statement>
 			<solution>
@@ -136,10 +136,10 @@
 			<statement>
 				<p>
 					A coin is flipped three times. Events <m>A</m> and <m>B</m> are defined as follows.
-				  <ul cols="2">
-				    <li><p><m>A</m>: the first flip is a heads</p></li>
-				    <li><p><m>B</m>: all three flips are heads</p></li>
-				  </ul>
+					<ul cols="2">
+						<li><p><m>A</m>: the first flip is a heads</p></li>
+						<li><p><m>B</m>: all three flips are heads</p></li>
+					</ul>
 				</p>
 				<p>
 					Find the sample space for this experiment, the outcomes in <m>A</m>, and the outcomes in <m>B</m>. Use this information to find <m>P(A)</m> and <m>P(A\mid B)</m>.
@@ -148,17 +148,17 @@
 			<solution>
 				<p>
 					Since the experiment involves flipping a coin three times, a sample outcome would be <m>HHT</m>, representing the first flip coming up heads, the second heads, and the last tails. The set of all outcomes is therefore:
-				  <me>
+					<me>
 						S = \lbrace HHH, HHT, HTH, HTT, THH, THT, TTH, TTT \rbrace
 					</me>.
 				</p>
 				<p>
 					The first event of interest, <m>A</m>, consists of all of the outcomes above resulting in a heads on the first flip. This is:
-				  <me>
+					<me>
 						A = \lbrace HHH, HHT, HTH, HTT \rbrace
 					</me>.
-				  We can therefore conclude that
-				  <me>
+					We can therefore conclude that
+					<me>
 						P(A) = \frac{n(A)}{n(S)} = \frac{4}{8} = \frac{1}{2} = 0.50
 					</me>.
 				</p>
@@ -180,6 +180,78 @@
 		<p>
 			One good tool for visualizing conditional probability is a <xref ref="def_venn-diagram" text="custom">Venn Diagram</xref>. In the two Venn Diagrams below, we see how the <q>extra</q> information that <m>B</m> has happened changes the probability of <m>A</m> by, in a sense, redefining the sample space.
 		</p>
+		<sbsgroup widths="45% 45%" margins="auto">
+			<sidebyside>
+				<figure xml:id="fig_conditional_venn-a">
+					<caption></caption>
+					<image xml:id="image_conditional_venn-a">
+						<shortdescription>
+							A Venn diagram with two circles, A and B.  Circle A is shaded a light yellow.  Circle B is not shaded.
+						</shortdescription>
+						<latex-image>
+							\begin{tikzpicture}
+								\draw (-1.5,-1.5) rectangle (2.5,1.5);
+								\begin{scope}[blend group = soft light]
+									\fill[yellow!30!white]  (0,0) circle (1);
+								\end{scope}						  		
+								\draw (0,0) circle (1);
+								\draw (1,0) circle (1);
+								\node at (-1,1) {$A$};
+								\node at (2,1) {$B$};  
+							\end{tikzpicture}
+						</latex-image>
+					</image>
+				</figure>
+				<figure xml:id="fig_conditional_venn-b">
+					<caption></caption>
+					<image xml:id="image_conditional_venn-b">
+						<shortdescription>
+							A Venn diagram with two circles, A and B.  Circle A is shaded a light yellow.  Circle B is shaded a light pink.  The region inside both circles A and B is a mixture of the two colors.
+						</shortdescription>
+						<latex-image>
+							\begin{tikzpicture}
+								\draw (-1.5,-1.5) rectangle (2.5,1.5);
+								\begin{scope}[blend group = multiply]
+									\fill[yellow!25!white]  (0,0) circle (1);
+									\fill[magenta!25!white]  (1,0) circle (1);
+								\end{scope}						  		
+								\draw (0,0) circle (1);
+								\draw (1,0) circle (1);
+								\node at (-1,1) {$A$};
+								\node at (2,1) {$B$};  
+							\end{tikzpicture}					
+						</latex-image>
+					</image>
+				</figure>
+			</sidebyside>
+			<sidebyside>
+				<p>
+					To compute <m>P(A)</m>, we ignore <m>B</m> and take the ratio of the yellow area in <m>A</m>, to the area of the whole box. This is equivalent to saying that
+					<me>
+						P(A) = \frac{P(A)}{P(S)} = \frac{P(A)}{1}
+					</me>
+				</p>
+				<p>
+					When computing <m>P(A\mid B)</m>, we know <m>B</m> has happened, so we are in the pink area above.  To figure out how likely <m>A</m> is, we take the ratio of the area in common to <m>A</m> and <m>B</m> to the area in <m>B</m>. This is equivalent to saying that 
+					<me>
+						P(A|B) = \frac{P(A\cap B)}{P(B)}
+					</me>
+				</p>
+			</sidebyside>
+		</sbsgroup>
+		<fact xml:id="thm_conditional-probability-formula">
+			<title>Conditional Probability Formula</title>
+			<idx><h>probability</h><h>formula</h><h>conditional formula</h></idx>
+			<statement>
+				<p>
+					If <m>A</m> and <m>B</m> are events in a sample space <m>S</m>, then the conditional probability of <m>A</m> given <m>B</m> is:
+					<me>
+						P(A\mid B) = \frac{P(A\cap B)}{P(B)} = \frac{n(A\cap B)}{n(S)}
+					</me>.
+					<alert>Note:</alert> you can use unconditioned probabilities or counts to compute conditional probability.
+				</p>
+			</statement>
+		</fact>
 	</subsection>
 
 </section>
