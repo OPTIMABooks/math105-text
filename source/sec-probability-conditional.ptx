@@ -421,5 +421,35 @@
 				</p>
 			</statement>
 		</fact>
+		<p>
+			The following examples illustrate how to you the test for independence. 
+		</p>
+		<example xml:id="exa_conditional_testing-independence">
+			<title>Testing for Independence</title>
+			<statement>
+				<p>
+					Two events <m>A</m> and <m>B</m> in a sample space <m>S</m> have probabilities <m>P(A) = 0.36</m> and <m>P(B) = 0.25</m>. Suppose <m>P(A\cup B) = 0.52</m>. Are <m>A</m> and <m>B</m> independent?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					We first use the <xref ref="thm_probability-rule_general-addition" text="custom">general addition rule</xref> to find <m>P(A\cap B)</m>.
+				  <md>
+				  	<mrow>P(A\cup B) \amp = P(A) + P(B) - P(A\cap B)</mrow>
+				  	<mrow>\Rightarrow 0.52 \amp = 0.36 + 0.25 - P(A\cap B)</mrow>
+				  	<mrow>\Rightarrow P(A\cap B) \amp = 0.09.</mrow>
+					</md>
+				</p>
+				<p>
+					Next, we check using our test of independence.
+					<me>
+						P(A\cap B) = P(A)P(B) \Leftrightarrow 0.09 = 0.36 \times 0.25
+					</me>.
+				</p>
+				<p>
+					Since the above equation is true, <m>A</m> and <m>B</m> are in fact independent events.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 </section>
