@@ -488,7 +488,7 @@
 		<p>
 			The following examples illustrate how to you the test for independence. 
 		</p>
-		<example xml:id="exa_conditional_testing-independence">
+		<example xml:id="ex_conditional_testing-independence-1">
 			<title>Testing for Independence</title>
 			<statement>
 				<p>
@@ -512,6 +512,59 @@
 				</p>
 				<p>
 					Since the above equation is true, <m>A</m> and <m>B</m> are in fact independent events.
+				</p>
+			</solution>
+		</example>
+		<example>
+			<statement>
+				<p>
+					Use the table below to determine whether <m>T = </m> <q>ticket</q> and <m>R=</m> <q>red car</q> are independent events.
+				</p>
+				<table xml:id="car-speeding-table">
+					<title>Relationship Between Car Color and Speeding Tickets</title>
+					<tabular halign="center">
+						<col right="medium"></col>
+						<col right="medium" halign="center"></col>
+						<col right="major" halign="center"></col>
+						<col halign="center"></col>
+						<row bottom="medium" header="yes">
+							<cell></cell>
+							<cell>Speeding ticket</cell>
+							<cell>No speeding ticket</cell>
+							<cell>Total</cell>
+						</row>
+						<row>
+							<cell>Red Car</cell>
+							<cell>15</cell>
+							<cell>135</cell>
+							<cell>150</cell>
+						</row>
+						<row bottom="major">
+							<cell>Not red car</cell>
+							<cell>45</cell>
+							<cell>470</cell>
+							<cell>515</cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>60</cell>
+							<cell>605</cell>
+							<cell>665</cell>
+						</row>
+					</tabular>
+				</table>
+			</statement>
+			<solution>
+				<p>
+					Apply the test for independence. First, note that 
+					<me>
+						P(T\cap R)=\frac{15}{665} \approx 0.02256	
+					</me>.
+					Next, compute
+					<me>
+						P(T)\times P(R) = \frac{60}{665}\times\frac{150}{665} =\frac{9000}{442225}\approx 0.02035 
+					</me>.
+					Since these value are not equal, the events <q>ticket</q> and <q>red car</q> are <alert>not</alert> independent. That is, they are dependent events.
 				</p>
 			</solution>
 		</example>
