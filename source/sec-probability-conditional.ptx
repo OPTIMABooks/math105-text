@@ -700,7 +700,7 @@
 			</statement>
 			<solution>
 				<p>
-					While not strictly necessary, drawing a tree diagram will help us find the required probabilities.
+					While not strictly necessary, drawing a tree diagram will help us find the required probabilities. Let <m>M</m> represent the event <q>person is a man</q>, <m>W</m> be the event <q>person is a woman</q>, and <m>V</m> be the event <q>person has experienced intimate partner violence</q>. In this notation, <m>\overline{V}</m> is the complement of those who have experienced IPV, that is, the people who have no experienced IPV.
 				</p>
 				<figure xml:id="fig_conditional_ex_probability-tree-IPV">
 					<caption>Tree Diagram</caption>
