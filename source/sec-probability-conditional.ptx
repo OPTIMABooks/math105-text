@@ -569,4 +569,101 @@
 			</solution>
 		</example>
 	</subsection>
+	<subsection xml:id="sec_probability_conditional_trees">
+		<title>Tree Diagrams and Probability</title>
+		<p>
+			In a previous section, <xref ref="def_tree-diagram" text="custom">tree diagrams</xref> were useful when working with multi-stage experiments. Since the multiplication rule naturally fits experiments that can be broken up into stages (first <m>A</m> happens, then <m>B</m>, etc.) it makes sense to look into using a tree diagram again. In fact, doing so provides a useful visualization of conditional probability.  This utility is illustrated in the following example.
+		</p>
+		<example xml:id="examp_conditional_probability-tree">
+			<title>Computing Probabilities with a Tree Diagram</title>
+			<statement>
+				<p>
+					An jar contains six marbles: 3 blue marbles, 2 red marbles, and 1 white marble. Two marbles are drawn, one after the other, without replacement and their colors are noted. Draw a tree diagram and label the branches with appropriate probabilities for this experiment. Use the tree diagram to find
+				  <ol marker="a." cols="2">
+				    <li>
+							<p>
+								<m>P(\text{2nd }W\mid\text{1st }R)</m>
+							</p>
+						</li>
+				    <li>
+							<p>
+								<m>P(\text{2nd }W)</m>
+							</p>
+						</li>
+				  </ol>
+				</p>
+			</statement>
+			<solution>
+				<p>
+					In the tree diagram below, the labels represent the color of marble drawn. The fractions on the branches represent the probability of drawing that color marble at that stage in the experiment.
+				</p>
+				<p>
+					Using this tree diagram, we find the desired probabilities:
+				</p>
+				<sidebyside widths="50% 45%" margins="auto">
+					<p>
+						<ol marker="a.">
+							<li>
+								<p>
+									Note that <m>P(\text{2nd }W\,|\,\text{1st }R)</m> can be read right off the tree. Since we are given that the first marble was red, we go across that middle <m>R</m> branch. Now, the probability the second is white is the probability on the <m>W</m> branch, so <m>\frac{1}{5}</m>.
+								</p>
+							</li>
+							<li>
+								<p>
+									There are two ways the 2nd marble can be white. If the 1st is red or if the 1st is blue. These are distinct (<xref ref="def_mutually-exclusive" text="custom">mutually exclusive</xref>) paths through the tree. The probability of each is found by multiplying down the branches.  Together, their probability is the sum of these two products, giving us:
+									<md>
+										<mrow>P(\text{2nd }W) \amp = P(\text{1st }R\cap \text{2nd }W) + P(\text{1st }B\cap \text{2nd }W)</mrow>
+										<mrow>\amp = \left(\frac{2}{6}\times \frac{1}{5}\right) + \left(\frac{3}{6}\times \frac{1}{5}\right)</mrow>
+										<mrow>\amp = \frac{2}{30} + \frac{3}{30}</mrow>
+										<mrow>\amp = \frac{1}{6}</mrow>
+									</md>.
+								</p>
+							</li>
+						</ol>
+					</p>
+					<figure xml:id="fig_conditional_ex_probability-tree">
+						<caption>Tree Diagram</caption>
+						<image xml:id="image_conditional_ex_probability-tree" width="80%">
+							<shortdescription>
+								A tree with three branches off of the start.  Branch B has a probability 3/6, branch R has a probability 2/6, and branch W has a probability 1/6.  Of of branch B, there are three branches: B with probability 2/5, R with probability 2/5, and W with probability 1/5.  Off of the initial branch R, there are also three branches: B with probability 3/5, R with probably 1/5, and W with probability 1/5.  Finally, off of the original branch W there are just two branches: B with probability 3/5 and W with probability 2/5.
+							</shortdescription>
+							<latex-image>
+								\begin{tikzpicture}[
+									grow=right,
+									level distance=2.5cm,
+									level 1/.style={sibling distance=2.85cm},
+									level 2/.style={sibling distance=1.2cm},
+									edge from parent/.style={draw},
+									every node/.style={font=\sffamily},
+									edge label/.style={midway, auto, font=\footnotesize},
+									parent anchor=east,
+									child anchor=west
+									]
+									% Root node
+									\node {}
+											child {node {W}
+													child {node {R} edge from parent node[edge label, above] {$2/5$}}
+													child {node {B} edge from parent node[edge label, above] {$3/5$}}
+													edge from parent node[edge label, left] {$1/6$}
+											}
+											child {node {R}
+													child {node {W} edge from parent node[edge label, above] {$1/5$}}
+													child {node {R} edge from parent node[edge label, above] {$1/5$}}
+													child {node {B} edge from parent node[edge label, above] {$3/5$}}
+													edge from parent node[edge label, above] {$2/6$}
+											}
+											child {node {B}
+													child {node {W} edge from parent node[edge label, above] {$1/5$}}
+													child {node {R} edge from parent node[edge label, above] {$2/5$}}
+													child {node {B} edge from parent node[edge label, above] {$2/5$}}
+													edge from parent node[edge label, left] {$3/6$}
+											};
+								\end{tikzpicture}
+							</latex-image>
+						</image>
+					</figure>
+			  </sidebyside>
+			</solution>
+		</example>
+	</subsection>
 </section>
