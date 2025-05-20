@@ -661,5 +661,28 @@
 				</p>
 			</solution>
 		</example>
+		<p>
+			Note that the probabilities on the branches of a tree diagram are conditional probabilities. In the example above, the <m>\frac{2}{5}</m> on the bottom branch from <m>W</m> to <m>R</m> is actually <m>P(\text{2nd }R\mid\text{1st }W)</m> because it connects the event <q>1st <m>W</m></q> to the event <q>2nd <m>R</m>.</q> The general multiplication rule is then used to find the probability of any path through the tree.
+			<ul>
+				<li>
+					<p>
+						Probability both red: <m>\frac{2}{6}\times \frac{1}{5} = \frac{2}{30}</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						Probability the first is red and the second blue: <m>\frac{2}{6}\times \frac{3}{5} = \frac{6}{30}</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						Etc...
+					</p>
+				</li>
+			</ul>
+		</p>
+		<p>
+			Finally, as in the second question in our example, we can find the probability of events such as <q>the second is red</q> by adding together all the different probabilities for paths in which the second marble is red.
+		</p>
 	</subsection>
 </section>
