@@ -574,8 +574,8 @@
 		<p>
 			In a previous section, <xref ref="def_tree-diagram" text="custom">tree diagrams</xref> were useful when working with multi-stage experiments. Since the multiplication rule naturally fits experiments that can be broken up into stages (first <m>A</m> happens, then <m>B</m>, etc.) it makes sense to look into using a tree diagram again. In fact, doing so provides a useful visualization of conditional probability.  This utility is illustrated in the following example.
 		</p>
-		<example xml:id="examp_conditional_probability-tree">
-			<title>Computing Probabilities with a Tree Diagram</title>
+		<example xml:id="ex_conditional_probability-tree-1">
+			<!-- <title>Computing Probabilities with a Tree Diagram</title> -->
 			<statement>
 				<p>
 					An jar contains six marbles: 3 blue marbles, 2 red marbles, and 1 white marble. Two marbles are drawn, one after the other, without replacement and their colors are noted. Draw a tree diagram and label the branches with appropriate probabilities for this experiment. Use the tree diagram to find
@@ -682,7 +682,7 @@
 			</ul>
 		</p>
 		<p>
-			Finally, as in the second question in our example, we can find the probability of events such as <q>the second is red</q> by adding together all the different probabilities for paths in which the second marble is red.
+			Finally, as in the second question in our example, we can find the probability of events such as <q>the second is red</q> by adding together all the different probabilities for paths in which the second marble is red. The following example demonstrates these principles again.
 		</p>
 	</subsection>
 </section>
