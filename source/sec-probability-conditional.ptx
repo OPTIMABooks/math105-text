@@ -361,7 +361,7 @@
 			<statement>
 				<p>
 					If <m>A</m> and <m>B</m> are events in a sample space <m>S</m>, then 
-				  <me>
+					<me>
 						P(A\cap B) = P(B)P(A\mid B)\quad\text{and}\quad P(A\cap B) = P(A)P(B\mid A)
 					</me>.
 				</p>
@@ -498,10 +498,10 @@
 			<solution>
 				<p>
 					We first use the <xref ref="thm_probability-rule_general-addition" text="custom">general addition rule</xref> to find <m>P(A\cap B)</m>.
-				  <md>
-				  	<mrow>P(A\cup B) \amp = P(A) + P(B) - P(A\cap B)</mrow>
-				  	<mrow>\Rightarrow 0.52 \amp = 0.36 + 0.25 - P(A\cap B)</mrow>
-				  	<mrow>\Rightarrow P(A\cap B) \amp = 0.09.</mrow>
+					<md>
+						<mrow>P(A\cup B) \amp = P(A) + P(B) - P(A\cap B)</mrow>
+						<mrow>\Rightarrow 0.52 \amp = 0.36 + 0.25 - P(A\cap B)</mrow>
+						<mrow>\Rightarrow P(A\cap B) \amp = 0.09.</mrow>
 					</md>
 				</p>
 				<p>
@@ -579,18 +579,18 @@
 			<statement>
 				<p>
 					An jar contains six marbles: 3 blue marbles, 2 red marbles, and 1 white marble. Two marbles are drawn, one after the other, without replacement and their colors are noted. Draw a tree diagram and label the branches with appropriate probabilities for this experiment. Use the tree diagram to find
-				  <ol marker="a." cols="2">
-				    <li>
+					<ol marker="a." cols="2">
+						<li>
 							<p>
 								<m>P(\text{2nd }W\mid\text{1st }R)</m>
 							</p>
 						</li>
-				    <li>
+						<li>
 							<p>
 								<m>P(\text{2nd }W)</m>
 							</p>
 						</li>
-				  </ol>
+					</ol>
 				</p>
 			</statement>
 			<solution>
@@ -698,6 +698,48 @@
 					</ol>
 				</p>
 			</statement>
+			<solution>
+				<p>
+					While not strictly necessary, drawing a tree diagram will help us find the required probabilities.
+				</p>
+				<figure xml:id="fig_conditional_ex_probability-tree-IPV">
+					<caption>Tree Diagram</caption>
+					<image xml:id="image_conditional_ex_probability-tree-IPV" width="45%">
+						<shortdescription>
+							A tree two branches from the root. The top is labeled M for men, the second W for women. The edge from the root to the M node is labeled 1/2 as is the edge from the root to the W node. The M node has two children, labeled V and not V. The edges are labeled 1/7 and 6/7, respectively. Similarly, the W node has two children labeled V and not V with edges labeled 1/4 and 3/4.
+						</shortdescription>
+						<latex-image>
+							\begin{tikzpicture}[
+								grow=right,
+								level distance=2.0cm,
+								level 1/.style={sibling distance=2.cm},
+								level 2/.style={sibling distance=1.2cm},
+								edge from parent/.style={draw},
+								every node/.style={font=\sffamily},
+								edge label/.style={midway, auto, font=\footnotesize},
+								parent anchor=east,
+								child anchor=west
+							]
+								% Root node
+								\node {}
+										% Level 1 nodes in reverse order: W, R, B
+										child {node {$W$}
+												% Children of W in reverse order: R, B
+												child {node {$\overline{V}$} edge from parent node[edge label, below] {$3/4$}}
+												child {node {$V$} edge from parent node[edge label, above] {$1/4$}}
+												edge from parent node[edge label, below] {$1/2$}
+										}
+										child {node {$M$}
+												% Children of B in reverse order: W, R, B
+												child {node {$\overline{V}$} edge from parent node[edge label, below] {$6/7$}}
+												child {node {$V$} edge from parent node[edge label, above] {$1/7$}}
+												edge from parent node[edge label, above] {$1/2$}
+										};
+							\end{tikzpicture}
+						</latex-image>
+					</image>
+				</figure>
+			</solution>
 		</example>
 
 	</subsection>
