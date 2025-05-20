@@ -682,7 +682,23 @@
 			</ul>
 		</p>
 		<p>
-			Finally, as in the second question in our example, we can find the probability of events such as <q>the second is red</q> by adding together all the different probabilities for paths in which the second marble is red. The following example demonstrates these principles again.
+			Finally, as in the second question in our example, we can find the probability of events such as <q>the second is red</q> by adding together all the different probabilities for paths in which the second marble is red. The following example utilizes these principles and demonstrates an additional advantage of a tree diagram.
 		</p>
+		<example xml:id="ex_conditional_probability-tree-2">
+			<!-- <title>Probability and Intimate Partner Violence</title> -->
+			<statement>
+				<p>
+					According to OHSU's Center for Women's Health, approximately 1 in 4 women and 1 in 7 men will experience 
+					intimate partner violence (IPV) at some point in their lives.<fn>https://www.ohsu.edu/womens-health/domestic-violence-more-common-you-might-think</fn>
+					Assuming we are only considering heterosexual couples and that men and women are equally represented in the population, answer the following questions:
+					<ol marker="a.">
+						<li>What is the probability that a randomly selected person experiences IPV?</li>
+						<li>Given that a person has experienced IPV, what is the probability that the person is a woman?</li>
+						<li>Given that a person has experienced IPV what is the probability that the person is a man?</li>
+					</ol>
+				</p>
+			</statement>
+		</example>
+
 	</subsection>
 </section>
