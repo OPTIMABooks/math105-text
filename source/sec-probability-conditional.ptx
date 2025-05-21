@@ -797,6 +797,24 @@
 				</p>
 			</solution>
 		</example>
-
+	</subsection>
+	<subsection xml:id="sec_probability_conditional_bayes">
+		<title>Bayesian Probability</title>
+		<p>
+			Tree diagrams provide a powerful visual tool for working with conditional probabilities, particularly when events occur in sequence. In multi-stage experiments, tree diagrams clearly illustrate the probability of outcomes at each stage, given what happened in previous stages. However, as we saw in the last example, sometimes we need to find conditional probabilities that run <q>backwards</q> through the diagram <mdash/> asking about earlier events given later ones. For these situations, we use Bayes' theorem, developed by Thomas Bayes, a British mathematician and Presbyterian minister. The theorem, named in his honor after his death, is presented below for the special case of a sample space containing just two events.
+		</p>
+		<fact xml:id="thm_bayes">
+			<title>Bayes' Theorem (Special Case)</title>
+			<idx>Bayes' theorem</idx>
+			<idx><h>probability</h><h>formula</h><h>Bayes' theorem</h></idx>
+			<statement>
+				<p>
+					If a sample space can be split into mutually exclusive events <m>A</m> and <m>B</m>, then:
+				  <me>
+						P(A|B) = \frac{P(A)P(B|A)}{P(A)P(B|A) + P(A')P(B|A')}
+					</me>.
+				</p>
+			</statement>
+		</fact>
 	</subsection>
 </section>
