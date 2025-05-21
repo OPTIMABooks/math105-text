@@ -819,5 +819,72 @@
 		<p>
 			While this theorem formally states the rule we use to solve problems such as the one above, it is not something you should memorize. Instead, use a tree diagram and the conditional probability formula to solve these problems as we did in <xref ref="ex_conditional_probability-tree-2"/>. Note that the denominator in Bayes' Theorem is just the sum of all cases that result in event <m>B</m>. As shown in the next example, this realization means we can easily solve <q>backwards</q> problems even if they involve more than two events.
 		</p>
+		<example xml:id="ex_conditional_bayes">
+			<!-- <title>Computing <q>Backwards</q> Probabilities</title> -->
+			<statement>
+				<p>Recall from <xref ref="ex_conditional_probability-tree-1"/> that the tree diagram below gives us the probabilities for an experiment in which two marbles are drawn, without replacement, from an jar containing 3 blue marbles, 2 red marbles, and 1 white marble. Use the tree to help find the probability that the 1st marble was white given that the second is red.</p>
+				<figure xml:id="fig_conditional_bayes-tree">
+					<caption>Tree Diagram</caption>
+					<image xml:id="image_conditional_bayes-tree" width="55%">
+						<shortdescription>
+							A tree with three branches off of the start.  Branch B has a probability 3/6, branch R has a probability 2/6, and branch W has a probability 1/6.  Of of branch B, there are three branches: B with probability 2/5, R with probability 2/5, and W with probability 1/5.  Off of the initial branch R, there are also three branches: B with probability 3/5, R with probably 1/5, and W with probability 1/5.  Finally, off of the original branch W there are just two branches: B with probability 3/5 and W with probability 2/5.
+						</shortdescription>
+						<latex-image>
+							\begin{tikzpicture}[
+								grow=right,
+								level distance=2.5cm,
+								level 1/.style={sibling distance=2.85cm},
+								level 2/.style={sibling distance=1.2cm},
+								edge from parent/.style={draw},
+								every node/.style={font=\sffamily},
+								edge label/.style={midway, auto, font=\footnotesize},
+								parent anchor=east,
+								child anchor=west
+								]
+								% Root node
+								\node {}
+									child {node {W}
+											child {node {R} edge from parent node[edge label, above] {$2/5$}}
+											child {node {B} edge from parent node[edge label, above] {$3/5$}}
+											edge from parent node[edge label, left] {$1/6$}
+									}
+									child {node {R}
+											child {node {W} edge from parent node[edge label, above] {$1/5$}}
+											child {node {R} edge from parent node[edge label, above] {$1/5$}}
+											child {node {B} edge from parent node[edge label, above] {$3/5$}}
+											edge from parent node[edge label, above] {$2/6$}
+									}
+									child {node {B}
+											child {node {W} edge from parent node[edge label, above] {$1/5$}}
+											child {node {R} edge from parent node[edge label, above] {$2/5$}}
+											child {node {B} edge from parent node[edge label, above] {$2/5$}}
+											edge from parent node[edge label, left] {$3/6$}
+									};
+							\end{tikzpicture}
+						</latex-image>
+					</image>
+				</figure>
+			</statement>
+			<solution>
+				<p>
+					We wish to find <m>P(\text{1st }W\mid\text{2nd }R)</m>. Unfortunately, our tree diagram is <q>backwards</q> for this computation. The probabilities on the branches are the probability of a particular color on the 2nd marble given that we got a certain color on the first. So, we must resort to the conditional probability formula.
+					<me>
+						P(\text{1st }W\mid\text{2nd }R) = \frac{P(\text{1st }W\cap\text{2nd }R)}{P(\text{2nd }R)}
+					</me>.
+				</p>
+				<p>
+					The numerator of this fraction can be found by multiplying along a single branch in the tree: <m>\frac{1}{6} \times \frac{2}{5} = \frac{2}{30}</m>. To get the denominator, we need to add together the probabilities for all possible ways the last marble can be red. This is:
+				  <me>
+						P(\text{2nd }R) = \left(\frac{3}{6}\times\frac{2}{5}\right) + \left(\frac{2}{6}\times\frac{1}{5}\right) + \left(\frac{1}{6}\times\frac{2}{5}\right) = \frac{1}{3}
+					</me>.
+				</p>
+				<p>
+					Therefore, the desired conditional probability is:
+				  <me>
+						P(\text{1st }W\mid\text{2nd }R) = \frac{2/30}{1/3} = \frac{1}{5} = 0.20
+					</me>.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 </section>
