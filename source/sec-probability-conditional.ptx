@@ -816,5 +816,8 @@
 				</p>
 			</statement>
 		</fact>
+		<p>
+			While this theorem formally states the rule we use to solve problems such as the one above, it is not something you should memorize. Instead, use a tree diagram and the conditional probability formula to solve these problems as we did in <xref ref="ex_conditional_probability-tree-2"/>. Note that the denominator in Bayes' Theorem is just the sum of all cases that result in event <m>B</m>. As shown in the next example, this realization means we can easily solve <q>backwards</q> problems even if they involve more than two events.
+		</p>
 	</subsection>
 </section>
