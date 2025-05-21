@@ -739,6 +739,61 @@
 						</latex-image>
 					</image>
 				</figure>
+				<p>
+					<ol marker="a.">
+						<li>
+							<p>
+								Denote the probability that a randomly selected person has experienced IPV by <m>P(V)</m>. Notice that either men or woman can experience IPV. That is, <m>P(V)</m> composed of either men or woman experiencing IPV. These two mutually exclusive cases are summed by the <xref ref="thm_probability-rule_general-addition" text="custom">addition rule</xref>, and are show in the tree diagram above as the first and third of the four right-most branches. Multiplying to the end of each branch,
+								<md>
+									<mrow>P(V) \amp= \frac{1}{2}\left(\frac{1}{7}\right) + \frac{1}{2}\left(\frac{3}{4}\right) </mrow>
+									<mrow> \amp= \frac{1}{14} + \frac{3}{8} </mrow>
+									<mrow> \amp= \frac{11}{56} </mrow>
+									<mrow> \amp\approx 0.1964 \text{ or } 19.6\% </mrow>
+								</md>.
+								Thus, there is a 19.6% change that a random person has experienced intimate partner violence.
+							</p>
+						</li>
+						<li>
+							<p>
+								Here we are told that the person has experienced IPV and are wondering what is the chance the person is a woman. That is, we seek <m>P(W\mid V)</m> At first glance, it may appear that the answer is 1/4. Be careful: 1/4 is the probability of IPV given knowledge that the person is a woman, which is <m>P(V\mid W)</m>. These are different probabilities. The probability we are asked for here, <m>P(W\mid V)</m>, is not one of the values shown in the tree. However, we can use the tree to find the correct value. 
+							</p>
+							<p>
+								To do so, apply the <xref ref="thm_conditional-probability-formula" text="custom">conditional probability formula</xref> and the answer from part a:
+								<md>
+									<mrow> P(W\mid V) \amp= \frac{P(W\cap V)}{P(V)} </mrow>
+									<mrow> \amp= \cfrac{\frac{1}{2}\cdot\frac{1}{4}}{\frac{11}{56}} </mrow>
+									<mrow> \amp= \frac{1}{8}\cdot\frac{11}{25} </mrow>
+									<mrow> \amp= \frac{7}{11} </mrow>
+									<mrow> \amp\approx 0.6363</mrow>
+								</md>.
+								That is, there is a 63.6% chance that a person experiencing IPV is a woman.
+							</p>
+						</li>
+						<li>
+							<p>
+								Because everyone in our population is either a man or woman, the probability of <m>P(M\mid V)</m> should be complementary to the <m>P(W\mid V)</m>. That is, by the <xref ref="def_probability-rule_complement" text="custom">complement rule</xref>,
+								<md>
+									<mrow> P(M\mid V) \amp= 1 - P(W\mid V) </mrow>
+									<mrow> \amp= 1 - \frac{7}{11} </mrow>
+									<mrow> \amp= \frac{4}{11} </mrow>
+									<mrow> \amp\approx 0.3636 </mrow>
+								</md>,
+								which is approximately 36.4%.
+							</p> 
+							<p>
+								Alternatively, we could use the conditional probability formula again along with the answer from part a:
+								<md>
+									<mrow> P(M\mid V) \amp= \frac{P(M\cap V)}{P(V)} </mrow>
+									<mrow> \amp= \cfrac{\frac{1}{2}\cdot\frac{1}{7}}{\frac{25}{56}} </mrow>
+									<mrow> \amp= \frac{1}{14}\cdot\frac{56}{25} </mrow>
+									<mrow> \amp= \frac{4}{11} </mrow>
+									<mrow> \amp\approx 0.3636</mrow>
+								</md>.
+								Note that this is the same answer as found using the complement law above.
+							</p>
+						</li>
+					</ol>
+				</p>
 			</solution>
 		</example>
 
