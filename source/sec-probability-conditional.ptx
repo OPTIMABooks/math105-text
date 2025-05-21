@@ -680,9 +680,10 @@
 					</p>
 				</li>
 			</ul>
+			Finally, as in the second question in our example, we can find the probability of events such as <q>the second is red</q> by adding together all the different probabilities for paths in which the second marble is red.
 		</p>
 		<p>
-			Finally, as in the second question in our example, we can find the probability of events such as <q>the second is red</q> by adding together all the different probabilities for paths in which the second marble is red. The following example utilizes these principles and demonstrates an additional advantage of a tree diagram.
+ 			The following example utilizes these principles and demonstrates an additional advantage of a tree diagram: the ability compute probabilities when the condition is <q>backwards</q> from the given conditional probability.
 		</p>
 		<example xml:id="ex_conditional_probability-tree-2">
 			<!-- <title>Probability and Intimate Partner Violence</title> -->
