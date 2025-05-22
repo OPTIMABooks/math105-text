@@ -168,5 +168,14 @@
 				<p>A <term>sample</term> is a sub-collection of subjects drawn from a given population.</p>
 			</statement>
 		</definition>
+		<p>
+			To get our <term>data</term>, we would then ask each student in the sample how much they spent on textbooks and record the answers, or <alert>raw data</alert>. Then we could calculate the average, which is our statistic. A <alert>statistic</alert> is a descriptive value calculated using data from a sample.
+		</p>
+		<definition xml:id="def_statistic">
+			<idx>statistic</idx>
+			<statement>
+				<p>A measurement describing some characteristic of a sample is called a <term>statistic</term>.</p>
+			</statement>
+		</definition>
 	</subsection>
 </section>
