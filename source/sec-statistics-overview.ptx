@@ -159,5 +159,14 @@
 				<p>A measurement describing some characteristic of a population is called a <term>parameter</term>.</p>
 			</statement>
 		</definition>
+		<p>
+			To estimate the parameter, we select a <term>sample</term>, which is a smaller subset of the entire population. It is very important that we choose a <term>representative sample</term>, one that matches the characteristics of the population, to have a good estimate. If we survey 100 students at WWU, those students would be our sample. We will talk about how to choose a representative sample later in this section.
+		</p>
+		<definition xml:id="def_sample">
+			<idx>sample</idx>
+			<statement>
+				<p>A <term>sample</term> is a sub-collection of subjects drawn from a given population.</p>
+			</statement>
+		</definition>
 	</subsection>
 </section>
