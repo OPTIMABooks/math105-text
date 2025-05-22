@@ -91,7 +91,7 @@
 				These claims are all statistical in nature. Some may sound familiar<mdash/>and if not, you have likely encountered similar ones. The examples span a wide range of fields: psychology, health, law, sports, business, and more. Clearly, data and its interpretation permeate nearly every aspect of modern life. However, many of these numbers do not represent careful statistical analysis and can be misleading, pushing you into decisions you might regret. This chapter will help you develop the skills to be a critical consumer of statistical claims.
 			</p>
 	</introduction>
-	<subsection>
+	<subsection xml:id="subsec-statistics-populations">
 		<title>Populations and samples</title>
 		<p>
 			Before we begin gathering any data to analyze, we need to identify the population we are studying. The population of a study is the group we want to know something about. The <term>population</term> could be people, auto parts or tomato plants.
@@ -198,5 +198,11 @@
 				</p>
 			</solution>
 		</example>
+	</subsection>
+	<subsection xml:id="subsec-statistics-sampling">
+		<title>Sampling Methods</title>
+		<p>
+			
+		</p>
 	</subsection>
 </section>
