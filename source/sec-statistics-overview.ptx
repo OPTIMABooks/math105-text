@@ -177,5 +177,26 @@
 				<p>A measurement describing some characteristic of a sample is called a <term>statistic</term>.</p>
 			</statement>
 		</definition>
+		<example>
+			<statement>
+				<p>
+					A researcher wants to know how the citizens of Walla Walla feel about a voter initiative. To study this, they go downtown to Land Title Plaza and survey 500 pedestrians. Sixty percent indicate they are supportive of the initiative. Identify the population, parameter, sample and statistic. 
+				</p>
+			</statement>
+			<solution>
+				<p>
+					<em>Population</em>: While the intended population of this survey is Walla Walla citizens, the effective population is anyone walking through Land Title Plaza. There is no reason to assume that these pedestrians are representative of all Walla Walla citizens. (In fact, many are probably out of town visitors!)
+				</p>
+				<p>
+					<em>Parameter</em>: The parameter is what we want to know about the population, in this case the percentage of Walla Walla citizens who support the initiative.
+				</p>
+				<p>
+					<em>Sample</em>: The sample is the subgroup of the population selected. The 500 pedestrians questioned make up the sample, which, again, is probably not representative of the population.
+				</p>
+				<p>
+					<em>Statistic</em>: The statistic is calculated using the data from the sample. The percentage of people sampled who support the initiative is 60%.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 </section>
