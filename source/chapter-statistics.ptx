@@ -35,6 +35,6 @@
 	</introduction>
 
 	<!-- include sections -->
-	<!-- <xi:include href="sec-sets-set-operations.ptx" /> -->
+  <xi:include href="sec-statistics-overview.ptx" />
 
 </chapter>

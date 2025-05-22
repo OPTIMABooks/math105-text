@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-statistics-overview" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Overview of Statistics</title>
+
+	<objectives>
+			<ul>
+			<li>
+				<p>
+					Define and identify the population, parameter, sample and statistic
+				</p>
+			</li>
+			<li>
+				<p>
+					Identify four sampling methods: simple random sample (SRS), stratified, systematic and convenience
+				</p>
+			</li>
+			<li>
+				<p>
+					Identify and discuss types of bias association with sampling
+				</p>
+			</li>
+			<li>
+				<p>
+					Distinguish between experimental and observational studies
+				</p>
+			</li>
+			<li>
+				<p>
+					Explain margin of error and confidence intervals
+				</p>
+			</li>
+		</ul>
+	</objectives>
+<introduction>
+	<title>Introduction to Statistics</title>
+	<p>
+		We are constantly exposed to information and statistics. Without the ability to separate credible data from misleading claims, we risk being misled and making poor decisions. Statistics equips us with the tools to think critically and make informed choices, making it an essential subject to study.
+	</p>
+	<p>
+		Statistics are often used to lend credibility to arguments. Consider the following examples (Note: I am not suggesting these statements are necessarily true!):
+		 	<ul>
+				<li>
+					<p>
+						4 out of 5 dentists recommend Dentyne.
+					</p>
+				</li>
+				<li>
+					<p>
+						Almost 85% of lung cancers in men and 45% in women are tobacco-related.
+					</p>
+				</li>
+				<li>
+					<p>
+						Condoms are effective 94% of the time.
+					</p>
+				</li>
+				<li>
+					<p>
+						People tend to be more persuasive when they look others directly in the eye and speak loudly and quickly.
+					</p>
+				</li>
+				<li>
+					<p>
+						Women make 75 cents to every dollar a man makes when they work the same job.
+					</p>
+				</li>
+				<li>
+					<p>
+						A surprising new study shows that eating egg whites can increase one's life span.
+					</p>
+				</li>
+				<li>
+					<p>
+						People predict that it is very unlikely there will ever be another baseball player with a batting average over 400.
+					</p>
+				</li>
+				<li>
+					<p>
+						There is an 80% chance that in a room full of 30 people that at least two people will share the same birthday.
+					</p>
+				</li>
+				<li>
+					<p>
+						79.48% of all statistics are made up on the spot.
+					</p>
+				</li>
+		 	</ul>
+		 </p>
+		<p>
+			All these claims are statistical in character. We suspect that some of them sound familiar; if not, you have probably heard other claims like them. Notice how diverse the examples are; they come from psychology, health, law, sports, business, etc. Data and data-interpretation show up in virtually every facet of contemporary life.
+		</p>
+		<p>
+			Many of these numbers do not represent careful statistical analysis. They can be misleading and push you into decisions that you might regret. This chapter will help you learn the skills to be a critical consumer of statistical claims. 
+		</p>
+</introduction>
+</section>
