@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-statistics" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Statistics</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				Students will be able to:
+			</p>
+		</introduction>
+		<ul>
+			<li>
+				<p>
+					Organize and display qualitative and quantitative statistical data using basic tables and charts.
+				</p>
+			</li>
+			<li>
+				<p>
+					Describe the <q>center</q> of a data set using the mean, mode, and median, and describe the strengths and weaknesses of each of these measures.
+				</p>
+			</li>
+			<li>
+				<p>
+					Quantify the variation of data in a data set using standard deviation.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+
+	<introduction>
+		<p>
+			Text
+		</p>
+	</introduction>
+
+	<!-- include sections -->
+	<!-- <xi:include href="sec-sets-set-operations.ptx" /> -->
+
+</chapter>
