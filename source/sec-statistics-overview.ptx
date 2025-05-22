@@ -32,63 +32,123 @@
 			</li>
 		</ul>
 	</objectives>
-<introduction>
-	<title>Introduction to Statistics</title>
-	<p>
-		We are constantly exposed to information and statistics. Without the ability to separate credible data from misleading claims, we risk being misled and making poor decisions. Statistics equips us with the tools to think critically and make informed choices, making it an essential subject to study.
-	</p>
-	<p>
-		Statistics are often used to lend credibility to arguments. Consider the following examples (Note: I am not suggesting these statements are true!):
-		 	<ul>
-				<li>
-					<p>
-						4 out of 5 dentists recommend Dentyne chewing gum.
-					</p>
-				</li>
-				<li>
-					<p>
-						Almost 85% of lung cancers in men and 45% in women are tobacco-related.
-					</p>
-				</li>
-				<li>
-					<p>
-						Condoms are effective 94% of the time.
-					</p>
-				</li>
-				<li>
-					<p>
-						People tend to be more persuasive when they look others directly in the eye and speak loudly and quickly.
-					</p>
-				</li>
-				<li>
-					<p>
-						Women make 75 cents to every dollar a man makes when they work the same job.
-					</p>
-				</li>
-				<li>
-					<p>
-						A surprising new study shows that eating egg whites can increase one's life span.
-					</p>
-				</li>
-				<li>
-					<p>
-						People predict that it is very unlikely there will ever be another baseball player with a batting average over 400.
-					</p>
-				</li>
-				<li>
-					<p>
-						There is an 80% chance that in a room full of 30 people that at least two people will share the same birthday.
-					</p>
-				</li>
-				<li>
-					<p>
-						79.48% of all statistics are made up on the spot.
-					</p>
-				</li>
-		 	</ul>
-		 </p>
+	<introduction>
+		<title>Introduction to Statistics</title>
 		<p>
-			These claims are all statistical in nature. Some may sound familiar<mdash/>and if not, you have likely encountered similar ones. The examples span a wide range of fields: psychology, health, law, sports, business, and more. Clearly, data and its interpretation permeate nearly every aspect of modern life. However, many of these numbers do not represent careful statistical analysis and can be misleading, pushing you into decisions you might regret. This chapter will help you develop the skills to be a critical consumer of statistical claims.
+			We are constantly exposed to information and statistics. Without the ability to separate credible data from misleading claims, we risk being misled and making poor decisions. Statistics equips us with the tools to think critically and make informed choices, making it an essential subject to study.
 		</p>
-</introduction>
+		<p>
+			Statistics are often used to lend credibility to arguments. Consider the following examples (Note: I am not suggesting these statements are true!):
+				<ul>
+					<li>
+						<p>
+							4 out of 5 dentists recommend Dentyne chewing gum.
+						</p>
+					</li>
+					<li>
+						<p>
+							Almost 85% of lung cancers in men and 45% in women are tobacco-related.
+						</p>
+					</li>
+					<li>
+						<p>
+							Condoms are effective 94% of the time.
+						</p>
+					</li>
+					<li>
+						<p>
+							People tend to be more persuasive when they look others directly in the eye and speak loudly and quickly.
+						</p>
+					</li>
+					<li>
+						<p>
+							Women make 75 cents to every dollar a man makes when they work the same job.
+						</p>
+					</li>
+					<li>
+						<p>
+							A surprising new study shows that eating egg whites can increase one's life span.
+						</p>
+					</li>
+					<li>
+						<p>
+							People predict that it is very unlikely there will ever be another baseball player with a batting average over 400.
+						</p>
+					</li>
+					<li>
+						<p>
+							There is an 80% chance that in a room full of 30 people that at least two people will share the same birthday.
+						</p>
+					</li>
+					<li>
+						<p>
+							79.48% of all statistics are made up on the spot.
+						</p>
+					</li>
+				</ul>
+			</p>
+			<p>
+				These claims are all statistical in nature. Some may sound familiar<mdash/>and if not, you have likely encountered similar ones. The examples span a wide range of fields: psychology, health, law, sports, business, and more. Clearly, data and its interpretation permeate nearly every aspect of modern life. However, many of these numbers do not represent careful statistical analysis and can be misleading, pushing you into decisions you might regret. This chapter will help you develop the skills to be a critical consumer of statistical claims.
+			</p>
+	</introduction>
+	<subsection>
+		<title>Population and samples</title>
+		<p>
+			Before we begin gathering any data to analyze, we need to identify the population we are studying. The population of a study is the group we want to know something about. The <term>population</term> could be people, auto parts or tomato plants.
+		</p>
+		<p>
+			If we want to know the amount of money spent on textbooks by a typical college student, our population might be all students at Walla Walla University. Or it might be:
+			<ol>
+				<li>
+					<p>
+						All college students in the state of Washington.
+					</p>
+				</li>
+				<li>
+					<p>
+						All freshman at private colleges in Oregon and Washington.
+					</p>
+				</li>
+				<li>
+					<p>
+						All students at colleges and universities in west coast states.
+					</p>
+				</li>
+				<li>
+					<p>
+						All students at all colleges and universities in the entire United States.
+					</p>
+				</li>
+				<li>
+					<p>
+						And so on.
+					</p>
+				</li>
+			</ol>
+		</p>
+		<p>
+			The intended population is sometimes called the <term>target population</term>, since if we design our study badly, the collected data might not actually be representative of the intended population.
+		</p>
+		<definition xml:id="def_population">
+			<idx><h>population</h></idx>
+			<idx><h>statistics</h><h>population</h></idx>
+			<statement>
+				<p>
+					The <term>population</term> of a study is the complete group the collected data is intended to describe.
+				</p>
+			</statement>
+		</definition>
+		<example>
+			<statement>
+				<p>
+					A newspaper website contains a poll asking people their opinion on a recent news article. What is the population?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					While the target (intended) population may have been all people, the real population of the survey is readers of the website.
+				</p>
+			</solution>
+		</example>
+	</subsection>
 </section>
