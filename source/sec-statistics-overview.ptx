@@ -92,7 +92,7 @@
 			</p>
 	</introduction>
 	<subsection>
-		<title>Population and samples</title>
+		<title>Populations and samples</title>
 		<p>
 			Before we begin gathering any data to analyze, we need to identify the population we are studying. The population of a study is the group we want to know something about. The <term>population</term> could be people, auto parts or tomato plants.
 		</p>
@@ -150,5 +150,14 @@
 				</p>
 			</solution>
 		</example>
+		<p>
+			A <term>parameter</term> is a value (such as a percentage, average, or other measure) that describes a characteristic of an entire population. Since collecting data from every member of a population is often too time-consuming, expensive, or impossible, parameters are usually theoretical quantities that we aim to estimate. For example, the average amount of money spent on textbooks per year by all students Walla Walla University is a parameter.
+		</p>
+		<definition xml:id="def_parameter">
+			<idx>parameter</idx>
+			<statement>
+				<p>A measurement describing some characteristic of a population is called a <term>parameter</term>.</p>
+			</statement>
+		</definition>
 	</subsection>
 </section>
