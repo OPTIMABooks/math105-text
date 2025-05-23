@@ -200,7 +200,7 @@
 		</example>
 	</subsection>
 	<subsection xml:id="subsec-statistics-sampling">
-		<title>Sampling Methods</title>
+		<title>Sampling</title>
 		<p>
 			Before conducting any survey, we need to clearly identify our target population. Let's say a politician hires you to gauge their support for a potential reelection campaign. Who exactly should you survey?
 		</p>
@@ -235,5 +235,8 @@
 				That said, one of the major contributing factors was that Ventura recruited a substantial amount of support from young people, particularly college students, who had never voted before and who registered specifically to vote in that election. The polls did not deem these young people likely voters (since in most cases young people have a lower rate of voter registration and a lower turnout rate for elections) so the polling samples were subject to <term>sampling bias</term>: they omitted a portion of the electorate that was weighted in favor of the winning candidate.
 			</p>
 		</example>
+		<p>
+			Identifying the population can be tricky, but once we know who we're studying, how do we choose a good sample? We want our sample statistic to accurately estimate the population parameter, which means we need a representative sample. Going back to our political polling example: we wouldn't expect accurate results if we only surveyed Starbucks customers or your TikTok followers —those groups might not reflect the broader voting population. So how can we select a sample that truly reflects the characteristics of our population?
+		</p>
 	</subsection>
 </section>
