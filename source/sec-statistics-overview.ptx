@@ -202,7 +202,13 @@
 	<subsection xml:id="subsec-statistics-sampling">
 		<title>Sampling Methods</title>
 		<p>
-			
+			Before conducting any survey, we need to clearly identify our target population. Let's say a politician hires you to gauge their support for a potential reelection campaign. Who exactly should you survey?
+		</p>
+		<p>
+			The obvious answer might be <q>everyone in the district,</q> but that's not very practical. Eligible voters would be better, but what about those who haven't registered yet? Even registered voters don't always show up on election day. This is why many pollsters focus on <q>likely voters</q> instead.
+		</p>
+		<p>
+			Defining a <q>likely voter</q> isn't straightforward, however, and the challenges don't end there. The following example highlights some of the difficulties that arise in political polling.
 		</p>
 	</subsection>
 </section>
