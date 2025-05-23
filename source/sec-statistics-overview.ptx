@@ -210,5 +210,30 @@
 		<p>
 			Defining a <q>likely voter</q> isn't straightforward, however, and the challenges don't end there. The following example highlights some of the difficulties that arise in political polling.
 		</p>
+		<example>
+			<p>
+				In November 1998, former professional wrestler Jesse <q>The Body</q> Ventura was elected governor of Minnesota. Up until right before the election, most polls showed he had little chance of winning. There were several contributing factors to the polls not reflecting the actual intent of the electorate:
+				<ul>
+					<li>
+						<p>
+							Ventura was running on a third-party ticket and most polling methods are better suited to a two-candidate race.
+						</p>
+					</li> 
+					<li>
+						<p>
+							Many respondents to polls may have been embarrassed to tell pollsters that they were planning to vote for a professional wrestler.
+						</p>
+					</li>
+					<li>
+						<p>
+							The mere fact that the polls showed Ventura had little chance of winning might have prompted some people to vote for him in protest to send a message to the major-party candidates.
+						</p>
+					</li>
+				</ul>
+			</p>
+			<p>
+				That said, one of the major contributing factors was that Ventura recruited a substantial amount of support from young people, particularly college students, who had never voted before and who registered specifically to vote in that election. The polls did not deem these young people likely voters (since in most cases young people have a lower rate of voter registration and a lower turnout rate for elections) so the polling samples were subject to <term>sampling bias</term>: they omitted a portion of the electorate that was weighted in favor of the winning candidate.
+			</p>
+		</example>
 	</subsection>
 </section>
