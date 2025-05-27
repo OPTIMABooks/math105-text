@@ -502,6 +502,43 @@
 		<title>Statistical Bias</title>
 		<p>
 			There is no way to correct for biased data, so it is important to carefully plan the entire study and data analysis process in advance. One type of bias, discussed earlier, is <term>sampling</term> or <term>selection bias</term>, which occurs when the sample does not accurately reflect the population. A specific example of this is <term>voluntary response bias</term>, which arises when data is collected only from individuals who choose to participate. This can lead to bias if those who volunteer differ significantly from the general population. Below is a summary of other common sources of bias to consider.
+			<ul>
+				<li>
+					<p>
+						<term>Sampling bias</term>: when the sample is not representative of the population
+					</p>
+				</li>
+				<li>
+					<p>
+						<term>Voluntary response bias</term>: the sampling bias that often occurs when the sample is made up of volunteers
+					</p>
+				</li>
+				<li>
+					<p>
+						<term>Self-interest study</term>: bias that can occur when the researchers have an interest in the outcome
+					</p>
+				</li>
+				<li>
+					<p>
+						<term>Response bias</term>: when the responder gives inaccurate responses for any reason
+					</p>
+				</li>
+				<li>
+					<p>
+						<term>Perceived lack of anonymity</term>: when the responder fears giving an honest answer might negatively affect them
+					</p>
+				</li>
+				<li>
+					<p>
+						<term>Loaded questions</term>: when the question wording influences the responses
+					</p>
+				</li>
+				<li>
+					<p>
+						<term>Non-response bias</term>: when people refuse to participate in a study or drop out of an experiment, we can no longer be certain that our sample is representative of the population
+					</p>
+				</li>
+			</ul>
 		</p>
 	</subsection>
 	<subsection xml:id="subsection_statistics_confidence_interval">
