@@ -421,5 +421,25 @@
 			</image>
 		</figure>
 	</subsubsection>
+	<subsubsection xml:id="subsubsec-statistics_sampling_convenience">
+		<title>Convenience Sample</title>
+		<p>
+			If we use a sampling technique that lacks an element of randomness, we risk producing a sample that does not accurately represent the population. One of the simplest<mdash/>yet most problematic<mdash/>methods of data collection is the <term>convenience sample</term>. It's important to note that convenience samples should <em>never</em> be used in statistical analysis, as they often lead to biased and unreliable results.
+		</p>
+		<definition xml:id="def_convenience-sample">
+			<idx>convenience sample</idx>
+			<idx><h>sample</h><h>convenience sample</h></idx>
+			<statement>
+				<p>
+					A <term>convenience sample</term> is a sample collected by simply selecting the most convenient members of a population.
+				</p>
+			</statement>
+		</definition>
+		<example>
+			<p>
+				A pollster stands outside of Walmart and interviews the first 100 people who agree to speak to them. This is a convenience sample.
+			</p>
+	</example>
+	</subsubsection>
 </subsection>
 </section>
