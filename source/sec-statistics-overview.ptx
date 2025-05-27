@@ -249,7 +249,23 @@
 	<subsubsection xml:id="subsubsec-statistics_sampling_SRS">
 		<title>Simple Random Sample (SRS)</title>
 		<p>
-
+			The simplest way to use randomness to collect a sample is to collect a <term>simple random sample</term>.
+		</p>
+		<definition xml:id="def_simple-random-sample">
+			<idx><h>sample</h><h>simple random sample</h></idx>
+			<statement>
+				<p>
+					A <term>simple random sample</term> of size <m>n</m> is a sample drawn from a population in such a way that every group of <m>n</m> subjects in the population is equally likely to be chosen.
+				</p>
+			</statement>
+		</definition>
+		<example>
+			<p>
+				Imagine that each student currently enrolled at Walla Walla University has their ID number written on a slip of paper and placed in a basket. After mixing the slips thoroughly, 100 are randomly selected. This process creates a simple random sample.
+			</p>
+		</example>
+		<p>
+			In practice, computers are better suited for this kind of task. Still, even a random sample might not perfectly reflect the population. For instance, if we repeatedly select samples of 100 student ID numbers from the basket, some samples might include a slightly higher number of students from one major or class year than others. Some samples might have more first-year students, while others might include more seniors. This natural difference from sample to sample is called <term>sampling variation</term>. When we want to ensure certain groups are represented, we need to use a different sampling method.
 		</p>
 	</subsubsection>
 </subsection>
