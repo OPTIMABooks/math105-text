@@ -480,6 +480,12 @@
 			</p>
 		</example>
 	</subsection>
+	<subsection>
+		<title>Statistical Bias</title>
+		<p>
+			There is no way to correct for biased data, so it is important to carefully plan the entire study and data analysis process in advance. One type of bias, discussed earlier, is <term>sampling</term> or <term>selection bias</term>, which occurs when the sample does not accurately reflect the population. A specific example of this is <term>voluntary response bias</term>, which arises when data is collected only from individuals who choose to participate. This can lead to bias if those who volunteer differ significantly from the general population. Below is a summary of other common sources of bias to consider.
+		</p>
+	</subsection>
 	<subsection xml:id="subsection_statistics_confidence_interval">
 		<title>Margin of Error and Confidence Intervals</title>
 		<p>
