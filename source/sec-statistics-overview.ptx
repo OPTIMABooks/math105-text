@@ -480,4 +480,37 @@
 			</p>
 		</example>
 	</subsection>
+	<subsection xml:id="subsection_statistics_confidence_interval">
+		<title>Margin of Error and Confidence Intervals</title>
+		<p>
+			Even when a study or experiment has successfully avoided bias and has been well done, there is still an element of variation. If we took 5 different random samples of 100 college students and calculated their average textbook cost, we wouldn't expect to get the exact same average for each sample. This is due to sampling variation. To account for this, researchers publish their margin of error or a confidence interval for their statistics. These numbers describe the precision of the estimate for a certain confidence level. 
+		</p>
+		<p>
+			You've probably heard something like, <q>The candidate has 54 percent of the likely voters, plus or minus three percent.</q> The 3% is called the <term>margin of error</term>, so the true percentage is somewhere between 51% and 57%, with a certain level of confidence. To write this as a <term>confidence interval</term>, we place the numbers in parentheses from smallest to largest, separated by a comma: (51%, 57%).
+		</p>
+		<p>
+			The most common <term>confidence level</term> is 95%, which means if the poll was conducted repeatedly, and we made a confidence interval each time, we would expect the true percentage, or parameter, to fall within our confidence interval 95 out of 100 times. You can learn more on how to calculate the margin of error for different confidence levels in a statistics class.
+		</p>
+		<example>
+			<statement>
+				<p>
+					Let's say we asked a random sample of 100 students at Walla Walla University and found that they spent an average of $451.32 on books their first year, plus or minus $85.63. Write this as a confidence interval, assuming a 95% confidence level.
+				</p>
+			</statement>
+			<solution>
+				<p>
+					If the margin of error was calculated to be plus or minus $85.63, then with a confidence level of 95% we could say that the average amount spent by the population is somewhere between $365.69 and $536.95.
+				</p>
+				<p>
+					These values are found by computing <m>\$451.32 - \$85.63 = \$365.69</m> and <m>\$451.32 + \$85.63 = \$536.95</m>
+				</p>
+				<p>
+					We could also write this as a <alert>confidence interval</alert>: ($365.69, $536.95).
+				</p>
+				<p>
+					Now we have come full circle and seen how we can use data from a sample to estimate the parameter we were interested in for our population.
+				</p>
+			</solution>
+		</example>
+	</subsection>
 </section>
