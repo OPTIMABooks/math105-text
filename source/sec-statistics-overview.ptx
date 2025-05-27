@@ -365,5 +365,11 @@
 			</image>
 		</figure>
 	</subsubsection>
+	<subsubsection xml:id="subsubsec-statistics_sampling_cluster">
+		<title>Cluster Sample</title>
+		<p>
+			The difference between a <term>cluster sample</term> and a stratified sample lies in how the groups are used. In a stratified sample, the population is divided into groups (strata), and a random sample is taken from each group. In contrast, a cluster sample involves dividing the population into clusters, then randomly selecting entire clusters and including all individuals within those clusters in the sample.
+		</p>
+	</subsubsection>
 </subsection>
 </section>
