@@ -378,6 +378,11 @@
 				</p>
 			</statement>					
 		</definition>
+		<example>
+			<p>
+				Your eccentric uncle is convinced there's a government cover-up of UFO sightings. To investigate, he decides to conduct a study. Instead of trying to gather data from all 50 states, he randomly selects 10 states and collects data on every UFO sighting reported in those 10 states. Unfortunately, before he can finish, some mysterious individuals in black SUVs show up and take him away.
+			</p>
+		</example>
 		<figure xml:id="fig_data_def_cluster-sample">
 			<caption>Cluster Sample: All Individuals in Three Clusters</caption>
 			<image width="75%" xml:id="image_data_def_cluster-sample">
