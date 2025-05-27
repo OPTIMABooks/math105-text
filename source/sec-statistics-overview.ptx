@@ -479,6 +479,24 @@
 				</ol>
 			</p>
 		</example>
+		<definition xml:id="def_observational-study">
+			<idx>observational study</idx>
+			<idx><h>study types</h><h>observational</h></idx>
+			<statement>
+				<p>
+					In an <term>observational study</term> specific characteristics are observed and measured, but no attempt is made to change these characteristics.
+				</p>
+			</statement>
+		</definition>
+		<definition xml:id="def_experiment">
+			<idx>experiment</idx>
+			<idx><h>study types</h><h>experiment</h></idx>
+			<statement>
+				<p>
+					In an <term>experiment</term>, some treatment is applied and its effects on the subject are observed.
+				</p>
+			</statement>
+		</definition>
 	</subsection>
 	<subsection>
 		<title>Statistical Bias</title>
