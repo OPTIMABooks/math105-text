@@ -243,7 +243,7 @@
 	<title>Sampling Methods</title>	
 	<introduction>
 		<p>
-			To obtain a representative sample, it must be truly random. However, randomness can be achieved in different ways. In the next section, we'll explore four methods of random sampling and one method that fails to meet this standard.
+			Since it's important to select a sample that accurately represents the population we're studying, we must be careful in how we choose it. This means not only avoiding samples that fail to reflect the population but also guarding against unintentional bias in the way data is collected. To ensure a representative sample, the selection process must be truly random. However, there are several ways to achieve randomness. In this section, we'll explore four methods of random sampling, along with one method that falls short of being random.
 		</p>
 	</introduction>
 	<subsubsection xml:id="subsubsec-statistics_sampling_SRS">
