@@ -314,8 +314,13 @@
 				<p>In a <term>stratified sample</term>, a population is broken into several groups (called strata) and then a simple random sample is collected from each of these groups.</p>
 			</statement>
 		</definition>
+		<example>
+			<p>
+				Suppose voter registration data for the state shows that the electorate consists of 39% Democrats, 37% Republicans, and 24% Independents. A political action group wishes to survey 1000 people about a particular initiative. To ensure the sample reflects this composition, a stratified sampling method is used. From a total sample of 1,000 voters, researchers randomly select 390 Democrats, 370 Republicans, and 240 Independents from their respective groups. This approach guarantees that each political affiliation is proportionally represented in the sample.
+			</p>
+		</example>
 		<figure xml:id="fig_data_def_stratified-sample">
-			<caption>Stratified Sample: Three Sampled from Each Stratum</caption>
+			<caption>Stratified Sample: Three subjects are sampled from each stratum</caption>
 			<image width="75%" xml:id="image_data_def_stratified-sample">
 				<shortdescription>
 					The dots have been divided into six groups, and then two dots are randomly selected from each group to form the sample.
