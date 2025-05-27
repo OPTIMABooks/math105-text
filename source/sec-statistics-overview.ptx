@@ -240,206 +240,212 @@
 		</p>
 	</subsection>
 	<subsection xml:id="subsec_statistics_sampling_methods">
-	<title>Sampling Methods</title>	
-	<introduction>
-		<p>
-			Since it's important to select a sample that accurately represents the population we're studying, we must be careful in how we choose it. This means not only avoiding samples that fail to reflect the population but also guarding against unintentional bias in the way data is collected. To ensure a representative sample, the selection process must be truly random. However, there are several ways to achieve randomness. In this section, we'll explore four methods of random sampling, along with one method that falls short of being random.
-		</p>
-	</introduction>
-	<subsubsection xml:id="subsubsec-statistics_sampling_SRS">
-		<title>Simple Random Sample (SRS)</title>
-		<p>
-			The simplest way to use randomness to collect a sample is to collect a <term>simple random sample</term>.
-		</p>
-		<definition xml:id="def_simple-random-sample">
-			<idx><h>sample</h><h>simple random sample</h></idx>
-			<statement>
+		<title>Sampling Methods</title>	
+		<introduction>
+			<p>
+				Since it's important to select a sample that accurately represents the population we're studying, we must be careful in how we choose it. This means not only avoiding samples that fail to reflect the population but also guarding against unintentional bias in the way data is collected. To ensure a representative sample, the selection process must be truly random. However, there are several ways to achieve randomness. In this section, we'll explore four methods of random sampling, along with one method that falls short of being random.
+			</p>
+		</introduction>
+		<subsubsection xml:id="subsubsec-statistics_sampling_SRS">
+			<title>Simple Random Sample (SRS)</title>
+			<p>
+				The simplest way to use randomness to collect a sample is to collect a <term>simple random sample</term>.
+			</p>
+			<definition xml:id="def_simple-random-sample">
+				<idx><h>sample</h><h>simple random sample</h></idx>
+				<statement>
+					<p>
+						A <term>simple random sample</term> of size <m>n</m> is a sample drawn from a population in such a way that every group of <m>n</m> subjects in the population is equally likely to be chosen.
+					</p>
+				</statement>
+			</definition>
+			<example>
 				<p>
-					A <term>simple random sample</term> of size <m>n</m> is a sample drawn from a population in such a way that every group of <m>n</m> subjects in the population is equally likely to be chosen.
+					Imagine that each student currently enrolled at Walla Walla University has their ID number written on a slip of paper and placed in a basket. After mixing the slips thoroughly, 100 are randomly selected. This process creates a simple random sample.
 				</p>
-			</statement>
-		</definition>
-		<example>
+			</example>
 			<p>
-				Imagine that each student currently enrolled at Walla Walla University has their ID number written on a slip of paper and placed in a basket. After mixing the slips thoroughly, 100 are randomly selected. This process creates a simple random sample.
+				In practice, computers are better suited for this kind of task. Still, even a random sample might not perfectly reflect the population. For instance, if we repeatedly select samples of 100 student ID numbers from the basket, some samples might include a slightly higher number of students from one major or class year than others. Some samples might have more first-year students, while others might include more seniors. This natural difference from sample to sample is called <term>sampling variation</term>. When we want to ensure certain groups are represented, we need to use a different sampling method.
 			</p>
-		</example>
-		<p>
-			In practice, computers are better suited for this kind of task. Still, even a random sample might not perfectly reflect the population. For instance, if we repeatedly select samples of 100 student ID numbers from the basket, some samples might include a slightly higher number of students from one major or class year than others. Some samples might have more first-year students, while others might include more seniors. This natural difference from sample to sample is called <term>sampling variation</term>. When we want to ensure certain groups are represented, we need to use a different sampling method.
-		</p>
-	</subsubsection>
-	<subsubsection xml:id="subsubsec-statistics_sampling_systematic">
-		<title>Systematic Sample</title>
-		<p>
-			A <term>systematic sample</term> is particularly useful when the population from which we are sampling is already ordered. Examples of this include products coming off of an assembly line, or cars moving through a sobriety check point.
-		</p>
-		<definition xml:id="def_systematic_sample">
-			<idx><h>sample</h><h>systematic sample</h></idx>
-			<statement>
-				<p>A <term>systematic sample</term> is a random sample collected from an ordered population by randomly choosing one of the first <m>k</m> subjects, and then selecting every <m>k</m>th subject thereafter.</p>
-			</statement>
-		</definition>
-		<example>
+		</subsubsection>
+		<subsubsection xml:id="subsubsec-statistics_sampling_systematic">
+			<title>Systematic Sample</title>
 			<p>
-				ASWWU is conducting a survey to find out whether WWU students would prefer different operating hours at the Atlas. To gather responses, student workers stand outside the Caf and survey the third student to exit the building, then every tenth student thereafter.
+				A <term>systematic sample</term> is particularly useful when the population from which we are sampling is already ordered. Examples of this include products coming off of an assembly line, or cars moving through a sobriety check point.
 			</p>
-		</example>
-		<figure xml:id="fig_data_def_systematic-sample">
-			<caption>Systematic Sample: subject #2 selected, then every 5th subject thereafter.</caption>
-			<image width="55%" xml:id="image_data_def_systematic-sample">
-				<shortdescription>
-					One of the first 5 dots was randomly selected, and then every 5th dot thereafter is selected for the sample.
-				</shortdescription>
-				<latex-image>
-					\begin{tikzpicture}[font=\sffamily]
-						\foreach \num in {1,2,...,48} {
-								\draw[fill=gray] ({\num - 8*floor((\num-1) / 8)},{floor((\num-1) / 8)}) circle (0.3) node[white] {\num};
-						}
-						\foreach \num in {2,7,...,42} {
-								\draw[draw=red,thick] ({\num - 8*floor((\num-1) / 8)},{floor((\num-1) / 8)}) circle (0.4) node[yellow] {\num};
-						}
-					\end{tikzpicture}
-				</latex-image>
-			</image>
-		</figure>
-	</subsubsection>
-	<subsubsection xml:id="subsubsec-statistics_sampling_stratified">
-		<title>Stratified Sample</title>
-		<p>
-			In a <term>stratified sample</term> we group the population by characteristics which we think may make a difference, and then select randomly from each group. For example, we may want to ensure that both men and women are included in a drug study, so we select some men and some women. Or we may wish to ensure that voters of all political leanings are included in an election poll.
-		</p>
-		<definition xml:id="def_stratified_sample">
-			<idx><h>sample</h><h>stratified sample</h></idx>
-			<statement>
-				<p>In a <term>stratified sample</term>, a population is broken into several groups (called strata) and then a simple random sample is collected from each of these groups.</p>
-			</statement>
-		</definition>
-		<example>
+			<definition xml:id="def_systematic_sample">
+				<idx><h>sample</h><h>systematic sample</h></idx>
+				<statement>
+					<p>A <term>systematic sample</term> is a random sample collected from an ordered population by randomly choosing one of the first <m>k</m> subjects, and then selecting every <m>k</m>th subject thereafter.</p>
+				</statement>
+			</definition>
+			<example>
+				<p>
+					ASWWU is conducting a survey to find out whether WWU students would prefer different operating hours at the Atlas. To gather responses, student workers stand outside the Caf and survey the third student to exit the building, then every tenth student thereafter.
+				</p>
+			</example>
+			<figure xml:id="fig_data_def_systematic-sample">
+				<caption>Systematic Sample: subject #2 selected, then every 5th subject thereafter.</caption>
+				<image width="55%" xml:id="image_data_def_systematic-sample">
+					<shortdescription>
+						One of the first 5 dots was randomly selected, and then every 5th dot thereafter is selected for the sample.
+					</shortdescription>
+					<latex-image>
+						\begin{tikzpicture}[font=\sffamily]
+							\foreach \num in {1,2,...,48} {
+									\draw[fill=gray] ({\num - 8*floor((\num-1) / 8)},{floor((\num-1) / 8)}) circle (0.3) node[white] {\num};
+							}
+							\foreach \num in {2,7,...,42} {
+									\draw[draw=red,thick] ({\num - 8*floor((\num-1) / 8)},{floor((\num-1) / 8)}) circle (0.4) node[yellow] {\num};
+							}
+						\end{tikzpicture}
+					</latex-image>
+				</image>
+			</figure>
+		</subsubsection>
+		<subsubsection xml:id="subsubsec-statistics_sampling_stratified">
+			<title>Stratified Sample</title>
 			<p>
-				Suppose voter registration data for the state shows that the electorate consists of 39% Democrats, 37% Republicans, and 24% Independents. A political action group wishes to survey 1000 people about a particular initiative. To ensure the sample reflects this composition, a stratified sampling method is used. From a total sample of 1,000 voters, researchers randomly select 390 Democrats, 370 Republicans, and 240 Independents from their respective groups. This approach guarantees that each political affiliation is proportionally represented in the sample.
+				In a <term>stratified sample</term> we group the population by characteristics which we think may make a difference, and then select randomly from each group. For example, we may want to ensure that both men and women are included in a drug study, so we select some men and some women. Or we may wish to ensure that voters of all political leanings are included in an election poll.
 			</p>
-		</example>
-		<figure xml:id="fig_data_def_stratified-sample">
-			<caption>Stratified Sample: Three subjects are sampled from each stratum</caption>
-			<image width="75%" xml:id="image_data_def_stratified-sample">
-				<shortdescription>
-					The dots have been divided into six groups, and then two dots are randomly selected from each group to form the sample.
-				</shortdescription>
-				<latex-image>
-					\begin{tikzpicture}[font=\sffamily]
-						\edef\gnames{{"A","B","C","D","E","F"}};
+			<definition xml:id="def_stratified_sample">
+				<idx><h>sample</h><h>stratified sample</h></idx>
+				<statement>
+					<p>In a <term>stratified sample</term>, a population is broken into several groups (called strata) and then a simple random sample is collected from each of these groups.</p>
+				</statement>
+			</definition>
+			<example>
+				<p>
+					Suppose voter registration data for the state shows that the electorate consists of 39% Democrats, 37% Republicans, and 24% Independents. A political action group wishes to survey 1000 people about a particular initiative. To ensure the sample reflects this composition, a stratified sampling method is used. From a total sample of 1,000 voters, researchers randomly select 390 Democrats, 370 Republicans, and 240 Independents from their respective groups. This approach guarantees that each political affiliation is proportionally represented in the sample.
+				</p>
+			</example>
+			<figure xml:id="fig_data_def_stratified-sample">
+				<caption>Stratified Sample: Three subjects are sampled from each stratum</caption>
+				<image width="75%" xml:id="image_data_def_stratified-sample">
+					<shortdescription>
+						The dots have been divided into six groups, and then two dots are randomly selected from each group to form the sample.
+					</shortdescription>
+					<latex-image>
+						\begin{tikzpicture}[font=\sffamily]
+							\edef\gnames{{"A","B","C","D","E","F"}};
 
-						% Draw group backgrounds and labels (once per group)
-						\foreach \grp in {1,2,...,6} {
+							% Draw group backgrounds and labels (once per group)
+							\foreach \grp in {1,2,...,6} {
+								\pgfmathsetmacro\gname{\gnames[\grp-1]};
+								\draw[cyan,very thick] (-0.5,{\grp-0.45}) rectangle (7.5,{\grp+0.45});
+								\node[left] at (-0.75,{\grp-0.05}) {Group \gname};
+							}
+
+							% Draw all circles
+							\foreach \grp in {1,2,...,6} {
+								\pgfmathsetmacro\gname{\gnames[\grp-1]};
+								\foreach \num in {1,2,...,8} {
+										\draw[fill=gray] ({\num-1},\grp) circle (0.3) node[white] (\num) {\gname\num};
+								}
+							}
+
+							% Define sample data and draw red circles
+							\edef\sample{{
+								{1,4,8},
+								{2,4,7},
+								{5,6,8},
+								{1,2,7},
+								{3,5,6},
+								{4,6,8}
+							}}
+							\foreach \grp in {1,2,...,6} {
+									\pgfmathsetmacro\gname{\gnames[\grp-1]};
+									\foreach \i in {1,2,3} {
+										\pgfmathsetmacro\num{\sample[\grp-1][\i-1]};
+										\draw[draw=red,thick] ({\num-1},\grp) circle (0.4) node[yellow] {\gname\num};
+									}
+							}
+						\end{tikzpicture}
+					</latex-image>
+				</image>
+			</figure>
+		</subsubsection>
+		<subsubsection xml:id="subsubsec-statistics_sampling_cluster">
+			<title>Cluster Sample</title>
+			<p>
+				The difference between a <term>cluster sample</term> and a stratified sample lies in how the groups are used. In a stratified sample, the population is divided into groups (strata), and a random sample is taken from each group. In contrast, a cluster sample involves dividing the population into clusters, then randomly selecting entire clusters and including all individuals within those clusters in the sample.
+			</p>
+			<definition xml:id="def_cluster_sample">
+				<idx><h>sample</h><h>cluster sample</h></idx>
+				<statement>
+					<p>
+						A <term>cluster sample</term> is taken by dividing the population into several groups (called clusters) and then picking a simple random sample of the clusters. We then sample each individual in the selected clusters.
+					</p>
+				</statement>					
+			</definition>
+			<example>
+				<p>
+					Your eccentric uncle is convinced there's a government cover-up of UFO sightings. To investigate, he decides to conduct a study. Instead of trying to gather data from all 50 states, he randomly selects 10 states and collects data on every UFO sighting reported in those 10 states. Unfortunately, before he can finish, some mysterious individuals in black SUVs show up and take him away.
+				</p>
+			</example>
+			<figure xml:id="fig_data_def_cluster-sample">
+				<caption>Cluster Sample: All Individuals in Three Clusters</caption>
+				<image width="75%" xml:id="image_data_def_cluster-sample">
+					<shortdescription>
+						The dots have been divided into six groups, and then three of those groups are randomly selected and every dot from the selected groups is added to the sample.
+					</shortdescription>
+					<latex-image>
+						\begin{tikzpicture}[font=\sffamily]
+							\edef\gnames{{"A","B","C","D","E","F"}};
+
+							% Draw group backgrounds and labels (once per group)
+							\foreach \grp in {1,2,...,6} {
 							\pgfmathsetmacro\gname{\gnames[\grp-1]};
 							\draw[cyan,very thick] (-0.5,{\grp-0.45}) rectangle (7.5,{\grp+0.45});
 							\node[left] at (-0.75,{\grp-0.05}) {Group \gname};
-						}
-
-						% Draw all circles
-						\foreach \grp in {1,2,...,6} {
-							\pgfmathsetmacro\gname{\gnames[\grp-1]};
-							\foreach \num in {1,2,...,8} {
-									\draw[fill=gray] ({\num-1},\grp) circle (0.3) node[white] (\num) {\gname\num};
 							}
-						}
 
-						% Define sample data and draw red circles
-						\edef\sample{{
-							{1,4,8},
-							{2,4,7},
-							{5,6,8},
-							{1,2,7},
-							{3,5,6},
-							{4,6,8}
-						}}
-						\foreach \grp in {1,2,...,6} {
+							% Draw all circles
+							\foreach \grp in {1,2,...,6} {
 								\pgfmathsetmacro\gname{\gnames[\grp-1]};
-								\foreach \i in {1,2,3} {
-									\pgfmathsetmacro\num{\sample[\grp-1][\i-1]};
+								\foreach \num in {1,2,...,8} {
+									\draw[fill=gray] ({\num-1},\grp) circle (0.3) node[white] (\num) {\gname\num};
+									}
+							}
+
+							% Add red elements for specific groups
+							\foreach \grp in {1,3,6} {
+								\pgfmathsetmacro\gname{\gnames[\grp-1]};
+								\draw[red,thick] (-2.5,{\grp-0.2}) -- (-0.85,{\grp-0.2});
+								\foreach \num in {1,2,...,8} {
 									\draw[draw=red,thick] ({\num-1},\grp) circle (0.4) node[yellow] {\gname\num};
 								}
-						}
-					\end{tikzpicture}
-				</latex-image>
-			</image>
-		</figure>
-	</subsubsection>
-	<subsubsection xml:id="subsubsec-statistics_sampling_cluster">
-		<title>Cluster Sample</title>
-		<p>
-			The difference between a <term>cluster sample</term> and a stratified sample lies in how the groups are used. In a stratified sample, the population is divided into groups (strata), and a random sample is taken from each group. In contrast, a cluster sample involves dividing the population into clusters, then randomly selecting entire clusters and including all individuals within those clusters in the sample.
-		</p>
-		<definition xml:id="def_cluster_sample">
-			<idx><h>sample</h><h>cluster sample</h></idx>
-			<statement>
-				<p>
-					A <term>cluster sample</term> is taken by dividing the population into several groups (called clusters) and then picking a simple random sample of the clusters. We then sample each individual in the selected clusters.
-				</p>
-			</statement>					
-		</definition>
-		<example>
-			<p>
-				Your eccentric uncle is convinced there's a government cover-up of UFO sightings. To investigate, he decides to conduct a study. Instead of trying to gather data from all 50 states, he randomly selects 10 states and collects data on every UFO sighting reported in those 10 states. Unfortunately, before he can finish, some mysterious individuals in black SUVs show up and take him away.
-			</p>
-		</example>
-		<figure xml:id="fig_data_def_cluster-sample">
-			<caption>Cluster Sample: All Individuals in Three Clusters</caption>
-			<image width="75%" xml:id="image_data_def_cluster-sample">
-				<shortdescription>
-					The dots have been divided into six groups, and then three of those groups are randomly selected and every dot from the selected groups is added to the sample.
-				</shortdescription>
-				<latex-image>
-					\begin{tikzpicture}[font=\sffamily]
-						\edef\gnames{{"A","B","C","D","E","F"}};
-
-						% Draw group backgrounds and labels (once per group)
-						\foreach \grp in {1,2,...,6} {
-						\pgfmathsetmacro\gname{\gnames[\grp-1]};
-						\draw[cyan,very thick] (-0.5,{\grp-0.45}) rectangle (7.5,{\grp+0.45});
-						\node[left] at (-0.75,{\grp-0.05}) {Group \gname};
-						}
-
-						% Draw all circles
-						\foreach \grp in {1,2,...,6} {
-							\pgfmathsetmacro\gname{\gnames[\grp-1]};
-							\foreach \num in {1,2,...,8} {
-								\draw[fill=gray] ({\num-1},\grp) circle (0.3) node[white] (\num) {\gname\num};
-								}
-						}
-
-						% Add red elements for specific groups
-						\foreach \grp in {1,3,6} {
-							\pgfmathsetmacro\gname{\gnames[\grp-1]};
-							\draw[red,thick] (-2.5,{\grp-0.2}) -- (-0.85,{\grp-0.2});
-							\foreach \num in {1,2,...,8} {
-								\draw[draw=red,thick] ({\num-1},\grp) circle (0.4) node[yellow] {\gname\num};
 							}
-						}
-					\end{tikzpicture}
-				</latex-image>
-			</image>
-		</figure>
-	</subsubsection>
-	<subsubsection xml:id="subsubsec-statistics_sampling_convenience">
-		<title>Convenience Sample</title>
-		<p>
-			If we use a sampling technique that lacks an element of randomness, we risk producing a sample that does not accurately represent the population. One of the simplest<mdash/>yet most problematic<mdash/>methods of data collection is the <term>convenience sample</term>. It's important to note that convenience samples should <em>never</em> be used in statistical analysis, as they often lead to biased and unreliable results.
-		</p>
-		<definition xml:id="def_convenience-sample">
-			<idx>convenience sample</idx>
-			<idx><h>sample</h><h>convenience sample</h></idx>
-			<statement>
-				<p>
-					A <term>convenience sample</term> is a sample collected by simply selecting the most convenient members of a population.
-				</p>
-			</statement>
-		</definition>
-		<example>
+						\end{tikzpicture}
+					</latex-image>
+				</image>
+			</figure>
+		</subsubsection>
+		<subsubsection xml:id="subsubsec-statistics_sampling_convenience">
+			<title>Convenience Sample</title>
 			<p>
-				A pollster stands outside of Walmart and interviews the first 100 people who agree to speak to them. This is a convenience sample.
+				If we use a sampling technique that lacks an element of randomness, we risk producing a sample that does not accurately represent the population. One of the simplest<mdash/>yet most problematic<mdash/>methods of data collection is the <term>convenience sample</term>. It's important to note that convenience samples should <em>never</em> be used in statistical analysis, as they often lead to biased and unreliable results.
 			</p>
-		</example>
-	</subsubsection>
-</subsection>
+			<definition xml:id="def_convenience-sample">
+				<idx>convenience sample</idx>
+				<idx><h>sample</h><h>convenience sample</h></idx>
+				<statement>
+					<p>
+						A <term>convenience sample</term> is a sample collected by simply selecting the most convenient members of a population.
+					</p>
+				</statement>
+			</definition>
+			<example>
+				<p>
+					A pollster stands outside of Walmart and interviews the first 100 people who agree to speak to them. This is a convenience sample.
+				</p>
+			</example>
+		</subsubsection>
+	</subsection>
+	<subsection xml:id="sec_statistics_study_types">
+		<title>Types of Studies</title>
+		<p>
+			
+		</p>
+	</subsection>
 </section>
