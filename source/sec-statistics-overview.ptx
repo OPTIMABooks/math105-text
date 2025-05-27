@@ -370,6 +370,51 @@
 		<p>
 			The difference between a <term>cluster sample</term> and a stratified sample lies in how the groups are used. In a stratified sample, the population is divided into groups (strata), and a random sample is taken from each group. In contrast, a cluster sample involves dividing the population into clusters, then randomly selecting entire clusters and including all individuals within those clusters in the sample.
 		</p>
+		<definition xml:id="def_cluster_sample">
+			<idx><h>sample</h><h>cluster sample</h></idx>
+			<statement>
+				<p>
+					A <term>cluster sample</term> is taken by dividing the population into several groups (called clusters) and then picking a simple random sample of the clusters. We then sample each individual in the selected clusters.
+				</p>
+			</statement>					
+		</definition>
+		<figure xml:id="fig_data_def_cluster-sample">
+			<caption>Cluster Sample: All Individuals in Three Clusters</caption>
+			<image width="75%" xml:id="image_data_def_cluster-sample">
+				<shortdescription>
+					The dots have been divided into six groups, and then three of those groups are randomly selected and every dot from the selected groups is added to the sample.
+				</shortdescription>
+				<latex-image>
+					\begin{tikzpicture}[font=\sffamily]
+						\edef\gnames{{"A","B","C","D","E","F"}};
+
+						% Draw group backgrounds and labels (once per group)
+						\foreach \grp in {1,2,...,6} {
+						\pgfmathsetmacro\gname{\gnames[\grp-1]};
+						\draw[cyan,very thick] (-0.5,{\grp-0.45}) rectangle (7.5,{\grp+0.45});
+						\node[left] at (-0.75,{\grp-0.05}) {Group \gname};
+						}
+
+						% Draw all circles
+						\foreach \grp in {1,2,...,6} {
+							\pgfmathsetmacro\gname{\gnames[\grp-1]};
+							\foreach \num in {1,2,...,8} {
+								\draw[fill=gray] ({\num-1},\grp) circle (0.3) node[white] (\num) {\gname\num};
+								}
+						}
+
+						% Add red elements for specific groups
+						\foreach \grp in {1,3,6} {
+							\pgfmathsetmacro\gname{\gnames[\grp-1]};
+							\draw[red,thick] (-2.5,{\grp-0.2}) -- (-0.85,{\grp-0.2});
+							\foreach \num in {1,2,...,8} {
+								\draw[draw=red,thick] ({\num-1},\grp) circle (0.4) node[yellow] {\gname\num};
+							}
+						}
+					\end{tikzpicture}
+				</latex-image>
+			</image>
+		</figure>
 	</subsubsection>
 </subsection>
 </section>
