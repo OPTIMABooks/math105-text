@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-statistics-data-representation" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Representing Data Graphically</title>
+
+	<objectives>
+			<ul>
+			<li>
+				<p>
+					Define and identify categorical and quantitative data
+				</p>
+			</li>
+			<li>
+				<p>
+					Read and construct frequency tables and relative frequency tables
+				</p>
+			</li>
+			<li>
+				<p>
+					Make bar charts and pie charts for categorical variables
+				</p>
+			</li>
+			<li>
+				<p>
+					Make histograms for quantitative variables 
+				</p>
+			</li>
+			<li>
+				<p>
+					Construct Steam-and-Leaf plots.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<subsection xml:id="sec_data_data">
+		<title>What is Data?</title>
+
+		<introduction xml:id="sec_data_variables_intro">
+			<p>
+				Once we have collected data from an observational study or an experiment, we need to summarize and present it in a way that will be meaningful to our audience. Raw <term>data</term> is not very useful by itself. In this section we will begin with graphical presentations of data and in the rest of the chapter we will learn about numerical summaries of data.
+			</p>
+			<definition xml:id="def_data">
+				<idx>data</idx>
+				<statement>
+					<p>
+						Any collection of measurements or values is referred to collectively as <term>data</term>.
+					</p>
+				</statement>
+			</definition>
+			<p>
+				We can understand and classify data better if we first understand the source from which the measurements are taken. Each type of measurement such as height, length of time, or favorite pizza topping, comes from a certain characteristic or property called a <term>variable</term>.
+			</p>
+			<definition xml:id="def_variable">
+				<idx>variable</idx>
+				<statement>
+					<p>
+						A <term>variable</term> is a single characteristic that is being measured or changed.
+					</p>
+				</statement>
+			</definition>
+			<p>
+				In a typical set of data, one or more variables are identified, and the measurements are collected for each of those variables.
+			</p>
+			<example xml:id="ex_data_identifying-variables">
+				<!-- <title>Identifying Variables</title> -->
+				<statement>
+					<p>
+						A wildlife conservationist wishes to better understand the population of fish that live in a certain lake. To do this, she catches 100 fish and records the species, length, and weight of each fish. What are the variables in this set of data?
+					</p>
+				</statement>
+				<solution>
+					<p>
+						The three characteristics measured are: fish species, fish length, and fish weight. These are the variables.
+					</p>
+				</solution>
+			</example>
+		</introduction>
+		<subsubsection xml:id="sec_data_variables_number">
+			<title>Classification by Number of Variables</title>
+			<p>
+				
+			</p>
+		</subsubsection>
+	</subsection>
+</section>
