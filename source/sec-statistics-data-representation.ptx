@@ -405,6 +405,34 @@
 				</solution>
 			</example>
 		</introduction>
-
-		</subsection>
+		<subsubsection xml:id="subsubsec_graph_qualitative_frequency-table">
+			<title>Frequency Tables</title>
+			<p>
+				The first step needed to graph qualitative data is is to first summarize it. To do so, we construct what a <term>frequency table</term>.
+			</p>
+			<definition xml:id="def_frequency-table">
+				<idx>frequency table</idx>
+				<statement>
+					<p>
+						A <term>frequency table</term> is a two-column table used to summarize the distribution of a qualitative (categorical) variable.
+						<ul>
+							<li>
+								<p>
+									The first column lists the distinct categories or values that the variable can take.
+								</p>
+							</li>
+							<li>
+								<p>
+									The second column shows the frequency, or the number of times each category occurs in the dataset.
+								</p>
+							</li>
+						</ul>
+					</p>
+				</statement>
+			</definition>
+			<p>
+				To understand how this works, let's use a frequency table to summarize the pizza topping data from our first example.
+			</p>
+		</subsubsection>
+	</subsection>
 </section>
