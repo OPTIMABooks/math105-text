@@ -235,8 +235,176 @@
 	</subsection>
 	<subsection xml:id="sec_statistics_graphs_qualitative">
 		<title>Graphing Qualitative Data</title>
+		<introduction>
 			<p>
 				Data, no matter the type, is not very informative in its raw form. A graph is a powerful way to summarize and display data. However, before a graph can be produced the data needs to be summarized in a table. For qualitative data this summary is called a frequency table.
 			</p>
+			<p>
+				The following example motivates the need to organize data before it can be understood and will be used throughout this section.
+			</p>
+			<example xml:id="ex_graphs_organizing-data">
+				<!-- <title>Organizing Data</title> -->
+				<statement>
+					<p>
+						To better understand their customers, a pizza parlor decides to collect a list of favorite pizza toppings. They choose an appropriate sampling technique and gather the following data from 96 customers. What does this data tell you?
+					</p>
+					<table xml:id="examp_graphs_organizing-data_table">
+						<title>Raw Pizza Topping Data</title>
+						<tabular>
+							<row>
+								<cell>cheese</cell>
+								<cell>green peppers</cell>
+								<cell>olives</cell>
+								<cell>cheese</cell>
+							</row>
+							<row>
+								<cell>olives</cell>
+								<cell>cheese</cell>
+								<cell>cheese</cell>
+								<cell>cheese</cell>
+							</row>
+							<row>								
+								<cell>green peppers</cell>
+								<cell>cheese</cell>
+								<cell>pepperoni</cell>
+								<cell>olives</cell>
+							</row>
+							<row>
+								<cell>pineapple</cell>
+								<cell>onions</cell>
+								<cell>cheese</cell>
+								<cell>sausage</cell>
+							</row>
+							<row>								
+								<cell>onions</cell>
+								<cell>anchovies</cell>
+								<cell>olives</cell>
+								<cell>cheese</cell>
+							</row>
+							<row>								
+								<cell>green peppers</cell>
+								<cell>cheese</cell>
+								<cell>cheese</cell>
+								<cell>cheese</cell>
+							</row>
+							<row>
+								<cell>pineapple</cell>
+								<cell>mushrooms</cell>
+								<cell>green peppers</cell>
+								<cell>pineapple</cell>
+							</row>
+							<row>								
+								<cell>cheese</cell>
+								<cell>green peppers</cell>
+								<cell>sausage</cell>
+								<cell>cheese</cell>
+							</row>
+							<row>
+								<cell>sausage</cell>
+								<cell>bacon</cell>
+								<cell>bacon</cell>
+								<cell>green peppers</cell>
+							</row>
+							<row>
+								<cell>cheese</cell>
+								<cell>pepperoni</cell>
+								<cell>pepperoni</cell>
+								<cell>olives</cell>
+							</row>
+							<row>								
+								<cell>pepperoni</cell>
+								<cell>pepperoni</cell>
+								<cell>green peppers</cell>
+								<cell>pepperoni</cell>
+							</row>
+							<row>								
+								<cell>olives</cell>
+								<cell>olives</cell>
+								<cell>olives</cell>
+								<cell>green peppers</cell>
+							</row>
+							<row>
+								<cell>pepperoni</cell>
+								<cell>pepperoni</cell>
+								<cell>mushrooms</cell>
+								<cell>onions</cell>
+							</row>
+							<row>								
+								<cell>bacon</cell>
+								<cell>sausage</cell>
+								<cell>sausage</cell>
+								<cell>olives</cell>
+							</row>
+							<row>
+								<cell>sausage</cell>
+								<cell>green peppers</cell>
+								<cell>olives</cell>
+								<cell>bacon</cell>
+							</row>
+							<row>
+								<cell>sausage</cell>
+								<cell>pepperoni</cell>
+								<cell>pineapple</cell>
+								<cell>olives</cell>
+							</row>
+							<row>								
+								<cell>mushrooms</cell>
+								<cell>bacon</cell>
+								<cell>onions</cell>
+								<cell>bacon</cell>
+							</row>
+							<row>								
+								<cell>olives</cell>
+								<cell>sausage</cell>
+								<cell>mushrooms</cell>
+								<cell>cheese</cell>
+							</row>
+							<row>
+								<cell>pineapple</cell>
+								<cell>bacon</cell>
+								<cell>green peppers</cell>
+								<cell>pepperoni</cell>
+							</row>
+							<row>								
+								<cell>olives</cell>
+								<cell>pepperoni</cell>
+								<cell>pepperoni</cell>
+								<cell>pepperoni</cell>
+							</row>
+							<row>								
+								<cell>sausage</cell>
+								<cell>sausage</cell>
+								<cell>pepperoni</cell>
+								<cell>pepperoni</cell>
+							</row>
+							<row>
+								<cell>cheese</cell>
+								<cell>bacon</cell>
+								<cell>onions</cell>
+								<cell>pepperoni</cell>
+							</row>
+							<row>								
+								<cell>pineapple</cell>
+								<cell>olives</cell>
+								<cell>cheese</cell>
+								<cell>bacon</cell>
+							</row>
+							<row>								
+								<cell>green peppers</cell>
+								<cell>bacon</cell>
+								<cell>pepperoni</cell>
+								<cell>olives</cell>
+							</row>
+						</tabular>
+					</table>						
+				</statement>
+				<solution>
+					<p>
+						Without proper organization, this data is difficult to interpret. We need to simplify it to uncover trends and extract meaningful insights.
+					</p>
+				</solution>
+			</example>
+		</introduction>
+
 		</subsection>
 </section>
