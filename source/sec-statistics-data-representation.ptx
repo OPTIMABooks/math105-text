@@ -233,4 +233,10 @@
 			</definition>
 		</subsubsection>
 	</subsection>
+	<subsection xml:id="sec_statistics_graphs_qualitative">
+		<title>Graphing Qualitative Data</title>
+			<p>
+				Data, no matter the type, is not very informative in its raw form. A graph is a powerful way to summarize and display data. However, before a graph can be produced the data needs to be summarized in a table. For qualitative data this summary is called a frequency table.
+			</p>
+		</subsection>
 </section>
