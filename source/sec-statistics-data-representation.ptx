@@ -520,7 +520,21 @@
 					</sidebyside>
 				</solution>
 			</example>
-
+			<p>
+				While a frequency table is useful for summarizing data, it can be hard to gauge how popular categories are relative to each other. For instance, in the previous example, two more customers preferred cheese over olives<mdash/>but is that a significant difference? To better analyze this, we can convert counts into percentages.
+			</p>
+			<definition xml:id="def_relative-frequency-table">
+				<title>Relative Frequency Table</title>
+				<idx>relative frequency table</idx>
+				<statement>
+					<p>
+						A <term>relative frequency table</term> is a table in which each category is listed together with the ratio of the total values from the data set that fall into that category.
+					</p>
+				</statement>
+			</definition>
+			<p>
+				Let's revisit the pizza topping data once again, this time constructing a relative frequency table.
+			</p>
 		</subsubsection>
 	</subsection>
 </section>
