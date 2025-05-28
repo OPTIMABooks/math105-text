@@ -167,5 +167,46 @@
 				</solution>
 			</example>
 		</subsubsection>
+		<subsubsection xml:id="sec_data_variables_type">
+			<title>Types of Variable</title>
+			<p>
+				Another way to classify data is based on the types of variables that are being measured. The type of a variable depends on what is being recorded. Consider the following example.
+			</p>
+			<example xml:id="ex_data_classify-variables">
+				<title>Classifying Variables</title>
+				<statement>
+					<p> 
+						The post office, wishing to better understand its customers, decides to collect	data from 1000 households in eastern Washington. They mail each household a questionnaire asking the residents to confirm their zip code, list the number of people who live in that household, and give the length of time that they have lived there. What are the variables in this study, and how do the measurements differ?
+					</p>
+				</statement>
+				<solution>
+					<p>
+						The three variables in this multivariate set of data are: zip code, number of residents, and length of time in residence. The characteristics of these variables are:
+						<ul>
+							<li>
+								<title>Zip Code</title>
+								<p>
+									While the values recorded are numbers (i.e. 99324, 49103, 92357, etc) they
+									actually represent categories and not numerical values. Notice that it would 
+									make no sense to <q>average</q> or add together two zip codes!
+								</p>
+							</li>
+							<li>
+								<title>Number of Residents</title>
+								<p>
+									These values are numbers (i.e. 2 residents, 5 residents, 1 resident, etc) and they do actually represent numerical quantities. Notice that it does make sense to talk about the <q>average number of residents</q> or to perform mathematical operations on these values. Also, note that the values that this variable can take on are all whole numbers.
+								</p>
+							</li>
+							<li>
+								<title>Length of Residence</title>
+								<p>
+									The values for this final variable are also numbers (i.e. 1 year, 2 months, and 12 days = 1.2 years). It also makes sense to perform mathematical operation on these values. In contracts to the <q>number or residence</q> data, these values can be decimals or fractions.
+								</p>
+							</li>
+						</ul>
+					</p>
+				</solution>
+			</example>
+		</subsubsection>
 	</subsection>
 </section>
