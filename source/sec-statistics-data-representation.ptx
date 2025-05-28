@@ -524,7 +524,7 @@
 				While a frequency table is useful for summarizing data, it can be hard to gauge how popular categories are relative to each other. For instance, in the previous example, two more customers preferred cheese over olives<mdash/>but is that a significant difference? To better analyze this, we can convert counts into percentages.
 			</p>
 			<definition xml:id="def_relative-frequency-table">
-				<title>Relative Frequency Table</title>
+				<!-- <title>Relative Frequency Table</title> -->
 				<idx>relative frequency table</idx>
 				<statement>
 					<p>
