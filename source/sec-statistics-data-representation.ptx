@@ -645,6 +645,80 @@
 			<p>
 				Note that you can also make a bar graph using a relative frequency table. This type of graph is technically called a <term>relative frequency bar graph</term>, but it looks just like a regular bar graph. The only difference is that the vertical scale represents percentages instead of raw frequencies.
 			</p>
+			<example xml:id="ex_graphs_bar-graph">
+				<!-- <title>Constructing a Bar Graph</title> -->
+				<statement>
+					<p>
+						Construct a bar graph for the pizza topping data seen in <xref ref="ex_graphs_organizing-data" />
+					</p>
+				</statement>
+				<solution>
+					<p>
+						Based on the <xref ref="ex_graphs_frequency-table_table" text="custom">frequency table for this data</xref>, we get the following bar graph.
+					</p>
+					<figure xml:id="fig_graphs_ex_bar-graph">
+						<caption>Pizza topping bar graph</caption>
+						<image xml:id="image_graphs_ex_bar-graph" width="90%">
+							<shortdescription>
+								A bar for each pizza topping with heights corresponding to the to frequency of the topping in our frequency table.
+						  </shortdescription>
+						  <latex-image>
+								\begin{tikzpicture}[font=\sffamily]
+									\begin{axis}[
+											axis lines=left,
+											no markers,
+											xmin = 0.5, xmax=10.5,
+											ymin=0, ymax=20,
+											xtick={1,2,3,4,5,6,7,8,9,10},
+											ytick={0,5,10,15,20},
+											xticklabels={Anchovies,Bacon,Cheese,Pepper,Mushroom,Olive,Onion,Pepperoni,Pineapple,Sausage},
+											ticklabel style={font=\normalsize},
+											xticklabel style={rotate=90},
+											xlabel={Pizza Topping},
+											xlabel style={yshift=-1.5cm},
+											ylabel={Frequency},
+											title={Favorite Pizza Toppings},
+											enlargelimits=false,
+											clip=false,
+											grid = none,
+											ymajorgrids=true,
+											ybar=0pt,
+											bar width=.5cm,
+											width=12cm,
+											height=8cm,
+											% Add some styling improvements
+											title style={font=\large\bfseries},
+											axis line style={thick},
+											tick style={thick},
+									]
+									\addplot[fill=cyan, draw=black] coordinates {
+											(1,1)   % Anchovies
+											(2,10)  % Bacon
+											(3,17)  % Cheese
+											(4,11)  % Pepper
+											(5,4)   % Mushroom
+											(6,15)  % Olive
+											(7,5)   % Onion
+											(8,17)  % Pepperoni
+											(9,6)   % Pineapple
+											(10,10) % Sausage
+									};
+									% Add value labels on top of bars
+									\addplot[
+											nodes near coords,
+											nodes near coords style={font=\normalsize, anchor=south},
+											only marks,
+											mark=none
+									] coordinates {
+											(1,1) (2,10) (3,17) (4,11) (5,4) (6,15) (7,5) (8,17) (9,6) (10,10)
+									};
+									\end{axis}
+								\end{tikzpicture}
+						  </latex-image>
+						</image>
+					</figure>
+				</solution>
+			</example>
 		</subsubsection>
 	</subsection>
 </section>
