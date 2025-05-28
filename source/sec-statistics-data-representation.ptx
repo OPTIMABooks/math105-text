@@ -434,7 +434,7 @@
 				To understand how this works, let's use a frequency table to summarize the pizza topping data from our first example.
 			</p>
 			<example xml:id="ex_graphs_frequency-table">
-				<title>A Frequency Table</title>
+				<!-- <title>A Frequency Table</title> -->
 				<statement>
 					<p>
 						Construct a frequency table for the pizza topping data seen in <xref ref="ex_graphs_organizing-data" text="custom">the example above</xref>. Does this table give you a better picture of the data set?
