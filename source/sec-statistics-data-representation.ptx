@@ -627,5 +627,24 @@
 				While these tables are a good step in better displaying our data, we still need to translate this into a	picture. We will discuss ways to do that in the next section.
 			</p>			
 		</subsubsection>
+		<subsubsection xml:id="sec_graphs_qualitative_graphs">
+			<title>Graphs</title>
+			<p>
+				One of the most basic ways to graphically represent data collected for a qualitative variable is by using a <term>bar graph</term>. First, create a frequency table. Once this is done, you can use computer software such as Microsoft Excel or Google Sheets to quickly construct a bar graph.
+			</p>
+			<definition xml:id="def_bar-graph">
+				<title>Bar Graph</title>
+				<idx>bar graph</idx>
+				<idx><h>graphs</h><h>bar graph</h></idx>
+				<statement>
+					<p>
+						A <term>bar graph</term> is a type of graph used to display qualitative data, where each category is represented by a separate bar. The height of each bar corresponds to the frequency or count of that category in the data set. The bars are separated by spaces to emphasize that the categories are distinct and can be arranged in any order.
+					</p>
+				</statement>
+			</definition>
+			<p>
+				Note that you can also make a bar graph using a relative frequency table. This type of graph is technically called a <term>relative frequency bar graph</term>, but it looks just like a regular bar graph. The only difference is that the vertical scale represents percentages instead of raw frequencies.
+			</p>
+		</subsubsection>
 	</subsection>
 </section>
