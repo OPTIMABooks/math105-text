@@ -248,7 +248,7 @@
 					<p>
 						To better understand their customers, a pizza parlor decides to collect a list of favorite pizza toppings. They choose an appropriate sampling technique and gather the following data from 96 customers. What does this data tell you?
 					</p>
-					<table xml:id="examp_graphs_organizing-data_table">
+					<table xml:id="ex_graphs_organizing-data_table">
 						<title>Raw Pizza Topping Data</title>
 						<tabular>
 							<row>
