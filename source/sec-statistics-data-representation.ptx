@@ -75,11 +75,97 @@
 				</solution>
 			</example>
 		</introduction>
-		<subsubsection xml:id="sec_data_variables_number">
+		<subsubsection xml:id="subsubsec_data_variables_number">
 			<title>Classification by Number of Variables</title>
 			<p>
-				
+				One way in which we can classify data is based on the number of variables that are being measured. In this chapter we may look at data sets composed of	measurements from one, two, or more variables. These are given the following names.
 			</p>
+			<definition xml:id="def_num-vars">
+				<idx><h>data</h><h>univariate</h></idx>
+				<idx><h>data</h><h>bivariate</h></idx>
+				<idx><h>data</h><h>multivariate</h></idx>
+				<statement>
+					<p>
+						A data set can be named based on the number of variables being measured as follows.
+						<ul>
+							<li>
+								<p>
+									<term>Univariate data</term> contains measurements from a single variable.
+								</p>
+							</li>
+							<li>
+								<p>
+									<term>Bivariate data</term> contains measurements from two variables. This is sometimes called <term>paired data</term>
+								</p>
+							</li>
+							<li>
+								<p>
+									<term>Multivariate data</term> contains measurements from three or more variables.
+								</p>
+							</li>
+						</ul>
+					</p>
+				</statement>
+			</definition>
+			<p>
+				Let's look at an example.
+			</p>
+			<example xml:id="ex_data_classifying-datasets">
+				<!-- <title>Classifying Datasets</title> -->
+				<statement>
+					<p>
+						Identify each of the following data sets based on the number of variables being measured.
+						<ol marker="a.">
+							<li>
+								<p>
+									A wildlife conservationist records the species, length, and weight of 100 fish caught in a certain lake.
+								</p>
+							</li>
+							<li>
+								<p>
+									To better understand how tall tomato plants grow, you record the height of 40 tomato plants at a local nursery.
+								</p>
+							</li>
+							<li>
+								<p>
+									The mayor wants to know if the local bond measure will pass in the next election. He asks 250 city residents how old they are, and if they plan to support the measure.
+								</p>
+							</li>
+							<li>
+								<p>
+									As a part of the admission process, a school requires students to submit their name, phone number, zip code, email address, and expected major.
+								</p>
+							</li>
+						</ol>
+					</p>
+				</statement>
+				<solution>
+					<p>
+						<ol marker="a.">
+							<li>
+								<p>
+									Multivariate. There are three variables: species, length, and weight.
+								</p>
+							</li>
+							<li>
+								<p>
+									Univariate. Since there is only one variable, height, this is univariate data.
+								</p>
+							</li>
+							<li>
+								<p>
+									Bivariate. Collecting age and support for the bond means that there are two variables.
+								</p>
+							</li>
+							<li>
+								<p>
+									Multivariate. There are five variables in this data set, so it must be multivariate.
+								</p>
+							</li>
+						</ol>
+					</p>
+				</solution>
+			</example>
 		</subsubsection>
 	</subsection>
 </section>
