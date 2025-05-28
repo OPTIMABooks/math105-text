@@ -535,6 +535,97 @@
 			<p>
 				Let's revisit the pizza topping data once again, this time constructing a relative frequency table.
 			</p>
+			<example xml:id="ex_graphs_relative-frequency-table">
+				<!-- <title>A Relative Frequency Table</title> -->
+				<statement>
+					<p>
+						Construct a relative frequency table for the pizza topping data seen in <xref ref="ex_graphs_organizing-data"/>.
+					</p>
+				</statement>
+				<solution>
+					<sidebyside widths="50% 45%" margins="0%" valign="middle">
+						<p>
+							Steps:
+							<ol>
+								<li>
+									<p>
+										Start with the <xref ref="ex_graphs_frequency-table_table" text="custom">frequency table</xref> from the previous example.
+									</p>
+								</li>
+								<li>
+									<p>
+										Divide each category frequency by the grand total (in this case 96).
+									</p>
+								</li>
+								<li>
+									<p>
+										Check to ensure that the sum is 1. Note that in this case, the extra 0.0002 is a result of rounding error in our four-decimal-place answers.
+									</p>
+								</li>
+							</ol>
+							The relative frequency table allows for a clearer comparison between categories.
+						</p>
+						<table xml:id="ex_graphs_relative-frequency-table_table">
+							<title>Pizza toppings relative frequency table</title>
+							<tabular>
+								<col halign="left" right="medium"></col>
+								<col halign="center"></col>
+								<row bottom="medium">
+									<cell>Topping</cell>
+									<cell>Relative Frequency</cell>
+								</row>
+								<row>
+									<cell>Anchovies</cell>
+									<cell><m>\frac{1}{96} \approx 0.0104</m></cell>
+								</row>
+								<row>
+									<cell>Bacon</cell>
+									<cell><m>\frac{10}{96} \approx 0.1042</m></cell>
+								</row>
+								<row>
+									<cell>Cheese</cell>
+									<cell><m>\frac{17}{96} \approx 0.1771</m></cell>
+								</row>
+								<row>
+									<cell>Green Peppers</cell>
+									<cell><m>\frac{11}{96} \approx 0.1146</m></cell>
+								</row>
+								<row>
+									<cell>Mushrooms</cell>
+									<cell><m>\frac{4}{96} \approx 0.0417</m></cell>
+								</row>
+								<row>
+									<cell>Olives</cell>
+									<cell><m>\frac{15}{96} \approx 0.1563</m></cell>
+								</row>
+								<row>
+									<cell>Onions</cell>
+									<cell><m>\frac{5}{96} \approx 0.0521</m></cell>
+								</row>
+								<row>
+									<cell>Pepperoni</cell>
+									<cell><m>\frac{17}{96} \approx 0.1771</m></cell>
+								</row>
+								<row>
+									<cell>Pineapple</cell>
+									<cell><m>\frac{6}{96} \approx 0.0625</m></cell>
+								</row>
+								<row bottom="medium">
+									<cell>Sausage</cell>
+									<cell><m>\frac{10}{96} \approx 0.1042</m></cell>
+								</row>
+								<row>
+									<cell>Total:</cell>
+									<cell><m>1.0002</m></cell>
+								</row>
+							</tabular>
+						</table>
+					</sidebyside>
+				</solution>
+			</example>
+			<p>
+				While these tables are a good step in better displaying our data, we still need to translate this into a	picture. We will discuss ways to do that in the next section.
+			</p>			
 		</subsubsection>
 	</subsection>
 </section>
