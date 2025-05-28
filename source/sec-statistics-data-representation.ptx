@@ -207,6 +207,30 @@
 					</p>
 				</solution>
 			</example>
+			<p>
+				The example above illustrates the two main types of variables we will study. One example of the first type is <q>zip code</q>, a variable that yields non-numerical data. The values of such a variable represent categories into which individuals can be grouped, or <q>qualities</q> that the data possess. Such variables are called <term>qualitative</term>.
+			</p>
+			<definition xml:id="def_qualitative-variable">
+				<idx>qualitative variable</idx>
+				<idx><h>variable</h><h>qualitative</h></idx>
+				<statement>
+					<p>
+						A <term>qualitative variable</term> (also called a <term>categorical variable</term>) is one that takes on values representing categories or descriptions as opposed to numerical values.
+					</p>
+				</statement>
+			</definition>
+			<p>
+				The second type of variable<mdash/>and the one we will focus on most in this chapter<mdash/>includes variables whose values are numerical and can be used in mathematical operations such as addition and division. These values represent a <q>quantity</q> rather than a <q>quality</q>, and are therefore called <term>quantitative</term> variables. Examples of this type from our earlier example include <q>number of residents</q> and <q>length of residence</q>.
+			</p>
+			<definition xml:id="def_quantitative-variable">
+				<idx>quantitative variable</idx>
+				<idx><h>variable</h><h>quantitative</h></idx>
+				<statement>
+					<p>
+						A <term>quantitative variable</term> is one that takes on numerical values. Unlike a qualitative variable, the values of a quantitative variable can be used in computations.
+					</p>
+				</statement>
+			</definition>
 		</subsubsection>
 	</subsection>
 </section>
