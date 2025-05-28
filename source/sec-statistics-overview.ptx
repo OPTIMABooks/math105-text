@@ -548,7 +548,7 @@
 				<ol marker="a.">
 					<li>
 						<p>
-							Consider a recent study which found that chewing gum may raise math grades in teenagers<fn>Reuters.<url href="https://www.reuters.com/article/lifestyle/chewing-gum-may-raise-math-grades-in-teens-idUSTRE53L793/" visual="https://www.reuters.com/article/lifestyle/chewing-gum-may-raise-math-grades-in-teens-idUSTRE53L793/"/> Retrieved 5/27/25</fn> This study was conducted by the Wrigley Science Institute, a branch of the Wrigley chewing gum company. This is an example of a self-interest study; one in which the researches have a vested interest in the outcome of the study. While this does not necessarily mean the study was biased, we should subject the study to extra scrutiny.
+							Consider a recent study which found that chewing gum may raise math grades in teenagers.<fn>Reuters.<url href="https://www.reuters.com/article/lifestyle/chewing-gum-may-raise-math-grades-in-teens-idUSTRE53L793/" visual="https://www.reuters.com/article/lifestyle/chewing-gum-may-raise-math-grades-in-teens-idUSTRE53L793/"/> Retrieved 5/27/25</fn> This study was conducted by the Wrigley Science Institute, a branch of the Wrigley chewing gum company. This is an example of a self-interest study; one in which the researches have a vested interest in the outcome of the study. While this does not necessarily mean the study was biased, we should subject the study to extra scrutiny.
 						</p>
 					</li>
 					<li>
@@ -577,6 +577,14 @@
 						</p>
 					</li>
 				</ol>
+			</p>
+		</example>
+		<p>
+			Loaded questions can occur intentionally by pollsters with an agenda, or accidentally through poor question wording. A related concern is question order, where the order of questions changes the results. Here is an example from a psychology researcher:<fn>Swartz, Norbert. <url href="https://web.archive.org/web/20050413172152/http://www.umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html" visual="umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html"/> Retrieved 5/27/2025</fn>
+		</p>
+		<example>
+			<p>
+				<q>My favorite finding is this: we did a study where we asked students, 'How satisfied are you with your life? How often do you have a date?' The two answers were not statistically related - you would conclude that there is no relationship between dating frequency and life satisfaction. But when we reversed the order and asked, 'How often do you have a date? How satisfied are you with your life?' the statistical relationship was a strong one. You would now conclude that there is nothing as important in a student's life as dating frequency.</q>      
 			</p>
 		</example>
 	</subsection>
