@@ -829,12 +829,41 @@
 				When we wish to represent quantitative variable graphically we encounter many of the same issues we saw with qualitative data: raw numbers are rarely meaningful on their own. Just as we used frequency tables to summarize qualitative data before creating graphs, we must first organize quantitative data to make it interpretable. As we will see below, most of the time this means grouping the data into intervals before creating a graph. 
 			</p>
 		</introduction>
-
 		<subsubsection xml:id="sec_graphs_quantitative_tables">
 			<title>Summarizing Quantitative Data with Tables</title>
 			<p>
 				The first step in graphing quantitative data is to find a way to summarize it in a table, just as we used <xref ref="def_frequency-table" text="custom">frequency tables</xref> for qualitative variables. However, unlike qualitative data, quantitative data doesn't come with ready-made categories to use as table rows. So, before we can build the table, we need to create appropriate groupings for the data.
 			</p>
+			<definition xml:id="def_frequency-distribution">
+				<idx><h>frequency distribution</h></idx>
+				<idx><h>frequency distribution</h><h>class</h></idx>
+				<idx><h>frequency distribution</h><h>class width</h></idx>
+				<idx><h>frequency distribution</h><h>upper class limit</h></idx>
+				<idx>class width</idx>
+				<statement>
+					<p>
+						A <term>frequency distribution</term> is a table constructed to summarize quantitative data. It has the following components:
+						<ul>
+							<li>
+								<p>
+									<term>Class</term>: the range of values taken on by the variable is broken up into sections called <term>classes</term>.
+								</p>
+							</li>
+							<li>
+								<p>
+									<term>Upper Class Limit</term>: the largest number that belongs to a class is called the <term>upper class limit</term>.
+								</p>
+							</li>
+							<li>
+								<p>
+									<term>Class Width</term>: the difference between the upper class limit of a given class and the upper class limit of the previous class (or the minimum value in the data set for the	first class) is called the <term>class width</term>. This value should be the same for each class.
+								</p>
+							</li>
+						</ul>
+						Once the classes are created, treat them as categories and count how many values fall into each. Then, organize the results in a table with one column for the classes and another for their frequencies.
+					</p>
+				</statement>
+			</definition>
 		</subsubsection>
 	</subsection>
 </section>
