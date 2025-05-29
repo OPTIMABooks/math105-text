@@ -1,6 +1,9 @@
 \documentclass{standalone}
 \usepackage{tikz, pgfplots,xcolor}
 
+\definecolor{LB1}{RGB}{17,117,167}
+\definecolor{LB2}{RGB}{60,84,111}
+
 \begin{document}
 \begin{tikzpicture}
   \begin{axis}[
@@ -22,7 +25,7 @@
       width=12cm,
       height=8cm
     ]
-    \addplot+[ybar interval,mark=no,fill=cyan, draw=blue] plot coordinates { (8, 17) (10, 7) (12, 14) (14, 10) (16, 16) (18,0) };
+    \addplot+[ybar interval,mark=no,fill=LB2, draw=lightgray] plot coordinates { (8, 17) (10, 7) (12, 14) (14, 10) (16, 16) (18,0) };
   \end{axis}
 \end{tikzpicture}
 \end{document}

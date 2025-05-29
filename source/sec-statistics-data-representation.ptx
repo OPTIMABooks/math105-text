@@ -691,7 +691,7 @@
 									axis line style={thick},
 									tick style={thick},
 							]
-							\addplot[fill=cyan, draw=black] coordinates {
+							\addplot[fill=CustomB2, draw=black] coordinates {
 									(1,1)   % Anchovies
 									(2,10)  % Bacon
 									(3,17)  % Cheese
@@ -1090,7 +1090,7 @@
 											width=12cm,
 											height=8cm
 										]
-										\addplot+[ybar interval,mark=no,fill=cyan, draw=blue] plot coordinates { (8, 17) (10, 7) (12, 14) (14, 10) (16, 16) (18,0) };
+										\addplot+[ybar interval,mark=no,fill=CustomB2, draw=lightgray] plot coordinates { (8, 17) (10, 7) (12, 14) (14, 10) (16, 16) (18,0) };
 									\end{axis}
 								\end{tikzpicture}
 							</latex-image>
