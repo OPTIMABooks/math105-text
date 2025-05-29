@@ -822,4 +822,19 @@
 			</example>
 		</subsubsection>
 	</subsection>
+	<subsection xml:id="subsec_graphs_quantitative">
+		<title>Graphing Quantitative Data</title>
+		<introduction>
+			<p> 
+				When we wish to represent quantitative variable graphically we encounter many of the same issues we saw with qualitative data: raw numbers are rarely meaningful on their own. Just as we used frequency tables to summarize qualitative data before creating graphs, we must first organize quantitative data to make it interpretable. As we will see below, most of the time this means grouping the data into intervals before creating a graph. 
+			</p>
+		</introduction>
+
+		<subsubsection xml:id="sec_graphs_quantitative_tables">
+			<title>Summarizing Quantitative Data with Tables</title>
+			<p>
+				The first step in graphing quantitative data is to find a way to summarize it in a table, just as we used <xref ref="def_frequency-table" text="custom">frequency tables</xref> for qualitative variables. However, unlike qualitative data, quantitative data doesn't come with ready-made categories to use as table rows. So, before we can build the table, we need to create appropriate groupings for the data.
+			</p>
+		</subsubsection>
+	</subsection>
 </section>
