@@ -815,7 +815,9 @@
 							</latex-image>
 						</image>
 					</figure>
-					<p>Note that spreadsheet programs often convert relative frequencies into percents when constructing a pie graph.</p>
+					<p>
+						Note that spreadsheet programs often convert relative frequencies into percents when constructing a pie graph.
+					</p>
 				</solution>
 			</example>
 		</subsubsection>
