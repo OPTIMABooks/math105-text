@@ -867,6 +867,171 @@
 			<p>
 				Remember that although a frequency distribution and a frequency table may look similar, they are used for different types of data. A <term>frequency table</term> is typically used to organize and summarize <em>qualitative (categorical)</em> data<mdash/>like colors, brands, or types. In contrast, a <term>frequency distribution</term> is used for <em>quantitative (numerical)</em> data<mdash/>like heights, weights, or test scores. Creating a frequency distribution requires dividing the range of numerical values into classes or intervals before organizing the data.
 			</p>
+			<example xml:id="ex_graphs_frequency-distribution">
+				<!-- <title>Constructing a Frequency Distribution</title> -->
+				<statement>
+					<p>
+						Daisy is particularly interested in the height of tomato plants. Over the summer, she collects data from various randomly selected gardens in her hometown. Summarize the heights she recorded (rounded to the nearest tenth of an inch) using a frequency distribution with five classes.
+					</p>
+					<table xml:id="ex_graphs_frequency-distribution_table">
+						<title>Tomato Plant Heights</title>
+						<tabular>
+							<row>
+								<cell>11.1</cell>
+								<cell>10.1</cell>
+								<cell>17.9</cell>
+								<cell>16.9</cell>
+								<cell>9.3</cell>
+								<cell>9.6</cell>
+								<cell>14.1</cell>
+								<cell>15.2</cell>
+							</row>
+							<row>
+								<cell>9.4</cell>
+								<cell>14.2</cell>
+								<cell>12.7</cell>
+								<cell>8.4</cell>
+								<cell>13.0</cell>
+								<cell>12.2</cell>
+								<cell>16.2</cell>
+								<cell>12.0</cell>
+							</row>
+							<row>
+								<cell>9.7</cell>
+								<cell>11.2</cell>
+								<cell>8.9</cell>
+								<cell>17.4</cell>
+								<cell>16.6</cell>
+								<cell>9.8</cell>
+								<cell>17.0</cell>
+								<cell>13.4</cell>
+							</row>
+							<row>
+								<cell>10.5</cell>
+								<cell>15.3</cell>
+								<cell>13.5</cell>
+								<cell>12.7</cell>
+								<cell>12.8</cell>
+								<cell>17.0</cell>
+								<cell>12.9</cell>
+								<cell>8.6</cell>
+							</row>
+							<row>
+								<cell>8.3</cell>
+								<cell>13.4</cell>
+								<cell>17.3</cell>
+								<cell>8.8</cell>
+								<cell>8.2</cell>
+								<cell>13.3</cell>
+								<cell>17.4</cell>
+								<cell>12.1</cell>
+							</row>
+							<row>
+								<cell>16.1</cell>
+								<cell>9.4</cell>
+								<cell>10.7</cell>
+								<cell>17.0</cell>
+								<cell>9.9</cell>
+								<cell>13.1</cell>
+								<cell>10.4</cell>
+								<cell>14.8</cell>
+							</row>
+							<row>
+								<cell>17.7</cell>
+								<cell>10.2</cell>
+								<cell>16.6</cell>
+								<cell>8.1</cell>
+								<cell>8.5</cell>
+								<cell>16.9</cell>
+								<cell>14.1</cell>
+								<cell>17.5</cell>
+							</row>
+							<row>
+								<cell>9.1</cell>
+								<cell>13.0</cell>
+								<cell>8.7</cell>
+								<cell>16.0</cell>
+								<cell>16.6</cell>
+								<cell>14.6</cell>
+								<cell>14.8</cell>
+								<cell>15.1</cell>
+							</row>
+						</tabular>
+					</table>
+				</statement>
+				<solution>
+					<sidebyside widths="65% 30%" margins="auto" valign="middle">
+						<p>
+							To construct a frequency distribution, we follow these steps:
+							<ol>
+								<li>
+									<p>
+										Determine the class width as follows:
+										<ol>
+											<li>
+												<p>
+													Find the difference between the highest number, 17.9, and the lowest, 8.1. We round to a range of 10.
+												</p>
+											</li>
+											<li>
+												<p>
+													Find the class width by taking dividing the range by the number of classes: <m>\frac{10}{5} = 2</m>.
+												</p>
+											</li>
+										</ol>
+									</p>
+								</li>
+								<li>
+									<p>
+										Starting with our minimum value (we'll round down to 8), add the class width to get the upper class limits: 10, 12, 14, 16, and 18.
+									</p>
+								</li>
+								<li>
+									<p>
+										List the classes in the first column of our table. Note that these should not include the previous class upper class limit, thus the second class is	from 10.1<ndash/>12, not 10<ndash/>12.
+									</p>
+								</li>
+								<li>
+									<p>
+										Finally, count the number of values that fall into each class. For example, there are 7 values bigger than 10, but less than or equal to 12.
+									</p>
+								</li>
+							</ol>
+						</p>
+						<table xml:id="ex_graphs_frequency-distribution_frequency-distribution">
+							<title>Frequency Distribution of Tomato Plant Heights</title>
+							<tabular  halign="center">
+								<col halign="center" right="medium"></col>
+								<col halign="center"></col>
+								<row bottom="medium">
+									<cell>Classes</cell>
+									<cell>Frequency</cell>
+								</row>
+								<row>
+									<cell>8.1<ndash/>10</cell>
+									<cell>17</cell>
+								</row>
+								<row>
+									<cell>10.1<ndash/>12</cell>
+									<cell>7</cell>
+								</row>
+								<row>
+									<cell>12.1<ndash/>14</cell>
+									<cell>14</cell>
+								</row>
+								<row>
+									<cell>14.1<ndash/>16</cell>
+									<cell>10</cell>
+								</row>
+								<row>
+									<cell>16.1<ndash/>18</cell>
+									<cell>16</cell>
+								</row>
+							</tabular>
+						</table>
+					</sidebyside>
+				</solution>
+			</example>
 		</subsubsection>
 	</subsection>
 </section>
