@@ -1202,7 +1202,7 @@
 								</li>
 							</ol>
 						</p>
-						<listing xml:id="fig_graphs_examp_stem-and-leaf">
+						<listing xml:id="listing_graphs_examp_stem-and-leaf">
 							<caption>Stem-and-Leaf Plot</caption>
 							<!-- Leave indent at far left of spacing won't work out in HTML! -->
 <program>
@@ -1228,6 +1228,38 @@ Stem | Leaf
 					</p>
 			  </statement>
 			</definition>
+			<example xml:id="ex_graphs_expanded-stem-and-leaf">
+				<!-- <title>Constructing an Expanded Stem-and-Leaf Plot</title> -->
+				<statement>
+					<p>
+						Construct an expanded stem-and-leaf plot for the credits data from <xref ref="ex_graphs_stem-and-leaf"/> using two rows per stem.
+					</p>
+				</statement>
+				<solution>
+					<sidebyside widths="50% 45%" margins="auto" valign="middle">
+						<p>
+							This is done in almost exactly the same way as	<xref ref="ex_graphs_stem-and-leaf" text="custom">our last example</xref>. The only difference is that	each stem gets two rows. The leaves are then split up with 0<ndash/>4 going in the first row and 5<ndash/>9 in the second row for a given stem. The result is	shown to the right.
+						</p>
+						<listing xml:id="listing_graphs_ex_expanded-stem-and-leaf">
+							<caption>Expanded stem-and-leaf plot</caption>
+							<!-- Leave indent at far left of spacing won't work out in HTML! -->
+<program> 
+Stem | Leaf
+-----|-------------
+   0 | 3
+   0 | 689 
+   1 | 1223344
+   1 | 55555666666677889
+   2 | 11
+   2 |
+</program>
+						</listing>	
+					</sidebyside>
+					<p>
+						This gives us a clearer picture of how the credit hour values are distributed!
+					</p>
+				</solution>
+			</example>
 		</subsubsection>
 	</subsection>
 </section>
