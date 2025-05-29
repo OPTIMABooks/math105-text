@@ -864,6 +864,9 @@
 					</p>
 				</statement>
 			</definition>
+			<p>
+				Remember that although a frequency distribution and a frequency table may look similar, they are used for different types of data. A <term>frequency table</term> is typically used to organize and summarize <em>qualitative (categorical)</em> data<mdash/>like colors, brands, or types. In contrast, a <term>frequency distribution</term> is used for <em>quantitative (numerical)</em> data<mdash/>like heights, weights, or test scores. Creating a frequency distribution requires dividing the range of numerical values into classes or intervals before organizing the data.
+			</p>
 		</subsubsection>
 	</subsection>
 </section>
