@@ -1102,5 +1102,24 @@
 				</solution>
 			</example>
 		</subsubsection>
+		<subsubsection xml:id="subsubsec_graphs_quantitative_stem-and-leaf">
+			<title>Stem-and-Leaf Plots</title>
+			<p>
+				One disadvantage of summarizing quantitative data using a frequency distribution or histogram is that you lose the specific data values. In other words, you can no longer see the individual values that existed before the summary. If we want a visual representation of quantitative data that also displays the raw values, we need a different type of graph.
+			</p>
+			<example xml:id="ex_graphs_recovering-data">
+				<title>Recovering Data from a Frequency Distribution</title>
+				<statement>
+				  <p>
+						Using the frequency distribution created in <xref ref="ex_graphs_frequency-distribution"/>, determine how many tomato plants are exactly 14.2 inches tall.
+					</p>
+				</statement>
+				<solution>
+					<p>
+						Looking just at the <xref ref="ex_graphs_frequency-distribution_frequency-distribution" text="custom">frequency distribution</xref> we created for this data, this is not possible.  If all we have is the frequency distribution, we can only tell that there are 10 plants between 14.1 and 16 inches tall. Some of those may be 14.2 inches tall, but there is no way of knowing without going back to the raw data.
+					</p>
+				</solution>
+			</example>
+		</subsubsection>
 	</subsection>
 </section>
