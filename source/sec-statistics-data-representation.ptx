@@ -1216,6 +1216,18 @@ Stem | Leaf
 					</sidebyside>
 				</solution>
 			</example>
+			<p>
+				Notice that the <q>shape</q> of the stem-and-leaf plot in the example above is like a histogram tilted on its side.	However, in this particular instance the middle stem seems to have a disproportionate number of leaves, which makes the plot not very insightful. To remedy this, we can split our stems up into smaller pieces.
+			</p>
+			<definition>
+				<idx>expanded stem-and-leaf plot</idx>
+			  <idx><h>graphs</h><h>expanded stem-and-leaf plot</h></idx>
+			  <statement>
+			  	<p>
+						An <term>expanded stem-and-leaf plot</term> includes more than one row for each stem. The leaves are divided equally between the rows representing the associated stems.
+					</p>
+			  </statement>
+			</definition>
 		</subsubsection>
 	</subsection>
 </section>
