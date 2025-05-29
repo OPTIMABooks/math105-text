@@ -719,6 +719,18 @@
 					</figure>
 				</solution>
 			</example>
+			<p>
+				Both bar graphs and relative frequency bar graphs are useful for comparing the number or percentage of values in one category with those in another. However, when the goal is to illustrate how each category contributes to the whole, a <term>pie graph</term> is often more useful. Pie graphs can be created using the same software we previously used to construct bar charts. As an example, let's revisit our pizza toppings scenario one more time.
+			</p>
+			<definition xml:id="def_pie-graph">
+				<idx>pie graph</idx>
+				<idx><h>graphs</h><h>pie graph</h></idx>
+				<statement>
+					<p>
+						A <term>pie graph</term> is a type of graph used to represent qualitative data, where a circle is divided into sectors or wedges, each corresponding to a category. The area of each sector is proportional to the relative frequency of that category in the dataset.
+					</p>
+				</statement>
+			</definition>
 		</subsubsection>
 	</subsection>
 </section>
