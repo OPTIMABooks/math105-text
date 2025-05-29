@@ -1,7 +1,8 @@
 \documentclass{standalone}
 \usepackage{tikz,pgfplots}
+\pgfplotsset{compat=1.18}
 \begin{document}
-\begin{tikzpicture}[font=\sffamily]
+\begin{tikzpicture}[font=\sffamily] % Apply \sffamily to the entire picture
 \begin{axis}[
     axis lines=left,
     no markers,
@@ -10,12 +11,14 @@
     xtick={1,2,3,4,5,6,7,8,9,10},
     ytick={0,5,10,15,20},
     xticklabels={Anchovies,Bacon,Cheese,Pepper,Mushroom,Olive,Onion,Pepperoni,Pineapple,Sausage},
-    ticklabel style={font=\normalsize},
+    ticklabel style={font=\normalsize\sffamily},
     xticklabel style={rotate=90},
+    xlabel style={font=\sffamily, yshift=-0.5cm},
     xlabel={Pizza Topping},
-    xlabel style={yshift=-1.5cm},
+    ylabel style={font=\sffamily},
     ylabel={Frequency},
     title={Favorite Pizza Toppings},
+    title style={font=\large\sffamily\bfseries},
     enlargelimits=false,
     clip=false,
     grid = none,
@@ -24,8 +27,6 @@
     bar width=.5cm,
     width=12cm,
     height=8cm,
-    % Add some styling improvements
-    title style={font=\large\bfseries},
     axis line style={thick},
     tick style={thick},
 ]
@@ -45,7 +46,7 @@
 % Add value labels on top of bars
 \addplot[
     nodes near coords,
-    nodes near coords style={font=\normalsize, anchor=south},
+    nodes near coords style={font=\normalsize\sffamily, anchor=south},
     only marks,
     mark=none
 ] coordinates {

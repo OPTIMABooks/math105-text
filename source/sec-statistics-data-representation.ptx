@@ -663,57 +663,59 @@
 								A bar for each pizza topping with heights corresponding to the to frequency of the topping in our frequency table.
 						  </shortdescription>
 						  <latex-image>
-								\begin{tikzpicture}[font=\sffamily]
-									\begin{axis}[
-											axis lines=left,
-											no markers,
-											xmin = 0.5, xmax=10.5,
-											ymin=0, ymax=20,
-											xtick={1,2,3,4,5,6,7,8,9,10},
-											ytick={0,5,10,15,20},
-											xticklabels={Anchovies,Bacon,Cheese,Pepper,Mushroom,Olive,Onion,Pepperoni,Pineapple,Sausage},
-											ticklabel style={font=\normalsize},
-											xticklabel style={rotate=90},
-											xlabel={Pizza Topping},
-											xlabel style={yshift=-1.5cm},
-											ylabel={Frequency},
-											title={Favorite Pizza Toppings},
-											enlargelimits=false,
-											clip=false,
-											grid = none,
-											ymajorgrids=true,
-											ybar=0pt,
-											bar width=.5cm,
-											width=12cm,
-											height=8cm,
-											% Add some styling improvements
-											title style={font=\large\bfseries},
-											axis line style={thick},
-											tick style={thick},
-									]
-									\addplot[fill=cyan, draw=black] coordinates {
-											(1,1)   % Anchovies
-											(2,10)  % Bacon
-											(3,17)  % Cheese
-											(4,11)  % Pepper
-											(5,4)   % Mushroom
-											(6,15)  % Olive
-											(7,5)   % Onion
-											(8,17)  % Pepperoni
-											(9,6)   % Pineapple
-											(10,10) % Sausage
-									};
-									% Add value labels on top of bars
-									\addplot[
-											nodes near coords,
-											nodes near coords style={font=\normalsize, anchor=south},
-											only marks,
-											mark=none
-									] coordinates {
-											(1,1) (2,10) (3,17) (4,11) (5,4) (6,15) (7,5) (8,17) (9,6) (10,10)
-									};
-									\end{axis}
-								\end{tikzpicture}
+							\begin{tikzpicture}[font=\sffamily] % Apply \sffamily to the entire picture
+							\begin{axis}[
+									axis lines=left,
+									no markers,
+									xmin = 0.5, xmax=10.5,
+									ymin=0, ymax=20,
+									xtick={1,2,3,4,5,6,7,8,9,10},
+									ytick={0,5,10,15,20},
+									xticklabels={Anchovies,Bacon,Cheese,Pepper,Mushroom,Olive,Onion,Pepperoni,Pineapple,Sausage},
+									ticklabel style={font=\normalsize\sffamily},
+									xticklabel style={rotate=90},
+									xlabel style={font=\sffamily, yshift=-0.5cm},
+									xlabel={Pizza Topping},
+									ylabel style={font=\sffamily},
+									ylabel={Frequency},
+									title={Favorite Pizza Toppings},
+									title style={font=\large\sffamily\bfseries},
+									enlargelimits=false,
+									clip=false,
+									grid = none,
+									ymajorgrids=true,
+									ybar=0pt,
+									bar width=.5cm,
+									width=12cm,
+									height=8cm,
+									axis line style={thick},
+									tick style={thick},
+							]
+							\addplot[fill=cyan, draw=black] coordinates {
+									(1,1)   % Anchovies
+									(2,10)  % Bacon
+									(3,17)  % Cheese
+									(4,11)  % Pepper
+									(5,4)   % Mushroom
+									(6,15)  % Olive
+									(7,5)   % Onion
+									(8,17)  % Pepperoni
+									(9,6)   % Pineapple
+									(10,10) % Sausage
+							};
+
+							% Add value labels on top of bars
+							\addplot[
+									nodes near coords,
+									nodes near coords style={font=\normalsize\sffamily, anchor=south},
+									only marks,
+									mark=none
+							] coordinates {
+									(1,1) (2,10) (3,17) (4,11) (5,4) (6,15) (7,5) (8,17) (9,6) (10,10)
+							};
+
+							\end{axis}
+							\end{tikzpicture}
 						  </latex-image>
 						</image>
 					</figure>
@@ -731,6 +733,91 @@
 					</p>
 				</statement>
 			</definition>
+			<example xml:id="ex_graphs_pie-graph">
+				<!-- <title>Constructing a Pie Graph</title> -->
+				<statement>
+					<p>Construct a pie graph for the pizza topping data seen in <xref ref="ex_graphs_organizing-data"/>.</p>
+				</statement>
+				<solution>
+					<p>Based on the <xref ref="ex_graphs_relative-frequency-table_table" text="custom">relative frequency table</xref> previously constructed for this data, we get the following pie graph.</p>
+					<figure xml:id="fig_graphs_ex_pie-graph">
+						<caption>Pizza topping pie graph</caption>
+						<image xml:id="image_graphs_ex_pie-graph"  width="80%">
+							<shortdescription>
+								A circle divided into ten sectors with sizes proportional to the relative frequency of the pizza toppings they represent.
+							</shortdescription>
+							<latex-image>
+								% This code started as Jonathan Duncan's from Optima Statistics, but I ran it through AI to improve the colors, readability, and efficiency. I also made some style tweaks. 
+								% Note: this code requires 
+								\begin{tikzpicture}
+
+										% Calculate cumulative angles and draw pie slices
+										\def\startangle{90}
+										\def\currentangle{\startangle}
+
+										% Loop through data to draw pie slices with bright colors
+										\foreach \percentage/\label/\color [count=\i] in {
+												1/Anchovies/red,
+												9/Bacon/orange,
+												18/Cheese/yellow,
+												12/Pepper/green!70!yellow,
+												4/Mushroom/green,
+												15/Olive/cyan,
+												6/Onion/blue,
+												18/Pepperoni/blue!70!magenta,
+												6/Pineapple/magenta,
+												11/Sausage/red!70!magenta} 
+										{
+												% Calculate end angle
+												\pgfmathsetmacro{\endangle}{\currentangle - \percentage * 3.6}
+
+												% Draw pie slice with bright colors
+												\filldraw[fill=\color!70!white, draw=black, very thin]
+														(0,0) -- (\currentangle:2) arc (\currentangle:\endangle:2) -- cycle;
+
+												% Update current angle for next iteration
+												\pgfmathsetmacro{\currentangle}{\endangle}
+												\global\let\currentangle=\currentangle
+										}
+
+										% Establish precise coordinates for clean labeling (like first code)
+										\coordinate (left border) at (4.25,0);
+										\coordinate (right border) at (-4.25,0);
+										\coordinate (l1) at (88.2:1.75);    % Anchovies
+										\coordinate (l2) at (70.2:1.0);     % Bacon
+										\coordinate (l3) at (15:1.3);       % Cheese
+										\coordinate (l4) at (-32.5:1.2);    % Pepper
+										\coordinate (l5) at (-61:1.5);      % Mushroom
+										\coordinate (l6) at (-95.6:1.75);   % Olive
+										\coordinate (l7) at (-133.4:1.5);   % Onion
+										\coordinate (l8) at (-176.6:1.75);  % Pepperoni
+										\coordinate (l9) at (-219.8:1.5);   % Pineapple
+										\coordinate (l10) at (-250.3:1.75); % Sausage
+
+										% Attach labels with clean positioning
+										\begin{scope}[lab/.style={gray!80!white,thick,draw,font={\footnotesize\sffamily}},outer sep=-0.75mm]
+											\fill[lab] (l1) circle(0.05) -- (l1-|left border) node[anchor=south east] {Anchovies (1\%)};
+											\fill[lab] (l2) circle(0.05) -- (l2-|left border) node[anchor=south east] {Bacon (9\%)};
+											\fill[lab] (l3) circle(0.05) -- (l3-|left border) node[anchor=south east] {Cheese (18\%)};
+											\fill[lab] (l4) circle(0.05) -- (l4-|left border) node[anchor=south east] {Pepper (12\%)};
+											\fill[lab] (l5) circle(0.05) -- (l5-|left border) node[anchor=south east] {Mushroom (4\%)};
+											\fill[lab] (l6) circle(0.05) -- (l6-|right border) node[anchor=south west] {Olive (15\%)};
+											\fill[lab] (l7) circle(0.05) -- (l7-|right border) node[anchor=south west] {Onion (6\%)};
+											\fill[lab] (l8) circle(0.05) -- (l8-|right border) node[anchor=south west] {Pepperoni (18\%)};
+											\fill[lab] (l9) circle(0.05) -- (l9-|right border) node[anchor=south west] {Pineapple (6\%)};
+											\fill[lab] (l10) circle(0.05) -- (l10-|right border) node[anchor=south west] {Sausage (11\%)};
+										\end{scope}
+
+										% Enhanced title styling
+										\node[font=\normalsize\sffamily\bfseries, color=black!80] at (0,2.8) {Favorite Pizza Toppings};
+
+								\end{tikzpicture}
+							</latex-image>
+						</image>
+					</figure>
+					<p>Note that spreadsheet programs often convert relative frequencies into percents when constructing a pie graph.</p>
+				</solution>
+			</example>
 		</subsubsection>
 	</subsection>
 </section>
