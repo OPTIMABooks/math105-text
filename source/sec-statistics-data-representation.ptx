@@ -1032,6 +1032,9 @@
 					</sidebyside>
 				</solution>
 			</example>
+			<p>
+				Once we have summarized our data in a frequency distribution, we construct a relative frequency distribution by dividing each class frequency by the grand total. We can also create a representative graph called a <term>histogram</term>, which we will explore in the next section.
+			</p>
 		</subsubsection>
 	</subsection>
 </section>
