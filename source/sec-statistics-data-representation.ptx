@@ -1054,6 +1054,31 @@
 			<p>
 				In a histogram, the order of the bars is important because the classes are arranged from the smallest to the largest values. The bars touch each other to show that the classes are contiguous, meaning there are no gaps between them. These two features (ordered classes and touching bars) are not present when making bar graphs. Now, let's construct a histogram for the tomato plant heights from the previous example using a spreadsheet, just as we did when creating a bar graph.
 			</p>
+			<example xml:id="ex_graphs_histogram">
+				<!-- <title>Constructing a Histogram</title> -->
+				<statement>
+					<p>Construct a histogram for the frequency distribution found in <xref ref="ex_graphs_frequency-distribution"/>.</p>
+				</statement>
+				<solution>
+					<p>
+						Based on the <xref ref="ex_graphs_frequency-distribution_frequency-distribution" text="custom">frequency distribution</xref> built in the previous example, we construct the following histogram.
+					</p>
+					<figure xml:id="fig_graphs_ex_histogram">
+						<caption>Tomato plant heights</caption>
+						<image width="80%" xml:id="image_graphs_ex_histogram">
+							<shortdescription>
+								One bar for each range of tomato plant heights arranged in order of increasing height with no gaps between the bars and the height of the bar equal to the number of plants in the range the bar represents.
+							</shortdescription>
+							<latex-image>
+								<!-- <xi:include href="./latex-images/graphs_examp_histogram.tex" parse="text"/> -->
+							</latex-image>
+						</image>
+					</figure>
+					<p>
+						Notice that the bars in this graph touch each other, and that they are in order from lowest values (between 8.1 and 10) up to highest values (between 16.1 and 18). These are both important characteristics for histograms!
+					</p>
+				</solution>
+			</example>
 		</subsubsection>
 	</subsection>
 </section>
