@@ -1036,5 +1036,24 @@
 				Once we have summarized our data in a frequency distribution, we construct a relative frequency distribution by dividing each class frequency by the grand total. We can also create a representative graph called a <term>histogram</term>, which we will explore in the next section.
 			</p>
 		</subsubsection>
+		<subsubsection xml:id="subsubsec_graphs_quantitative_histograms">
+			<title>Histograms</title>
+			<p>
+				The graph that we use to describe data summarized by a frequency distribution called a <term>histogram</term>. A histogram is very similar to	the <xref ref="def_bar-graph" text="custom">bar graphs</xref> we used to summarize data from a frequency table. There are,	however, some important differences.
+			</p>
+			<definition xml:id="def_histogram">
+				<idx>histogram</idx>
+				<idx><h>graphs</h><h>histogram</h></idx>
+				<idx><h>graphs</h><h>histogram</h><seealso>histogram</seealso></idx>
+				<statement>
+					<p>
+						A <term>histogram</term> is a graph that displays the frequency distribution of quantitative data using adjacent bars. Each bar represents a class, and its height corresponds to the class's frequency. The bars are ordered by class and must touch to reflect the continuous nature of the data.
+					</p>
+				</statement>
+			</definition>
+			<p>
+				In a histogram, the order of the bars is important because the classes are arranged from the smallest to the largest values. The bars touch each other to show that the classes are contiguous, meaning there are no gaps between them. These two features (ordered classes and touching bars) are not present when making bar graphs. Now, let's construct a histogram for the tomato plant heights from the previous example using a spreadsheet, just as we did when creating a bar graph.
+			</p>
+		</subsubsection>
 	</subsection>
 </section>
