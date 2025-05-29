@@ -1132,6 +1132,90 @@
 			<p>
 				Stem-and-leaf plots are typically created by hand, making them most useful for relatively small data sets when we want a quick visual impression of the data's shape. To ensure accuracy, each "leaf" should take up the same amount of space. If you're typing a stem-and-leaf plot on a computer, use a monospaced font like Courier so that narrower digits (like 1) don’t take up less space than wider ones (like 8). Consider the following example.
 			</p>
+			<example xml:id="ex_graphs_stem-and-leaf">
+				<!-- <title>Constructing a Stem-and-Leaf Plot</title> -->
+				<statement>
+					<p>
+						The following is a list of number of quarter credits taken by 30 different college students. Construct a stem-and-leaf plot for this data.
+					</p>
+					<table xml:id="ex_graphs_stem-and-leaf_table">
+						<title>Number of Credits Taken</title>
+						<tabular>
+							<row>
+								<cell>12</cell>
+								<cell>17</cell>
+								<cell>14</cell>
+								<cell>13</cell>
+								<cell>16</cell>
+								<cell>16</cell>
+								<cell>18</cell>
+								<cell>8</cell>
+								<cell>21</cell>
+								<cell>16</cell>
+							</row>
+							<row>
+								<cell>14</cell>
+								<cell>13</cell>
+								<cell>16</cell>
+								<cell>17</cell>
+								<cell>16</cell>
+								<cell>16</cell>
+								<cell>9</cell>
+								<cell>3</cell>
+								<cell>18</cell>
+								<cell>15</cell>
+							</row>
+							<row>
+								<cell>15</cell>
+								<cell>12</cell>
+								<cell>11</cell>
+								<cell>15</cell>
+								<cell>21</cell>
+								<cell>16</cell>
+								<cell>15</cell>
+								<cell>6</cell>
+								<cell>15</cell>
+								<cell>19</cell>
+							</row>
+						</tabular>
+					</table>
+				</statement>
+				<solution>
+					<sidebyside widths="45% 52%" margins="auto" valign="middle">
+						<p>
+							Construct a stem-and-leaf plot as follows:
+							<ol>
+								<li>
+									<p>
+										Divide each value into the stem (10's	digit) and leaf (1's digit). This gives stems 0, 1, and 2.
+									</p>
+								</li>
+								<li>
+									<p>
+										List the stems in order in the first column of our table.
+									</p>
+								</li>
+								<li>
+									<p>
+										For each stem, list the associated leaves in ascending order.
+									</p>
+								</li>
+							</ol>
+						</p>
+						<listing xml:id="fig_graphs_examp_stem-and-leaf">
+							<caption>Stem-and-Leaf Plot</caption>
+							<!-- Leave indent at far left of spacing won't work out in HTML! -->
+<program>
+Stem | Leaf
+-----|-------------
+   0 | 3689
+   1 | 122334455555666666677889
+   2 | 11
+</program>
+						</listing>
+					</sidebyside>
+				</solution>
+			</example>
 		</subsubsection>
 	</subsection>
 </section>
