@@ -1120,6 +1120,18 @@
 					</p>
 				</solution>
 			</example>
+			<definition xml:id="def_stem-and-leaf">
+				<idx>stem-and-leaf plot</idx>
+				<idx><h>graphs</h><h>stem-and-leaf plot</h></idx>
+				<statement>
+					<p>
+						A <term>stem-and-leaf plot</term> is a table where each data value is split into two parts: the stem (all but the right-most digit) and the leaf (the right-most digit). The table includes a row for each stem, with the stem in the first column and a list of its corresponding leaves in the second column, arranged in ascending order without spaces or commas.
+					</p>
+				</statement>
+			</definition>
+			<p>
+				Stem-and-leaf plots are typically created by hand, making them most useful for relatively small data sets when we want a quick visual impression of the data's shape. To ensure accuracy, each "leaf" should take up the same amount of space. If you're typing a stem-and-leaf plot on a computer, use a monospaced font like Courier so that narrower digits (like 1) don’t take up less space than wider ones (like 8). Consider the following example.
+			</p>
 		</subsubsection>
 	</subsection>
 </section>
