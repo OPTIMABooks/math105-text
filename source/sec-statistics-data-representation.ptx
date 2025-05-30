@@ -661,8 +661,8 @@
 						<image xml:id="image_graphs_ex_bar-graph" width="90%">
 							<shortdescription>
 								A bar for each pizza topping with heights corresponding to the to frequency of the topping in our frequency table.
-						  </shortdescription>
-						  <latex-image>
+							</shortdescription>
+							<latex-image>
 							\begin{tikzpicture}[font=\sffamily] % Apply \sffamily to the entire picture
 							\begin{axis}[
 									axis lines=left,
@@ -716,7 +716,7 @@
 
 							\end{axis}
 							\end{tikzpicture}
-						  </latex-image>
+							</latex-image>
 						</image>
 					</figure>
 				</solution>
@@ -1110,7 +1110,7 @@
 			<example xml:id="ex_graphs_recovering-data">
 				<title>Recovering Data from a Frequency Distribution</title>
 				<statement>
-				  <p>
+					<p>
 						Using the frequency distribution created in <xref ref="ex_graphs_frequency-distribution"/>, determine how many tomato plants are exactly 14.2 inches tall.
 					</p>
 				</statement>
@@ -1208,9 +1208,9 @@
 <program>
 Stem | Leaf
 -----|-------------
-   0 | 3689
-   1 | 122334455555666666677889
-   2 | 11
+	 0 | 3689
+	 1 | 122334455555666666677889
+	 2 | 11
 </program>
 						</listing>
 					</sidebyside>
@@ -1221,12 +1221,12 @@ Stem | Leaf
 			</p>
 			<definition>
 				<idx>expanded stem-and-leaf plot</idx>
-			  <idx><h>graphs</h><h>expanded stem-and-leaf plot</h></idx>
-			  <statement>
-			  	<p>
+				<idx><h>graphs</h><h>expanded stem-and-leaf plot</h></idx>
+				<statement>
+					<p>
 						An <term>expanded stem-and-leaf plot</term> includes more than one row for each stem. The leaves are divided equally between the rows representing the associated stems.
 					</p>
-			  </statement>
+				</statement>
 			</definition>
 			<example xml:id="ex_graphs_expanded-stem-and-leaf">
 				<!-- <title>Constructing an Expanded Stem-and-Leaf Plot</title> -->
@@ -1246,12 +1246,12 @@ Stem | Leaf
 <program> 
 Stem | Leaf
 -----|-------------
-   0 | 3
-   0 | 689 
-   1 | 1223344
-   1 | 55555666666677889
-   2 | 11
-   2 |
+	 0 | 3
+	 0 | 689 
+	 1 | 1223344
+	 1 | 55555666666677889
+	 2 | 11
+	 2 |
 </program>
 						</listing>	
 					</sidebyside>
@@ -1261,5 +1261,35 @@ Stem | Leaf
 				</solution>
 			</example>
 		</subsubsection>
+	</subsection>
+	<subsection xml:id="subsec_graphs_quantitative_interpreting">
+		<title>Interpreting Graphs</title>
+		<p>
+			The reason we create graphs in the first place is to help us better understand a set of data. So, it's important that we know how to interpret the graphs we create. In this class, we'll spend most of our time working with univariate quantitative variables. That means we need to be sure we know how to interpret histograms. There are three major things to look for in a histogram: does the histogram have a <term>center</term>, does it have one or more <term>modes</term>, and is it <term>symmetric</term> or <term>skewed</term>?
+		</p>
+		<definition xml:id="def_histogram-center">
+			<idx><h>histogram</h><h>center</h></idx>
+			<statement>
+				<p>
+					The <term>center</term> of a histogram is the class that most accurately describes the typical value in the data set being described.
+				</p>
+			</statement>
+			</definition>
+			<p>
+				<idx><h>histogram</h><h>mode</h></idx>
+				<idx><h>histogram</h><h>unimodal</h></idx>
+				<idx><h>histogram</h><h>bimodal</h></idx>
+				<idx><h>histogram</h><h>multimodal</h></idx>
+				<idx><h>histogram</h><h>uniform</h></idx>
+				One way to describe the shape of a histogram is based on the number and location of its <em>modes</em>. A <term>mode</term> is a class that contains significantly more data than the classes immediately	next to it. A histogram can be <term>unimodal</term> (one mode), <term>bimodal</term> (two modes), <term>multimodal</term> (more than two modes), or it may have no prominent modes in which case it is called <term>uniform</term>.
+			</p>
+			<p>
+				<idx><h>histogram</h><h>symmetric</h></idx>
+				<idx><h>histogram</h><h>skewed</h></idx>
+				Another way to describe the shape of a histogram is by its <term>symmetry</term>. A histogram is <term>symmetric</term> when the left and right sides are mirror images of each other. It is <term>skewed right</term> if the right tail extends farther than the left, and <term>skewed left</term> if the left tail extends farther than the right.
+			</p>
+			<p>
+				We can tell a lot about the distribution of values of a single quantitative variable by describing the	histogram in these terms. Consider the following example.
+			</p>
 	</subsection>
 </section>
