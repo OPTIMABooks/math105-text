@@ -1090,7 +1090,7 @@
 											width=12cm,
 											height=8cm
 										]
-										\addplot+[ybar interval,mark=no,fill=CustomB2, draw=lightgray] plot coordinates { (8, 17) (10, 7) (12, 14) (14, 10) (16, 16) (18,0) };
+										\addplot+[ybar interval,fill=CustomB2, draw=lightgray] plot coordinates { (8, 17) (10, 7) (12, 14) (14, 10) (16, 16) (18,0) };
 									\end{axis}
 								\end{tikzpicture}
 							</latex-image>
@@ -1308,7 +1308,39 @@ Stem | Leaf
 											Histogram bars increase from left to right with until the next-to-last bar, which is the highest.  The last bar is somewhat lower.
 										</shortdescription>
 										<latex-image>
-											<!-- <xi:include href="./latex-images/graphs_examp_describing-histograms-a.tex" parse="text"/> -->
+											\begin{tikzpicture}
+												\begin{axis}[
+														xlabel style={font=\sffamily},
+														ylabel style={font=\sffamily},
+														ticklabel style={font=\sffamily},
+														% title style={font=\large\bfseries\sffamily}
+														axis lines*=left,
+														no markers,
+														xmin=0, xmax=25, ymin=0, ymax=12,
+														xtick={0,5,10,15,20,25},
+														ytick={0,2,...,12},
+														xlabel={Class},
+														ylabel={Frequency},
+														title={\large\bfseries\sffamily Histogram A},
+														ticklabel style={font=\small},
+														enlargelimits=false,
+														clip=false,
+														grid = none,
+														ymajorgrids=true,
+														ybar=0pt,
+														width=12cm,
+														height=8cm
+													]
+													\addplot+[ybar interval, fill=CustomB2, draw=lightgray] plot coordinates {
+															(0, 3)
+															(5, 5)
+															(10, 8)
+															(15, 10)
+															(20, 7)
+															(25,0)
+													};
+												\end{axis}
+											\end{tikzpicture}
 										</latex-image>
 									</image>
 								</figure>								
@@ -1319,7 +1351,39 @@ Stem | Leaf
 											Histogram bars increase from left to right for the first three bars.  The fourth bar is significantly lower, and then the last bar is about the same height as the third.
 										</shortdescription>
 										<latex-image>
-											<!-- <xi:include href="./latex-images/graphs_examp_describing-histograms-b.tex" parse="text"/> -->
+											\begin{tikzpicture}
+												\begin{axis}[
+														xlabel style={font=\sffamily},
+														ylabel style={font=\sffamily},
+														ticklabel style={font=\sffamily},
+														% title style={font=\large\bfseries\sffamily}
+														axis lines*=left,
+														no markers,
+														xmin=0, xmax=25, ymin=0, ymax=12,
+														xtick={0,5,10,15,20,25},
+														ytick={0,2,...,12},
+														xlabel={Class},
+														ylabel={Frequency},
+														title={\large\bfseries\sffamily Histogram B},
+														ticklabel style={font=\small},
+														enlargelimits=false,
+														clip=false,
+														grid = none,
+														ymajorgrids=true,
+														ybar=0pt,
+														width=12cm,
+														height=8cm
+													]
+													\addplot+[ybar interval, fill=CustomB1, draw=lightgray] plot coordinates {
+															(0, 3)
+															(5, 5)
+															(10, 10)
+															(15, 7)
+															(20, 10)
+															(25,0)
+													};
+												\end{axis}
+											\end{tikzpicture}
 										</latex-image>
 									</image>
 								</figure>
@@ -1332,7 +1396,39 @@ Stem | Leaf
 											Histogram bars increase from left to right until the third bar, which is the highest.  Then they decrease at about the same rate at which they increased.
 										</shortdescription>
 										<latex-image>
-											<!-- <xi:include href="./latex-images/graphs_examp_describing-histograms-c.tex" parse="text"/> -->
+											\begin{tikzpicture}
+												\begin{axis}[
+														xlabel style={font=\sffamily},
+														ylabel style={font=\sffamily},
+														ticklabel style={font=\sffamily},
+														% title style={font=\large\bfseries\sffamily}
+														axis lines*=left,
+														no markers,
+														xmin=0, xmax=25, ymin=0, ymax=12,
+														xtick={0,5,10,15,20,25},
+														ytick={0,2,...,12},
+														xlabel={Class},
+														ylabel={Frequency},
+														title={\large\bfseries\sffamily Histogram C},
+														ticklabel style={font=\small},
+														enlargelimits=false,
+														clip=false,
+														grid = none,
+														ymajorgrids=true,
+														ybar=0pt,
+														width=12cm,
+														height=8cm
+													]
+													\addplot+[ybar interval, fill=CustomB1, draw=lightgray] plot coordinates {
+															(0, 4)
+															(5, 7)
+															(10, 11)
+															(15, 6)
+															(20, 4)
+															(25,0)
+													};
+												\end{axis}
+											\end{tikzpicture}
 										</latex-image>
 									</image>
 								</figure>
@@ -1343,7 +1439,39 @@ Stem | Leaf
 								  		Histogram bars are at about the same height all the way across, with the second bar a little higher and the fourth a little lower than the rest.
 										</shortdescription>
 										<latex-image>
-											<!-- <xi:include href="./latex-images/graphs_examp_describing-histograms-d.tex" parse="text"/> -->
+											\begin{tikzpicture}
+												\begin{axis}[
+														xlabel style={font=\sffamily},
+														ylabel style={font=\sffamily},
+														ticklabel style={font=\sffamily},
+														% title style={font=\large\bfseries\sffamily}
+														axis lines*=left,
+														no markers,
+														xmin=0, xmax=25, ymin=0, ymax=12,
+														xtick={0,5,10,15,20,25},
+														ytick={0,2,...,12},
+														xlabel={Class},
+														ylabel={Frequency},
+														title={\large\bfseries\sffamily Histogram D},
+														ticklabel style={font=\small},
+														enlargelimits=false,
+														clip=false,
+														grid = none,
+														ymajorgrids=true,
+														ybar=0pt,
+														width=12cm,
+														height=8cm
+													]
+													\addplot+[ybar interval, fill=CustomB2, draw=lightgray] plot coordinates {
+															(0, 10)
+															(5, 11)
+															(10, 10)
+															(15, 9)
+															(20, 10)
+															(25,0)
+													};
+												\end{axis}
+											\end{tikzpicture}
 										</latex-image>
 									</image>
 								</figure>
@@ -1356,7 +1484,39 @@ Stem | Leaf
 											The left most histogram bar is short, the second is quite tall, the third is short again (but a little taller than the first), the fourt is tall again (and a little taller than the second) and the last one is between the second and third in height.
 										</shortdescription>
 										<latex-image>
-											<!-- <xi:include href="./latex-images/graphs_examp_describing-histograms-e.tex" parse="text"/> -->
+											\begin{tikzpicture}
+												\begin{axis}[
+														xlabel style={font=\sffamily},
+														ylabel style={font=\sffamily},
+														ticklabel style={font=\sffamily},
+														% title style={font=\large\bfseries\sffamily}
+														axis lines*=left,
+														no markers,
+														xmin=0, xmax=25, ymin=0, ymax=12,
+														xtick={0,5,10,15,20,25},
+														ytick={0,2,...,12},
+														xlabel={Class},
+														ylabel={Frequency},
+														title={\large\bfseries\sffamily Histogram E},
+														ticklabel style={font=\small},
+														enlargelimits=false,
+														clip=false,
+														grid = none,
+														ymajorgrids=true,
+														ybar=0pt,
+														width=12cm,
+														height=8cm
+													]
+													\addplot+[ybar interval, fill=CustomB2, draw=lightgray] plot coordinates {
+															(0, 4)
+															(5, 10)
+															(10, 6)
+															(15, 11)
+															(20, 8)
+															(25,0)
+													};
+												\end{axis}
+											\end{tikzpicture}
 										</latex-image>
 									</image>
 								</figure>
@@ -1367,7 +1527,39 @@ Stem | Leaf
 								  		The first bar is quite tall, the second is very short, the third is tall again (a little taller than the first) and the fourth is short (a little shorter than the second).  The last bar is almost as tall as the first.
 										</shortdescription>
 										<latex-image>
-											<!-- <xi:include href="./latex-images/graphs_examp_describing-histograms-f.tex" parse="text"/> -->
+											\begin{tikzpicture}
+												\begin{axis}[
+														xlabel style={font=\sffamily},
+														ylabel style={font=\sffamily},
+														ticklabel style={font=\sffamily},
+														% title style={font=\large\bfseries\sffamily}
+														axis lines*=left,
+														no markers,
+														xmin=0, xmax=25, ymin=0, ymax=12,
+														xtick={0,5,10,15,20,25},
+														ytick={0,2,...,12},
+														xlabel={Class},
+														ylabel={Frequency},
+														title={\large\bfseries\sffamily Histogram F},
+														ticklabel style={font=\small},
+														enlargelimits=false,
+														clip=false,
+														grid = none,
+														ymajorgrids=true,
+														ybar=0pt,
+														width=12cm,
+														height=8cm
+													]
+													\addplot+[ybar interval, fill=CustomB1, draw=lightgray] plot coordinates {
+															(0, 9)
+															(5, 3)
+															(10, 11)
+															(15, 2)
+															(20, 8)
+															(25,0)
+													};
+												\end{axis}
+											\end{tikzpicture}
 										</latex-image>
 									</image>
 								</figure>
