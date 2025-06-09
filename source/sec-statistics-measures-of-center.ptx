@@ -166,6 +166,39 @@
 				</p>
 			</solution>
 		</example>
+		<p>
+			While the mode is an easy way to measure the center, and is in fact the only way we have to measure the center of a set of qualitative data, it is usually not the best choice for measuring the center of a set of quantitative data. To see why this may be so, consider the next example.
+		</p>
+		<example xml:id="ex_center-spread_mode_bad-example">
+			<statement>
+				<p>Find the mode of the following sets of numbers.
+					<ol marker="a.">
+						<li><p><m>\lbrace 1, 2, 5, 7, 12, 15, 19, 22, 50 \rbrace</m></p></li>
+						<li><p><m>\lbrace 1, 1, 20, 23, 26, 24, 29, 30, 27, 32, 19\rbrace</m></p></li>
+					</ol>
+				</p>
+			</statement>
+			<solution>
+				<p>
+					The modes of these sets of numbers are as follows:
+					<ol marker="a">
+						<li>
+							<p>
+								This data set contains no repeated values. Therefore, according to <xref ref="def_mode" text="custom">the definition</xref>, there is no mode for this set.
+							</p>
+						</li>
+						<li>
+							<p>
+								This data contains only one repeated value, the 1. So the mode is 1. However, 1 is definitely not the <q>typical</q> value in the set since all other values are between 19 and 32.
+							</p>
+						</li>
+					</ol>
+				</p>
+			</solution>
+		</example>
+		<p>
+			In summary, you should use the mode to measure the center of any qualitative set of data, or as a quick, but not definitive, measure of center for quantitative data. But be careful! The mode may not exist, there may be multiple modes, and if there is a single mode it may be very different from the <q>typical</q> values in the data set.
+		</p>
 	</subsection>
 
 </section>
