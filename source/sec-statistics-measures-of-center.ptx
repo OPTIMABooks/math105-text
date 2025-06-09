@@ -301,5 +301,26 @@
 			Notice what a big difference the single 6.5 inch fish made! This is what we mean when we say that the midrange is sensitive to outliers.
 		</p>
 	</subsection>
+	<subsection xml:id="sec_center-spread_median">
+		<title>Median</title>
+		<p>
+			To reinforce why we need a measure of center that is resistant to outliers, consider the following example.
+		</p>
+		<example xml:id="ex_center-spread_median_outlier">
+			<p>
+				The most expensive house in a certain market is a $2,500,000.00 mansion. The least expensive house is an $8,000.00 mobile home. Do you think that the midrange is an accurate measure of the <q>typical</q> home value in this market?
+			</p>
+			<p>
+				To answer this question, let's first compute the midrange. This is:
+				<me>
+					\text{midrange} = \frac{2500000 + 8000}{2} = 1254000.
+				</me>
+				Do you think that the typical house really costs one and a quarter million dollars? Probably not! The midrange <em>is not an appropriate measure of center</em> for this data.
+			</p>
+		</example>
+		<p>
+			As we saw before, the outliers in this data set are affecting the midrange. To address these limitations, we need a measure of center that is resistant to outliers and uses more than just the extreme values.
+		</p>
+	</subsection>
 
 </section>
