@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-statistics-measures-of-center" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Measures of Center</title>
+
+	<objectives>
+			<ul>
+			<li>
+				<p>
+					Describe the <q>center</q> of a data set using the mean, mode, and median, and describe the strengths and weaknesses of each of these measures.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+
+	<introduction>
+		<p>
+			In addition to graphical and verbal descriptions, we can use numerical summaries to better understand quantitative distributions by examining where the data is centered and how spread out the values are. Together, measures of center and spread provide important information for estimating population parameters. This section focuses on measures of center, while the next will address measures of spread. We will begin by exploring three common ways to describe the center of a distribution: the mode, median, and mean, each suited to different situations.
+		</p>
+	</introduction>
+
+	<subsection xml:id="sec_center-spread_mode">
+		<title>The Mode</title>
+		<p>
+			
+		</p>
+	</subsection>
+
+</section>
