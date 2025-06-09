@@ -43,7 +43,7 @@
 					A breakout presentation at a business convention attracts 16 participants. The job title of each of these participants is as follows. Find the mode of this set of data.
 				</p>
 				<table xml:id="ex_center-spread_mode-qualitative_data">
-					<title>Job Titles</title>
+					<title>Job titles</title>
 					<tabular>
 						<row>
 							<cell>manager</cell>
@@ -97,6 +97,73 @@
 						</row>
 					</tabular>
 				</table>
+			</solution>
+		</example>
+		<example xml:id="ex_center-spread_mode-quantitative">
+			<!-- <title>The Mode of a Quantitative Variable</title> -->
+			<statement>
+				<p>
+					A survey of twelve grocery store shoppers asked how many times a month these shoppers visit their favorite grocery store. Find the mode of the resulting data, shown below.
+				</p>
+				<table xml:id="ex_center-spread_mode-quantitative_data">
+					<title>Number of visits per month</title>
+					<tabular>
+						<row>
+							<cell>6</cell>
+							<cell>2</cell>
+							<cell>5</cell>
+							<cell>1</cell>
+							<cell>3</cell>
+							<cell>5</cell>
+							<cell>3</cell>
+							<cell>2</cell>
+						</row>
+						<row>
+							<cell>7</cell>
+							<cell>4</cell>
+							<cell>1</cell>
+							<cell>5</cell>
+							<cell>3</cell>
+							<cell>6</cell>
+							<cell>4</cell>
+							<cell>8</cell>
+						</row>
+					</tabular>
+				</table>
+			</statement>
+			<solution>
+				<p>
+					Again, the best starting point is to construct a quick frequency table.</p>
+					<table xml:id="ex_center-spread_mode-quantitative_frequency-table">
+						<title>Frequency Table</title>
+						<tabular>
+							<row bottom="medium">
+								<cell right="medium">Value</cell>
+								<cell>1</cell>							
+								<cell>2</cell>
+								<cell>3</cell>
+								<cell>4</cell>
+								<cell>5</cell>
+								<cell>6</cell>
+								<cell>7</cell>
+								<cell>8</cell>							
+							</row>
+							<row>
+								<cell right="medium">Frequency</cell>
+								<cell>2</cell>
+								<cell>2</cell>
+								<cell>3</cell>
+								<cell>2</cell>
+								<cell>3</cell>
+								<cell>2</cell>
+								<cell>1</cell>
+								<cell>1</cell>
+							</row>
+						</tabular>
+					</table>
+				<p>
+					Notice that in this data set, both the 5 and the 3 appear three times. Every other value appears two or fewer times. This makes this set of data bimodal with modes 3 and 5.
+				</p>
 			</solution>
 		</example>
 	</subsection>
