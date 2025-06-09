@@ -22,8 +22,17 @@
 	<subsection xml:id="sec_center-spread_mode">
 		<title>The Mode</title>
 		<p>
-			
+			We have already seen the term <term>mode</term> used in the context of a graph. Recall that the <xref ref="def_histogram-mode" text="custom">mode of a histogram or bar graph</xref> is the class or category that has the tallest bar. That is, it is the class or category that appears the most in the data set. This seems to be a reasonable way to describe a <q>typical</q> element of a data set and leads to the following definition.
 		</p>
+		<definition xml:id="def_mode">
+			<idx>mode</idx>
+			<idx><h>measures of center</h><h>mode</h></idx>
+			<statement>
+				<p>
+					The <term>mode</term> of a set of values is the value that appears most often. If more than one value is tied for the most appearances, each one is a mode. If no value appears more than once, there is no mode.
+				</p>
+			</statement>
+		</definition>
 	</subsection>
 
 </section>

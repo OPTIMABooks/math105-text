@@ -1275,7 +1275,7 @@ Stem | Leaf
 				</p>
 			</statement>
 			</definition>
-			<p>
+			<p xml:id="def_histogram-mode">
 				<idx><h>histogram</h><h>mode</h></idx>
 				<idx><h>histogram</h><h>unimodal</h></idx>
 				<idx><h>histogram</h><h>bimodal</h></idx>
