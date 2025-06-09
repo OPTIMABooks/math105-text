@@ -321,6 +321,65 @@
 		<p>
 			As we saw before, the outliers in this data set are affecting the midrange. To address these limitations, we need a measure of center that is resistant to outliers and uses more than just the extreme values.
 		</p>
+		<definition xml:id="def_median">
+			<idx>median</idx>
+			<idx><h>measures of center</h><h>median</h></idx>
+			<statement>
+				<p>
+					The <term>median</term> of a data set is the middle number, or average of the two middle numbers, in the set of data once it has been arranged in increasing order.
+				</p>
+			</statement>
+		</definition>
+		<p>
+			You may have heard of the <term>median</term>, a common measure of center that's especially useful when a data set includes outliers, such as housing prices or household incomes. The term <q>median household income</q> is often used because it reflects typical earnings more accurately in such cases. This is especially helpful in places like Washington State, where billionaires like Bill Gates can skew the data. Let's practice finding the median.
+		</p>
+		<example xml:id="ex_center-spread_median">
+			<!-- <title>Computing the Median</title> -->
+			<statement>
+				<p>Find the median of each set of data below.
+					<ol marker="a.">
+						<li>
+							<p>
+								<m>\lbrace 14, 17, 10, 9, 16, 19, 12, 10, 15, 13 \rbrace</m>
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>\lbrace 100, 215, 164, 117, 1000, 205, 178 \rbrace</m>
+							</p>
+						</li>
+					</ol>
+				</p>
+			</statement>
+			<solution>
+				<p>
+					There are two steps to computing the median, and it is important that we do step one first. That first step is to arrange the data in order. The second step is to locate the middle value. Let's try this on both of the data sets above. 
+					<ol marker="a.">
+						<li>
+							<p>
+								Our first step is to re-arrange this set of numbers in order, from smallest to largest:
+								<me>
+									\lbrace 9, 10, 10, 12, 13, 14, 15, 16, 17, 19\rbrace
+								</me>
+								Then we find the middle number. Since there are an even number of values (ten of them), the exact middle lies half way between the two center values (5th and 6th) which are 13 and 14. So the median is <m>\frac{13+14}{2} = 13.5</m>.
+							</p>
+						</li>
+						<li>
+							<p>
+								Again, we start by ordering the data:
+								<me>
+									\lbrace 100, 117, 164, 178, 205, 215, 1000 \rbrace
+								</me>
+								As there are an odd number of values in this data set (seven of them), the median is the single value in the exact center (the 4th value), which is 178.
+							</p>
+						</li>
+					</ol>
+				</p>
+			</solution>
+		</example>
+		<p>
+			Notice that the 1000 in the second data set is an outlier. But when finding the median, the actual value doesn't matter<mdash/>only its position in the data set does. You could replace 1000 with a more typical number like 220, and the median would stay the same. Bill Gates could earn just $200,000 a year, and the median household income in Washington State wouldn't change! This is what it means for the median to be <em>resistant to outliers</em>.
+		</p>
 	</subsection>
 
 </section>
