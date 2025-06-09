@@ -20,7 +20,7 @@
 	</introduction>
 
 	<subsection xml:id="subsec_center-spread_mode">
-		<title>The Mode</title>
+		<title>Mode</title>
 		<p>
 			We have already seen the term <term>mode</term> used in the context of a graph. Recall that the <xref ref="def_histogram-mode" text="custom">mode of a histogram or bar graph</xref> is the class or category that has the tallest bar. That is, it is the class or category that appears the most in the data set. This seems to be a reasonable way to describe a <q>typical</q> element of a data set and leads to the following definition.
 		</p>
@@ -267,6 +267,39 @@
 				</p>
 			</solution>
 		</example>
+		<p>
+			The midrange is useful for measuring the center of a dataset, but it has significant limitations. Most importantly, the midrange is extremely sensitive to <term>outliers</term>. Additionally, it only considers the maximum and minimum values, ignoring all other data points. Ideally, a measure of center should incorporate every value in the dataset when determining the <q>typical</q> value.
+		</p>
+		<definition xml:id="def_outlier">
+			<idx>outlier</idx>
+			<statement>
+				<p>
+					An <term>outlier</term> in a data set is a value that is either much larger than the rest of the data or much smaller than the rest of the data.
+				</p>
+			</statement>
+		</definition>
+		<p>
+			To see how an outlier can affect the midrange, let's take another look at the fish-length data from the previous example.
+		</p>
+		<example xml:id="ex_center-spread_midrange_computation-outlier">
+			<!-- <title>The Effect of Outliers on the Midrange and Range</title> -->
+			<statement>
+				<p>
+					The game warden believes that the 6.5 inch fish she caught in the <xref ref="ex_center-spread_midrange_computation_data" text="custom">sample above</xref> is an outlier. She decides to redo the computation without that fish. Find the new midrange.</p>
+			</statement>
+			<solution>
+				<p>
+					Without the 6.5 inch outlier, the new minimum is 8.7. This gives the following values:
+					<me>
+						\text{midrange} = \frac{18.3+8.7}{2} = 13.5
+					</me>.
+					With this new computation, it looks like the fish are in fact large enough to be caught<mdash/>the typical fish length, as measured by the midrange, is 13.5 inches.
+				</p>
+			</solution>
+		</example>
+		<p>
+			Notice what a big difference the single 6.5 inch fish made! This is what we mean when we say that the midrange is sensitive to outliers.
+		</p>
 	</subsection>
 
 </section>
