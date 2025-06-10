@@ -660,5 +660,17 @@
 		<p>
 			It is often helpful to compute multiple summary statistics for comparison. One useful comparison is between the mean and the median. If the mean is greater than the median, the data distribution is typically <xref ref="def_histogram-symmetry" text="custom">skewed right</xref>. If the mean is less than the median, the distribution is <xref ref="def_histogram-symmetry" text="custom">skewed left</xref>. When the mean and median are approximately equal, the distribution is roughly <xref ref="def_histogram-symmetry" text="custom">symmetric</xref>.
 		</p>
+		<example>
+			<statement>
+			<p>
+				Recent college graduates were asked how much student loan debt they have. The data has a mean of $46,265 and a median of $33,652. Based on this information, do you expect the distribution to be symmetric, skewed to the left, or skewed to the right?
+			</p>
+			</statement>
+			<solution>
+			<p>
+				Since the mean is greater than the median, we expect the distribution to be skewed to the right.
+			</p>
+			</solution>
+		</example>
 	</subsection>
 </section>
