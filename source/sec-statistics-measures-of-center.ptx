@@ -488,5 +488,119 @@
 			</solution>
 		</example>
 	</subsection>
+	<subsection xml:id="subsec_center-spread_appropriate">
+	<title>Which Measure Should I Use?</title>
+	<p>
+		We have now seen four different numerical measures of center:
+		  <ul>
+				<li>
+					<p>
+						the <xref ref="def_mode" text="custom">mode</xref>,
+					</p>
+				</li>
+				<li>
+					<p>
+						the <xref ref="def_midrange" text="custom">midrange</xref>,
+					</p>
+				</li>
+				<li>
+					<p>
+						the <xref ref="def_median" text="custom">median</xref>, and
+					</p>
+				</li>
+				<li>
+					<p>
+						the <xref ref="def_mean" text="custom">mean</xref>.
+					</p>
+				</li>
+			</ul>
+			How do we know when to use a particular measure of center? To better answer this question, let's review the strengths and weaknesses of each of these numerical summaries.
+		</p>
+		<table>
+			<title>Comparison of measures of center</title>
+			<tabular>
+				<col right="medium"></col>
+				<col halign="center"></col>
+				<col halign="center"></col>
+				<col halign="center"></col>
+				<col halign="center"></col>		
+				<row>
+					<cell></cell>
+					<cell>Qualitative</cell>
+					<cell>Quantitative</cell>
+					<cell>Sensitive</cell>
+					<cell>Considers</cell>
+				</row>
+				<row bottom="medium">
+					<cell></cell>
+					<cell>Data</cell>
+					<cell>Data</cell>
+					<cell>to Outliers</cell>
+					<cell>every Value</cell>
+				</row>
+				<row>
+					<cell><term>Mode</term></cell>
+					<cell>sometimes</cell>
+					<cell>sometimes</cell>
+					<cell>no</cell>
+					<cell>no</cell>
+				</row>
+				<row>
+					<cell><term>Midrange</term></cell>
+					<cell>no</cell>
+					<cell>yes</cell>
+					<cell>yes</cell>
+					<cell>no</cell>
+				</row>
+				<row>
+					<cell><term>Median</term></cell>
+					<cell>no</cell>
+					<cell>yes</cell>
+					<cell>no</cell>
+					<cell>no</cell>
+				</row>
+				<row>
+					<cell><term>Mean</term></cell>
+					<cell>no</cell>
+					<cell>yes</cell>
+					<cell>somewhat</cell>
+					<cell>yes</cell>
+				</row>
+			</tabular>
+		</table>
+		<p>
+			As we can see, each method has its own strengths and weaknesses. Based on these, we summarize when to use which measures of center below.
+		</p>
+		<observation xml:id="fig_center-spread_appropriate">
+			<p>
+				<ul>
+				<li>
+					<title>Mode</title>
+				  <p>
+						Use the mode when dealing with qualitative data, or for a quick measure of center for small sets of quantitative data. The mode may not exist, and should not be used in general for larger sets of quantitative data.
+					</p>
+				</li>
+				<li>
+					<title>Midrange</title>
+				  <p>
+						The midrange may be used for a quick estimate of center and variation, but should not be used if there are any indications of outliers.
+					</p>
+				</li>
+				<li>
+					<title>Median</title>
+				  <p>
+						Use the median if there are indications of strong outliers in your data. Data sets which with strong outliers would include income or housing price data.
+					</p>
+				</li>
+				<li>
+					<title>Mean</title>
+				  <p>
+						The mean is the best all-purpose measures of center and variation for quantitative data. Unless your data set has strong outliers, this is the summary value you should use.
+					</p>
+				</li>
+		  </ul>
+		</p>
+		</observation>
+	</subsection>
 
 </section>
