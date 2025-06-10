@@ -400,7 +400,7 @@
 			</statement>
 		</definition>
 		<p>
-			The term <term>arithmetic mean</term> is important for two reasons. First, we avoid calling it the average because <q>average</q> simply means <q>typical,</q>> and there are multiple ways to measure what's typical. Second, we specify <em>arithmetic</em> mean because other types of means exist, though we don't cover them here.
+			The term <term>arithmetic mean</term> is important for two reasons. First, we avoid calling it the average because <q>average</q> simply means <q>typical,</q> and there are multiple ways to measure what's typical. Second, we specify <em>arithmetic</em> mean because other types of means exist, though we don't cover them here.
 		</p>
 		<example>
 			<statement>
@@ -417,6 +417,73 @@
 				</p>
 				<p>
 					Notice that the mean has the same units as the data and that it is important to label it.
+				</p>
+			</solution>
+		</example>
+		<p>
+			It is reasonable to calculate the mean by hand when working with a small data set. However, if the data set is large or if you plan to compute additional statistics, using technology is a more efficient choice. Ask your instructor how to approach these types of problems. That said, when a large data set with repeated values is organized in a frequency table, it can still be practical to perform the calculation by hand as shown in the next example.
+		</p>
+		<example>
+			<statement>
+				<p>
+					One hundred families from a particular neighborhood are randomly selected and asked to give their annual household income rounded to the nearest $5,000. The results are shown in the frequency table below. Find the mean annual income for this neighborhood.
+				</p>
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row header="yes">
+						<cell><line>Income</line><line>(thousands of dollars)</line></cell>
+						<cell>Frequency</cell>
+					</row>
+					<row>
+						<cell>$15</cell>
+						<cell>6</cell>
+					</row>
+					<row>
+						<cell>$20</cell>
+						<cell>8</cell>
+					</row>
+					<row>
+						<cell>$25</cell>
+						<cell>11</cell>
+					</row>
+					<row>
+						<cell>$30</cell>
+						<cell>17</cell>
+					</row>
+					<row>
+						<cell>$35</cell>
+						<cell>19</cell>
+					</row>
+					<row>
+						<cell>$40</cell>
+						<cell>20</cell>
+					</row>
+					<row>
+						<cell>$45</cell>
+						<cell>12</cell>
+					</row>
+					<row>
+						<cell>$50</cell>
+						<cell>7</cell>
+					</row>
+				</tabular>
+			</statement>
+			<solution>
+				<p>
+					Calculating the mean by hand could get tedious if we try to type in all 100 values:
+					<me>
+						\bar{x}=\frac{\overbrace{15+ \cdot + 15}^{6 \text{ terms}} + \overbrace{20+ \cdot + 20}^{8 \text{ terms}} +\cdots+ \overbrace{50 + \cdot + 50}^{7 \text{ terms}}}{100}
+					</me>
+				</p>
+				<p>
+					However, we can calculate this easily using multiplication top deal with repeated values. Doing so, the sum of the data values (the numerator of the mean) is
+					<md>
+						<mrow> \amp (15)(6)+(20)(8) + (25)(11)+(30)(17)</mrow>
+						<mrow> \amp +(35)(19)+(40)(20) +(45)(21)+(50)(7) </mrow>
+						<mrow> \amp= 3390 </mrow>
+					</md>.
+					The mean is then
+					<me>\bar{x}=\frac{3390}{100}=33.9</me>
+					That is, the mean household income of our sample is 33.9 thousand dollars or $33,900.
 				</p>
 			</solution>
 		</example>
