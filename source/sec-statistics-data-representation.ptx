@@ -1283,7 +1283,7 @@ Stem | Leaf
 				<idx><h>histogram</h><h>uniform</h></idx>
 				One way to describe the shape of a histogram is based on the number and location of its <em>modes</em>. A <term>mode</term> is a class that contains significantly more data than the classes immediately	next to it. A histogram can be <term>unimodal</term> (one mode), <term>bimodal</term> (two modes), <term>multimodal</term> (more than two modes), or it may have no prominent modes in which case it is called <term>uniform</term>.
 			</p>
-			<p>
+			<p xml:id="def_histogram-symmetry">
 				<idx><h>histogram</h><h>symmetric</h></idx>
 				<idx><h>histogram</h><h>skewed</h></idx>
 				Another way to describe the shape of a histogram is by its <term>symmetry</term>. A histogram is <term>symmetric</term> when the left and right sides are mirror images of each other. It is <term>skewed right</term> if the right tail extends farther than the left, and <term>skewed left</term> if the left tail extends farther than the right.
