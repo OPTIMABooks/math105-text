@@ -657,8 +657,8 @@
 				</p>
 			</solution>
 		</example>
-		<!-- <p>
-			Often it is helpful to compute several summaries so that they can be compared ton one another. One useful comparison relates the mean and median together. When the mean is larger than the median, the data will have a histogram that is <xref ref="def_histogram-symmetry" text="custom">skewed right</xref>. When the mean is smaller, the histogram will be <xref ref="def_histogram-symmetry" text="custom">skewed left</xref>.  Finally, if the mean and median are equal, the histogram will be approximately <xref ref="def_histogram-symmetry" text="custom">symmetric</xref>.
-		</p> -->
+		<p>
+			It is often helpful to compute multiple summary statistics for comparison. One useful comparison is between the mean and the median. If the mean is greater than the median, the data distribution is typically <xref ref="def_histogram-symmetry" text="custom">skewed right</xref>. If the mean is less than the median, the distribution is <xref ref="def_histogram-symmetry" text="custom">skewed left</xref>. When the mean and median are approximately equal, the distribution is roughly <xref ref="def_histogram-symmetry" text="custom">symmetric</xref>.
+		</p>
 	</subsection>
 </section>
