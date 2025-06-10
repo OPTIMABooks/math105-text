@@ -353,13 +353,13 @@
 			</statement>
 			<solution>
 				<p>
-					There are two steps to computing the median, and it is important that we do step one first. That first step is to arrange the data in order. The second step is to locate the middle value. Let's try this on both of the data sets above. 
+					To find the median, first arrange the data values from least to greatest, then locate the middle value. Let's apply this process to both data sets above.
 					<ol marker="a.">
 						<li>
 							<p>
 								Our first step is to re-arrange this set of numbers in order, from smallest to largest:
 								<me>
-									\lbrace 9, 10, 10, 12, 13, 14, 15, 16, 17, 19\rbrace
+									\lbrace \overbrace{9, 10, 10, 12,}^{\text{lower half}} \overbrace{13, 14,}^{\text{middle pair}} \overbrace{15, 16, 17, 19}^{\text{upper half}}\rbrace
 								</me>
 								Then we find the middle number. Since there are an even number of values (ten of them), the exact middle lies half way between the two center values (5th and 6th) which are 13 and 14. So the median is <m>\frac{13+14}{2} = 13.5</m>.
 							</p>
@@ -368,7 +368,7 @@
 							<p>
 								Again, we start by ordering the data:
 								<me>
-									\lbrace 100, 117, 164, 178, 205, 215, 1000 \rbrace
+									\lbrace \overbrace{100, 117, 164,}^{\text{lower half}} \overbrace{178,}^{\text{median}} \overbrace{205, 215, 1000}^{\text{upper half}} \rbrace
 								</me>
 								As there are an odd number of values in this data set (seven of them), the median is the single value in the exact center (the 4th value), which is 178.
 							</p>
