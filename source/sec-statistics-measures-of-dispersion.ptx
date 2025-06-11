@@ -77,9 +77,24 @@
 	</introduction>
 
 	<subsection xml:id="subsec-dispersion-range">
-		<title></title>
+		<title>Range</title>
 		<p>
-			text
+			The simplest ways to quantify the spread of a data set is to compute the <term>range</term>. The range tells us the <q>width</q> of the entire data set by taking the difference between the maximum and minimum value.
+		</p>
+		<definition xml:id="def_range">
+			<idx>range</idx>
+			<idx><h>measures of spread</h><h>range</h></idx>
+			<statement>
+				<p>
+					The <term>range</term> of a set of data is the difference between the highest and lowest values in the data set. That is:
+				<me>
+					\text{range} = \text{maximum} - \text{minimum}
+				</me>.
+			</p>
+			</statement>
+		</definition>
+		<p>
+			While simple to compute, the range is not a very useful measure of variation because it is heavily influenced by extreme values, or <xref ref="def_outlier" text="custom">outliers</xref>. For example, consider the distribution of full-time salaries in the United States. While many people earn near minimum wage, a few individuals<mdash/>such as CEOs of major corporations<mdash/>earn millions or even billions of dollars. This creates an enormous range that reveals little about where most salaries actually fall or how they are distributed around the typical (<q>center</q>) value.
 		</p>
 	</subsection>
 	
