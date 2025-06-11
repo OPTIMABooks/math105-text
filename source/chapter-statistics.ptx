@@ -38,5 +38,6 @@
   <xi:include href="sec-statistics-overview.ptx" />
 	<xi:include href="sec-statistics-data-representation.ptx" />
 	<xi:include href="sec-statistics-measures-of-center.ptx" />
+	<xi:include href="sec-statistics-measures-of-dispersion.ptx" />
 
 </chapter>

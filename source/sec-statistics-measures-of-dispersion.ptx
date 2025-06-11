@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-statistics-measures-of-dispersion" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Measures of Dispersion</title>
+
+	<objectives>
+			<ul>
+			<li>
+				<p>
+					Calculate and describe the measures of variation including range, standard deviation, and interquartile range (IQR).
+				</p>
+			</li>
+		</ul>
+	</objectives>
+
+	<introduction>
+		<p>
+			Text
+		</p>
+	</introduction>
+
+	<subsection xml:id="subsec-_dispersion-range">
+		<title></title>
+		<p>
+			Text
+		</p>
+	</subsection>
+	
+</section>
