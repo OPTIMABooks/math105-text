@@ -15,14 +15,71 @@
 
 	<introduction>
 		<p>
-			Text
+			A measure of center such as the mean is not sufficient to numerically summarize the characteristics of a data set. To see why this is the case, consider the following three sets of quiz scores for a 10-point quiz.
+		</p>
+		<p>
+			<alert>Section A:</alert>
+		</p>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+			</row>
+		</tabular>
+		<p>
+			<alert>Section B:</alert>
+		</p>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>0</cell>
+				<cell>0</cell>
+				<cell>0</cell>
+				<cell>0</cell>
+				<cell>0</cell>
+				<cell>10</cell>
+				<cell>10</cell>
+				<cell>10</cell>
+				<cell>10</cell>
+				<cell>10</cell>
+			</row>
+		</tabular>
+		<p>
+			<alert>Section C:</alert>
+		</p>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>4</cell>
+				<cell>4</cell>
+				<cell>4</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>6</cell>
+				<cell>6</cell>
+				<cell>6</cell>
+			</row>
+		</tabular>
+		<p>
+			Notice that all three data sets have a mean of 5 points and median of 5 points, yet the sets of scores are clearly quite different from each other. In Section A, everyone had the same score; in Section B half the class earned no points and the other half got a perfect score. The scores for Section C are less consistent than the other sections but grouped closer to the central score of 5.
+		</p>
+		<p>
+			Thus, in addition the measures of center, we also need a measure of how <q>spread out</q> (or <q>varied</q>, or <q>dispersed</q>) each data set is in order to characterize it well.  There are several ways to measure the variation of a distribution. In this section we will look at the <alert>range</alert>, <alert>interquartile range (IQR)</alert>, and <alert>standard deviation</alert>.
 		</p>
 	</introduction>
 
-	<subsection xml:id="subsec-_dispersion-range">
+	<subsection xml:id="subsec-dispersion-range">
 		<title></title>
 		<p>
-			Text
+			text
 		</p>
 	</subsection>
 	
