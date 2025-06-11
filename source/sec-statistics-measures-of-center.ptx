@@ -218,7 +218,7 @@
 				</p>
 			</statement>
 		</definition>
-		<example xml:id="ex_center-spread_midrange-range_computation">
+		<example xml:id="ex_center-spread_midrange_computation">
 			<statement>
 				<p>
 					A certain pond has been well stocked with fish for the upcoming fishing season. In order to keep a fish from this pond, it must be at least 13 inches long. To try to determine if the fish in the pond are long enough to allow fishing, a fish and game warden randomly catches and releases 20 different fish, finding the following lengths, in inches. Find the midrange of these data.
@@ -259,7 +259,7 @@
 			</statement>
 			<solution>
 				<p>
-					To find the midrange and range we need to identify the maximum and minimum values in the data set. The largest value is 18.3 and the smallest is 6.5, Thus we compute the midrange using:
+					To find the midrange we need to identify the maximum and minimum values in the data set. The largest value is 18.3 and the smallest is 6.5, Thus we compute the midrange using:
 					<me>
 						\text{midrange} = \frac{18.3+6.5}{2} = 12.4
 					</me>.
