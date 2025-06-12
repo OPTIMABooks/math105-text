@@ -199,5 +199,67 @@
 			</p>
 			</statement>
 		</definition>
+		<p>
+			Note that there are different methods for computing quartiles, so your results may vary when using spreadsheets or computer algebra systems. The following examples demonstrate how we will compute <m>Q_1</m> and <m>Q_3</m> in this course. If you obtain different values using technology, consult your instructor.
+		</p>
+		<example>
+			<statement>
+				<p>
+					Suppose we have measured the height, in inches, of 12 women. The data values are listed below. Find the interquartile range.
+				</p>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell>59</cell>
+						<cell>60</cell>
+						<cell>69</cell>
+						<cell>64</cell>
+						<cell>70</cell>
+						<cell>72</cell>
+						<cell>66</cell>
+						<cell>64</cell>
+						<cell>67</cell>
+						<cell>66</cell>
+						<cell>63</cell>
+						<cell>61</cell>
+					</row>
+				</tabular>
+			</statement>
+			<solution>
+				<p>
+					First, order the data.
+				</p>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell>59</cell>
+						<cell>60</cell>
+						<cell>61</cell>
+						<cell>63</cell>
+						<cell>64</cell>
+						<cell>64</cell>
+						<cell>66</cell>
+						<cell>66</cell>
+						<cell>67</cell>
+						<cell>69</cell>
+						<cell>70</cell>
+						<cell>72</cell>
+					</row>
+				</tabular>
+				<p>
+					Next, divide the data into two halves. In the case of an even sample size, we split the distribution down the middle. The first 6 data values are the lower half and the next 6 data values are the upper half. Then we find the median of each half. The median of the lower half is <m>Q_1</m> and the median of the upper half is <m>Q_3</m>.
+				</p>
+				<p>
+					<md>
+					<mrow>\overbrace{59,60,\underbrace{61,63,}_{Q_1=\frac{61+63}{2}=62} 64,64,}^{\text{Lower Half}} \overbrace{66,66,\underbrace{67, 69,}_{Q_3 =\frac{67+69}{2}=68} 70,72}^{\text{Upper Half}}</mrow>
+				</md>
+				</p>
+				<p>
+					In this data <m>Q_{1}=62</m> inches, and <m>Q_{3}=68</m> inches. The IQR is thus
+					<me>
+						\text{IQR} = Q_{3}-Q_{1} = 68 - 62 = 6\text{ inches}
+					</me>
+					This tells us the that the middle 50% of the women's heights lie within an interval of 6 inches.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 </section>
