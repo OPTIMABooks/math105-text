@@ -187,5 +187,17 @@
 				</p>
 			</statement>
 		</definition>
+		<definition xml:id="def_iqr">
+			<idx>interquartile range (IQR)</idx>
+			<idx><h>measures of spread</h><h>interquartile range (IQR)</h></idx>
+			<statement>
+				<p>
+					The <term>Interquartile Range</term> or <term>IQR</term> is the difference between the 3rd and 1st quartiles. That is,
+				<me>
+					\text{IQR} = Q_3 - Q_1
+				</me>.
+			</p>
+			</statement>
+		</definition>
 	</subsection>
 </section>
