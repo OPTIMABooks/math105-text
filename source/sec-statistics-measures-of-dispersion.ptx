@@ -261,5 +261,42 @@
 				</p>
 			</solution>
 		</example>
+<example>
+		<statement>
+			<p>
+				Suppose we added one more height (68 inches) to the data set from the previous example. Find the interquartile range of the heights.
+			</p>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>59</cell>
+					<cell>60</cell>
+					<cell>61</cell>
+					<cell>63</cell>
+					<cell>64</cell>
+					<cell>64</cell>
+					<cell>66</cell>
+					<cell>66</cell>
+					<cell>67</cell>
+					<cell>68</cell>
+					<cell>69</cell>
+					<cell>70</cell>
+					<cell>72</cell>
+				</row>
+			</tabular>
+		</statement>
+		<solution>
+			<p>
+				The data are already in order, but now we have an odd number of values.  We use the median value of 66 as both the maximum value for the lower half of the data and the minimum value for upper half.
+				<me>
+					\overbrace{59,60, 61, \underbrace{63,}_{Q1=63} 64, 64, 6}^{\text{Lower Half}} \overbrace{6, 66, 67, \underbrace{68,}_{Q3=68} 69, 70, 72}^{\text{Upper Half}}
+				</me>
+				The interquartile range is then
+				<me>
+					\text{IQR} = Q_{3} - Q_{1} = 68 - 63 = 5\text{ inches}	
+				</me>.
+				That is, the middle 50% of the women's heights lie within an interval of 5 inches.
+			</p>
+		</solution>
+	</example>
 	</subsection>
 </section>
