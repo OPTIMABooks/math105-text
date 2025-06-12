@@ -146,5 +146,11 @@
 			</solution>
 		</example>
 	</subsection>
-	
+	<subsection xml:id="subsec_spread_IQR-quartiles">
+		<title>Interquartile Range (IQR)</title>
+	<p>
+		Recall from the previous section that the <xref ref="def_median" text="custom">median</xref> is the most outlier-resistant measure of center. To create a similarly resistant measure of variation, we can extend the logic used to create the median. The median divides data into two halves. If we further divide each half at its median, we create four quarters (quartiles). 
+		The interquartile range (IQR) measures the spread of the middle 50% of the data by finding the distance between the first quartile (<m>Q_1</m>) and third quartile (<m>Q_3</m>). Since the IQR excludes the extreme 25% of data on each end, it remains unaffected by outliers.
+	</p>
+	</subsection>
 </section>
