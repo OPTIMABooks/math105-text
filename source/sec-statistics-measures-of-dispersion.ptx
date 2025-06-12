@@ -257,7 +257,7 @@
 					<me>
 						\text{IQR} = Q_{3}-Q_{1} = 68 - 62 = 6\text{ inches}
 					</me>
-					This tells us the that the middle 50% of the women's heights lie within an interval of 6 inches.
+					This tells us the that the middle 50% of the women's heights lie within an interval of 6 inches centered around the median height of 65 inches. Said another way, 50% of the heights fall between 62 and 68 inches.
 				</p>
 			</solution>
 		</example>
@@ -294,7 +294,7 @@
 					<me>
 						\text{IQR} = Q_{3} - Q_{1} = 68 - 63 = 5\text{ inches}	
 					</me>.
-					That is, the middle 50% of the women's heights lie within an interval of 5 inches.
+					That is, the middle 50% of the women's heights lie within an interval of 5 inches centered around the median value of 66 inches. That is, 50% of the heights are between 63 and 68 inches.
 				</p>
 			</solution>
 		</example>
