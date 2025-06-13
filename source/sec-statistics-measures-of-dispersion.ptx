@@ -316,5 +316,174 @@
 				</p>
 			</statement>
 		</definition>
+		<p>
+			The following example illustrates the whole process for calculating the standard deviation and is provided to help you understand how to compute the standard deviation.
+		</p>
+		<example>
+			<p>
+				Returning to the quiz example used in the introduction of this section as motivation, let's suppose there is a fourth set of of quiz scores for a 10-point quiz. The mean quiz score for Section D, like Sections A, B and C, is 5 points.
+			</p>
+			<p>
+				<alert>Section D:</alert>
+			</p>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>0</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>10</cell>
+				</row>
+			</tabular>
+			<p>
+				The first step in finding the standard deviation is to find the deviation, or difference, of each data value from the mean. We will do this in a table. You could also use a spreadsheet to do these calculations.
+			</p>
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row header="yes">
+					<cell><alert>Data Value</alert></cell>
+					<cell><alert>Deviation: (Data Value <m>-</m> Mean)</alert></cell>
+				</row>
+				<row>
+					<cell>0</cell>
+					<cell><m>0-5=-5</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+				</row>
+				<row>
+					<cell>10</cell>
+					<cell><m>10-5=5</m></cell>
+				</row>
+			</tabular>
+			<p>
+				We want to find the <q>average</q> deviation from the mean, but if we find the average of the values in the second column, the negative and positive values cancel each other out (this will always happen), so to prevent this we square the deviations to make them all positive.
+			</p>
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row header="yes">
+					<cell><alert>Data Value</alert></cell>
+					<cell><alert>Deviation: (Data Value <m>-</m> Mean)</alert></cell>
+					<cell><alert>Deviation Squared</alert></cell>
+				</row>
+				<row>
+					<cell>0</cell>
+					<cell><m>0-5=-5</m></cell>
+					<cell><m>(-5)^{2}=25</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+					<cell><m>0^{2}=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+					<cell><m>0^{2}=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+					<cell><m>0^{2}=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+					<cell><m>0^{2}=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+					<cell><m>0^{2}=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+					<cell><m>0^{2}=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+					<cell><m>0^{2}=0</m></cell>
+				</row>
+				<row>
+					<cell>5</cell>
+					<cell><m>5-5=0</m></cell>
+					<cell><m>0^{2}=0</m></cell>
+				</row>
+				<row>
+					<cell>10</cell>
+					<cell><m>10-5=5</m></cell>
+					<cell><m>5^{2}=25</m></cell>
+				</row>
+			</tabular>
+			<p>
+				Next, we add the squared deviations and we get
+				<me>
+					25+0+0+0+0+0+0+0+0+25=50	
+				</me>
+				Ordinarily, when computing an average (mean) we would then divide this total by the number of scores, <m>n</m>, (in this case, 10) to find the mean of the deviations, but the division by <m>n</m> is only done if the data set represents a population. When the data set represents a sample (as it almost always does), we divide by <m>n-1</m> (in this case,).
+			</p>
+			<p>
+				To find the mean of the deviations, we would typically divide this total (50) by the number of scores, <m>n</m> (in this case, 10). However, we divide by <m>n</m> only when the data represents a population. For sample data (which is more common), we divide by <m>n-1</m> (in this case, 9).
+			</p>
+			<p>
+				We assume Section D represents a sample, so we will divide by 9. Note that units of <m>50/9</m> are now <q>points-squared</q> because we squared all of the deviations. It is more meaningful to use the units we started with, so we take the square root of this quantity to convert back to <q>points</q>.
+			</p>
+			<p>
+				Thus, the sample standard deviation for Section D is
+				<me>
+					s=\sqrt{\frac{50}{9}} \approx 2.36\text{ points}
+				</me>.
+				This means that, on average, the data in Section D is 2.36 points away from the mean value of 5 points. For comparison, the standard deviations for the other sections are:
+				<ul>
+					<li>
+						<p><m>s_{A}=0</m> points,</p>
+					</li>
+					<li>
+						<p><m>s_{B}=5.27</m> points,</p>
+					</li>
+					<li>
+						<p><m>s_{C}=0.82</m> points,</p>
+					</li>
+					<li>
+						<p><m>s_{D}=2.36</m> points.</p>
+					</li>
+				</ul>
+				Note that this these values show that the data from Section C has the smallest average distance from the mean, meaning these scores are the least spread out. This matches what we observe when we look at the data.
+			</p>
+		</example>
 	</subsection>
 </section>
