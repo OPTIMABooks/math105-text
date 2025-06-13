@@ -537,5 +537,67 @@
 				</ol>
 			</p>
 		</assemblage>	
+		<example>
+			<statement>
+				<p>
+					The price of a pint of peanut butter at 5 stores was $3.29, $3.59, $3.79, $3.75, and $3.99. Find the sample standard deviation of these data.
+				</p>
+			</statement>
+			<solution>
+				<p>
+					First we need to calculate the sample mean:
+					<me>
+						\bar{x}=\frac{3.29 + 3.59 + 3.79 + 3.75+ 3.99}{5} = \$3.68
+					</me>.
+					Keep in mind we divide by <m>n=5</m> here.
+				</p>
+				<p>
+					Next, we need to find the deviation from the mean for each data value and square it. This is easiest done in a table.
+				</p>
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row header="yes">
+						<cell><alert>Data Value</alert></cell>
+						<cell><alert>Deviation</alert></cell>
+						<cell><alert>Deviation Squared</alert></cell>
+					</row>
+					<row>
+						<cell>$3.29</cell>
+						<cell><m>3.29-3.68=-0.39</m></cell>
+						<cell><m>(-0.39)^{2}=0.1521</m></cell>
+					</row>
+					<row>
+						<cell>$3.59</cell>
+						<cell><m>3.59-3.68=-0.09</m></cell>
+						<cell><m>(-0.09)^{2}=0.0081</m></cell>
+					</row>
+					<row>
+						<cell>$3.79</cell>
+						<cell><m>3.79-3.68=0.11</m></cell>
+						<cell><m>(0.11)^{2}=0.0121</m></cell>
+					</row>
+					<row>
+						<cell>$3.75</cell>
+						<cell><m>3.75-3.68=0.07</m></cell>
+						<cell><m>(0.07)^{2}=0.0049</m></cell>
+					</row>
+					<row>
+						<cell>$3.99</cell>
+						<cell><m>3.99-3.68=0.31</m></cell>
+						<cell><m>(0.31)^{2}=0.0961</m></cell>
+					</row>
+				</tabular>
+				<p>
+					The sum of the deviations squared is
+					<me>		
+						0.1521+0.0081+0.0121+0.0049+0.0961=0.2733
+					</me>.
+					Therefore, the sample standard deviation is
+					<me>
+						s=\sqrt{\frac{0.2733}{4}} \approx \$0.2614
+					</me>
+					Since the units are dollars, we round to two decimal places. This gives us a standard deviation of $0.26. This means that, on average, the cost of a pint jar of peanut butter in our data set is $0.26 away from the mean value of $3.68.
+				</p>
+			</solution>
+		</example>
 	</subsection>
 </section>
