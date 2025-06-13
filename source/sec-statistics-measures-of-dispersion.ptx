@@ -299,4 +299,10 @@
 			</solution>
 		</example>
 	</subsection>
+	<subsection xml:id="subsec-dispersion-standard_deviation">
+	<title>Standard Deviation</title>
+		<p>
+			While the interquartile range is a good measure of spread, sometimes there are no outliers in a data set, or a measure of spread that takes all values into account is desirable. In this case, the <term>standard deviation</term> is used to describe variation. The <term>sample standard deviation</term>, denoted <m>s</m>, is a measure of variation that tells us how far, on average, the data values deviate from the mean.
+		</p>
+	</subsection>
 </section>
