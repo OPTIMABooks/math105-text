@@ -485,5 +485,37 @@
 				Note that this these values show that the data from Section C has the smallest average distance from the mean, meaning these scores are the least spread out. This matches what we observe when we look at the data.
 			</p>
 		</example>
+		<assemblage>
+			<title>Calculating the Sample Standard Deviation</title>
+			<p>
+				<ol>
+					<li>
+						<p>
+							Find the mean of the data.
+						</p>
+					</li>
+					<li>
+						<p>
+							Find the deviations by subtracting the mean from each data value.
+						</p>
+					</li>
+					<li>
+						<p>
+							Square each deviation.
+						</p>
+					</li>
+					<li>
+						<p>
+							Sum the squared deviations.
+						</p>
+					</li>
+					<li>
+						<p>
+							Divide the sum of the deviations by <m>n-1</m> and take the square root.
+						</p>
+					</li>
+				</ol>
+			</p>
+		</assemblage>	
 	</subsection>
 </section>
