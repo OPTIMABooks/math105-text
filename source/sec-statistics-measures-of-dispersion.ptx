@@ -485,6 +485,26 @@
 				Note that this these values show that the data from Section C has the smallest average distance from the mean, meaning these scores are the least spread out. This matches what we observe when we look at the data.
 			</p>
 		</example>
+		<p>
+			Here are a few important characteristics to keep in mind when finding and interpreting the standard deviation.
+			<ul>
+				<li>
+					<p>
+						The standard deviation is never negative. It will be zero if all the data values are equal and get larger as the data <q>spreads out</q>.
+					</p>
+				</li>
+				<li>
+					<p>
+						The standard deviation has the same units as the original data and it is important to label it.
+					</p>
+				</li>
+				<li>
+					<p>
+						The standard deviation, like the mean, can be influenced by outliers.
+					</p>
+				</li>
+			</ul>
+		</p>
 		<assemblage>
 			<title>Calculating the Sample Standard Deviation</title>
 			<p>
