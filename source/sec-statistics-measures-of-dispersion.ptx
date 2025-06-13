@@ -304,5 +304,17 @@
 		<p>
 			While the interquartile range is a good measure of spread, sometimes there are no outliers in a data set, or a measure of spread that takes all values into account is desirable. In this case, the <term>standard deviation</term> is used to describe variation. The <term>sample standard deviation</term>, denoted <m>s</m>, is a measure of variation that tells us how far, on average, the data values deviate from the mean.
 		</p>
+		<definition xml:id="def_std_dev">
+			<idx>standard deviation</idx>
+			<idx><h>measures of spread</h><h>standard deviation</h></idx>
+			<statement>
+				<p> The <term>sample standard deviation</term>, <m>s</m> is the average distance of a data point from the mean of a data set. That is, 
+				<me>
+					s=\sqrt{\frac{\text{sum of the squared deviations from the mean}}{n-1}}
+				</me>,
+				where <m>n</m> is the sample size.
+				</p>
+			</statement>
+		</definition>
 	</subsection>
 </section>
