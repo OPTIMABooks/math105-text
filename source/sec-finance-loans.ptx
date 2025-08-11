@@ -22,20 +22,20 @@
 
   <introduction>
     <p>
-      In the last section, you learned about savings plans. In this section, you will learn about <term> payout annuities</term> and <term>conventional loans</term>. These two financial concepts use the same formula: the <term>present value of an annuity</term> formula.  In this section we will also briefly cover credit cards.
+      In the last section, you learned about savings plans. In this section, you will learn about <term> payout annuities</term> and <term>conventional loans</term>. These two financial concepts use the same formula: the <term>present value of an annuity</term> formula.  
     </p>
     <p>
-      In a payout annuity, the account is opened with a lump sum, and money is withdrawn from the account on a regular basis.  The money remaining in the account earns interest.  After a fixed amount of time, the account will be empty. 
+      In a payout annuity, the account is opened with a lump sum, and money is withdrawn from the account on at regular intervals.  The money remaining in the account earns interest.  After a fixed amount of time, the account will be empty. 
     </p>
     <p>
-      Conventional loans are also called <term>amortized loans</term> or <term>installment loans</term>. They are designed so that the payment amount remains the same over the life (term) of the loan.Examples include student loans, car loans and home mortgages. The techniques we use to analyze these loans do not apply to payday loans, add-on loans, or other loan types where the interest is calculated up front. 
+      Conventional loans are also called <term>amortized loans</term> or <term>installment loans</term>. They are designed so that the payment amount remains the same over the life (term) of the loan.Examples include student loans, car loans, and home mortgages. The techniques we use to analyze these loans do not apply to payday loans, add-on loans, or other loan types where the interest is calculated up front. 
     </p>
  
   </introduction>
   <subsection xml:id="subsec-present-value-annuities">
     <title>Present Value of an Annuity</title>
     <p>
-      The <term>present value</term> of an annuity is the amount of money we would need now in order to be able to make the payments in the annuity in the future. In other word, the present value is the value now of a future stream of payments.
+      The <term>present value</term> of an annuity is the amount of money we would need now in order to be able to make the payments in the annuity in the future. In other words, the present value is the value now of a future stream of payments.
       To better understand what this means, consider the following example.
       <idx>present value of an annuity</idx>
       <idx><h>annuities</h><h>present value</h></idx>
@@ -49,7 +49,7 @@
         In this case we want to put a lump sum into the savings account now, so that lump sum is our principal, <m>P</m>.  Then we want to withdraw that amount as a series of period payments; here the withdrawals are an annuity with $1000 payments at the end of each of two years.
         This scenario is illustrated in <xref ref="fig-amortization-cartoon"/>.
       </p>   
-      <p> </p> <!-- paragraph contains non-breaking space -->
+      <!-- <p> </p> paragraph contains non-breaking space -->
       <figure xml:id="fig-amortization-cartoon">
         <caption>How much should Carlos invest now to able to withdraw two payments of $1000 at the end of the next two years and end with a zero account balance? </caption>
         <image xml:id="tigz-amortization-cartoon" width="85%" source="images/financial_math/amortization-cartoon_300.png">
@@ -132,7 +132,7 @@
         </solution>
       </example>
       <p>
-        <alert>Note:</alert> In annuity problems the compounding frequency is not always explicitly given, but is determined by how often you take the withdrawals.
+        <alert>Note:</alert> In annuity problems the compounding frequency is not always explicitly given, but is is implicitly defined by how often you take the withdrawals.
       </p>
       <p>
         The present value of an annuity formula can also be used to find the annuity payment, as shown in the next example.
@@ -146,7 +146,7 @@
         <solution>
           <p>
             This is a annuity question where we know present value <m>P</m> but seek to find the payment (or dispersement) <m>d</m>.
-            In this example, <m>P = \$500{,}000</m>, <m>r = 0.08</m>, <m>n = 12</m>, since we want monthly withdrawals, and <m>t = 30</m> because we are taking withdrawals for 20 years. The withdrawal amount <m>d</m> is unknown.
+            In this example, <m>P = \$500{,}000</m>, <m>r = 0.08</m>, <m>n = 12</m>, since we want monthly withdrawals, and <m>t = 30</m> because we are taking withdrawals for 30 years. The withdrawal amount <m>d</m> is unknown.
           <md>
             <mrow>  500{,}000 =\amp d \left[\frac{1-\left(1+\frac{0.08}{12}\right)^{-12\cdot 30}}{\frac{0.08}{12}}\right]</mrow>
             <mrow>  500{,}000 =\amp d(136.283494) </mrow>
@@ -164,7 +164,7 @@
       Installment loans are also called <alert>amortized loans</alert>. They are designed so that the payment amount remains the same over the life (term) of the loan. In order for that amount to remain constant, the amount of money going towards paying the <alert>principal</alert> (amount owed) and towards the <alert>interest</alert> will vary. At the beginning of the loan, the amount owed is the largest. So, at the beginning the amount of interest charged will also be the largest. As the loan gets repaid the amount owed is reduced and therefore the interest is reduced. Therefore, at the beginning of an installment loan payments go mostly towards the interest, towards the end the payments are going mostly towards the principal.
     </p>
     <figure xml:id="fig-installment-loan-interest-principal">
-      <caption>This is a graph of the interest and principal paid on a loan of $34,000 at 10% APR. Each year $5,391.72 was paid in total. In the first year, $3,305.92 was applied to the interest and $2,085.80 was applied to the principal. In the last year of the loan, only $281.04 was applied to the interest and $5,110.68 was applied to the principal. Over 5 years, a total of $53,917.2 was paid for a loan of $34,000.</caption>
+      <caption>This is a graph of the interest and principal paid on a loan of $34,000 at 10% APR. Each year $5,391.72 was paid in total. In the first year, $3,305.92 was applied to the interest, and $2,085.80 was applied to the principal. In the last year of the loan, only $281.04 was applied to the interest and $5,110.68 was applied to the principal. Over 5 years, a total of $53,917.2 was paid for a loan of $34,000.</caption>
       <image width="85%" source="images/financial_math/interest_principal.png">
         <description><p>A graph that shows how most of the payment goes to interest at the beginning of the loan and that decreases over time until the end of the loan when most of the payment goes toward the principal.</p></description>
     </image>
@@ -189,7 +189,7 @@
           <mrow> \amp= 200\left[\frac{1-(1.0025)^{-60}}{0.0025}\right]</mrow>
           <mrow> \amp\approx\$11{,}130.47</mrow>
         </md>
-        That is, you can afford a maximum loan of $11,130.47. If you have a down payment you can add that to get the value of the car you can buy. If there are any closing costs for the loan you also need to take that into consideration.
+        That is, you can afford a maximum loan of $11,130.47. If you have a down payment you can add that to get the value of the car you can buy. Any closing costs for the loan should also be taken into consideration.
       </p>    
       <p>
         To find the amount of interest you will pay for this loan, calculate the total of all your payments.
@@ -225,16 +225,16 @@
           of interest.
         </p>
         <p>
-          <em>Loan Option 2:</em> For the second option, the values of <m>P</m> and <m>n</m> are the same, but <m>r = 0.08</m>, and <m>t = 5</m>. Solving again for <m>d</m>:
+          <em>Loan Option 2:</em> For the second option, the values of <m>P</m> and <m>n</m> are the same, but <m>r = 0.04</m>, and <m>t = 5</m>. Solving again for <m>d</m>:
           <md>
-            <mrow>  12{,}000 =\amp d \left[\frac{1-\left(1+\frac{0.08}{12}\right)^{-12\cdot 5}}{\frac{0.08}{12}}\right]</mrow>
-            <mrow>  12{,}000 =\amp d(49.318433) </mrow>
-            <mrow>  d =\amp\frac{12{,}000}{49.318433} </mrow>
-            <mrow>  \approx\amp\$243.32 </mrow>
+            <mrow>  12{,}000 =\amp d \left[\frac{1-\left(1+\frac{0.04}{12}\right)^{-12\cdot 5}}{\frac{0.04}{12}}\right]</mrow>
+            <mrow>  12{,}000 =\amp d(54.29990688) </mrow>
+            <mrow>  d =\amp\frac{12{,}000}{54.29990688} </mrow>
+            <mrow>  \approx\amp\$221.00 </mrow>
           </md>
-          For the second loan option, Teresa's payment is $243.32 per month. Over the course of this loan, she would pay
+          For the second loan option, Teresa's payment is $221.00 per month. Over the course of this loan, she would pay
           <me>
-            12(5)(\$243.32) - \$12{,}000 = \$2{,}599.20
+            12(5)(\$221.00) - \$12{,}000 = \$1{,}259.90
           </me>
           of interest. That is, for the second loan her monthly payment would be less, but because she is paying off the loan more slowly it accumulates more interest.
         </p>
@@ -264,7 +264,7 @@
       <p>
         To find out what percentage of the total will go towards interest, we need to total up all of the payments.
         <me>\$839.37(30)(12)=\$302{,}173.20</me>
-        Then take the difference between the total payments and the loan amount.
+        Then, subtract the loan amount from the total payments.
         <me>\$302{,}173.20-\$140{,}000=\$162{,}173.20</me>
         In this case, you would be paying $162,173.20 in interest over the life of the loan. 
       </p>   
@@ -284,7 +284,7 @@
       To determine the remaining loan balance after some number of years, we first need to calculate the payment amount, if we don't already know it. Remember that only a portion of your loan payments go towards the loan balance; a portion is going to go towards interest. For example, if your payments were $1,000 a month, after a year you will <em>not</em> have paid off $12,000 of the loan balance.
     </p>
     <p>
-      To determine the remaining loan balance, we can think <q>how much loan will these loan payments be able to pay off in the remaining time on the loan?</q>
+      To determine the remaining loan balance, we can think <q>how much of the loan balance can these payments pay off in the remaining time?</q>
     </p>
     <example>
       <statement>
@@ -338,6 +338,7 @@
   <subsection>
     <title>Credit Cards</title>
       <p>
+        In this section we will also briefly cover credit cards.
         Credit cards are useful to many people. They can be used to build a credit score, as a short-term loan and as an alternative to physical cash. It is highly advisable to fully pay off a credit card each month because the interest rates are much higher than the conventional installment loans we discussed earlier. There can also be many expensive fees applied when carrying a balance. Because of these higher rates, it can be very easy to get into a lot of debt quickly.
       </p>
       <p>
@@ -356,7 +357,7 @@
             With interest, at the end of the month Amira owes $915.66.
           </p>
           <p>
-             Now we will find one percent of the new balance which is 
+             Next, we find one percent of the new balance, which is
              <me>\$915.66(0.01) \approx \$9.16</me>
             $25 is larger than $9.16, so her first payment must be at least $25. If she makes the minimum payment we can subtract to find her new balance:
             <me>\$915.66-\$25 = \$890.66</me>
