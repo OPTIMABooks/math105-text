@@ -25,11 +25,11 @@
       For most of us it is not practical to deposit a large sum of money in the bank. Instead, we save by depositing smaller amounts of money regularly. We might save in an IRA or 401-K for retirement. We might also save for a down payment on a car or house, or in a college savings plan for our children, or make regular payments into an insurance account.
     </p>
     <p>
-      A sequence of equal periodic payments is called an <term>annuity</term>. The payments (or deposits) can be made annually, quarterly, monthly, or at any other fixed interval of time. When the payments are made at the same time the interest is credited to the account the annuity is called an <term>simple</term> annuity. When these payments are at the end of the payment period the annuity is called <term>ordinary</term>.
-      There are many types of annuities which we will ignore here. This text will only discuss simple, ordinary annuities with equal sized payments. 
+      A sequence of equal periodic payments is called an <term>annuity</term>. The payments (or deposits) can be made annually, quarterly, monthly, or at any other fixed interval of time. When the payments are made at the same time the interest is credited to the account, the annuity is called a <term>simple</term> annuity. When these payments are at the end of the payment period, the annuity is called <term>ordinary</term>.
+      There are many types of annuities, which we will ignore here. This text will only discuss simple, ordinary annuities with equal sized payments. 
     </p>
     <p>
-      <alert>Tip:</alert> If the compounding frequency is not explicitly stated in any problem you encounter in this text, assume there are the same number of compounds in a year as there are deposits.
+      <alert>Tip:</alert> If the compounding frequency is not explicitly stated in a problem, assume that the number of compounding periods per year is the same as the number of deposits per year.
     </p>
   </introduction>
   <subsection xml:id="subsec-annuities">
@@ -43,7 +43,7 @@
       <idx><h>financial formulas</h><h>future value of an annuity</h></idx>
       <idx><h>annuities</h><h>future value</h></idx>
       <p>
-        If a payment of <m>d</m> dollars is made in an account <m>n</m> times a year at annual interest rate  <m>r</m>, then the future value <m>A</m> of the annuity after <m>t</m> years is 
+        If a regular payment of <m>d</m> dollars is made in an account <m>n</m> times a year at annual interest rate <m>r</m>, then the future value <m>A</m> of the annuity after <m>t</m> years is
         <me>
           A = d \left[\frac{\left(1+\frac{r}{n}\right)^{nt}-1}{\frac{r}{n}}\right].
         </me>
@@ -54,7 +54,7 @@
       <p>
         <ul>
           <li>
-            <p><m>A</m> is the balance or amount in the account after n years (the future value)</p>
+            <p><m>A</m> is the balance or amount in the account after <m>t</m> years (the future value)</p>
           </li>
           <li>
             <p><m>d</m> is the regular deposit (or payment amount each month, quarter, year, etc.)</p>
@@ -91,7 +91,7 @@
       </md>
       </p>
       <p>
-        With U.S. dollars we round to the nearest cent. The account will grow to $46,204.09 after 20 years.
+        For monetary values, we round to the nearest cent. The account will grow to $46,204.09 after 20 years.
       </p>
       </solution>
     </example>
@@ -143,7 +143,7 @@
       </p>
     </assemblage>
     <p>
-      Occasionally the problem is more complicated. For example, consider a scenario where an large, initial deposit is made   with subsequent smaller, monthly deposits.
+      Occasionally the problem is more complicated. For example, consider a scenario where a large, initial deposit is made   with subsequent smaller, monthly deposits.
     </p>
     <example>
       <statement>
@@ -205,7 +205,7 @@
           <mrow> 5{,}000 =\amp d \left[\frac{\left(1+\frac{0.08}{12}\right)^{12\cdot 3}-1}{\frac{0.08}{12}}\right] </mrow>
           <mrow> 5{,}000 =\amp d(40.535558) </mrow>
           <mrow> d =\amp\frac{5{,}000}{40.535558} </mrow>
-          <mrow>  \approx\amp \$123.35. </mrow>
+          <mrow> \approx\amp \$123.35. </mrow>
         </md>
       </p>
       <p>
@@ -236,7 +236,7 @@
         </md>
       </p>
       <p>
-        The business needs to deposit $18,063.93 at the end of each quarter for 5 years into an sinking fund earning interest of 9% compounded quarterly in order to have the $450,000 needed for the equipment upgrade at the end of 5 years.
+        The business needs to deposit $18,063.93 at the end of each quarter for 5 years into a sinking fund earning interest of 9% compounded quarterly in order to have the $450,000 needed for the equipment upgrade at the end of 5 years.
       </p>
     </solution>
   </example>
@@ -278,7 +278,7 @@
   <subsection xml:id="subsec-derivation-future-value-of-annuity">
     <title>Deriving the Future Value of an Annuity Formula (Optional)</title>
     <p>
-      If you are interested in where the future value of an annuity formula came from, we explain it here. A savings plan with regular payments can be described recursively. Recall that basic compound interest follows from the relationship for each compound period.
+      If you are interested in where the future value of an annuity formula came from, we explain it here. A savings plan with regular payments can be described recursively. Recall that basic compound interest follows from the relationship for each compound period:
 
       <me>A=P\left(1+\frac{r}{n}\right)</me>
     </p>
@@ -293,7 +293,7 @@
       Taking this equation from recursive form to explicit form is a bit trickier than with compound interest. It will be easiest to see by working with an example rather than working in general.
     </p>
     <p>
-      Suppose we will deposit $100 each month into an account paying 6% APR. We assume that the account is compounded with the same frequency as we make deposits unless stated otherwise.
+      Suppose we will deposit $100 each month into an account paying 6% APR. The compounding frequency is not given, but as stated in the <q>tip</q> at the beginning of the section, since deposits are made monthly we assume that the compounding period is monthly too.
     </p>
     <p>
       In this example:
@@ -311,8 +311,8 @@
     </ul>
  
     <p>
-      Writing out the recursive equation gives where A is exchanged with <m>P_{m}</m>, where <em>m</em> is the number of compounding periods.
-      <me>P_{m}=\left(1+\frac{0.06}{12}\right)P_{m-1}+100=(1.005)P_{m-1}+100</me>
+      Writing out the recursive equation, where we use <m>P_{m}</m> to represent the balance after <m>m</m> compounding periods yields
+      <me>P_{m}=\left(1+\frac{0.06}{12}\right)P_{m-1}+100=(1.005)P_{m-1}+100.</me>
     </p>
 
     <p>
@@ -355,10 +355,8 @@
       <me>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+100(1.005)^{2}+100(1.005)</me>
     </p>
     <p>
-      Now we'll line this up with like terms from our original equation, and subtract each side
-
-      <me>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+ 100(1.005)</me>
-
+      Now we'll line this up with like terms from our original equation and subtract:
+      <me>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+ 100(1.005).</me>
     </p>
 
     <p>
@@ -384,7 +382,7 @@
     </p>
   
     <p>
-      Recall <m>0.005</m> was <m>r/n</m> and 100 was the deposit <m>d</m>. The value 12 as <m>n</m>, the number of deposits each year. Generalizing this result, we get the savings plan formula solved for <m>A</m>. The second formula uses algebra to rearrange the formula to be solved for <m>d</m>.
+      Recall <m>0.005</m> was <m>r/n</m> and 100 was the deposit <m>d</m>. The value 12 is <m>n</m>, the number of deposits per year. Generalizing this result, we get the savings plan formula solved for <m>A</m>. The second formula uses algebra to rearrange the formula to be solved for <m>d</m>.
     </p>
   </subsection>
 </section>
