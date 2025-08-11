@@ -39,6 +39,9 @@
     </p>
     <assemblage>
       <title>Future Value of an Ordinary Annuity</title>
+      <idx>future value of an annuity</idx>
+      <idx><h>financial formulas</h><h>future value of an annuity</h></idx>
+      <idx><h>annuities</h><h>future value</h></idx>
       <p>
         If a payment of <m>d</m> dollars is made in an account <m>n</m> times a year at annual interest rate  <m>r</m>, then the future value <m>A</m> of the annuity after <m>t</m> years is 
         <me>
@@ -184,8 +187,10 @@
   </subsection>
   <subsection xml:id="subsec-sinking_funds">
     <title>Computing Payments and Sinking Funds</title>
-    ><p>
+    <p>
       If a specific lump sum is needed in the future, the annuity formula can be used to determine the necessary deposit size to accumulate the required amount. When a business regularly deposits money into an account to save for future equipment purchases, this savings fund is called a <term>sinking fund</term>. To solve these problems, the annuity formula is used to solve for <m>d</m>, the deposit amount.
+      <idx>sinking fund</idx>
+      <idx><h>annuities</h><h>sinking fund</h></idx>
     </p>
   <example>
     <statement>

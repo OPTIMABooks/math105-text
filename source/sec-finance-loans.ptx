@@ -37,6 +37,8 @@
     <p>
       The <term>present value</term> of an annuity is the amount of money we would need now in order to be able to make the payments in the annuity in the future. In other word, the present value is the value now of a future stream of payments.
       To better understand what this means, consider the following example.
+      <idx>present value of an annuity</idx>
+      <idx><h>annuities</h><h>present value</h></idx>
     </p>
 
       <p>
@@ -76,6 +78,9 @@
       </p>
       <assemblage>
         <title>Present Value of an Ordinary Annuity</title>
+        <idx>present value of an annuity</idx>
+        <idx><h>financial formulas</h><h>present value of an annuity</h></idx>
+        <idx><h>annuities</h><h>present value formula</h></idx>
         <p>
           If a payment of <m>d</m> dollars is made in an account <m>n</m> times a year at annual interest rate  <m>r</m>, then the present value <m>P</m> of the annuity after <m>t</m> years is 
           <me>
@@ -165,7 +170,7 @@
     </image>
     </figure>
     <p>
-      Amortized loan question are solved using the same present value of annuity formula use for payout annuities. The primary difference is one of context. The equations can be solved for <m>P</m> or <m>d</m> as before, but the interpretation of the result is different.
+      Amortized loan questions are solved using the same present value of annuity formula use for payout annuities. The primary difference is one of context. The equations can be solved for <m>P</m> or <m>d</m> as before, but the interpretation of the result is different.
     </p>
     <example>
       <statement>
