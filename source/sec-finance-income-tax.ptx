@@ -3,7 +3,7 @@
 <section xml:id="sec-finance-income-tax" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Income Taxes</title>
 
-  <!-- This section is a remix of PCC, Sekhom and Bloom material, and my own original writing. -->
+  <!-- This section is a almost entirely unchanged from PCC source. -->
 
   <objectives>
       <ul>
@@ -38,7 +38,7 @@
   <subsection>
     <title>A Very Brief History of Taxes</title>
       <p>
-        Although Benjamin Franklin famously claimed in 1789 that “in this world nothing can be said to be certain, except death and taxes”, it wasn't until 1913 that the 16th amendment was ratified, and income tax was legalized. 
+        Benjamin Franklin famously claimed in 1789 that <q>in this world nothing can be said to be certain, except death and taxes.</q> It wasn't until 1913, however, that the 16th Amendment was ratified and income tax was legalized.
         Prior to this, taxes were primarily collected through tariffs on imported goods, poll taxes, and property taxes. A <term>poll tax</term>, also referred to as a head tax, was a fixed amount every liable individual had to pay. 
         Payment of the poll tax was often required before a person could register to vote or be issued a hunting or fishing license.
       </p>
@@ -50,7 +50,7 @@
     <subsection>
       <title>Types of Income Tax</title>
       <p>
-        <term>Income tax</term> is a tax that is levied on earned income or profit. Income taxes are collected by the federal government, states, and even some municipalities. Income taxes are an important source of funding, and are used to finance social programs, maintain and expand infrastructure, and provide foreign aid, among other things.
+        <term>Income tax</term> is a tax that is levied on earned income or profit. Income taxes are collected by the federal government, states, and even some municipalities. Income taxes are an important source of funding and are used to finance social programs, maintain and expand infrastructure, and provide foreign aid, among other things.
       </p>
       <p>
         <alert>Federal Income Tax:</alert> Anyone who earns income over a certain amount (approximately $10,000 for an individual) must file a federal tax return and have taxes collected on their behalf. The amount of federal tax owed is determined by your <term>filing status</term> and <term>taxable income</term>.
@@ -65,7 +65,7 @@
     <subsection>
       <title>Calculating Federal Income Tax</title>
       <p>
-        Not all income is taxed, and not all income that gets taxed is taxed at the same rate. The general process of calculating the amount of federal income tax you owe is outlined in the chart below.
+        Not all income is taxed, and not all income that gets taxed is taxed at the same rate. The general process of calculating the amount of federal income tax you owe is outlined in the figure below.
       </p>
       <figure>
         <caption>Steps to Calculate Federal Income Tax</caption>
@@ -74,10 +74,10 @@
         </image>
       </figure>
       <p>
-        <term>Gross income</term> includes all wages, tips, earned interest, dividends, rents and royalties, alimony, property gains, income tax refunds, etc. Keep in mind that ALL income means ALL income. Even income earned from a crime must be reported!
+        <term>Gross income</term> includes all wages, tips, earned interest, dividends, rents and royalties, alimony, property gains, income tax refunds, etc. Note that this includes all forms of income. Even income from illegal activities must be reported.
       </p>
       <p>
-        <term>Adjustments</term> are eligible expenses used to reduce your gross income. Adjustments are tax-exempt and thus reduce the amount owed in taxes. Eligible expenses include contributions to tax deferred savings plans (401k, Individual Retirement Plan (IRA)), school tuition, student loan interest, moving expenses, business expenses, flexible spending accounts and health savings account contributions.
+        <term>Adjustments</term> are eligible expenses used to reduce your gross income. Adjustments are tax-deductible expenses that reduce your gross income. Eligible expenses include contributions to tax deferred savings plans (401k, Individual Retirement Plan (IRA)), school tuition, student loan interest, moving expenses, business expenses, flexible spending accounts, and health savings account contributions.
       </p>
       <p>
         <term>Taxable income</term> is determined by subtracting your <term>deductions</term> from your adjusted gross income. You may choose to take <em>either</em> a <term>standard deduction</term>, which is determined by your filing status, or you may choose to <term>itemize</term> your deductions. Itemized deductions may include state and local income taxes, property taxes, medical expenses, mortgage interest, and charitable donations.
@@ -86,7 +86,7 @@
         Prior to the 2018 tax year, you could also claim <term>personal exemptions</term>. Exemptions of $4,050 for each member of the household were subtracted from the adjusted gross income along with either the standard or itemized deduction to determine taxable income. Starting in 2018, however, the standard deduction was doubled, and personal exemptions were eliminated.
       </p>
       <p>
-        Let's look at an example of how to calculate gross income and adjusted gross income (AGI).
+        The following example illustrates how to calculate gross income and adjusted gross income (AGI).
       </p>
       <example>
         <p>
@@ -170,7 +170,7 @@
         </tabular>
     
       <p>
-        Here is an example where we calculate adjusted gross income and taxable income.
+        The following example demonstrates how to calculate adjusted gross income and taxable income.
       </p>
         
       <example>
@@ -192,8 +192,7 @@
         <p>
           Adjusted Gross Income <m>= \$40{,}795 - \$3{,}500 = \$37{,}295</m>
         </p>
-        <p>
-          Since Maria is unmarried and is the primary caregiver for her daughter, she can file as the head of household and take the standard deduction of $21,900.
+        <p>Since Maria is unmarried and has a qualifying dependent (her daughter), she can file as the head of household and take the standard deduction of $21,900.
         </p>
         <p>
           Taxable Income <m>= \$37{,}295 - \$21{,}900 = \$15{,}395</m>
@@ -207,11 +206,11 @@
     <subsection>
       <title>Tax Tables</title>
       <p>
-        The United States has a <term>progressive</term> federal income tax system which means the more income you have, the more you generally pay in taxes. There are <term>marginal tax rates</term> that go up according to our income, but we don't pay the same rate on all of our income. The ranges of income are called <term>tax brackets</term> and the buckets in the illustration below can help us visualize the brackets.
+        The United States has a <term>progressive</term> federal income tax system: the more income you have, the more you generally pay in taxes. There are <term>marginal tax rates</term> that go up according to our income. However, we don't pay the same rate on all of our income. The ranges of income are called <term>tax brackets</term> and the buckets in the illustration below can help us visualize the brackets.
       </p>
       
       <p>
-        The cutoff values in the figure are for a married couple filing jointly, but the percentages are the same for everyone as you'll see in the table on the next page. We pay 10% of any taxable income in the first bucket. If the first bucket is full, we move to the second bucket and we pay 12% of that income. This couple is in the 22% tax bracket because the 3rd bucket is partially filled. They will pay 22% of the income in that bucket, but they are not paying 22% of their entire income.
+        The cutoff values in the figure are for a married couple filing jointly. However, the percentages are the same for everyone, as you'll see in the table shown below. We pay 10% of any taxable income in the first bucket. If the first bucket is full, we move to the second bucket and we pay 12% of that income. This couple is in the 22% tax bracket because the 3rd bucket is partially filled. They will pay 22% of the income in that bucket, but they are not paying 22% of their entire income.
       </p>
       <figure xml:id="tax_buckets">
         <caption>Tax Buckets by John Chesbrough, licensed under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/" visual="creativecommons.org/licenses/by-nc-nd/4.0">CC-BY-ND-NC 4.0</url>.</caption>
@@ -492,7 +491,7 @@
           </md>
         </p>
         <p>
-          Now, using the simplified tax table for single filing status, we see that Adira's taxable income puts her in the 24% tax bracket. The simplified table tells us that her taxes will be equal to $15,469 plus 24% of the excess over $100,500. Notice the number $15,469 is the total for the first three tax brackets that are “full,” so we only need to calculate the last one. To find the excess over $100,500, we subtract $100,500 from her taxable income. Thus, her taxes are:
+          Now, using the simplified tax table for a head of household, we see that Adira's taxable income puts her in the 24% tax bracket. The simplified table tells us that her taxes will be equal to $15,469 plus 24% of the excess over $100,500. Notice the number $15,469 is the total for the first three tax brackets that are “full,” so we only need to calculate the last one. To find the excess over $100,500, we subtract $100,500 from her taxable income. Thus, her taxes are:
         </p>
         <p>
           <md>
