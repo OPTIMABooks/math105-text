@@ -638,7 +638,9 @@
 			</tabular>
 
 			<fact>
-				<title>The Law of Detachment</title>			
+				<title>The Law of Detachment</title>
+				<idx>law of detachment</idx>
+				<idx><h>logical rules</h><h>detachment</h></idx>		
 				<statement>
 					<p>
 						If the conditional <m>p \to q</m> is true and <m>p</m> is true, then <m>q</m> must be true.
@@ -676,7 +678,9 @@
 				</row>
 			</tabular>
 			<fact>
-				<title>The Law of Contraposition</title>			
+				<title>The Law of Contraposition</title>	
+				<idx>law of contraposition</idx>
+				<idx><h>logical rules</h><h>contraposition</h></idx>			
 				<statement>
 					<p>
 						If the conditional <m>p \to q</m> is true and <m>\lnot q</m> is true, then <m>\lnot p</m> must be true.
@@ -719,7 +723,9 @@
 				</row>
 			</tabular>
 			<fact>
-				<title>The Transitive Property</title>			
+				<title>The Transitive Property</title>		
+				<idx>transitive property</idx>
+				<idx><h>logical rules</h><h>transitivity</h></idx>		
 				<statement>
 					<p>
 						If the conditional <m>p \to q</m> is true and the conditional <m>q \to r</m> is true, then <m>p \to r</m> must be true.

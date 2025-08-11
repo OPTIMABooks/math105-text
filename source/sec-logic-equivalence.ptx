@@ -335,6 +335,7 @@
 		</sidebyside>
 		<assemblage xml:id="assemblage-logic-biconditional">
 			<title>Biconditional</title>
+			<idx>biconditional</idx>
 			<p>
 				A biconditional is a logical conditional statement in which the antecedent and consequent are interchangeable.
 			</p>
@@ -493,6 +494,8 @@
 		</p>
 		<fact xml:id="fact-logic-deMorgan">
 			<title>De Morgan's Law</title>
+			<idx>De Morgan's law</idx>
+			<idx><h>logical rules</h><h>De Morgan's Law</h></idx>
 			<statement>
 				<p>
 					For any two propositions <m>p</m> and <m>q</m>,

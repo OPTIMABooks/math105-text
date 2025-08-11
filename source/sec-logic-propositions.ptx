@@ -506,6 +506,7 @@
 		</p>
 		<assemblage xml:id="assemblage-logical-symbols">
 			<title>Common Logical Symbols</title>
+			<idx>logical symbols</idx>
 			<tabular halign="center">
 				<row header="yes">
 					<cell>Operator</cell>
