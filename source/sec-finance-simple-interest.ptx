@@ -68,6 +68,8 @@
     </p>
     <assemblage>
       <title>Simple Interest Formulas</title>
+      <idx>simple interest</idx>
+      <idx><h>financial formulas</h><h>simple interest</h></idx>
       <p>
         If an amount <m>P</m> is borrowed for a time <m>t</m> at an interest rate <m>r</m>, then the interest <m>I</m> is 
       </p>
@@ -192,6 +194,8 @@
   </p>
   <assemblage>
     <title>Discount and Proceeds Formulas</title>
+    <idx>discounted loans</idx>
+    <idx><h>financial formulas</h><h>discounted loans</h></idx>
     <p>
       If an amount <m>L</m> is borrowed for a time <m>t</m> at an interest rate <m>r</m>, then the discount <m>D</m> is 
     </p>
