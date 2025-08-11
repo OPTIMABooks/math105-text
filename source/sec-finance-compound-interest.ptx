@@ -239,6 +239,8 @@
     </p>
 	<assemblage>
 		<title>Compound Interest</title>
+    <idx>compound interest</idx>
+    <idx><h>financial formulas</h><h>compound interest</h></idx>
     <p>
       The amount <m>A</m> after <m>t</m> years due to a principal <m>P</m> invested at an annual interest rate <m>r</m> compounded <m>n</m> times per year is given by
     </p>
@@ -490,7 +492,9 @@
       </example>
       <assemblage>
         <title>Effective Rate Formula</title>
-        <p> The effective interest rate or annual percentage yield is given by
+        <idx>effective rate</idx>
+        <idx><h>financial formulas</h><h>effective rate</h></idx>
+        <p>The effective interest rate or annual percentage yield is given by
           <me>
             r_{\text{eff}} = \left(1 + \frac{r}{n}\right)^n -1, 
           </me>
