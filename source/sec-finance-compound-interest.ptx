@@ -22,17 +22,17 @@
 
   <introduction>
     <p>
-      In the last section, we examined problems involving simple interest.  Simple interest is generally charged when the lending period is short (often less than a year).   When the money is loaned or borrowed for a longer time period, interest is paid (or charged) not only on the principal, but also on the past interest. In this case we say the interest is <term>compounded</term>.  
+      In the last section, we examined problems involving simple interest.  Simple interest is generally charged when the lending period is short (often less than a year).   When the money is loaned or borrowed for a longer time period, interest is paid (or charged) not only on the principal, but also on the past interest. In this case, we say the interest is <term>compounded</term>.  
     </p>
   </introduction>
   <subsection>
     <title>APR <mdash></mdash> Annual Percentage Rate</title>
     <p>
-      Interest rates are usually stated as an <term>annual percentage rate (APR)</term> – the total interest that will be paid in the year. If not stated otherwise, assume that the interest rate is an annual rate or APR. If the interest is paid in smaller time increments, the APR will be divided by the number of time periods.
+      Interest rates are usually stated as an <term>annual percentage rate (APR)</term> <mdash> the total interest that will be paid in the year. Unless stated otherwise, assume the interest rate is an annual rate or APR. If the interest is paid in smaller time increments, the APR will be divided by the number of time periods.
       The APR divided by the number of time periods is called the <term>periodic interest rate</term>.
     </p>
     <p>
-      Note: The Federal Truth in Lending Act requires that every consumer be given the true APR which includes the interest and any fees included.
+      Note: The Federal Truth in Lending Act requires that every consumer be given the true APR, which includes the interest and any fees.
     </p>
     <p>
       For example, a 6% APR paid monthly, would be divided by 12, because you would get one twelfth of the rate per month, which is a periodic interest rate of half a percent per month.
@@ -50,9 +50,6 @@
       <me>\frac{0.04}{4}=0.01</me>
     </p>
   
-    <p>
-      Here is an example of a semi-annual rate.
-    </p>
     <example>
       <statement>
       <p>
@@ -235,7 +232,7 @@
       <m>n^{\text{th}} \text{ Month } A=1.0025^{n}(\$1000).</m>
     </p>
     <p>
-      Notice that the $1000 in the equation was P, the starting amount. We found 1.0025 by adding one to the interest rate divided by 12, since we were compounding 12 times per year. Generalizing our result, we could write
+      Notice that the $1000 in the equation represents P, the starting amount. We found 1.0025 by adding one to the periodic interest rate, which is the annual rate divided by 12, since we were compounding monthly. Generalizing our result, we could write
     </p>
 	<assemblage>
 		<title>Compound Interest</title>
@@ -253,7 +250,7 @@
 		<p>
       <ul>
         <li>
-          <p><m>A</m> is the future value or total amount in the account after <m>n</m> years</p>
+          <p><m>A</m> is the future value or total amount in the account after <m>t</m> years</p>
         </li>
         <li>
           <p><m>P</m> is the principal or present value</p>
@@ -334,7 +331,7 @@
           </me>
         </p>
         <p>
-          Thus, $3188,32 invested  into an account paying 9% compounded daily will accumulate to $5,000 in five years.
+          Thus, $3,188.32 invested in an account paying 9% compounded daily will accumulate to $5,000 in five years.
         </p>
         <p>
           <alert>Note:</alert> Be very careful with rounding on problems like this. Truncating or rounding decimals can lead to large changes in the final answer. The safest course is to leave the number entirely in the calculator and not round until the final step.
@@ -356,7 +353,7 @@
               <mrow> A =\amp P\left(1+\frac{r}{n}\right)^{nt} </mrow>
               <mrow> \$6000 =\amp \$4000\left(1+\frac{0.04}{1}\right)^{1\cdot t} </mrow>
               <mrow> \$6000 =\amp \$4000(1.04)^{t}</mrow>
-              <mrow> \frac{\$6000}{\$4000} = 1.5 \amp= 1.04^4. </mrow>
+              <mrow> \frac{\$6000}{\$4000} = 1.5 \amp= 1.04^t. </mrow>
             </md>
             To solve for <m>t</m> in the exponent we must take the <m>log</m> of both sides:
             <md>
@@ -447,7 +444,7 @@
         </p>
         
         <p>
-          The depositor earned $1,509.82 in interest.
+          The depositor earned $1,509.92 in interest.
         </p>
         <p>
           To find the percentage of the total that is interest, divide the amount of interest by the total amount of the future value.
@@ -461,11 +458,12 @@
     <subsection>
       <title>Effective Rate</title>
       <p>
-        If you are shopping around for different investments, you might need to compare different rates that have different compounding periods. If the rate and period are different, it's hard to know which account will give the better result. 
+        If you are shopping around for different investments, you might need to compare different rates that have different compounding periods. If the rate and period are different, it is hard to know which account will give the better result. 
         Banks are required to state their interest rate in terms of an "effective yield" or "effective interest rate", for comparison purposes.  The effective rate is also called the <term>Annual Percentage Yield (APY)</term>. 
       </p>
       <p>
-        The effective rate is the interest rate compounded annually would be equivalent to the stated rate and compounding periods. To examine several investments to see which has the best rate, we find and compare the effective rate for each investment. The next example shows how to calculate the effective rate. 
+        The <term>effective rate</term> is the interest rate compounded annually that would be equivalent to the stated rate and compounding periods.To examine several investments to see which has the best rate, we find and compare the effective rate for each investment. The next example shows how to calculate the effective rate. 
+        <idx>effective rate</idx>
       </p>
       <example>
         <p>
@@ -477,7 +475,7 @@
           <me>
             1\left(1+\frac{0.072}{12}\right)^12 = 1.0744.
           </me>
-          In an account at Bank A, we earn interest of <m>\$1.0744-\$1.00 = \$0.0744</m> on an investment of $1. The <term>effective interest rate</term> (or APY) is 7.44% for this account.
+          In an account at Bank A, the interest earned is <m>\$1.0744-\$1.00 = \$0.0744</m> on an investment of $1. The <term>effective interest rate</term> (or APY) is 7.44% for this account.
         </p>
         <p>
           <alert>Bank B:</alert> The effective rate is calculated as 
@@ -487,14 +485,14 @@
           The effective interest rate for this account is 7.38%.
         </p>
         <p>
-          Bank A pays slightly higher interest, with an effective rate of 7.44%, compared to Bank B with effective rate 7.38%.
+          Bank A pays a slightly higher interest rate, with an effective rate of 7.44%, compared to Bank B's 7.38% effective rate.
         </p>
       </example>
       <assemblage>
         <title>Effective Rate Formula</title>
         <idx>effective rate</idx>
         <idx><h>financial formulas</h><h>effective rate</h></idx>
-        <p>The effective interest rate or annual percentage yield is given by
+        <p>The <term>effective interest rate</term> or <term>annual percentage yield</term> is given by
           <me>
             r_{\text{eff}} = \left(1 + \frac{r}{n}\right)^n -1, 
           </me>
