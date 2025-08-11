@@ -26,9 +26,9 @@
     </p>
   </introduction>
   <subsection>
-    <title>APR <mdash></mdash> Annual Percentage Rate</title>
+    <title>APR <mdash/> Annual Percentage Rate</title>
     <p>
-      Interest rates are usually stated as an <term>annual percentage rate (APR)</term> <mdash> the total interest that will be paid in the year. Unless stated otherwise, assume the interest rate is an annual rate or APR. If the interest is paid in smaller time increments, the APR will be divided by the number of time periods.
+      Interest rates are usually stated as an <term>annual percentage rate (APR)</term> <mdash/> the total interest that will be paid in the year. Unless stated otherwise, assume the interest rate is an annual rate or APR. If the interest is paid in smaller time increments, the APR will be divided by the number of time periods.
       The APR divided by the number of time periods is called the <term>periodic interest rate</term>.
     </p>
     <p>
