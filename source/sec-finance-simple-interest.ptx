@@ -9,7 +9,7 @@
     <ul>
       <li>
         <p>
-          Solve problem involving simple interest.
+          Solve problems involving simple interest.
         </p>
       </li>
       <li>
@@ -22,7 +22,7 @@
 
   <introduction>
     <p>
-      It costs to borrow money.  The "rent" one pays for the use of money is called the <term>interest</term>. The amount of money that is being borrowed or loaned is called the <term>interest</term> or <term>present value</term>.
+      It costs to borrow money.  The "rent" one pays for the use of money is called the <term>interest</term>. The amount of money that is being borrowed or loaned is called the <term>principal</term> or <term>present value</term>.
     </p>
   </introduction>
 
@@ -32,7 +32,7 @@
       Simple interest is interest paid only on the original amount borrowed.  In this scenario, the borrower pays a fixed interest rate on the principal for the entire time the money is held.
     </p>
     <p>
-      Calculating interest starts with the <term>principal</term>, <em>P</em>, or the beginning amount in your account. This is also called the <term>present value</term>. This could be a starting investment, or the starting amount of a loan. The <term>interest rate</term>, <em>I</em>, in its most simple form, is a percentage of the principal.
+      Calculating interest starts with the <term>principal</term>, <em>P</em>, or the beginning amount in your account. This is also called the <term>present value</term>. This could be a starting investment, or the starting amount of a loan. The <term>interest rate</term>, <em>r</em>, in its most simple form, is a percentage of the principal.
     </p>
     <p>
       For example, if you borrowed $100 from a friend and agree to repay it with 5% interest, then the amount of interest you would pay would be 5% of 100. It is important to remember to change the interest <term>rate</term>, r, of 5% into a decimal by moving the decimal two places to the left before performing any calculation.
@@ -51,20 +51,20 @@
       In that case, interest would be earned regularly. 
     </p>
     <p>
-      To see how this works, supposed you borrow $100 from a friend and agree to repay it with 5% interest per year, and you keep the money for 3 years. 
-      How much would you need to repay at the end of the loan? The amount of interest you would pay would be 5% of 100 each year for three years, that is    
+      To see how this works, suppose you borrow $100 from a friend and agree to repay it with 5% interest per year, and you keep the money for 3 years. 
+      How much would you need to repay at the end of the loan? The amount of interest you would pay would be 5% of 100 each year for three years, that is:    
     </p>
     <p>
       <me> (0.05)(\$100)(3) = \$15. </me>
     </p>
     <p>
-      The future value of the loan would be $115, which is the original plus the interest.
+      The future value of the loan would be $115, which is the original principal plus the interest.
     </p>
     <p>
       <me>\$100+\$15=\$115</me>
     </p>
     <p>
-      These ideas are summarize in the block below.
+      These ideas are summarized in the block below.
     </p>
     <assemblage>
       <title>Simple Interest Formulas</title>
@@ -149,7 +149,7 @@
           <me>
             I = \$600(.15)\left(\frac{5}{12}\right) = \$37.50.
           </me>
-          Note that here the rate has units of years and the time has units of month so we convert 5 months into years by dividing by 12.
+          Note that here the rate has units of years and the time has units of months so we convert 5 months into years by dividing by 12.
         </p>
         <p>
           The total amount is thus
@@ -220,7 +220,7 @@
               <p><m>D</m> is the discount (interest)</p>
           </li>
           <li>
-              <p><m>R</m> is the proceeds, (the actual amount the borrow gets)</p>
+              <p><m>R</m> is the proceeds, (the actual amount the borrower gets)</p>
           </li>
           <li>
               <p><m>r</m> is the interest rate in decimal form</p>
@@ -248,7 +248,7 @@
           <mrow> =\amp \$1200(.15)\left(\frac{10}{12}\right) </mrow>
           <mrow> =\amp \$150 </mrow>
         </md>
-        Therefore, the bank deducts $150 from the maturity value of $1200 and gives Francisco $1050. That is, <me> R = \$1200 - \$150 = \$1050</me>  Francisco is obligated to repay the bank $1200.
+        Therefore, the bank deducts $150 from the maturity value of $1200 and gives Francisco $1050. That is, <me> R = \$1200 - \$150 = \$1050.</me>  Francisco is obligated to repay the bank $1200.
       </p>
     </solution>
   </example>
@@ -260,7 +260,7 @@
     </statement>
     <solution>
       <p>
-        In this problem, we are given the proceeds <m>P</m> and are being asked to find the maturity value <m>L</m>. From the problem statement we see that <me>P = \$1200, r = .15, t = 10/12.</me>. We must solve for <m>L</m>. Thus
+        In this problem, we are given the proceeds <m>R</m> and are being asked to find the maturity value <m>L</m>. From the problem statement we see that <me>R = \$1200, r = .15, t = 10/12.</me>. We must solve for <m>L</m>. Thus
       </p>
       <p>
         <md>
@@ -271,47 +271,9 @@
           <mrow>L =\amp \frac{\$1200}{0.875} </mrow>
           <mrow> =\amp \$1371.43. </mrow>
         </md>
-        Therefore, Francisco should ask for a loan for $1371.43. The lender will discount the loan by $171.43 and Francisco will receive $1200.
+        Therefore, Francisco should ask for a loan of $1371.43. The lender will discount the loan by $171.43 and Francisco will receive $1200.
       </p>
     </solution>
   </example>
   </subsection>
-<subsection>
-	<title>Finding the Amount of Interest Earned and the Percentage</title>
-	<p>
-		In the previous example we also want to know how much interest was earned and what percentage of the final balance is from interest. The future value of the investment is $4,849.11. Now to figure out how much of that was interest, we need to subtract the amount initially deposited.
-	</p>
-	<example>
-		<p>
-			Continued: To find the total amount of interest earned, we subtract the principal from the total balance.
-		</p>
-		<p>
-			<me>\$4{,}849.11-\$4{,}000=\$849.11</me>
-		</p>
-		<p>
-			The spreadsheet calculation is
-		</p>
-		<p>
-			<cd>=4849.11-4000</cd>
-		</p>
-		<p>
-			which gives a result of $849.11. You would earn $849.11 in interest.
-		</p>
-		<p>
-			To find the percentage that is interest, divide the amount of interest by the total amount.
-		</p>
-		<p>
-			<me>\frac{\$849.11}{4{,}849.11}\approx0.1751\text{ or } 17.5\%</me>
-		</p>
-		<p>
-			The spreadsheet calculation is the same:
-		</p>
-		<p>
-			<cd>=849.11/4849.11</cd>
-		</p>
-		<p>
-			which is 0.1751 or 17.5%. This tells us that after 7 years, 17.5% of the account was earned as interest.
-		</p>
-	</example>
-</subsection>
 </section>
