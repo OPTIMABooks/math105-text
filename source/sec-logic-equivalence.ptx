@@ -156,7 +156,7 @@
 	<subsection>
 		<title>The Contrapositive</title>
 		<p>
-			<em>And</em> and <em>or</em> statements can have their propositions reversed without affecting the truth value of the statement. If you need to buy beans <em>and</em> eggs, that's the same as buying eggs <em>and</em> beans. The order does matter for a conditional statement, however. Sometimes during an argument, an <em>if, then</em> statement will be reversed or combined with <em>not</em> in different ways. There are names for these combinations and it is helpful to look at which statements are equivalent to each other. Here are the names for the different combinations of <em>if, then</em> and <em>not</em> statements.
+			<em>And</em> and <em>or</em> statements can have their propositions reversed without affecting the truth value of the statement. If you need to buy beans <em>and</em> eggs, that's the same as buying eggs <em>and</em> beans. The order does matter for a conditional statement, however. Sometimes during an argument, an <em>if, then</em> statement will be reversed or combined with <em>not</em> in different ways. There are names for these combinations, and it is helpful to look at which statements are equivalent to each other. Here are the names for the different combinations of <em>if, then</em> and <em>not</em> statements.
 		</p>
 		<p>
 			<ul>
@@ -196,12 +196,12 @@
 				<ul>
 					<li>
 						<p>
-							Original Statement: <m>p</m> is, <q>You take your dog to the park,</q> and <q>q</q> is, <q>Your dog is happy.</q>
+							Original Statement: <m>p</m> is <q>You take your dog to the park,</q> and <q>q</q> is <q>Your dog is happy.</q>
 						</p>
 					</li>
 					<li>
 						<p>
-							Converse: <q>If your dog is happy, then you took them to the park.</q> Notice we needed to change the tense to keep the order of events the same. If your dog is happy does that mean you took them to the park? Not necessarily, because there are other reasons your dog could be happy like getting a treat or taking a walk. So, this is false.
+							Converse: <q>If your dog is happy, then you took them to the park.</q> Notice we needed to change the tense to keep the order of events the same. If your dog is happy, does that mean you took them to the park? Not necessarily, because there are other reasons your dog could be happy like getting a treat or taking a walk. So, this is false.
 						</p>
 					</li>
 					<li>
@@ -374,7 +374,7 @@
 				<ol marker="a">
 					<li>
 						<p>
-							This cannot be true. This is like the second row of the truth table; it is true that I just experienced Thursday morning, but it is false that the garbage truck came.
+							This cannot be true. This is like the second row of the truth table; it is true that I just experienced Thursday morning but it is false that the garbage truck came.
 						</p>
 					</li>
 					<li>
@@ -488,7 +488,7 @@
 			In 1847 Augustus De Morgan published two rules of logic that had previously been known only informally. These rules allow us to rewrite the negation of an AND statement with OR, and the negation of an OR statement with AND. 
 		</p>
 		<p>
-			To illustrate the intuitive sense of <term>De Morgan's Law</term>, suppose you want to schedule a meeting with two colleagues at 4:30PM on Friday, and you need both of them to be available at that time. What situation would make it impossible to have the meeting? That is, what would it mean if it were not the case that Colleague A and Colleague B could both meet? Writing this in logic, what is equivalent to <m>\neg(A \land B)</m>?
+			To illustrate the intuitive sense of <term>De Morgan's Law</term>, suppose you want to schedule a meeting with two colleagues at 4:30 PM on Friday, and you need both of them to be available at that time. What situation would make it impossible to have the meeting? That is, what would it mean if it were not the case that Colleague A and Colleague B could both meet? Writing this in logic, what is equivalent to <m>\neg(A \land B)</m>?
 			This situation is equivalent to either Colleague A not being available or Colleague B being not being available. That is, (again writing the result in logic) <m>\neg A \lor \neg B</m> is an equivalent form.
 		</p>
 		<fact xml:id="fact-logic-deMorgan">
