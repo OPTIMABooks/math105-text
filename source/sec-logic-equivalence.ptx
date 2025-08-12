@@ -24,8 +24,7 @@
 	</objectives>
 	<introduction>
 		<p>
-			Two statements are <term>logically equivalent</term> if they have the same truth value in every possible situation. In other words, no matter the circumstances, both statements are either true or false simultaneously.
-		This relationship is often denoted <m>P\equiv Q</m> symbolically, and means that statements <m>P</m> and <m>Q</m> are interchangeable in logical arguments.
+			Two statements are <term>logically equivalent</term> if they have the same truth value in every possible situation. In other words, no matter the circumstances, both statements are either simultaneously true or simultaneously false. This relationship is often denoted <m>P\equiv Q</m> symbolically and means that statements <m>P</m> and <m>Q</m> are interchangeable in logical arguments.
 		</p>
 	</introduction>
 	<subsection xml:id="subsec-logic-contrapositive">
@@ -48,11 +47,11 @@
 		</p>
 		<example>
 			<p>
-				You are told <q>If the cookies contains nuts, then Alex cannot eat it</q>. With some thought, you should see that this is equivalent to saying <q>Either the cake does not contain nuts, or Alex cannot eat it</q>.
+				You are told, <q>If the cookie contains nuts, then Alex cannot eat it</q>. With some thought, you should see that this is equivalent to saying, <q>Either the cookie does not contain nuts, or Alex cannot eat it</q>.
 			</p>
 		</example>
 		<p>
-			While verbal example such as the one above illustrate our intuitive understanding that two statements are equivalent, equivalence is definitively demonstrated with a truth table. One advantage of a truth table is that the result can be shown independently of the specific details of a problem.
+			While verbal example such as the one above illustrate our intuitive understanding that two statements are equivalent, equivalence is definitively demonstrated with a truth table. One advantage of a truth table is that the result can be shown independently of a problem's specific details.
 		</p>
 		<example>
 			<statement>
@@ -146,7 +145,7 @@
 			</statement>
 			<solution>
 				<p>
-					The first two statements are irrelevant because we don't know what will happen if you park somewhere else. The third statement, however contradicts the conditional statement <q>If you park here, then you will get a ticket</q> because you parked here but didn't get a ticket.
+					The first two statements are irrelevant because we don't know what will happen if you park somewhere else. The third statement, however, contradicts the conditional statement <q>If you park here, then you will get a ticket</q> because you parked here but didn't get a ticket.
 				</p>
 				<p>
 					This example demonstrates the general rule shown above that the negation of a conditional can be written as a conjunction: <q>It is not the case that if you park here, then you will get a ticket</q> is equivalent to <q>You park here and you do not get a ticket.</q>
