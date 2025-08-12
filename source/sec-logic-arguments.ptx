@@ -35,7 +35,7 @@
 
 	<introduction>
 		<p>
-			A <term>logical argument</term> is a claim that a set of propositions, called <term>premises</term> or <term>hypotheses</term>, support a proposition called the <alert>conclusion</alert>.
+			A <term>logical argument</term> is a claim that a set of propositions, called <term>premises</term> or <term>hypotheses</term>, supports a proposition called the <alert>conclusion</alert>.
 			In this section we will look at <term>inductive</term> and <term>deductive</term> arguments and how to determine the strength, validity, and/or soundness of each. We will use truth tables as our primary tool for determining the validity of deductive arguments, but will also list several standard argument forms.
 		</p>
 	</introduction>
@@ -47,7 +47,7 @@
 		</p>
 		<note>
 			<p>
-				To analyze an argument is is helpful to precisely state its premises and conclusion. Most arguments you encounter in the real world won't be stated in a precise <q>premise, premise, conclusion</q> form. Sometimes the conclusion will be stated before the premises, or the premises will be hidden within a bunch of rhetoric.
+				To analyze an argument, it is helpful to precisely state its premises and conclusion. Most arguments you encounter in the real world won't be stated in a precise <q>premise, premise, conclusion</q> form. Sometimes the conclusion will be stated before the premises, or the premises will be hidden within a bunch of rhetoric.
 			</p>
 		</note>
 		<example>
@@ -93,7 +93,7 @@
 				</p>
 			</blockquote>
 			<p>
-				Just as we did for the last example, rewrite the argument in its <q>premise, premise, conclusion</q> form for clarity:
+				Just as we did for the last example, let's rewrite the argument in its <q>premise, premise, conclusion</q> form for clarity:
 			</p>
 			<tabular>
 				<row>
@@ -114,10 +114,10 @@
 			</p>
 		</example>
 		<p>
-			We can determine whether an argument is inductive or deductive by looking at which part of the argument is general and which is specific. In the first example, the premises were specific and the conclusion was more general. This is an example of an <term>inductive</term> argument. In the second example, it was the premises that were more general and the conclusion that was specific. This is an example of a <term>deductive</term> argument. 
+			We can determine whether an argument is inductive or deductive by looking at which part of the argument is general and which part is specific. In the first example, the premises were specific and the conclusion was more general. This is an example of an <term>inductive</term> argument. In the second example, it was the premises that were more general and the conclusion that was specific. This is an example of a <term>deductive</term> argument. 
 		</p>
 		<p>
-			In general, an <term>inductive argument</term> uses a collection of <em>specific</em> examples (i.e. data) as its premises and uses them to propose a <em>general</em> conclusion. This is shown in the image on the left below, where the argument moves from the narrow specific premises at the bottom up to the wide general conclusion at the top. A <term>deductive argument</term> uses a collection of <em>general statements</em> (i.e. definitions) as its premises and uses them to propose a <em>specific conclusion</em>. This is shown in the image to the right below, where the argument moves from the wide general premises at the bottom to the narrow specific conclusion at the top.
+			In general, an <term>inductive argument</term> uses a collection of <em>specific</em> examples (i.e. data) as its premises and uses them to propose a <em>general</em> conclusion. This is shown in the image on the left below, where the argument moves from the narrow specific premises at the bottom up to the wide general conclusion at the top. A <term>deductive argument</term> uses a collection of <em>general statements</em> (i.e., definitions) as its premises and uses them to propose a <em>specific conclusion</em>. This is shown in the image to the right below, where the argument moves from the wide general premises at the bottom to the narrow specific conclusion at the top.
 		</p>
 		<sidebyside widths="40% 40%">
 			<image source="images/logic/ind_ded_argument1.png">
@@ -217,13 +217,13 @@
 			</solution>
 		</example>
 		<p>
-			Deductive arguments, on the other hand, can be proven and their validity and soundness can be evaluated. The <term>validity</term> of the argument is based on whether the conclusion follows logically from the premises, while the <term>soundness</term> of the argument is based on whether or not the premises are true. An argument cannot be sound if it is not valid, even if the premises seem reasonable. 
+			Deductive arguments, on the other hand, can be proven and their validity and soundness can be evaluated. The <term>validity</term> of the argument is based on whether the conclusion follows logically from the premises, while the <term>soundness</term> of the argument is based on whether or not the premises are true. An argument cannot be sound if it is not valid, even if the premises appear reasonable. 
 		</p>
 	</subsection>
 	<subsection>
 		<title>Evaluating Deductive Arguments Using Truth Tables</title>
 			<p>
-				There are various ways to evaluate deductive logical arguments. Our focus here will be the use of truth tables. In this method, the verbal argument is translated into mathematical notation and all possible truth values of the statement are organized in a table. The argument is valid when the conclusion is true whenever all premises are true, and invalid when there is at least one scenario where the premises are true but the conclusion is false. 
+				There are various ways to evaluate deductive logical arguments. Our focus here will be the use of truth tables. In this method, the verbal argument is translated into mathematical notation and all possible truth values of the statement are organized in a table. The argument is valid when the conclusion is true whenever all premises are true, and it is invalid when there is at least one scenario where the premises are true but the conclusion is false. 
 				The advantage of this method is that it requires no knowledge of logical forms. However, it can be tedious for complicated problems, especially those requiring more than 2 or 3 propositions.
 			</p>
 			<example>
@@ -325,7 +325,7 @@
 							<li>Let <m>q</m> = <q>It is warm.</q></li>
 							<li>Let <m>r</m> = <q>I can go swimming.</q></li>
 						</ul>
-						You could of course write <m>r</m> as the negative <q>I cannot go swimming</q>, but writing the statements without negatives reduces the confusion of potential double negatives later in a problem. Using these symbols, the argument can be summarized as:
+						You could write <m>r</m> as the negative <q>I cannot go swimming</q>, but writing the statements without negatives reduces the confusion of potential double negatives later in a problem. Using these symbols, the argument can be summarized as:
 					</p>
 					<tabular>
 						<row>
@@ -458,7 +458,7 @@
 				</p>
 			</assemblage>
 			<p>
-				Even one instance where the premises are true and the conclusion false invalidates an argument. It does not matter if there is another row in the table where the premises are true and the conclusion is true. The next example illustrates an invalid argument.
+				Even one instance where the premises are true and the conclusion is false invalidates an argument. It does not matter if there is another row in the table where the premises are true and the conclusion is true. The next example illustrates an invalid argument.
 			</p>
 			<example xml:id="ex-logic-invalid-argument-table">
 				<statement>
@@ -620,7 +620,7 @@
 		<subsubsection >
 			<title>The Law of Detachment</title>
 			<p>
-				Also called by its Latin name, <foreign>Modus Ponens</foreign> (<q>mode that affirms</q>), the law of detachment applies when a conditional and its antecedent are given as premises, and the consequent is the conclusion. The general form is:
+				Also called by its Latin name, <foreign>Modus Ponens</foreign> (<q>mode that affirms</q>), the law of detachment applies when a conditional and its antecedent are given as premises and the consequent is the conclusion. The general form is:
 			</p>
 			<tabular>
 				<row>
