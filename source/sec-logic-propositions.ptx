@@ -143,8 +143,7 @@
 		<subsubsection>
 			<title>Negation of Quantifiers</title>
 			<p>
-				It is worth mentioning the <term>quantifiers</term> <q><term>all</term></q>, <q><term>some</term></q>, and how to negate them. 
-				If we were to make the statement, <q><alert>All</alert> students read this book,</q> we could negate it by saying <q><alert>Not all</alert> students read this book</q> or <q><alert>Some</alert> students <alert>don't</alert> read this book.</q> Notice how this is very different from <q><alert>No</alert> students read this book.</q>
+				It is worth mentioning the quantifiers <q><term>all</term></q> and <q><term>some</term></q>, and how to negate them. If we were to make the statement, <q><alert>All</alert> students read this book</q>, we could negate it by saying <q><alert>Not all</alert> students read this book</q> or <q><alert>Some</alert> students <alert>don't</alert> read this book.</q> Notice how this is very different from <q><alert>No</alert> students read this book</q>.
 			</p>
 			<p>
 				If we were to negate, <q><alert>No</alert> students read this book,</q> we could say, <q><alert>A</alert> student is reading this book,</q> or even, <q><alert>Some</alert> students do read this book.</q> 
@@ -173,12 +172,12 @@
 					<ol marker="a">
 					<li>
 						<p>
-							Negations: <insert>Not</insert> all college students take psychology, or, <insert>Some</insert> college students <alert>don't</alert> take psychology.
+							Negations: Not all college students take psychology, or, Some college students <alert>don't</alert> take psychology.
 						</p>
 					</li>
 					<li>
 						<p>
-							Negations: <insert>There are</insert> brown dogs, or, <insert>Some</insert> dogs are brown.
+							Negations: There are brown dogs, or, Some dogs are brown.
 						</p>
 					</li>
 				</ol>
@@ -192,7 +191,7 @@
 		<subsubsection>
 			<title>Multiple Negations</title>
 			<p>
-				It is possible to use more than one negation in a statement. If you've ever said something like, <q>I <alert>can't not</alert> go,</q> you are saying you will go. In fact, it's often used for emphasis or a slightly different meaning, that you really must go. If someone says, <q>I <alert>don't disagree</alert>,</q> they may be saying they don't exactly agree but the person has a point. A <term>double negative</term> is similar to multiplying two negative numbers which gives a positive result. Using a third negation would then be equivalent to a single negation.
+				It is possible to use more than one negation in a statement. If you've ever said something like, <q>I <alert>can't not</alert> go,</q> you are saying you will go. In fact, it's often used for emphasis or a slightly different meaning, that you really must go. If someone says, <q>I <alert>don't disagree</alert>,</q> they may not be expressing full agreement but are acknowledging that the person has a valid point. A <term>double negative</term> is similar to multiplying two negative numbers, which gives a positive result. Using a third negation would then be equivalent to a single negation.
 			</p>
 			<p>
 				Note that in some instances a negation word like <q>no,</q> <q>nobody,</q> or <q>nothing</q> is used to emphasize rather than negate and this is called <term>negative concord</term>. For example, <q>I ain't got no money,</q> is not a double negative but rather an emphasis of not having any money. This is common across many varieties of English and other languages. You can read more about negative concord at this <url href="https://ygdp.yale.edu/phenomena/negative-concord" visual="ygdp.yale.edu/phenomena/negative-concord">site</url>. In general, use your judgment and context cues to distinguish between a double negative and negative concord. We will use multiple negations but not negative concord in this book.
@@ -211,7 +210,7 @@
 				</statement>
 				<solution>
 					<p>
-						If you said that a yes vote would enable plastic bag usage, you are correct. The ban stopped plastic bag usage, so to repeal the ban would allow it again. This measure has a double negation and is also not very good for the environment.
+						If you said that a yes vote would enable plastic bag usage, you are correct. The ban stopped plastic bag usage, so to repeal the ban would allow plastic bags again. This measure has a double negation and is also not very good for the environment.
 					</p>
 				</solution>
 			</example>
@@ -235,7 +234,7 @@
 	<subsection>
 		<title>Logical Connectors: <em>and</em> and <em>or</em></title>
 		<p>
-			When we use the word <q><term>and</term></q> between two propositions, it connects them to create a new statement that is also a proposition. For example, if you said <q>To finish this project, I need a screwdriver <alert>and</alert> a wrench,</q> then you are expressing the need for both tools. For an <q>and</q> statement to be true, the connected propositions must both be true. If even one proposition is false (for instance, you didn't need a wrench) then the entire connected statement is false.
+			When we use the word <q><term>and</term></q> between two propositions, it connects them to create a new statement that is also a proposition. For example, if you said <q>To finish this project, I need a screwdriver <alert>and</alert> a wrench,</q> then you are expressing the need for both tools. For an <q>and</q> statement to be true, the connected propositions must both be true. If even one proposition is false (for instance, you didn't need a wrench), then the entire connected statement is false.
 		</p>
 		<p>
 			The word <q><term>or</term></q> between two propositions similarly connects the propositions to create a new statement. In this case, if you said <q>To finish this project, I need a screwdriver <alert>or</alert> a wrench,</q> then you are expressing the need for one of the tools (but probably not both). For an <q>or</q> statement to be true, at least one of the propositions must be true (or both could be true).
@@ -293,7 +292,7 @@
 					</li>
 					<li>
 						<p>
-							False. Guitars have strings but cats do have whiskers. Both statements must be true for an <q>and</q> statement to be true.
+							False. Guitars have strings, but cats do have whiskers. Both statements must be true for an <q>and</q> statement to be true.
 						</p>
 					</li>
 					<li>
@@ -317,7 +316,7 @@
 		</example>
 		<p>
 			In English we often mean for <em>or</em> to be <term>exclusive</term>: one or the other, but not both. 
-			For example, when you order at a restaurant and are offered a soup <em>or</em> salad with your meal, you understand the <q>or</q> to be exclusive: you may choose a salad or a soup with your meal but not both.
+			For example, when you order at a restaurant and are offered a soup <em>or</em> salad with your meal, you understand the <q>or</q> to be exclusive: you may choose a salad or a soup with your meal, but not both.
 			In math, however, <em>or</em> is usually <term>inclusive</term>: one or the other, or both. The thing we are including, or excluding is the <q>both</q> option.
 		</p>
 		<example>
@@ -399,10 +398,7 @@
 			 </ol>
 		</p>
 		<p>
-			 The only case where you can say your friend was wrong is the second case, in which you post the photo but still keep your job. This is the only time when a conditional statement is false.
-		</p>
-		<p>
-			 Your friend didn't say anything about what would happen if you didn't post the photo, so you can't say the last two statements are wrong. Even if you didn't post the photo and lost your job anyway, your friend never said that you were guaranteed to keep your job if you didn't post it.
+			The only case where you can say your friend was wrong is the second case: you post the photo but still keep your job. This is the only time when a conditional statement is false. Your friend didn't say anything about what would happen if you didn't post the photo, so you can't say the last two scenarios are wrong. Even if you didn't post the photo and lost your job anyway, your friend never guaranteed that you would keep your job if you didn't post it.
 		</p>
 		<p>
 			It may be helpful to outline the possibilities and outcomes of this example in a table. The four cases above correspond to the four rows of a <term>truth table</term>, a tool which will be covered in <xref ref="sec-logic-truth-tables"/>. For this table we will use <m>P</m> for <q>posting the photo,</q> and <m>L</m> for <q>losing your job.</q>
@@ -998,7 +994,7 @@
 		<exercise><!--  #13 -->
 			<statement>
 			<p>
-				Rewrite the statement in the conditional form <em>if p, then q.</em>
+				Rewrite the statement in the conditional form <em>if p, then q</em>.
 			</p>
 			<p>
 				<ol marker="a.">
@@ -1036,7 +1032,7 @@
 		<exercise> <!-- #14 -->
 			<statement>
 			<p>
-				Rewrite the statement in the conditional form <em>if p, then q.</em>
+				Rewrite the statement in the conditional form <em>if p, then q</em>.
 			</p>
 			<p>
 				<ol marker="a.">
