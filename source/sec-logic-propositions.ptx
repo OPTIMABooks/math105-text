@@ -52,7 +52,7 @@
 					</li>
 					<li>
 						<p>
-							Math is fun!
+							Math is fun.
 						</p>
 					</li>
 					<li>
@@ -70,12 +70,12 @@
 			</statement>
 			<solution>
 			<p>
-				The first and second items are propositions. The third one is a question and the fourth is a phrase, so they are not. We are not concerned right now about whether a statement is true or false. We will come back to that later when we look at compound statements.
+				The first and second items are propositions. The third one is a question and the fourth is a phrase, so they are not propositions. We are not concerned right now about whether a statement is true or false. We will come back to that later when we look at compound statements.
 			</p>
 			</solution>
 		</example>
 		<p>
-			Arguments are made of one or more propositions (called <term>premises</term>), along with a <term>conclusion</term>. Propositions may be <term>negated</term>, or combined with <term>connectors</term> (or <term>operators</term>) like <q>and</q>, and <q>or</q> to make new propositions. Let's take a closer look at how negations and logical connectors are used to create more complex statements.
+			Arguments are made of one or more propositions (called <term>premises</term>), along with a <term>conclusion</term>. Propositions may be <term>negated</term> or combined with <term>connectors</term> (or <term>operators</term>) like <q>and</q> and <q>or</q> to make new propositions. Let's take a closer look at how negations and logical connectors are used to create more complex statements.
 		</p>
  	</subsection>
 	<subsection>
@@ -96,7 +96,7 @@
 					</li>
 					<li>
 						<p>
-							Math is fun!
+							Math is fun.
 						</p>
 					</li>
 					<li>
@@ -117,22 +117,22 @@
 					<ol marker="a">
 						<li>
 							<p>
-								Negation: I am <insert>not</insert> reading a math book.
+								Negation: I am not reading a math book.
 							</p>
 						</li>
 						<li>
 							<p>
-								Negation: Math is <insert>not</insert> fun!
+								Negation: Math is not fun!
 							</p>
 						</li>
 						<li>
 							<p>
-								Negation: The sky is green (or <insert>not</insert> not green).
+								Negation: The sky is green.
 							</p>
 						</li>
 							<li>
 							<p>
-								Negation: Cars do <insert>not</insert> have wheels.
+								Negation: Cars do not have wheels.
 							</p>
 						</li>
 					</ol>
@@ -143,7 +143,7 @@
 		<subsubsection>
 			<title>Negation of Quantifiers</title>
 			<p>
-				It is worth mentioning the <term>quantifiers</term> <q><term>all</term></q> and <q><term>some</term></q> and how to negate them. 
+				It is worth mentioning the <term>quantifiers</term> <q><term>all</term></q>, <q><term>some</term></q>, and how to negate them. 
 				If we were to make the statement, <q><alert>All</alert> students read this book,</q> we could negate it by saying <q><alert>Not all</alert> students read this book</q> or <q><alert>Some</alert> students <alert>don't</alert> read this book.</q> Notice how this is very different from <q><alert>No</alert> students read this book.</q>
 			</p>
 			<p>
