@@ -124,24 +124,24 @@
 			<statement>
 				<p>
 					Consider the statement <q>If you park here, then you will get a ticket.</q> What set of conditions would prove this statement false?
+					<ol marker="a.">
+						<li>
+							<p>
+								You don't park here and you get a ticket.
+							</p>
+						</li>
+						<li>
+							<p>
+								You don't park here and you don't get a ticket.
+							</p>
+						</li>
+						<li>
+							<p>
+								You park here and you don't get a ticket.
+							</p>
+						</li>
+					</ol>
 				</p>
-				<ol marker="a">
-					<li>
-						<p>
-							You don't park here and you get a ticket.
-						</p>
-					</li>
-					<li>
-						<p>
-							You don't park here and you don't get a ticket.
-						</p>
-					</li>
-					<li>
-						<p>
-							You park here and you don't get a ticket.
-						</p>
-					</li>
-				</ol>
 			</statement>
 			<solution>
 				<p>

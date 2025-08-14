@@ -7,7 +7,7 @@
 		<ul>
 			<li>
 				<p>
-					Use set notation and understand the null set
+					Use set notation and understand the empty set
 				</p>
 			</li>
 			<li>
@@ -30,7 +30,7 @@
 
 	<introduction>
 		<p>
-			The idea of a <term>set</term> allows us to treat distinct objects as a single entity. For example, we could use <m>S</m> to represent the four seasons: spring, summer, fall, and winter.  That is,
+			The idea of a <term>set</term> allows us to treat a group of distinct objects as a single entity. For example, we could use <m>S</m> to represent the four seasons: spring, summer, fall, and winter.  That is,
 			<me>
 				S = \left\{\text{spring, summer, fall, winter} \right\}.
 			</me>
@@ -48,8 +48,8 @@
 	<subsection>
 		<title>Set Notation</title>
 		<p>
-			A set can be defined by describing the contents, or by listing the elements of the set, enclosed in curly brackets. Symbolically, sets are represented using capital letters and braces { } are used to enclose the sets elements. 
-			The method of listing the elements of a set in braces is called <term>roster</term> notation. A second method is to use <term>set-builder notation</term>, where braces and a vertical line | (read <q>such that</q>) is used to describe the contents of a set.
+			A set can be defined by describing the contents, or by listing the elements of the set, enclosed in curly brackets. Sets are symbolically represented using capital letters, and braces { } are used to enclose the set's elements. 
+			The method of listing the elements of a set in braces is called <term>roster notation</term>. A second method uses <term>set-builder notation</term>, where braces and a vertical line | (read <q>such that</q>) describes the set's contents.
 		</p>
 		<example>
 			<p>
@@ -62,7 +62,7 @@
 					</li>
 					<li>
 						<p>
-							The seasons of the year
+							The seasons of the year.
 						</p>
 					</li>
 				</ol>
@@ -101,12 +101,12 @@
 		<example>
 			<statement>
 			<p>
-				Julia, Keenan, Jae and Colin took a test. They got the following scores: 70, 95, 85 and 70. Let <m>P</m> be the set of test takers and <m>S</m> be the set of test scores. List the elements of each set using set notation.
+				Julia, Keenan, Jae, and Colin took a test. They received the following scores: 70, 95, 85 and 70. Let <m>P</m> be the set of test takers and <m>S</m> be the set of test scores. List the elements of each set using set notation.
 			</p>
 			</statement>
 			<solution>
 				<p>
-					In this example, the set of people taking the test is <m>P= \{\text{Julia, Keenan, Jae, Colin}\}</m>, and the set of test scores is <m>S = \{70, 85, 95\}</m>. Notice in this example that even though two people scored a 70 on the test, the score of 70 is only listed once.
+					In this example, the set of people taking the test is <m>P= \{\text{Julia, Keenan, Jae, Colin}\}</m>, and the set of test scores is <m>S = \{70, 85, 95\}</m>. Notice that even though two people scored a 70 on the test, the score of 70 is listed only once, as elements in a set are unique.
 				</p>
 			</solution>
 		</example>
@@ -123,7 +123,7 @@
 		<definition>
 			<statement>
 				<p>
-					Let <m>A</m> and <m>B</m> be two sets. We say that <m>A</m> is a <term>equal</term> to <m>B</m>, written <m>A = B</m>, if and only if <m>A\subseteq B</m> and <m>B\subseteq A</m>. That is, <m>A</m> and <m>B</m> contain the same elements.
+					Let <m>A</m> and <m>B</m> be two sets. We say that <m>A</m> is <term>equal</term> to <m>B</m>, written <m>A = B</m>, if and only if <m>A\subseteq B</m> and <m>B\subseteq A</m>. This means that <m>A</m> and <m>B</m> contain the same elements.
 				</p>
 			</statement>
 		</definition>
@@ -148,14 +148,14 @@
 			</p>
 		</example>
 		<p>
-			It is possible to have a set with nothing in it. This set called the <term>null set</term> or <term>empty set</term>. It is like going to the grocery store to buy your favorite foods and realizing you left your wallet at home. 
-			You walk away with an empty bag. The set of items that you bought at the grocery store would written in set notation as <m>\emptyset</m>. The empty set is a subset of every set.
+			It is possible to have a set with nothing in it. This set is called the <term>null set</term> or <term>empty set</term>. It is like going to the grocery store to buy your favorite foods and realizing you left your wallet at home. 
+			You walk away with an empty bag. The set of items that you bought at the grocery store would be written in set notation as <m>\emptyset</m>. The empty set is a subset of every set.
 		</p>
 		<p>
-			In applications of sets the elements that may be considered are often limited to some context or <term>universe of discourse</term>. This context is called the <term>universal set</term> and is the set containing every possible element of the described context. Every set is thus a subset of the universal set. The universal set is often labeled with a capital letter <m>U</m>. 
+			In applications of sets the elements that may be considered are often limited to some context, or <term>universe of discourse</term>. This context is called the <term>universal set</term> and is the set containing every possible element of the described context. Every set is thus a subset of the universal set. The universal set is often labeled with a capital letter <m>U</m>. 
 		</p>
 		<p>
-			When represented visually, the universal set is often illustrated by a rectangle labeled with a capital letter <em>U</em>. Subsets of the universal set are usually illustrated with circles for simplicity, but other shapes can be used. The visual representation of sets is further discussed in <xref text="title" ref="subsec-sets-Venn-diagrams"/>.
+			When represented visually, the universal set is often illustrated by a rectangle labeled with a capital letter <m>U</m>. Subsets of the universal set are usually illustrated with circles for simplicity, but other shapes can be used. The visual representation of sets is further discussed in <xref text="title" ref="subsec-sets-Venn-diagrams"/>.
 		</p>
 		<definition>
 			<statement>
@@ -208,7 +208,7 @@
 							If you are wanting to create a group of your Facebook friends that are coworkers, the universal set would be all your Facebook friends and the group of coworkers would be a subset of the universal set.
 						</p>
 						<image xml:id="UV-set-ex2" width="100%">
-							<shortdescription>A rectangle is drawn for the universal set U, labeled all your facebook friends; there is a circle inside the rectangle, labeled coworkers.</shortdescription>
+							<shortdescription>A rectangle is drawn for the universal set U, labeled "All your facebook friends"; there is a circle inside the rectangle, labeled "Coworkers".</shortdescription>
 							<latex-image>
 								\begin{tikzpicture}[font=\sffamily]
 									% Define the universe as a rectangle
@@ -233,7 +233,7 @@
 							If you are working with sets of numbers, the universal set might be all whole numbers, and all prime numbers would be a subset of the universal set.
 						</p>
 						<image xml:id="UV-set-ex3" width="100%">
-							<shortdescription>A rectangle is drawn for the universal set U, labeled all whole numbers; there is a circle inside the rectangle, labeled all whole numbers.</shortdescription>
+							<shortdescription>A rectangle is drawn for the universal set U, labeled "All whole numbers"; there is a circle inside the rectangle, labeled "All whole numbers".</shortdescription>
 							<latex-image>
 								\begin{tikzpicture}[font=\sffamily]
 									% Define the universe as a rectangle
@@ -262,7 +262,7 @@
 			Suppose you and your roommate decide to have a house party, and you each invite your circle, or set, of friends. When you combine your two sets of friends, you discover that you have some friends in common.
 		</p>
 		<p>
-			The set of friends that you have in common is called the <term>intersection</term>. The intersection of two sets contains only the elements that are in both sets. To be in the intersection of set <m>A</m> and <m>B</m>, an element needs to be in both set <m>A</m> <term>and</term> set <m>B</m>.
+			The set of friends that you have in common is called the <term>intersection</term>. The intersection of two sets contains only the elements that are in both sets. An element must be in both set <m>A</m> <term>and</term> set <m>B</m> to be in their intersection.
 		</p>
 		<definition xml:id="def_intersection">
 	  	<idx>intersection</idx>
@@ -277,7 +277,7 @@
 	  	</statement>
 	  </definition>
 		<p>
-			The set of all friends that you and your roommate have invited is called the <term>union</term>. The union of two sets contains all the elements contained in either set (or both). To be in the union of set <em>A</em> and set <m>B</m>, an element must to be contained in just set <m>A</m>, just set <m>B</m>, <alert>or</alert> in the intersection of sets <m>A</m> and <m>B</m>. Notice that in this case that the <q>or</q> is <alert>inclusive</alert>.
+			The set of all friends that you and your roommate have invited is called the <term>union</term>. The union of two sets contains all the elements contained in either set (or both). To be in the union of set <m>A</m> and set <m>B</m>, an element must be contained in just set <m>A</m>, just set <m>B</m>, <alert>or</alert> in the intersection of sets <m>A</m> and <m>B</m>. Notice that in this case that the <q>or</q> is <alert>inclusive</alert>.
 		</p>
 		<definition xml:id="def_union">
 	  	<idx>union</idx>
@@ -301,11 +301,11 @@
   			<p>
 					The <term>complement</term> of a set <m>A</m> in a universal set <m>U</m> is the set <m>A^C</m> consisting of all elements in <m>U</m> that are not in <m>A</m>. That is,
 					<me>
-						A^{C} = \{x\in U\mid x \text{is NOT in } B \}.
+						A^{C} = \{x\in U\mid x \text{is NOT in } A \}.
 					</me>
 				</p>
 				<p>
-					<alert>Note:</alert> The complement of a set <m>A</m> may also be denoted by <m>\overline{A}</m> or <m>A'</m>.
+					<alert>Note:</alert> The complement of a set <m>A</m> may also be denoted by <m>A'</m> or <m>\overline{A}</m>..
 				</p>
   		</statement>
   	</definition>
@@ -358,7 +358,7 @@
 	<subsection xml:id="subsec-sets-Venn-diagrams">
 		<title>Venn Diagrams</title>
 		<p>
-			<term>Venn diagrams</term> are used to illustrate the relationships between two or more sets. To create a Venn diagram, start by drawing a rectangle to represent the universal set. Next draw and label overlapping circles to represent each of your sets. Most often there will be two or three sets illustrated in a Venn diagram. Finally, if you are given elements, fill in each region with its corresponding elements. Venn diagrams are also a great way to illustrate intersections, unions and complements of sets as shown below.
+			<term>Venn diagrams</term> are used to illustrate the relationships between two or more sets. To create a Venn diagram, start by drawing a rectangle to represent the universal set. Next draw and label overlapping circles to represent each of your sets. Most often there will be two or three sets illustrated in a Venn diagram. Finally, if elements are given, fill in each region with its corresponding elements. Venn diagrams are also a great way to illustrate intersections, unions and complements of sets as shown below.
 		</p>
 		<definition xml:id="def_venn-diagram">
 	  	<idx>Venn diagram</idx>
@@ -429,7 +429,7 @@
 			<figure>
 				<caption>The <alert>complement</alert> of set A includes all the elements <alert>not</alert> in A. It is the shaded region outside the set of A, but within the universal set.</caption>
 				<image xml:id="set-complement" width="50%">
-					<shortdescription>A Venn diagram with only one set A; The region outside the circle for A but inside the rectangle is shaded blue to represent the complement of the set or elements not in set A.</shortdescription>
+					<shortdescription>A Venn diagram with only one set A; The region outside of circle A but inside the rectangle is shaded to represent the complement of the set, or elements not in set A.</shortdescription>
 					<latex-image>
 						\begin{tikzpicture}
 							% Define the universe as a rectangle
@@ -486,7 +486,7 @@
 			</statement>
 			<solution>
 				<p>
-					The set <m>A^C</m> contains all elements <em>not</em> in set <m>A</m>. THis means that <m>A^C \cap B</m> contains elements that are not in <m>A</m> <em>and</em> in <m>B</m>. That is, it contains the elements of <m>B</m> that are not in <m>A</m> as shown in the following Venn Diagram.
+					The set <m>A^C</m> contains all elements not in set <m>A</m>. This means that <m>A^C \cap B</m> contains elements that are not in <m>A</m> and are in <m>B</m>. That is, it contains the elements of <m>B</m> that are not in <m>A</m> as shown in the following Venn Diagram.
 				</p>
 				<figure xml:id="fig_Venn_ex_with-complement">
 					<caption>A Venn diagram illustrating the set <m>A^C \cap B</m> shaded in yellow.</caption>
