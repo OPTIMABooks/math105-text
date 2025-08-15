@@ -19,13 +19,13 @@
 	</objectives>
 	<introduction>
 		<p>
-			Counting is a core idea in mathematics, practiced since the dawn of history. Finite sets, with a specific number of distinct elements, are essential to this process. When dealing with two or three sets, we track elements that occur in multiple sets. Set operations—intersections, unions, and complements—are crucial tools for solving these counting problems.
+			Counting is a core idea in mathematics, practiced since the dawn of history. Finite sets, with a specific number of distinct elements, are essential to this process. When dealing with two or three sets, we need to track elements that occur in multiple sets. Set operations—intersections, unions, and complements—are crucial tools for solving these counting problems.
 		</p>
 	</introduction>
 	<subsection>
 		<title>Counting Problems with 2 Sets</title>
 		<p>
-			The number of elements in a set is called the <term>cardinality</term> of the set. Sometimes we are interested in the cardinality of the union or intersection of sets, but not know the actual elements of each set. The following sections explore these ideas in problems involving two or three sets.
+			The number of elements in a set is called the <term>cardinality</term> of the set. Sometimes we are interested in the cardinality of the union or intersection of sets, but do not know the actual elements of each set. The following sections explore these ideas in problems involving two or three sets.
 		</p>
 		<definition xml:id="def-sets-cardinality">
 			<statement>      
@@ -54,7 +54,7 @@
 						</p>
 					</li>
 				</ul>
-				Suppose 20 report tea only, 80 report coffee only, 40 report both. How many people drink tea in the morning? How many people drink neither tea or coffee?
+				Suppose 20 report tea only, 80 report coffee only, 40 report both. How many people drink tea in the morning? How many people drink neither tea nor coffee?
 			</p>
 			<sidebyside widths="50% 45%" margins="2.5% 0%" valign="top">
 				<p>
@@ -66,7 +66,7 @@
 					people who drink neither.
 				</p>
 				<image xml:id="tigs-2venn-coffee-tea" width="100%">
-					<shortdescription>A rectangle is drawn for the universal set U. There are two overlapping circles inside. One is labeled coffee and contains the number 80. The other is labeled tea and contains the number 20. The intersection of the two circles contains the number 40.</shortdescription>
+					<shortdescription>A rectangle is drawn for the universal set U. There are two overlapping circles inside. One is labeled coffee and contains the number 80. The other is labeled "Tea" and contains the number 20. The intersection of the two circles contains the number 40.</shortdescription>
 					<latex-image>
 						\begin{tikzpicture}[scale=2/7,font=\sffamily]
 							\draw[semithick] (0,0) rectangle (21,14);
@@ -113,7 +113,7 @@
 				The results show 40% of those surveyed have used Twitter, 70% have used Facebook, and 20% have used both.  How many people have used either Twitter or Facebook?  How many people have used neither?
 			</p>
 			<p>
-				Let <m>T</m> be the set of all people who have used Twitter, and <m>F</m> be the set of all people who have used Facebook.  Notice that <m>n(F)=0.70</m> and <m>n(T)=0.40</m>. It is tempting to simply add these two numbers together to compute the  size of <m>F \cup T</m>, but this is <em>incorrect</em> because doing so will count those who use both services twice.  
+				Let <m>T</m> be the set of all people who have used Twitter, and <m>F</m> be the set of all people who have used Facebook.  Notice that <m>n(F)=0.70</m> and <m>n(T)=0.40</m>. It is tempting to simply add these two numbers together to compute the  size of <m>F \cup T</m>, but this is <em>incorrect</em> because doing so would count those who use both services twice.  
 				To correct for this, we can add <m>n(T)</m> to <m>n(F)</m>  and then subtract those in the intersection that have been added twice. That is,
 				<md>
 					<mrow>n(F\cup T) =\amp n(F) + n(T) - n(F\cap T) </mrow>
@@ -126,7 +126,7 @@
 				To find how many people have <em>not</em> used either service, we want the cardinality of <m>(F \cup T)^C</m>. Since <m>U</m> is 100%, and <m>n(F\cup T) = 0.9</m>, it follows that <m>n((F\cup T)^C) = 1.0 - 0.9 = 0.1</m>, or 10% of those surveyed. These quantities are illustrated in the Venn diagram below.
 			</p>
 			<image xml:id="tigs-2venn-social-media" width="43%">
-				<shortdescription>A rectangle is drawn for the universal set U. There are two overlapping circles inside. One is labeled F and contains the number 50%. The other is labeled T and contains the number 20%. The intersection of the two circles contains the number 20%.</shortdescription>
+				<shortdescription>One is labeled F and contains the number 0.50. The other is labeled T and contains the number 0.20. The intersection of the two circles contains the number 0.20.</shortdescription>
 				<latex-image>
 					\begin{tikzpicture}[scale=2/7,font=\sffamily]
 						\draw[semithick,fill=white] (0,0) rectangle (21,14);
@@ -212,7 +212,7 @@
 		<title>Counting Problems with 3 Sets</title>
 		<p>
 			Counting problems involving three sets are solved similarly to those involving two sets. The primary difference is that while two sets divide the universal set into four potential regions, three sets divide the universal set into eight total regions as shown in <xref ref="fig-3-set-venn-diagram"/>. 
-			Computing the cardinality of these regions is thus more complex than for two-set problems and, as we shall see in the following examples, it requires care to tease out correct values without double (or triple!) counting elements.
+			Computing the cardinality of these regions is thus more complex than for two-set problems. As we shall see in the following examples, it requires care to tease out correct values without double (or triple!) counting elements.
 			Note that the <xref text="title" ref="fact-sets-inclusion-exclusion-rule"/> can be updated for three-set problems, but we do not include the formula here.
 		</p>
 		<p>
@@ -260,7 +260,7 @@
 					<figure xml:id="fig-3-set-venn-diagram">
 						<caption>A 3-set Venn diagram divides the plane into 8 distinct regions, here marked with <m>a</m> through <m>h</m>.</caption>
 						<image xml:id="tikz-3venn-courses" width="94%">
-							<shortdescription>A rectangle is drawn for the universal set U. There are three overlapping circles inside. One is labeled S, one H, and one R. The distinct regions are labeled with lower case letters a through g.</shortdescription>
+							<shortdescription>A rectangle is drawn for the universal set U. There are three overlapping circles inside. One is labeled S, one H, and one R. The distinct regions are labeled with lower case letters a through h.</shortdescription>
 							<latex-image>
 								\begin{venndiagram3sets}[
 										labelA={},
@@ -392,7 +392,7 @@
 			</statement>
 			<solution>
 				<p>
-				 Label the sets of people buying couches, fugs, and stoves by <m>C</m>, <m>R</m>, and <m>S</m>. Let <m>U</m> denote the universal set. Then we know from the given problem statement that 
+				 Label the sets of people buying couches, rugs, and sofas by <m>C</m>, <m>R</m>, and <m>S</m>. Let <m>U</m> denote the universal set. Then we know from the given problem statement that 
 				 <md>
 					<mrow> n(C) =\amp 12, </mrow>
 					<mrow> n(R) =\amp 18, </mrow>
@@ -409,7 +409,7 @@
 					Since <m>n(C\cap R) = 6</m>, <m>n(C\cap S) = 4</m>, and <m>n(S\cap R) = 10</m>, we compute <m>6-1=5</m> and place it in the proper region (giving a total of 6 in the set <m>C\cap R</m>). Similarly, we place 3 and 9 in the proper regions for the sets <m>C\cap S</m> and <m>S\cap R</m>.
 				</p>
 				<p>
-					Next, <m>n(C)=12</m>, and 9 of these 12 are accounted for, so 3 remain. In the same way, <m>n(R)=18</m> with 15 accounted for so 3 remain, and <m>n(S)=24</m> with 13 accounted for and 11 remaining.
+					Next, <m>n(C)=12</m>, and 9 of these 12 are accounted for, so 3 remain. In the same way, <m>n(R)=18</m> with 15 accounted for, so 3 remain. For <m>n(S)=24</m>, 13 are accounted for and 11 remain.
 				</p>
 				<p>
 					Finally, the number in <m>(C\cup R\cup S)^C</m> is the total of 75 less those accounted for in <m>C</m>, <m>R</m>, and <m>S</m>. The total That is,
@@ -467,7 +467,7 @@
 					The Venn diagram resulting from these calculations is shown above. From this figure, we can conclude that
 					<ol marker="a)">
 						<li>
-							<p> 40 a were going to buy none of these items. </p>
+							<p> 40 were going to buy none of these items. </p>
 						</li>
 						<li>
 							<p>	3 were going to buy only a couch. </p>
