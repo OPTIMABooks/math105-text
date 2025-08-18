@@ -20,7 +20,7 @@
 
 	<introduction>
 		<p>
-			In this section we build on the multiplication principle discussed in the previous section. We start with factorials, which establish the mathematical foundation for the second topic, permutations, which are in turn the building block of combinations. Taken together with the addition and multiplication rule, these three mathematical tools allow us to solve a variety of useful counting problems.
+			In this section, we build on the multiplication principle discussed in the previous section. We start with factorials, which establish the mathematical foundation for the second topic: permutations. Permutations are in turn the building blocks of combinations.
 		</p>
 	</introduction>
 	<subsection xml:id="subsec-counting-factorial">
@@ -38,7 +38,7 @@
 			<solution>
 				<p>This is an example of the multiplication rule using the following steps.
 					<ol>
-						<li><p>Chose which of the 4 items to place first (4 choices)</p></li>
+						<li><p>Choose which of the 4 items to place first (4 choices)</p></li>
 						<li><p>Choose which of the 3 remaining items to place 2nd (3 choices)</p></li>
 						<li><p>Choose which of the 2 remaining items to place 3rd (2 choices left)</p></li>
 						<li><p>Choose which of the 1 remaining items to place at the end of the row (only one choice).</p></li>
@@ -171,7 +171,7 @@
 			<title>Using Permutations</title>
 			<statement>
 				<p>
-					Six bands have expressed interest in performing at a concert, which has time slots for three performances. In how many different ways can the concert manager schedule the performances?
+					Six bands have expressed interest in performing at a concert, which has three time slots for performances. In how many different ways can the concert manager schedule the performances?
 				</p>
 			</statement>
 			<solution>
@@ -184,7 +184,7 @@
 			</solution>
 		</example>
 		<p>
-			There are a few general results that hold no matter what <m>n</m> is used in a permutation. Three of these are shown below.
+			There are a few general results that hold regardless of the value of <m>n</m> in a permutation. Three of these are shown below.
 		<ul>
 			<li><p><m>P(n,n) = \frac{n!}{(n-n)!} = \frac{n!}{0!} = n!</m></p></li>
 			<li><p><m>P(n,0) = \frac{n!}{(n-0)!} = \frac{n!}{n!} = 1</m></p></li>
@@ -211,7 +211,7 @@
 			</statement>
 			<solution>
 				<p>
-					Suppose your friends names are: Alice, Bob, Candace, and David. If you try to count the number of ways you could invite two friends using a permutation, you get:
+					Suppose your friends' names are: Alice, Bob, Candace, and David. If you try to count the number of ways you could invite two friends using a permutation, you get:
 					<me>
 						P(4,2) = 4\times 3 = 12
 					</me>.
@@ -242,7 +242,7 @@
 				</table>
 				<p>
 					Notice that each pair appears twice. For example, AB and BA are counted separately but these two pairs represent inviting the same group of friends to a movie. This is because in a permutation, the order in which we hand out the tickets makes a difference. 
-					But really, we don't care who got the first ticket<mdash/>we just want to know who is going. Since there are two of each possible pairs, the actual number of ways to pick the two friends to go with us is:
+					But really, we don't care who got the first ticket; we just want to know who is going. Since there are two of each possible pairs, the actual number of ways to pick the two friends to go with us is:
 					<me>
 						\frac{P(4,2)}{P(2,2)} = \frac{12}{2} = 6
 					</me>.
@@ -312,7 +312,7 @@
 			<idx><h>counting rules</h><h>combining</h></idx>
 				<p>
 					<ol>
-						<li><p>If the things you are counting come in two distinct groups, count each group then add together the results. (<xref ref="thm_counting-rule_addition-informal" text="custom">addition rule</xref> <mdash/> goes with <q>or</q>)</p></li>
+						<li><p>If the things you are counting come in two distinct groups, count each group, then add together the results. (<xref ref="thm_counting-rule_addition-informal" text="custom">addition rule</xref> <mdash/> goes with <q>or</q>)</p></li>
 						<li><p>If there is overlap between the two groups, remember to subtract the intersection. (<xref ref="fact-sets-inclusion-exclusion-rule" text="custom">inclusion/exclusion rule</xref>)</p></li>
 						<li><p>If the process you are counting can be broken down into steps, count the number of ways each step can be performed and multiply. (<xref ref="thm_counting-rule_multiplication" text="custom">multiplication rule</xref> <mdash/> goes with <q>and</q>)</p></li>
 						<li><p>If you are arranging things or selecting multiple items and the order of selection matters, use a permutation. (<xref ref="fact-permutation-formula">permutation rule</xref>).</p></li>
@@ -326,7 +326,7 @@
 		<example xml:id="ex_counting_mixed_permutation">
 			<title>Picking a Counting Rule</title>
 			<statement>
-				<p>The front row of Professor Jackson's classroom has only 4 seats. There are 8 students who wish to sit in these seats. In how many ways can the seats be assigned?</p>
+				<p>The front row of Professor Jackson's classroom has only 4 seats, and there are 8 students who wish to sit in them. In how many ways can the seats be assigned?</p>
 			</statement>
 			<solution>
 				<p>In a seating chart, the order would matter. Therefore, this must a permutation, and the solution is:
@@ -395,9 +395,9 @@
 			</statement>
 			<solution>
 				<p>
-					This is actually the most challenging problem in this section. The reason is that we have to use both the multiplication rule to split the process into steps, and the addition rule to split the process into cases. Here's how we do it:
+					This is actually the most challenging problem in this section. The reason is that we have to use both the multiplication rule to split the process into steps and the addition rule to split the process into cases. Here's how we do it:
 					<ul>
-						<li><title>Case 1</title><p>Pick two from 8 sandwiches and 2 from the remaining 9 items
+						<li><title>Case 1</title><p>Pick two sandwiches from 8 sandwiches and 2 from the remaining 9 items
 						  <me>C(8,2)\times C(9,2) = \frac{8\times 7}{2\times 1}\times\frac{9\times 8}{2\times 1} = 1008</me>.</p></li>
 						<li><title>Case 2</title><p>Pick three sandwiches from 8 available and 1 item from remaining 9
 						  <me>C(8,3)\times C(9,1) = \frac{8\times 7\times 6}{3\times 2\times 1} \times 9 = 504</me>.</p></li>
