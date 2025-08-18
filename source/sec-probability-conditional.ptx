@@ -370,7 +370,7 @@
 		<example xml:id="ex_conditional_multiplication-rule-1">
 		<statement>
 			<p>
-				Suppose you have a bag containing 6 red Legos, 4 green Legos, and 3 black Legos. We will make exactly two lego selections from the bag. What is the probability of selecting:
+				Suppose you have a bag containing 6 red Legos, 4 green Legos, and 3 black Legos. We will make exactly two Lego selections from the bag. What is the probability of selecting:
 				<ol marker="a.">
 					<li>
 						<p>
@@ -395,20 +395,20 @@
 				<ol marker="a.">
 					<li>
 						<p>
-								Since the outcomes are equally likely, the probability of selecting a red Lego is the number of red Legos divided by the total number of Legos, or <m>P(\text{red})=\frac{6}{13}</m>.
+								Since the outcomes are equally likely, the probability of selecting a red Lego is the number of red Legos divided by the total number of Legos, or <m>P(\text{red}) = \frac{6}{13}</m>.
 							</p>
 							<p>
-								If we replace the red Lego we selected (selections are independent), we go back to having 6 red Legos in the bag of 13 Legos total. Therefore,
+								If we replace the red Lego we selected (making the selections independent), we go back to having 6 red Legos in the bag of 13 Legos total. Therefore,
 								<md>
-								<mrow>P(\text{red and red})\amp=P(\text{red})\times P(\text{red})</mrow>
-								<mrow>\amp=\frac{6}{13}\times\frac{6}{13}</mrow>
+								<mrow>P(\text{red and red}) \amp= P(\text{red})\times P(\text{red})</mrow>
+								<mrow>\amp= \frac{6}{13}\times\frac{6}{13}</mrow>
 								<mrow>\amp\approx 0.213 \text{ or } 21.3\%</mrow>
 								</md>.
 							</p>
 						</li>
 						<li>
 							<p>
-								If we do not replace the first red Lego (so selections are dependent), then on our second draw there will only be 5 red Legos remaining, and 12 Legos in total. Therefore,
+								If we do not replace the first red Lego (making the selections dependent), then on our second draw, there will only be 5 red Legos remaining and 12 Legos in total. Therefore,
 								<md>
 								<mrow>P(\text{red and then red})\amp=P(\text{red})\times P(\text{red given red taken out})</mrow>
 								<mrow>\amp=\frac{6}{13}\times\frac{5}{12}</mrow>
@@ -418,7 +418,7 @@
 						</li>
 						<li>
 							<p>
-								The probability of selecting a red Lego on the first draw is the same as in parts a and b. Since we are not putting the red Lego back into the bag, we will have only 12 Lego left in total, of which 4 are green. Therefore,
+								The probability of selecting a red Lego on the first draw is the same as in parts a and b. Since we are not putting the red Lego back into the bag, we will have only 12 Legos left in total, of which 4 are green. Therefore,
 								<md>
 								<mrow>P(\text{red and green})\amp=P(\text{red})\times P(\text{green given red taken out})</mrow>
 								<mrow>\amp=\frac{6}{13}\times\frac{4}{12}</mrow>
@@ -459,7 +459,7 @@
 					</li>
 					<li>
 						<p>
-							The probability that the first marble is red will be <m>\frac{7}{10}</m> since seven of the 10 marbles are red. In (a), we saw that the probability the second marble is red given that the first was red is <m>\frac{2}{3}</m>. Using the general multiplication rule, the probability that the first and second marbles are red is
+							The probability that the first marble is red is <m>\frac{7}{10}</m> since seven of the 10 marbles are red. In (a), we saw that the probability the second marble is red given that the first was red is <m>\frac{2}{3}</m>. Using the general multiplication rule, the probability that the first and second marbles are red is
 							<me>
 								P(\text{1st }R) \times P(\text{2nd }R\mid\text{1st }R) = \frac{7}{10} \times \frac{2}{3} = \frac{14}{30} = \frac{7}{15}
 							</me>.
@@ -486,7 +486,7 @@
 			</statement>
 		</fact>
 		<p>
-			The following examples illustrate how to you the test for independence. 
+			The following examples illustrate how to use the test for independence.
 		</p>
 		<example xml:id="ex_conditional_testing-independence-1">
 			<title>Testing for Independence</title>
@@ -511,7 +511,7 @@
 					</me>.
 				</p>
 				<p>
-					Since the above equation is true, <m>A</m> and <m>B</m> are in fact independent events.
+					Since the above equation is true, <m>A</m> and <m>B</m> are in fact independent.
 				</p>
 			</solution>
 		</example>
@@ -564,7 +564,7 @@
 					<me>
 						P(T)\times P(R) = \frac{60}{665}\times\frac{150}{665} =\frac{9000}{442225}\approx 0.02035 
 					</me>.
-					Since these value are not equal, the events <q>ticket</q> and <q>red car</q> are <alert>not</alert> independent. That is, they are dependent events.
+					Since these values are not equal, the events <q>ticket</q> and <q>red car</q> are <alert>not</alert> independent. That is, they are dependent events.
 				</p>
 			</solution>
 		</example>
@@ -572,13 +572,13 @@
 	<subsection xml:id="sec_probability_conditional_trees">
 		<title>Tree Diagrams and Probability</title>
 		<p>
-			In a previous section, <xref ref="def_tree-diagram" text="custom">tree diagrams</xref> were useful when working with multi-stage experiments. Since the multiplication rule naturally fits experiments that can be broken up into stages (first <m>A</m> happens, then <m>B</m>, etc.) it makes sense to look into using a tree diagram again. In fact, doing so provides a useful visualization of conditional probability.  This utility is illustrated in the following example.
+			In a previous section, <xref ref="def_tree-diagram" text="custom">tree diagrams</xref> were useful for working with multi-stage experiments. Since the multiplication rule naturally fits experiments that can be broken up into stages (first <m>A</m> happens, then <m>B</m>, etc.), it makes sense to look into using a tree diagram again. In fact, doing so provides a useful visualization of conditional probability.  This utility is illustrated in the following example.
 		</p>
 		<example xml:id="ex_conditional_probability-tree-1">
 			<!-- <title>Computing Probabilities with a Tree Diagram</title> -->
 			<statement>
 				<p>
-					An jar contains six marbles: 3 blue marbles, 2 red marbles, and 1 white marble. Two marbles are drawn, one after the other, without replacement and their colors are noted. Draw a tree diagram and label the branches with appropriate probabilities for this experiment. Use the tree diagram to find
+					A jar contains six marbles: 3 blue marbles, 2 red marbles, and 1 white marble. Two marbles are drawn, one after the other, without replacement and their colors are noted. Draw a tree diagram and label the branches with appropriate probabilities for this experiment. Use the tree diagram to find
 					<ol marker="a." cols="2">
 						<li>
 							<p>
@@ -601,7 +601,7 @@
 						<caption>Tree Diagram</caption>
 						<image xml:id="image_conditional_ex_probability-tree" width="55%">
 							<shortdescription>
-								A tree with three branches off of the start.  Branch B has a probability 3/6, branch R has a probability 2/6, and branch W has a probability 1/6.  Of of branch B, there are three branches: B with probability 2/5, R with probability 2/5, and W with probability 1/5.  Off of the initial branch R, there are also three branches: B with probability 3/5, R with probably 1/5, and W with probability 1/5.  Finally, off of the original branch W there are just two branches: B with probability 3/5 and W with probability 2/5.
+								A tree with three branches off of the start.  Branch B has a probability 3/6, branch R has a probability 2/6, and branch W has a probability 1/6.  Off of branch B, there are three branches: B with probability 2/5, R with probability 2/5, and W with probability 1/5.  Off of the initial branch R, there are also three branches: B with probability 3/5, R with probably 1/5, and W with probability 1/5.  Finally, off of the original branch W there are just two branches: B with probability 3/5 and W with probability 2/5.
 							</shortdescription>
 							<latex-image>
 								\begin{tikzpicture}[
@@ -639,16 +639,16 @@
 						</image>
 					</figure>
 				<p>
-					Using this tree diagram, we find the desired probabilities:
+					Using this tree diagram, we find the desired probabilities.
 					<ol marker="a.">
 						<li>
 							<p>
-								Note that <m>P(\text{2nd }W\mid\text{1st }R)</m> can be read right off the tree. Since we are given that the first marble was red, we go across that middle <m>R</m> branch. Now, the probability the second is white is the probability on the <m>W</m> branch, so <m>\frac{1}{5}</m>.
+								Note that <m>P(\text{2nd }W\mid\text{1st }R)</m> can be read directly from the tree. Since we are given that the first marble was red, we go across that middle <m>R</m> branch. Now, the probability the second is white is the probability on the <m>W</m> branch, so <m>\frac{1}{5}</m>.
 							</p>
 						</li>
 						<li>
 							<p>
-								There are two ways the 2nd marble can be white. If the 1st is red or if the 1st is blue. These are distinct (<xref ref="def_mutually-exclusive" text="custom">mutually exclusive</xref>) paths through the tree. The probability of each is found by multiplying down the branches.  Together, their probability is the sum of these two products, giving us:
+								There are two ways the 2nd marble can be white: if the 1st is red or if the 1st is blue. These are distinct (<xref ref="def_mutually-exclusive" text="custom">mutually exclusive</xref>) paths through the tree. The probability of each is found by multiplying down the branches.  Together, their probability is the sum of these two products, giving us:
 								<md>
 									<mrow>P(\text{2nd }W) \amp = P(\text{1st }R\cap \text{2nd }W) + P(\text{1st }B\cap \text{2nd }W)</mrow>
 									<mrow>\amp = \left(\frac{2}{6}\times \frac{1}{5}\right) + \left(\frac{3}{6}\times \frac{1}{5}\right)</mrow>
@@ -680,10 +680,10 @@
 					</p>
 				</li>
 			</ul>
-			Finally, as in the second question in our example, we can find the probability of events such as <q>the second is red</q> by adding together all the different probabilities for paths in which the second marble is red.
+			Finally, as in the second question of our example, we can find the probability of events such as <q>the second is red</q> by adding together all the different probabilities for paths in which the second marble is red.
 		</p>
 		<p>
- 			The following example utilizes these principles and demonstrates an additional advantage of a tree diagram: the ability compute probabilities when the condition is <q>backwards</q> from the given conditional probability.
+ 			The following example utilizes these principles and demonstrates an additional advantage of a tree diagram: the ability to compute probabilities when the condition is <q>backwards</q> from the given conditional probability.
 		</p>
 		<example xml:id="ex_conditional_probability-tree-2">
 			<!-- <title>Probability and Intimate Partner Violence</title> -->
@@ -691,7 +691,7 @@
 				<p>
 					According to OHSU's Center for Women's Health, approximately 1 in 4 women and 1 in 7 men will experience 
 					intimate partner violence (IPV) at some point in their lives.<fn>https://www.ohsu.edu/womens-health/domestic-violence-more-common-you-might-think</fn>
-					Assuming we are only considering heterosexual couples and that men and women are equally represented in the population, answer the following questions:
+					Assuming a population of only heterosexual couples with equal representation of men and women, answer the following questions.
 					<ol marker="a.">
 						<li>What is the probability that a randomly selected person experiences IPV?</li>
 						<li>Given that a person has experienced IPV, what is the probability that the person is a woman?</li>
@@ -744,35 +744,35 @@
 					<ol marker="a.">
 						<li>
 							<p>
-								Denote the probability that a randomly selected person has experienced IPV by <m>P(V)</m>. Notice that either men or woman can experience IPV. That is, <m>P(V)</m> composed of either men or woman experiencing IPV. These two mutually exclusive cases are summed by the <xref ref="thm_probability-rule_general-addition" text="custom">addition rule</xref>, and are show in the tree diagram above as the first and third of the four right-most branches. Multiplying to the end of each branch,
+								Denote the probability that a randomly selected person has experienced IPV by <m>P(V)</m>. Notice that either a man or a woman can experience IPV. That is, <m>P(V)</m> is composed of cases where either men or women experience IPV. These two mutually exclusive cases are summed by the <xref ref="thm_probability-rule_general-addition" text="custom">addition rule</xref>, and are shown in the tree diagram above as the first and third of the four right-most branches. Multiplying to the end of each branch,
 								<md>
-									<mrow>P(V) \amp= \frac{1}{2}\left(\frac{1}{7}\right) + \frac{1}{2}\left(\frac{3}{4}\right) </mrow>
+									<mrow>P(V) \amp= \frac{1}{2}\left(\frac{1}{7}\right) + \frac{1}{2}\left(\frac{1}{4}\right) </mrow>
 									<mrow> \amp= \frac{1}{14} + \frac{3}{8} </mrow>
 									<mrow> \amp= \frac{11}{56} </mrow>
 									<mrow> \amp\approx 0.1964 \text{ or } 19.6\% </mrow>
 								</md>.
-								Thus, there is a 19.6% change that a random person has experienced intimate partner violence.
+								Thus, there is a 19.6% chance that a random person has experienced intimate partner violence.
 							</p>
 						</li>
 						<li>
 							<p>
-								Here we are told that the person has experienced IPV and are wondering what is the chance the person is a woman. That is, we seek <m>P(W\mid V)</m> At first glance, it may appear that the answer is 1/4. Be careful: 1/4 is the probability of IPV given knowledge that the person is a woman, which is <m>P(V\mid W)</m>. These are different probabilities. The probability we are asked for here, <m>P(W\mid V)</m>, is not one of the values shown in the tree. However, we can use the tree to find the correct value. 
+								Here we are told that the person has experienced IPV and are wondering what is the chance the person is a woman. That is, we seek <m>P(W\mid V)</m> At first glance, it may appear that the answer is 1/4. Be careful: 1/4 is the probability of IPV given knowledge that the person is a woman, which is <m>P(V\mid W)</m>. These are different probabilities. The probability we are asked for here, <m>P(W\mid V)</m>, is not one of the values shown on the tree. However, we can use the tree to find the correct value. 
 							</p>
 							<p>
 								To do so, apply the <xref ref="thm_conditional-probability-formula" text="custom">conditional probability formula</xref> and the answer from part a:
 								<md>
 									<mrow> P(W\mid V) \amp= \frac{P(W\cap V)}{P(V)} </mrow>
 									<mrow> \amp= \cfrac{\frac{1}{2}\cdot\frac{1}{4}}{\frac{11}{56}} </mrow>
-									<mrow> \amp= \frac{1}{8}\cdot\frac{11}{25} </mrow>
+									<mrow> \amp= \frac{1}{8}\cdot\frac{56}{11} </mrow>
 									<mrow> \amp= \frac{7}{11} </mrow>
-									<mrow> \amp\approx 0.6363</mrow>
+									<mrow> \amp\approx 0.6363 </mrow>
 								</md>.
 								That is, there is a 63.6% chance that a person experiencing IPV is a woman.
 							</p>
 						</li>
 						<li>
 							<p>
-								Because everyone in our population is either a man or woman, the probability of <m>P(M\mid V)</m> should be complementary to the <m>P(W\mid V)</m>. That is, by the <xref ref="def_probability-rule_complement" text="custom">complement rule</xref>,
+								Because everyone in our population is either a man or a woman, the probability <m>P(M\mid V)</m> should be complementary to the probability of <m>P(W\mid V)</m> That is, by the <xref ref="def_probability-rule_complement" text="custom">complement rule</xref>
 								<md>
 									<mrow> P(M\mid V) \amp= 1 - P(W\mid V) </mrow>
 									<mrow> \amp= 1 - \frac{7}{11} </mrow>
@@ -786,7 +786,7 @@
 								<md>
 									<mrow> P(M\mid V) \amp= \frac{P(M\cap V)}{P(V)} </mrow>
 									<mrow> \amp= \cfrac{\frac{1}{2}\cdot\frac{1}{7}}{\frac{25}{56}} </mrow>
-									<mrow> \amp= \frac{1}{14}\cdot\frac{56}{25} </mrow>
+									<mrow> \amp= \frac{1}{14}\cdot\frac{56}{11} </mrow>
 									<mrow> \amp= \frac{4}{11} </mrow>
 									<mrow> \amp\approx 0.3636</mrow>
 								</md>.
@@ -817,12 +817,12 @@
 			</statement>
 		</fact>
 		<p>
-			While this theorem formally states the rule we use to solve problems such as the one above, it is not something you should memorize. Instead, use a tree diagram and the conditional probability formula to solve these problems as we did in <xref ref="ex_conditional_probability-tree-2"/>. Note that the denominator in Bayes' Theorem is just the sum of all cases that result in event <m>B</m>. As shown in the next example, this realization means we can easily solve <q>backwards</q> problems even if they involve more than two events.
+			While this theorem formally states the rule we use to solve problems such as the one above, it is not something you should memorize. Instead, use a tree diagram and the conditional probability formula to solve these problems as we did in <xref ref="ex_conditional_probability-tree-2"/>. Note that the denominator in Bayes' Theorem is just the sum of the probabilities of all cases that result in event <m>B</m>. As shown in the next example, this realization means we can easily solve <q>backwards</q> problems even if they involve more than two events.
 		</p>
 		<example xml:id="ex_conditional_bayes">
 			<!-- <title>Computing <q>Backwards</q> Probabilities</title> -->
 			<statement>
-				<p>Recall from <xref ref="ex_conditional_probability-tree-1"/> that the tree diagram below gives us the probabilities for an experiment in which two marbles are drawn, without replacement, from an jar containing 3 blue marbles, 2 red marbles, and 1 white marble. Use the tree to help find the probability that the 1st marble was white given that the second is red.</p>
+				<p>Recall from <xref ref="ex_conditional_probability-tree-1"/> that the tree diagram below gives us the probabilities for an experiment in which two marbles are drawn, without replacement, from a jar containing 3 blue marbles, 2 red marbles, and 1 white marble. Use the tree to help find the probability that the 1st marble was white given that the second is red.</p>
 				<figure xml:id="fig_conditional_bayes-tree">
 					<caption>Tree Diagram</caption>
 					<image xml:id="image_conditional_bayes-tree" width="55%">
