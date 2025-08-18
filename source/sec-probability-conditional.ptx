@@ -24,13 +24,13 @@
 	</objectives>
 	<introduction>
 		<p>
-			In the previous section, we explored how calculating probabilities can become more complex when dealing with multiple events. In this section, we turn our attention to how the probability of an event can change when additional information is known. Sometimes, we calculate the probability of an event based solely on the overall sample space. Other times, we calculate the probability of an event given that another event has already occurred. Understanding which approach to use is essential for analyzing dependent and independent events.
+			In the previous section, we explored how calculating probabilities can become more complex when dealing with multiple events. In this section, we turn our attention to how the probability of an event can change when additional information becomes available. Sometimes, we calculate the probability of an event based solely on the overall sample space. Other times, we calculate the probability of an event given that another event has already occurred. Understanding which approach to use is essential for analyzing dependent and independent events.
 		</p>
 	</introduction>
 	<subsection xml:id="sec_probability_conditional_independence">
 		<title>Independence</title>
 		<p>
-			Sometimes knowledge about one event can change the probability of another event. When knowledge about one event happening or not happening changes the probability of another event happening, the events are called <term>dependent</term>. When knowledge about one event makes no difference in the probability of another event happening, the events are called <term>independent</term>.
+			Sometimes, knowing about one event can change the probability of another. When the occurrence of one event changes the probability of another, the events are called <term>dependent</term>. When knowledge about one event makes no difference in the probability of another event happening, the events are called <term>independent</term>.
 		</p>
 		<definition xml:id="def_independent">
 			<idx><h>independent events</h></idx>
@@ -42,7 +42,7 @@
 			</statement>
 		</definition>
 		<p>
-			Coin flips and die rolls are common examples of independent events <mdash/> flipping heads does not change the probability of flipping heads the next time, nor does rolling a six change the probability that the next roll will be a six. Here is another example illustrating the difference between independent and dependent events.
+			Coin flips and dice rolls are common examples of independent events; flipping heads does not change the probability of flipping heads the next time, nor does rolling a six change the probability that the next roll will be a six. Here is another example illustrating the difference between independent and dependent events.
 			<ul>
 				<li>
 					<p>
@@ -75,12 +75,12 @@
 						</li>
 						<li>
 							<p>
-								An jar contains three marbles: 2 red and 1 white. Two marbles are drawn, with replacement. <m>A =</m> <q>the first marble is white</q> while <m>B =</m> <q>the second marble is white.</q>
+								A jar contains three marbles: 2 red and 1 white. Two marbles are drawn, with replacement. <m>A =</m> <q>the first marble is white</q> while <m>B =</m> <q>the second marble is white.</q>
 							</p>
 						</li>
 						<li>
 							<p>
-								An jar contains three marbles: 2 red and 1 white. Two marbles are drawn, without replacement. <m>A =</m> <q>the first marble is white</q> while <m>B =</m> <q>the second marble is white.</q>
+								A jar contains three marbles: 2 red and 1 white. Two marbles are drawn, without replacement. <m>A =</m> <q>the first marble is white</q> while <m>B =</m> <q>the second marble is white.</q>
 							</p>
 						</li>
 					</ol>
@@ -101,7 +101,7 @@
 						</li>
 						<li>
 							<p>
-								Since we are replacing the marbles after we draw them, the probability of getting a red on the first draw and on the second draw are the same: <m>\frac{2}{3}</m>. What happens on the first draw does not effect the probability of getting a red on the second draw. Because of this, <m>A</m> and <m>B</m> are <term>independent</term>.
+								Since we are replacing the marbles after we draw them, the probability of getting a red on the first draw and on the second draw are the same: <m>\frac{2}{3}</m>. What happens on the first draw does not affect the probability of getting a red on the second draw. Because of this, <m>A</m> and <m>B</m> are <term>independent</term>.
 							</p>
 						</li>
 						<li>
@@ -117,7 +117,7 @@
 	<subsection xml:id="sec_probability_conditional_formula">
 		<title>Conditional Probability</title>
 		<p>
-			As we saw above, the probability of one event can change depending on the occurrence of another. Because these probabilities can be different, we need a way to denote the probability of one event given than another has occurred. This is called the <term>conditional probability</term> of the first event, given that the second event happens. The formal definition is given below.
+			As we saw above, the probability of one event can change depending on the occurrence of another. Because these probabilities can be different, we need a way to denote the probability of one event given that another has occurred. This is called the <term>conditional probability</term> of the first event, given that the second event happens. The formal definition is given below.
 		</p>
 		<definition xml:id="def_conditional-probability">
 			<idx>conditional probability</idx>
@@ -173,7 +173,7 @@
 					</me>.
 				</p>
 				<p>
-					Note that <m>P(A\mid B)</m> and <m>P(A)</m> are different! This is equivalent to saying that <m>A</m> and <m>B</m> are dependent
+					Note that <m>P(A\mid B)</m> and <m>P(A)</m> are different! This is equivalent to saying that <m>A</m> and <m>B</m> are dependent events.
 				</p>
 			</solution>
 		</example>
@@ -226,7 +226,7 @@
 			</sidebyside>
 			<sidebyside>
 				<p>
-					To compute <m>P(A)</m>, we ignore <m>B</m> and take the ratio of the yellow area in <m>A</m>, to the area of the whole box. This is equivalent to saying that
+					To compute <m>P(A)</m> we ignore <m>B</m> and take the ratio of the yellow area in <m>A</m>, to the area of the whole box. This is equivalent to saying that
 					<me>
 						P(A) = \frac{P(A)}{P(S)} = \frac{P(A)}{1}
 					</me>
@@ -248,7 +248,7 @@
 					<me>
 						P(A\mid B) = \frac{P(A\cap B)}{P(B)} = \frac{n(A\cap B)}{n(S)}
 					</me>.
-					<alert>Note:</alert> you can use unconditioned probabilities or counts to compute conditional probability.
+					<alert>Note:</alert> You can use unconditioned probabilities or counts to compute conditional probability.
 				</p>
 			</statement>
 		</fact>
@@ -321,7 +321,7 @@
 					<ol marker="a.">
 						<li>
 							<p>
-								<m>P(\text{H. Gone}) = \frac{86}{138} \approx 0.6232</m> since 86 of the 138 peoples' headaches were gone after 15 minutes.
+								<m>P(\text{H. Gone}) = \frac{86}{138} \approx 0.6232</m> since 86 of the 138 peoples' headaches were gone after 45 minutes.
 							</p>
 						</li>
 						<li>
@@ -338,13 +338,13 @@
 						</li>
 						<li>
 							<p>
-								Since the probability of the headache being gone changed when we were told the person took Tylenol, these two events are not independent<mdash/>they are dependent.
+								Since the probability of the headache being gone changed when we were told the person took Tylenol, these two events are not independent; they are dependent.
 							</p>
 						</li>
 					</ol>
 				</p>
 				<p>
-					<alert>Note:</alert> When we have tabular data, there is a short-cut to finding conditional probability. Since we are told in (b) that the person took Tylenol, we restrict ourselves to the Tylenol column. Then, the probability that their headache is gone is simply <m>\frac{33}{73} \approx 0.4521</m>, as above.
+					<alert>Note:</alert> When we have tabular data, there is a shortcut to finding conditional probability. Since we are told in (b) that the person took Tylenol, we restrict ourselves to the Tylenol column. Then, the probability that their headache is gone is simply <m>\frac{33}{73} \approx 0.4521</m>, as above.
 				</p>
 			</solution>
 		</example>
