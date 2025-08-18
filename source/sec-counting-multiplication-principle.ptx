@@ -7,7 +7,7 @@
 		<ul>
 			<li>
 				<p>
-					Apply the addition rule to counting problem.
+					Apply the addition rule to counting problems.
 				</p>
 			</li>
 			<li>
@@ -20,7 +20,7 @@
 
 	<introduction>
 		<p>
-			In the previous section, we explored the art of counting by examining the number of elements in finite sets. Building on that foundation, particularly the inclusion-exclusion principle, we now introduce our first result in this section: the addition rule. Following our discussion on the addition rule, we will further expand our counting techniques by introducing and applying another foundational tool, the multiplication principle.
+			In the previous section, we explored the art of counting by examining the number of elements in finite sets. Building on that foundation, particularly the inclusion-exclusion principle, we now introduce our first result: the addition rule. Following our discussion on the addition rule, we will further expand our counting techniques by introducing and applying another foundational tool, the multiplication principle.
 		</p>
 	</introduction>
 	<subsection>
@@ -37,7 +37,7 @@
 			</statement>
 		</principle>
 		<p>
-			Note that the addition rule can be extended to include process or tasks that requires <m>k</m> steps. In that case, if there are <m>n_1</m> ways to complete the first step, <m>n_2</m> ways to complete the second and so forth, then there are 
+			Note that the addition rule can be extended to include processes or tasks that require <m>k</m> steps. In that case, if there are <m>n_1</m> ways to complete the first step, <m>n_2</m> ways to complete the second, and so forth, then there are 
 			<me>
 				n_1 + n_2 + \cdots + n_k
 			</me>
@@ -62,19 +62,19 @@
 	<subsection xml:id="sec_counting_multiplication">
 		<title>The Multiplication Rule</title>
 		<p>
-			Some processes have two or more steps, rather than cases, each of which can happen in several different ways. In order to determine the total number of ways that such a multi-step process can happen, we need to use a new rule, called the <term>multiplication rule</term>.
+			Some processes have two or more steps, rather than cases, each of which can happen in several different ways. To determine the total number of ways a multi-step process can occur, we use a new rule called the <term>multiplication rule</term>.
 		</p>
 		<principle xml:id="thm_counting-rule_multiplication">
 			<idx>multiplication rule (counting)</idx>
 			<idx><h>counting rules</h><h>multiplication</h></idx>
 			<statement>
 				<p>
-					The <term>multiplication rule</term> states that if a tasks consists of two steps where step one can happen in <m>n_1</m> ways and step two can happen in <m>n_2</m> ways, then the entire task can be done in <m>n_1 \times n_2</m> different ways.
+					The <term>multiplication rule</term> states that if a task consists of two steps where step one can happen in <m>n_1</m> ways and step two can happen in <m>n_2</m> ways, then the entire task can be done in <m>n_1 \times n_2</m> different ways.
 				</p>
 			</statement>
 		</principle>
 		<p>
-			<alert>Note:</alert> The multiplication rule can be expanded to a process which includes <m>k</m> stages, the <m>i^\text{th}</m> of which can happen in <m>n_i</m> ways, then the total number of ways the task can be done is:
+			<alert>Note:</alert> The multiplication rule can be expanded to processes that include <m>k</m> stages, the <m>i^\text{th}</m> of which can happen in <m>n_i</m> ways, then the total number of ways the task can be done is:
 			<me>
 				n_1 \times n_2 \times \cdots \times n_k
 			</me>.
@@ -171,7 +171,7 @@
 			</solution>
 		</example>
 		<p>
-			The next example demonstrates that while a tree diagram faithful represents a counting problem that uses the multiplication principle, it can be very large an unwieldy to use!
+			The next example demonstrates that while a tree diagram faithfully represents a counting problem that uses the multiplication principle, it can be very large and unwieldy to use!
 		</p>
 		<example>
 			<statement>
@@ -187,7 +187,7 @@
 					<caption>Tree diagram showing all 60 outcomes possible in <xref ref="ex_counting_multiplication_3-step"/>.</caption>
 					<!-- For unknown reasons, the tikz code for this image won't create an SVG file in Pretext (the file is blank). To update this diagram, edit /assets/images/sets_and_prob/tikz-source/tree-3-step-code_v1.tex (or v2) and turn the resulting PDF into a PNG file. -->
 					<image xml:id="tikz-ex-counting-tree-3-step" width="85%" source="images/sets_and_prob/tree-3-step-code_v1.png">
-						<shortdescription>A tree diagram with one branch from the starting point for each of three sandwich options, and five branches from each sandwich option representing drinks, and three from each drink representing drink choices. This leads to 60 total options, which agrees with the multiplication rule.</shortdescription>
+						<shortdescription>A tree diagram with one branch from the starting point for each of four sandwich options, and five branches from each sandwich option representing drinks, and three from each drink representing drink choices. This leads to 60 total options, which agrees with the multiplication rule.</shortdescription>
 					</image>
 				</figure>
 			</solution>
@@ -201,7 +201,7 @@
 		<example xml:id="ex_counting_multiplication_unbalanced-tree">
 			<statement>
 				<p>
-					A travel agency offers a vacation package where you select one destination and one resort. You can choose from three destinations: Hawaii, Florida, and Alaska. In Hawaii, you can stay at either of 2 resorts. In Florida, you can choose from 3 different resorts. In Alaska, only 1 resort is available. How many different vacation packages are possible in total?
+					A travel agency offers a vacation package where you select one destination and one resort. You can choose from three destinations: Hawaii, Florida, and Alaska. In Hawaii, you can stay at one of two resorts. In Florida, you can choose from three different resorts. In Alaska, only one resort is available. How many different vacation packages are possible in total?
 				</p>
 			</statement>
 			<solution>
@@ -215,7 +215,7 @@
 					<figure xml:id="fig_counting_multiplication_ex_unbalanced-tree">
 						<caption>Vacations.</caption>
 						<image xml:id="image_counting_multiplication_ex_unbalanced-tree">
-							<shortdescription> A three with one branch from the starting point for each destination, Hawaii, Florida, and Alaska.  Hawaii has two branches for its two resorts, Florida has three branches for its three resorts, and Alaska has one branch.</shortdescription>
+							<shortdescription> A tree with one branch from the starting point for each destination, Hawaii, Florida, and Alaska.  Hawaii has two branches for its two resorts, Florida has three branches for its three resorts, and Alaska has one branch.</shortdescription>
 							<latex-image>
 								\begin{tikzpicture}[font=\sffamily\tiny]
 									\node (r) at (0,0)       {};
