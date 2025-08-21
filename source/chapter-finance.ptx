@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-chapter-fiance" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-chapter-finance" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Finance</title>
 
   <objectives>
@@ -20,12 +20,12 @@
         </li>
         <li>
           <p>
-            Find the future value of an annuity, and the amount of payments to a sinking fund.
+            Find the future value of an annuity and the amount of payments to a sinking fund.
           </p>
         </li>
         <li>
           <p>
-            Find the future value of an annuity, and an installment payment on a loan.
+            Find the future value of an annuity and an installment payment on a loan.
           </p>
         </li>
         <li>
@@ -39,7 +39,7 @@
   </objectives>
 
   <introduction>
-    <p> Everyone needs money. We save money, we borrow money. We work to earn money. If we are fortunate, our money can work for us in the form of investments with lump sum or regular payouts. 
+    <p> Everyone needs money. We save money, and we borrow money. We work to earn money. If we are fortunate, our money can work for us in the form of investments with lump sum or regular payouts. 
     Those payments represent interest on our investments. On the flip side, when we borrow money we pay interest for that privilege. 
     In this section we develop the idea of interest first as simple interest and then in its compound form. We then apply compound interest to sequences of deposits (or payments) that work for or against us. </p>
   </introduction>
@@ -47,7 +47,7 @@
   <!-- include sections -->
   <xi:include href="sec-finance-simple-interest.ptx" />
   <xi:include href="sec-finance-compound-interest.ptx" />
-  <xi:include href="sec-finance-savings_plans.ptx" />
+  <xi:include href="sec-finance-savings-plans.ptx" />
   <xi:include href="sec-finance-loans.ptx" />
   <xi:include href="sec-finance-income-tax.ptx" />
 
