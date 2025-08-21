@@ -72,14 +72,14 @@
 			Notice that all three data sets have a mean of 5 points and median of 5 points, yet the sets of scores are clearly quite different from each other. In Section A, everyone had the same score; in Section B half the class earned no points and the other half got a perfect score. The scores for Section C are less consistent than the other sections but grouped closer to the central score of 5.
 		</p>
 		<p>
-			Thus, in addition the measures of center, we also need a measure of how <q>spread out</q> (or <q>varied</q>, or <q>dispersed</q>) each data set is in order to characterize it well.  There are several ways to measure the variation of a distribution. In this section we will look at the <alert>range</alert>, <alert>interquartile range (IQR)</alert>, and <alert>standard deviation</alert>.
+			Thus, in addition to the measures of center, we also need a measure of how <q>spread out</q> (or <q>varied</q>, or <q>dispersed</q>) each data set is in order to characterize it well.  There are several ways to measure the variation of a distribution. In this section we will look at the <alert>range</alert>, <alert>interquartile range (IQR)</alert>, and <alert>standard deviation</alert>.
 		</p>
 	</introduction>
 
 	<subsection xml:id="subsec-dispersion-range">
 		<title>Range</title>
 		<p>
-			The simplest ways to quantify the spread of a data set is to compute the <term>range</term>. The range tells us the <q>width</q> of the entire data set by taking the difference between the maximum and minimum value.
+			The simplest way to quantify the spread of a data set is to compute the <term>range</term>. The range tells us the <q>width</q> of the entire data set by taking the difference between the maximum and minimum value.
 		</p>
 		<definition xml:id="def_range">
 			<idx>range</idx>
@@ -137,7 +137,7 @@
 			</statement>
 			<solution>
 				<p>
-					To find the range we need to identify the maximum and minimum values in the data set. The largest value is 18.3 and the smallest is 6.5, Thus the range is:
+					To find the range we need to identify the maximum and minimum values in the data set. The largest value is 18.3 and the smallest is 6.5. Thus the range is:
 					<me>
 						\text{range} = 18.3 - 6.5 = 11.8
 					</me>.
@@ -286,7 +286,7 @@
 			</statement>
 			<solution>
 				<p>
-					The data are already in order, but now we have an odd number of values.  We use the median value of 66 as both the maximum value for the lower half of the data and the minimum value for upper half.
+					The data are already in order, but now we have an odd number of values.  We use the median value of 66 as both the maximum value for the lower half of the data and the minimum value for the upper half.
 					<me>
 						\overbrace{59,60, 61, \underbrace{63,}_{Q1=63} 64, 64, 6}^{\text{Lower Half}} \overbrace{6, 66, 67, \underbrace{68,}_{Q3=68} 69, 70, 72}^{\text{Upper Half}}
 					</me>
@@ -321,7 +321,7 @@
 		</p>
 		<example>
 			<p>
-				Returning to the quiz example used in the introduction of this section as motivation, let's suppose there is a fourth set of of quiz scores for a 10-point quiz. The mean quiz score for Section D, like Sections A, B and C, is 5 points.
+				Returning to the quiz example used in the introduction of this section as motivation, let's suppose there is a fourth set of quiz scores for a 10-point quiz. The mean quiz score for Section D, like Sections A, B and C, is 5 points.
 			</p>
 			<p>
 				<alert>Section D:</alert>
@@ -454,7 +454,7 @@
 				<me>
 					25+0+0+0+0+0+0+0+0+25=50	
 				</me>
-				Ordinarily, when computing an average (mean) we would then divide this total by the number of scores, <m>n</m>, (in this case, 10) to find the mean of the deviations, but the division by <m>n</m> is only done if the data set represents a population. When the data set represents a sample (as it almost always does), we divide by <m>n-1</m> (in this case,).
+				Ordinarily, when computing an average (mean) we would then divide this total by the number of scores, <m>n</m>, (in this case, 10) to find the mean of the deviations, but the division by <m>n</m> is only done if the data set represents a population. When the data set represents a sample (as it almost always does), we divide by <m>n-1</m> (in this case 9).
 			</p>
 			<p>
 				To find the mean of the deviations, we would typically divide this total (50) by the number of scores, <m>n</m> (in this case, 10). However, we divide by <m>n</m> only when the data represents a population. For sample data (which is more common), we divide by <m>n-1</m> (in this case, 9).
@@ -482,7 +482,7 @@
 						<p><m>s_{D}=2.36</m> points.</p>
 					</li>
 				</ul>
-				Note that this these values show that the data from Section C has the smallest average distance from the mean, meaning these scores are the least spread out. This matches what we observe when we look at the data.
+				Note that these values show that the data from Section C has the smallest average distance from the mean, meaning these scores are the least spread out. This matches what we observe when we look at the data.
 			</p>
 		</example>
 		<p>
@@ -531,7 +531,7 @@
 					</li>
 					<li>
 						<p>
-							Divide the sum of the deviations by <m>n-1</m> and take the square root.
+							Divide the sum of the squared deviations by <m>n-1</m> and take the square root.
 						</p>
 					</li>
 				</ol>
