@@ -22,11 +22,6 @@
 			</li>
 			<li>
 				<p>
-					Find the future value of an annuity, and the amount of payments to a sinking fund.
-				</p>
-			</li>
-			<li>
-				<p>
 					Distinguish between deductive and inductive arguments.
 				</p>
 			</li>
@@ -45,7 +40,7 @@
 
 	<introduction>
 		<p>
-			Symbolic logic emerged from ancient Greek foundations but was revolutionized in the late 19th century when mathematicians like Boole, Frege, and Russell transformed philosophical reasoning into precise mathematical systems. By replacing ambiguous language with clear symbols and operations, they created a universal framework for analyzing arguments with unprecedented rigor.
+			Symbolic logic emerged from ancient Greek foundations, but was revolutionized in the late 19th century when mathematicians like Boole, Frege, and Russell transformed philosophical reasoning into precise mathematical systems. By replacing ambiguous language with clear symbols and operations, they created a universal framework for analyzing arguments with unprecedented rigor.
 		</p>
 		<p>
 			This powerful analytical system extends far beyond theoretical exercises. Where natural language introduces ambiguity, symbolic logic provides a formal methodology for evaluating the validity of arguments with mathematical precision. Its applications span diverse fields including computer science, mathematics, philosophy, and formal linguistics. Students who master these logical structures will develop enhanced critical reasoning skills applicable to both academic inquiry and practical problem-solving scenarios across disciplines.
