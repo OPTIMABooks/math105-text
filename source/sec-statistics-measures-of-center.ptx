@@ -475,10 +475,10 @@
 					</me>
 				</p>
 				<p>
-					However, we can calculate this easily using multiplication top deal with repeated values. Doing so, the sum of the data values (the numerator of the mean) is
+					However, we can calculate this easily using multiplication to deal with repeated values. Doing so, the sum of the data values (the numerator of the mean) is
 					<md>
 						<mrow> \amp (15)(6)+(20)(8) + (25)(11)+(30)(17)</mrow>
-						<mrow> \amp +(35)(19)+(40)(20) +(45)(21)+(50)(7) </mrow>
+						<mrow> \amp +(35)(19)+(40)(20) +(45)(12)+(50)(7) </mrow>
 						<mrow> \amp= 3390 </mrow>
 					</md>.
 					The mean is then
@@ -589,13 +589,13 @@
 					<li>
 						<title>Median</title>
 						<p>
-							Use the median if there are indications of strong outliers in your data. Data sets which with strong outliers would include income or housing price data.
+							Use the median if there are indications of strong outliers in your data. Data sets with strong outliers would include income or housing price data.
 						</p>
 					</li>
 					<li>
 						<title>Mean</title>
 						<p>
-							The mean is the best all-purpose measures of center and variation for quantitative data. Unless your data set has strong outliers, this is the summary value you should use.
+							The mean is the best all-purpose measure of center and variation for quantitative data. Unless your data set has strong outliers, this is the summary value you should use.
 						</p>
 					</li>
 				</ul>
@@ -609,12 +609,12 @@
 					<ol marker="a.">
 						<li>
 							<p>
-								The salaries of all employee's at IBM.
+								The salaries of all employees at IBM
 							</p>
 						</li>
 						<li>
 							<p>
-								A quick assessment of how well a group of athletes did in a 100-meter dash.
+								A quick assessment of how well a group of athletes did in a 100-meter dash
 							</p>
 						</li>
 						<li>
