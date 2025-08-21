@@ -27,7 +27,7 @@
 			</li>
 			<li>
 				<p>
-					Construct Steam-and-Leaf plots.
+					Construct steam-and-leaf plots
 				</p>
 			</li>
 		</ul>
@@ -95,7 +95,7 @@
 							</li>
 							<li>
 								<p>
-									<term>Bivariate data</term> contains measurements from two variables. This is sometimes called <term>paired data</term>
+									<term>Bivariate data</term> contains measurements from two variables. This is sometimes called <term>paired data</term>.
 								</p>
 							</li>
 							<li>
@@ -200,7 +200,7 @@
 							<li>
 								<title>Length of Residence</title>
 								<p>
-									The values for this final variable are also numbers (i.e. 1 year, 2 months, and 12 days = 1.2 years). It also makes sense to perform mathematical operation on these values. In contracts to the <q>number or residence</q> data, these values can be decimals or fractions.
+									The values for this final variable are also numbers (i.e. 1 year, 2 months, and 12 days = 1.2 years). It also makes sense to perform mathematical operations on these values. In contrast to the <q>number or residence</q> data, these values can be decimals or fractions.
 								</p>
 							</li>
 						</ul>
@@ -408,7 +408,7 @@
 		<subsubsection xml:id="subsubsec_graph_qualitative_frequency-table">
 			<title>Frequency Tables</title>
 			<p>
-				The first step needed to graph qualitative data is is to first summarize it. To do so, we construct what a <term>frequency table</term>.
+				The first step needed to graph qualitative data is to first summarize it. To do so, we construct what a <term>frequency table</term>.
 			</p>
 			<definition xml:id="def_frequency-table">
 				<idx>frequency table</idx>
@@ -1238,7 +1238,7 @@ Stem | Leaf
 				<solution>
 					<sidebyside widths="50% 45%" margins="auto" valign="middle">
 						<p>
-							This is done in almost exactly the same way as	<xref ref="ex_graphs_stem-and-leaf" text="custom">our last example</xref>. The only difference is that	each stem gets two rows. The leaves are then split up with 0<ndash/>4 going in the first row and 5<ndash/>9 in the second row for a given stem. The result is	shown to the right.
+							This is done in almost exactly the same way as <xref ref="ex_graphs_stem-and-leaf" text="custom">our last example</xref>. The only difference is that	each stem gets two rows. The leaves are then split up with 0<ndash/>4 going in the first row and 5<ndash/>9 in the second row for a given stem. The result is	shown to the right.
 						</p>
 						<listing xml:id="listing_graphs_ex_expanded-stem-and-leaf">
 							<caption>Expanded stem-and-leaf plot</caption>
@@ -1265,7 +1265,7 @@ Stem | Leaf
 	<subsection xml:id="subsec_graphs_quantitative_interpreting">
 		<title>Interpreting Graphs</title>
 		<p>
-			The reason we create graphs in the first place is to help us better understand a set of data. So, it's important that we know how to interpret the graphs we create. In this class, we'll spend most of our time working with univariate quantitative variables. That means we need to be sure we know how to interpret histograms. There are three major things to look for in a histogram: does the histogram have a <term>center</term>, does it have one or more <term>modes</term>, and is it <term>symmetric</term> or <term>skewed</term>?
+			We create graphs to better understand a set of data. So, it's important that we know how to interpret the graphs we create. In this class, we'll spend most of our time working with univariate quantitative variables. That means we need to be sure we know how to interpret histograms. There are three major things to look for in a histogram: does the histogram have a <term>center</term>, does it have one or more <term>modes</term>, and is it <term>symmetric</term> or <term>skewed</term>?
 		</p>
 		<definition xml:id="def_histogram-center">
 			<idx><h>histogram</h><h>center</h></idx>
