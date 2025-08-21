@@ -42,7 +42,7 @@
 			To make a profit, the organizers need to know how much they will pay in winnings, on average, over the long run and charge more than that amount. In other words, they must charge more than the <em>expected value</em> of the game. To figure out the average winnings, you need to tabulate all the possible outcomes of the game.
 		</p>
 		<p>
-			One way to do this is with a probability model. A <term>probability model</term> or <term>probability distribution</term> is a table listing all possible outcomes and their corresponding probabilities. The outcomes will be the amounts a player can win, and we will calculate the probabilities using what we have learned about theoretical probability.
+			One way to do this is with a probability model. A <term>probability model</term> or <term>probability distribution</term> is a table listing all possible outcomes and their corresponding probabilities. The outcomes are the amounts a player can win, and we will calculate the probabilities using what we have learned about theoretical probability.
 		</p>
 		<p>
 			Here is the probability model for the carnival game. Note that the probabilities in a probability distribution must add to 1.
@@ -87,7 +87,7 @@
 				<mrow> \text{Expected winnings} \amp= \$10\left(\frac{1}{6}\right)+\$3\left(\frac{5}{36}\right)+\$0\left(\frac{25}{36}\right) </mrow>
 				<mrow> \amp =\$2.08 </mrow>
 			</md>
-			This tells us that over the long run, players can expect to win $2.08 per game. This also means that the game organizer will be paying out an average of $2.08 per game. Since the game is intended to be a fundraiser, the organizers need to charge <em>more</em> than $2.08 per game in order to raise money.
+			This tells us that, over the long run, players can expect to win $2.08 per game. This also means that the game organizer will be paying out an average of $2.08 per game. Since the game is intended to be a fundraiser, the organizers need to charge <em>more</em> than $2.08 per game in order to raise money.
 		</p>
 		<p>
 			If the game organizers charge exactly $2.08 to play, the game is considered a <term>fair game</term> since the expected winnings would be $0. In a fair game, the player isn't expected to win anything, nor is the owner expected to earn anything over the long run. However, if organizers charge the player more than $2.08 to play, they will earn money over the long run.
@@ -139,7 +139,6 @@
 						<mrow>\amp=0.9961</mrow>
 					</md>
 				</p>
-				<p></p>
 				
 				<p>
 					Adding this information to the table gives a complete probability distribution. Now we can see that players are going to lose more than 99% of the time, so the expected value will be heavily weighted toward winning $0.
@@ -174,18 +173,18 @@
 				<p>
 					<md>
 					<mrow>\text{Expected winnings}\amp=\$250\left(\frac{1}{417}\right)+\$500\left(\frac{1}{1833}\right)</mrow>
-					<mrow>\amp +\$1000\left(\frac{1}{16773}\right)+\$1500\left(\frac{1}{2500}\right) </mrow>
+					<mrow>\amp +\$1000\left(\frac{1}{1667}\right)+\$1500\left(\frac{1}{2500}\right) </mrow>
 					<mrow>\amp +\$0(0.9961)</mrow>
 					<mrow> \amp </mrow>
 					<mrow>\amp =\$2.07</mrow>
 				</md>
 				</p>
 				<p>
-					Therefore, the player's expected winnings are $2.07, on average, over the long run. To find the expected <alert>net</alert> winnings, we subtract the cost to play. Since it costs $1 to play,
+					Therefore, the player's expected winnings are $2.07 on average over the long run. To find the expected <alert>net</alert> winnings, we subtract the cost to play. Since it costs $1 to play,
 				</p>
 				<p>
 					<md>
-					<mrow>\text{Net Expected Winnings}=\$2.07-\$1.00=\$1.07.</mrow>
+					<mrow>\text{Net Expected Winnings}= \$2.07 - \$1.00 = \$1.07.</mrow>
 					</md>
 				</p>
 				<p>
@@ -293,7 +292,7 @@
 				</md>
 				</p>
 				<p>
-					The insurance company is making, on average, $33 per policy per year. It shouldn't be too surprising because there are overhead costs and the insurance company can only afford to offer policies if they, on average, make money on them. But how much money should they make? As a consumer it is important to know about expected value.
+					The insurance company is making, on average, $33 per policy per year. It shouldn't be too surprising because there are overhead costs and the insurance company can only afford to offer policies if they, on average, make money on them. But how much money should they make? As a consumer, it is important to know about expected value.
 				</p>
 			</solution>
 		</example>
