@@ -117,7 +117,7 @@
 			<statement>
 				<p>
 					An experiment consists of rolling two fair dice and noting the sum of the numbers rolled. Below are several sets related to this experiment.
-					<ol label="a.">
+					<ol marker="a.">
 						<li><p><m>\lbrace 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 , 11, 12 \rbrace</m></p></li>
 						<li><p><m>\lbrace 2, 4, 6, 8, 10, 12 \rbrace</m></p></li>
 						<li><p><m>\lbrace (1,1), (1,2), ... , (5,6), (6,6) \rbrace</m></p></li>
