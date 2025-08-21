@@ -7,7 +7,7 @@
 			<ul>
 			<li>
 				<p>
-					Define and identify the population, parameter, sample and statistic
+					Define and identify the population, parameter, sample, and statistic
 				</p>
 			</li>
 			<li>
@@ -67,12 +67,12 @@
 					</li>
 					<li>
 						<p>
-							A surprising new study shows that eating egg whites can increase one's life span.
+							A surprising new study shows that eating egg whites can increase one's lifespan.
 						</p>
 					</li>
 					<li>
 						<p>
-							People predict that it is very unlikely there will ever be another baseball player with a batting average over 400.
+							People predict that it is very unlikely there will ever be another baseball player with a batting average over .400.
 						</p>
 					</li>
 					<li>
@@ -127,7 +127,7 @@
 			</ol>
 		</p>
 		<p>
-			The intended population is sometimes called the <term>target population</term>, since if we design our study badly, the collected data might not actually be representative of the intended population.
+			The intended population is sometimes called the <term>target population</term>. If we design our study badly, the collected data might not actually be representative of the intended population.
 		</p>
 		<definition xml:id="def_population">
 			<idx><h>population</h></idx>
@@ -151,7 +151,7 @@
 			</solution>
 		</example>
 		<p>
-			A <term>parameter</term> is a value (such as a percentage, average, or other measure) that describes a characteristic of an entire population. Since collecting data from every member of a population is often too time-consuming, expensive, or impossible, parameters are usually theoretical quantities that we aim to estimate. For example, the average amount of money spent on textbooks per year by all students Walla Walla University is a parameter.
+			A <term>parameter</term> is a value (such as a percentage, average, or other measure) that describes a characteristic of an entire population. Since collecting data from every member of a population is often too time-consuming, expensive, or impossible, parameters are usually theoretical quantities that we aim to estimate. For example, the average amount of money spent on textbooks per year by all students at Walla Walla University is a parameter.
 		</p>
 		<definition xml:id="def_parameter">
 			<idx>parameter</idx>
@@ -185,7 +185,7 @@
 			</statement>
 			<solution>
 				<p>
-					<em>Population</em>: While the intended population of this survey is Walla Walla citizens, the effective population is anyone walking through Land Title Plaza. There is no reason to assume that these pedestrians are representative of all Walla Walla citizens. (In fact, many are probably out of town visitors!)
+					<em>Population</em>: While the intended population of this survey is Walla Walla citizens, the effective population is everyone walking through Land Title Plaza. There is no reason to assume that these pedestrians are representative of all Walla Walla citizens. (In fact, many are probably out of town visitors!)
 				</p>
 				<p>
 					<em>Parameter</em>: The parameter is what we want to know about the population, in this case the percentage of Walla Walla citizens who support the initiative.
@@ -368,7 +368,7 @@
 		<subsubsection xml:id="subsubsec-statistics_sampling_cluster">
 			<title>Cluster Sample</title>
 			<p>
-				The difference between a <term>cluster sample</term> and a stratified sample lies in how the groups are used. In a stratified sample, the population is divided into groups (strata), and a random sample is taken from each group. In contrast, a cluster sample involves dividing the population into clusters, then randomly selecting entire clusters and including all individuals within those clusters in the sample.
+				The difference between a <term>cluster sample</term> and a <term>stratified sample</term> lies in how the groups are used. In a stratified sample, the population is divided into groups (strata), and a random sample is taken from each group. In contrast, a cluster sample involves dividing the population into clusters, then randomly selecting entire clusters and including all individuals within those clusters in the sample.
 			</p>
 			<definition xml:id="def_cluster_sample">
 				<idx><h>sample</h><h>cluster sample</h></idx>
@@ -548,7 +548,7 @@
 				<ol marker="a.">
 					<li>
 						<p>
-							Consider a recent study which found that chewing gum may raise math grades in teenagers.<fn>Reuters.<url href="https://www.reuters.com/article/lifestyle/chewing-gum-may-raise-math-grades-in-teens-idUSTRE53L793/" visual="https://www.reuters.com/article/lifestyle/chewing-gum-may-raise-math-grades-in-teens-idUSTRE53L793/"/> Retrieved 5/27/25</fn> This study was conducted by the Wrigley Science Institute, a branch of the Wrigley chewing gum company. This is an example of a self-interest study; one in which the researches have a vested interest in the outcome of the study. While this does not necessarily mean the study was biased, we should subject the study to extra scrutiny.
+							Consider a recent study which found that chewing gum may raise math grades in teenagers.<fn>Reuters.<url href="https://www.reuters.com/article/lifestyle/chewing-gum-may-raise-math-grades-in-teens-idUSTRE53L793/" visual="reuters.com"/> Retrieved 5/27/25</fn> This study was conducted by the Wrigley Science Institute, a branch of the Wrigley chewing gum company. This is an example of a self-interest study; one in which the researchers have a vested interest in the outcome of the study. While this does not necessarily mean the study was biased, we should subject the study to extra scrutiny.
 						</p>
 					</li>
 					<li>
@@ -580,11 +580,11 @@
 			</p>
 		</example>
 		<p>
-			Loaded questions can occur intentionally by pollsters with an agenda, or accidentally through poor question wording. A related concern is question order, where the order of questions changes the results. Here is an example from a psychology researcher:<fn>Swartz, Norbert. <url href="https://web.archive.org/web/20050413172152/http://www.umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html" visual="umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html"/> Retrieved 5/27/2025</fn>
+			Loaded questions can occur intentionally by pollsters with an agenda, or accidentally through poor question wording. A related concern is question order, where the order of questions changes the results. Here is an example from a psychology researcher:<fn>Schwartz, Norbert. <url href="https://web.archive.org/web/20050413172152/http://www.umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html" visual="umich.edu"/> Retrieved 5/27/2025</fn>
 		</p>
 		<example>
 			<p>
-				<q>My favorite finding is this: we did a study where we asked students, 'How satisfied are you with your life? How often do you have a date?' The two answers were not statistically related - you would conclude that there is no relationship between dating frequency and life satisfaction. But when we reversed the order and asked, 'How often do you have a date? How satisfied are you with your life?' the statistical relationship was a strong one. You would now conclude that there is nothing as important in a student's life as dating frequency.</q>      
+				<q>My favorite finding is this: we did a study where we asked students, 'How satisfied are you with your life? How often do you have a date?' The two answers were not statistically related; you would conclude that there is no relationship between dating frequency and life satisfaction. But when we reversed the order and asked, 'How often do you have a date? How satisfied are you with your life?' the statistical relationship was a strong one. You would now conclude that there is nothing as important in a student's life as dating frequency.</q>      
 			</p>
 		</example>
 	</subsection>
@@ -594,7 +594,7 @@
 			Even when a study or experiment has successfully avoided bias and has been well done, there is still an element of variation. If we took 5 different random samples of 100 college students and calculated their average textbook cost, we wouldn't expect to get the exact same average for each sample. This is due to sampling variation. To account for this, researchers publish their margin of error or a confidence interval for their statistics. These numbers describe the precision of the estimate for a certain confidence level. 
 		</p>
 		<p>
-			You've probably heard something like, <q>The candidate has 54 percent of the likely voters, plus or minus three percent.</q> The 3% is called the <term>margin of error</term>, so the true percentage is somewhere between 51% and 57%, with a certain level of confidence. To write this as a <term>confidence interval</term>, we place the numbers in parentheses from smallest to largest, separated by a comma: (51%, 57%).
+			You've probably heard something like, <q>The candidate has 54 percent of the likely voters, plus or minus three percent.</q> The 3% is called the <term>margin of error</term>, so the true percentage is somewhere between 51% and 57%, with a certain level of confidence. To write this as a <term>confidence interval</term>, we place the numbers in parentheses, from smallest to largest, separated by a comma: (51%, 57%).
 		</p>
 		<p>
 			The most common <term>confidence level</term> is 95%, which means if the poll was conducted repeatedly, and we made a confidence interval each time, we would expect the true percentage, or parameter, to fall within our confidence interval 95 out of 100 times. You can learn more on how to calculate the margin of error for different confidence levels in a statistics class.
