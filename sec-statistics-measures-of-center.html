@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette: ice-fire                     *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Math for Society: Measures of Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Math for Society">
+<meta property="book:author" content="Benjamin D. Jackson">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.8';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/components/prism-core.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/autoloader/prism-autoloader.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-numbers/prism-line-numbers.min.js" integrity="sha512-dubtf8xMHSQlExGRQ5R7toxHLgSDZ0K7AunqPWHXmJQ8XyVIG19S1T95gBxlAeGOK02P4Da2RTnQz0Za0H0ebQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-highlight/prism-line-highlight.min.js" integrity="sha512-93uCmm0q+qO5Lb1huDqr7tywS8A2TFA+1/WHvyiWaK6/pvsFl6USnILagntBx8JnVbQH5s3n0vQZY6xNthNfKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="math-for-society-WWU.html"><span class="title">Math for Society</span> <span class="subtitle">Tools for living</span></a></h1>
+<p class="byline">Benjamin D. Jackson</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-2.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-statistics-data-representation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-chapter-statistics.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-statistics-measures-of-dispersion.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Dedication</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-chapter-fiance.html" class="internal"><span class="codenumber">1</span> <span class="title">Finance</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-finance-simple-interest.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Simple Interest and Discounts</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-simple-interest.html#subsec-simple-interest" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Simple Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-simple-interest.html#subsec-simple-interest-discounts" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Discounts and Proceeds</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-finance-compound-interest.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Compound Interest</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-compound-interest.html#sec-finance-compound-interest-4" class="internal"><span class="codenumber">1.2.1</span> <span class="title">APR — Annual Percentage Rate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-compound-interest.html#sec-finance-compound-interest-5" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-compound-interest.html#sec-finance-compound-interest-6" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Comparing Simple and Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-compound-interest.html#sec-finance-compound-interest-7" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Finding the Amount of Interest Earned and the Percentage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-compound-interest.html#sec-finance-compound-interest-8" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Effective Rate</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-finance-savings_plans.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Annuities and Sinking Funds</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-savings_plans.html#subsec-annuities" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Future Value of an Annuity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-savings_plans.html#subsec-sinking_funds" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Computing Payments and Sinking Funds</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-savings_plans.html#subsec-derivation-future-value-of-annuity" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Deriving the Future Value of an Annuity Formula (Optional)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-finance-loans.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Annuities and Amortized Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-loans.html#subsec-present-value-annuities" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Present Value of an Annuity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-loans.html#subsec-amortization" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Installment Loans</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-loans.html#sec-finance-loans-6" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Credit Cards</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-finance-income-tax.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Income Taxes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-3" class="internal"><span class="codenumber">1.5.1</span> <span class="title">A Very Brief History of Taxes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-4" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Types of Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-5" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Calculating Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-6" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Filing Status</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-7" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Tax Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-8" class="internal"><span class="codenumber">1.5.6</span> <span class="title">Tax Credits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-9" class="internal"><span class="codenumber">1.5.7</span> <span class="title">Calculating a Refund or Payment Due</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-10" class="internal"><span class="codenumber">1.5.8</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-chapter-logic.html" class="internal"><span class="codenumber">2</span> <span class="title">Logical Reasoning</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logic-propositions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Propositions and Logical Operators</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Propositions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-4" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Negation (not)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-4-3" class="internal"><span class="codenumber">2.1.2.1</span> <span class="title">Negation of Quantifiers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-4-4" class="internal"><span class="codenumber">2.1.2.2</span> <span class="title">Multiple Negations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-5" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Logical Connectors: <em class="emphasis">and</em> and <em class="emphasis">or</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Conditional Statements: <em class="emphasis">if, then</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-7" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Mathematical Notation for Logic</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-8" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logic-truth-tables.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Truth Tables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-logic-truth-tables.html#sec-logic-truth-tables-3" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Truth Tables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-truth-tables.html#sec-logic-truth-tables-3-3" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Truth Tables for NOT, AND, and OR</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-truth-tables.html#subsubsec-conditional-truth-table" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Truth Tables for the Conditional</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-truth-tables.html#sec-logic-truth-tables-4" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Truth Tables for Complex Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-truth-tables.html#sec-logic-truth-tables-5" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Truth Tables with Three Propositions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logic-equivalence.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Equivalence</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-equivalence.html#subsec-logic-contrapositive" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Logical Equivalence and the Conditional</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-equivalence.html#sec-logic-equivalence-5" class="internal"><span class="codenumber">2.3.2</span> <span class="title">The Contrapositive</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-equivalence.html#subsec-logic-biconditional" class="internal"><span class="codenumber">2.3.3</span> <span class="title">The Biconditional</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-equivalence.html#subsec-logic-deMorgan" class="internal"><span class="codenumber">2.3.4</span> <span class="title">De Morgan’s Laws</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logic-arguments.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Arguments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-4" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Inductive and Deductive Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-5" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Evaluating Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-6" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Evaluating Deductive Arguments Using Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-7" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Forms of Valid Arguments (Optional)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-7-3" class="internal"><span class="codenumber">2.4.4.1</span> <span class="title">The Law of Detachment</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-7-4" class="internal"><span class="codenumber">2.4.4.2</span> <span class="title">The Law of Contraposition</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-7-5" class="internal"><span class="codenumber">2.4.4.3</span> <span class="title">The Transitive Property</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logic-fallacies.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Logical Fallacies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Common Logical Fallacies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-3" class="internal"><span class="codenumber">2.5.1.1</span> <span class="title">Personal Attack (Ad hominem)</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-4" class="internal"><span class="codenumber">2.5.1.2</span> <span class="title">Appeal to Ignorance</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-5" class="internal"><span class="codenumber">2.5.1.3</span> <span class="title">Appeal to Authority</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-6" class="internal"><span class="codenumber">2.5.1.4</span> <span class="title">False Dilemma</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-7" class="internal"><span class="codenumber">2.5.1.5</span> <span class="title">Straw Man</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-8" class="internal"><span class="codenumber">2.5.1.6</span> <span class="title">Post Hoc</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-logic-fallacies.html#sec-logic-fallacies-5" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-chapter-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets, Counting, and Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets and Set Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-operations.html#sec-set-operations-4" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Set Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-operations.html#subsec-set-operations" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Set Operations: Union, Intersection, and Complement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-operations.html#subsec-sets-Venn-diagrams" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Venn Diagrams</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-set-cardinality.html" class="internal"><span class="codenumber">3.2</span> <span class="title">The Number of Elements in a Finite Set</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-cardinality.html#sec-set-cardinality-4" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Counting Problems with 2 Sets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-cardinality.html#sec-set-cardinality-5" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Counting Problems with 3 Sets</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-set-multiplication-principle.html" class="internal"><span class="codenumber">3.3</span> <span class="title">The Multiplication Principle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-multiplication-principle.html#sec-set-multiplication-principle-4" class="internal"><span class="codenumber">3.3.1</span> <span class="title">The Addition Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-multiplication-principle.html#sec_counting_multiplication" class="internal"><span class="codenumber">3.3.2</span> <span class="title">The Multiplication Rule</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-set-permutation-combination.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Permutations and Combinations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-permutation-combination.html#subsec-counting-factorial" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Factorials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-permutation-combination.html#subsec_counting_permutations" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Permutations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-permutation-combination.html#subsec_counting_combinations" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Combinations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-permutation-combination.html#sec_counting_mixed" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Mixed Counting Techniques</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-probability-basics.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-basics.html#sec-probability-basics-4" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Theoretical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-basics.html#subsec-probability-rules" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Basic Probability Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-basics.html#sec_probability_more-rules" class="internal"><span class="codenumber">3.5.3</span> <span class="title">More Probability Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-basics.html#sec_probability_counting" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Probability from Counting</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-probability-conditional.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Conditional Probability and Independent Events</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-conditional.html#sec_probability_conditional_independence" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Independence</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-conditional.html#sec_probability_conditional_formula" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Conditional Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-conditional.html#sec_probability_conditional_multiplication-rule" class="internal"><span class="codenumber">3.6.3</span> <span class="title">General Multiplication Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-conditional.html#sec_probability_conditional_trees" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Tree Diagrams and Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-conditional.html#sec_probability_conditional_bayes" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Bayesian Probability</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-probability-expected-value.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Expected Value</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-expected-value.html#subsec-probability-models" class="internal"><span class="codenumber">3.7.1</span> <span class="title">Probability Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-expected-value.html#subsec-probability-expected-val" class="internal"><span class="codenumber">3.7.2</span> <span class="title">Expected Value</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-chapter-statistics.html" class="internal"><span class="codenumber">4</span> <span class="title">Statistics</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-statistics-overview.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Overview of Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsec-statistics-populations" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Populations and samples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsec-statistics-sampling" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Sampling</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-statistics-overview.html#subsec_statistics_sampling_methods" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Sampling Methods</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsubsec-statistics_sampling_SRS" class="internal"><span class="codenumber">4.1.3.1</span> <span class="title">Simple Random Sample (SRS)</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsubsec-statistics_sampling_systematic" class="internal"><span class="codenumber">4.1.3.2</span> <span class="title">Systematic Sample</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsubsec-statistics_sampling_stratified" class="internal"><span class="codenumber">4.1.3.3</span> <span class="title">Stratified Sample</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsubsec-statistics_sampling_cluster" class="internal"><span class="codenumber">4.1.3.4</span> <span class="title">Cluster Sample</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsubsec-statistics_sampling_convenience" class="internal"><span class="codenumber">4.1.3.5</span> <span class="title">Convenience Sample</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#sec_statistics_study_types" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Types of Studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#sec-statistics-overview-8" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Statistical Bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsection_statistics_confidence_interval" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Margin of Error and Confidence Intervals</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-statistics-data-representation.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Representing Data Graphically</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-statistics-data-representation.html#sec_data_data" class="internal"><span class="codenumber">4.2.1</span> <span class="title">What is Data?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsubsec_data_variables_number" class="internal"><span class="codenumber">4.2.1.1</span> <span class="title">Classification by Number of Variables</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#sec_data_variables_type" class="internal"><span class="codenumber">4.2.1.2</span> <span class="title">Types of Variable</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-statistics-data-representation.html#sec_statistics_graphs_qualitative" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Graphing Qualitative Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsubsec_graph_qualitative_frequency-table" class="internal"><span class="codenumber">4.2.2.1</span> <span class="title">Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#sec_graphs_qualitative_graphs" class="internal"><span class="codenumber">4.2.2.2</span> <span class="title">Graphs</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsec_graphs_quantitative" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Graphing Quantitative Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#sec_graphs_quantitative_tables" class="internal"><span class="codenumber">4.2.3.1</span> <span class="title">Summarizing Quantitative Data with Tables</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsubsec_graphs_quantitative_histograms" class="internal"><span class="codenumber">4.2.3.2</span> <span class="title">Histograms</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsubsec_graphs_quantitative_stem-and-leaf" class="internal"><span class="codenumber">4.2.3.3</span> <span class="title">Stem-and-Leaf Plots</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsec_graphs_quantitative_interpreting" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Interpreting Graphs</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-statistics-measures-of-center.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Measures of Center</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-center.html#subsec_center-spread_mode" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Mode</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-center.html#subsec_center-midrange" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Midrange</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-center.html#sec_center-spread_median" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Median</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-center.html#subsec_center-spread_mean" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-center.html#subsec_center-spread_appropriate" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Which Measure Should I Use?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-statistics-measures-of-dispersion.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Measures of Dispersion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-dispersion.html#subsec-dispersion-range" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-dispersion.html#subsec_spread_IQR-quartiles" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Interquartile Range (IQR)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-dispersion.html#subsec-dispersion-standard_deviation" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Standard Deviation</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-statistics-measures-of-center"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Measures of Center</span>
+</h2>
+<article class="objectives goal-like" id="sec-statistics-measures-of-center-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ul class="disc" id="sec-statistics-measures-of-center-2-1"><li id="sec-statistics-measures-of-center-2-1-1">
+<div class="para" id="sec-statistics-measures-of-center-2-1-1-1">Describe the “center” of a data set using the mean, mode, and median, and describe the strengths and weaknesses of each of these measures.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-measures-of-center-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-statistics-measures-of-center-2-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li></ul>
+<div class="autopermalink" data-description="Objectives 4.3"><a href="#sec-statistics-measures-of-center-2" title="Copy heading and permalink for Objectives 4.3" aria-label="Copy heading and permalink for Objectives 4.3">🔗</a></div></article><section class="introduction" id="sec-statistics-measures-of-center-3"><div class="para" id="sec-statistics-measures-of-center-3-1">In addition to graphical and verbal descriptions, we can use numerical summaries to better understand quantitative distributions by examining where the data is centered and how spread out the values are. Together, measures of center and spread provide important information for estimating population parameters. This section focuses on measures of center, while the next will address measures of spread. We will begin by exploring three common ways to describe the center of a distribution: the mode, median, and mean, each suited to different situations.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-measures-of-center-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="subsec_center-spread_mode"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mode</span>
+</h3>
+<div class="para" id="subsec_center-spread_mode-2">We have already seen the term <dfn class="terminology">mode</dfn> used in the context of a graph. Recall that the <a href="sec-statistics-data-representation.html#def_histogram-mode" class="xref" data-knowl="./knowl/xref/def_histogram-mode.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">mode of a histogram or bar graph</a> is the class or category that has the tallest bar. That is, it is the class or category that appears the most in the data set. This seems to be a reasonable way to describe a “typical” element of a data set and leads to the following definition.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mode-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_mode"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="def_mode-3-1">The <dfn class="terminology">mode</dfn> of a set of values is the value that appears most often. If more than one value is tied for the most appearances, each one is a mode. If no value appears more than once, there is no mode.<div class="autopermalink" data-description="Paragraph"><a href="#def_mode-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.3.1"><a href="#def_mode" title="Copy heading and permalink for Definition 4.3.1" aria-label="Copy heading and permalink for Definition 4.3.1">🔗</a></div></article><div class="para" id="subsec_center-spread_mode-4">The <dfn class="terminology">mode</dfn> is unique among our measures of center as it is the only one that applies to both <a href="sec-statistics-data-representation.html#def_quantitative-variable" class="xref" data-knowl="./knowl/xref/def_quantitative-variable.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.2.8">quantitative variables</a> and <a href="sec-statistics-data-representation.html#def_qualitative-variable" class="xref" data-knowl="./knowl/xref/def_qualitative-variable.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.2.7">qualitative variables</a>. Consider the following examples.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mode-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="ex_center-spread_mode-qualitative"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="ex_center-spread_mode-qualitative-1-1">A breakout presentation at a business convention attracts 16 participants. The job title of each of these participants is as follows. Find the mode of this set of data.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_mode-qualitative-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="ex_center-spread_mode-qualitative_data"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Job titles<div class="autopermalink" data-description="Table 4.3.3: Job titles"><a href="#ex_center-spread_mode-qualitative_data" title="Copy heading and permalink for Table 4.3.3: Job titles" aria-label="Copy heading and permalink for Table 4.3.3: Job titles">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines">manager</td>
+<td class="l m b0 r0 l0 t0 lines">owner</td>
+<td class="l m b0 r0 l0 t0 lines">H.R. director</td>
+<td class="l m b0 r0 l0 t0 lines">owner</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">manager</td>
+<td class="l m b0 r0 l0 t0 lines">H.R. director</td>
+<td class="l m b0 r0 l0 t0 lines">manager</td>
+<td class="l m b0 r0 l0 t0 lines">manager</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">owner</td>
+<td class="l m b0 r0 l0 t0 lines">manager</td>
+<td class="l m b0 r0 l0 t0 lines">manager</td>
+<td class="l m b0 r0 l0 t0 lines">H.R. director</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">manager</td>
+<td class="l m b0 r0 l0 t0 lines">owner</td>
+<td class="l m b0 r0 l0 t0 lines">owner</td>
+<td class="l m b0 r0 l0 t0 lines">manager</td>
+</tr>
+</table></div></figure><div class="solutions"><details id="ex_center-spread_mode-qualitative-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="ex_center-spread_mode-qualitative-2-1">The mode is the most commonly appearing value. One way to find that is to construct a <a href="sec-statistics-data-representation.html#def_frequency-table" class="xref" data-knowl="./knowl/xref/def_frequency-table.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.2.11">frequency table</a>.  Doing so for this data produces the following table, from which we can see that the mode is “manager”.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_mode-qualitative-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="ex_center-spread_mode_frequency-table"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Frequency Table<div class="autopermalink" data-description="Table 4.3.4: Frequency Table"><a href="#ex_center-spread_mode_frequency-table" title="Copy heading and permalink for Table 4.3.4: Frequency Table" aria-label="Copy heading and permalink for Table 4.3.4: Frequency Table">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l0 t0 lines">Value</td>
+<td class="l m b2 r0 l0 t0 lines">Frequency</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">manager</td>
+<td class="l m b0 r0 l0 t0 lines">8</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">H.R. director</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">owner</td>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Solution 4.3.2.1"><a href="#ex_center-spread_mode-qualitative-2" title="Copy heading and permalink for Solution 4.3.2.1" aria-label="Copy heading and permalink for Solution 4.3.2.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.3.2"><a href="#ex_center-spread_mode-qualitative" title="Copy heading and permalink for Example 4.3.2" aria-label="Copy heading and permalink for Example 4.3.2">🔗</a></div></article><article class="example example-like" id="ex_center-spread_mode-quantitative"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="ex_center-spread_mode-quantitative-1-1">A survey of twelve grocery store shoppers asked how many times a month these shoppers visit their favorite grocery store. Find the mode of the resulting data, shown below.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_mode-quantitative-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="ex_center-spread_mode-quantitative_data"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Number of visits per month<div class="autopermalink" data-description="Table 4.3.6: Number of visits per month"><a href="#ex_center-spread_mode-quantitative_data" title="Copy heading and permalink for Table 4.3.6: Number of visits per month" aria-label="Copy heading and permalink for Table 4.3.6: Number of visits per month">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines">6</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">7</td>
+<td class="l m b0 r0 l0 t0 lines">4</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">6</td>
+<td class="l m b0 r0 l0 t0 lines">4</td>
+<td class="l m b0 r0 l0 t0 lines">8</td>
+</tr>
+</table></div></figure><div class="solutions"><details id="ex_center-spread_mode-quantitative-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="ex_center-spread_mode-quantitative-2-1">Again, the best starting point is to construct a quick frequency table.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_mode-quantitative-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="ex_center-spread_mode-quantitative_frequency-table"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Frequency Table<div class="autopermalink" data-description="Table 4.3.7: Frequency Table"><a href="#ex_center-spread_mode-quantitative_frequency-table" title="Copy heading and permalink for Table 4.3.7: Frequency Table" aria-label="Copy heading and permalink for Table 4.3.7: Frequency Table">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l0 t0 lines">Value</td>
+<td class="l m b2 r0 l0 t0 lines">1</td>
+<td class="l m b2 r0 l0 t0 lines">2</td>
+<td class="l m b2 r0 l0 t0 lines">3</td>
+<td class="l m b2 r0 l0 t0 lines">4</td>
+<td class="l m b2 r0 l0 t0 lines">5</td>
+<td class="l m b2 r0 l0 t0 lines">6</td>
+<td class="l m b2 r0 l0 t0 lines">7</td>
+<td class="l m b2 r0 l0 t0 lines">8</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">Frequency</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+</tr>
+</table></div></figure><div class="para" id="ex_center-spread_mode-quantitative-2-3">Notice that in this data set, both the 5 and the 3 appear three times. Every other value appears two or fewer times. This makes this set of data bimodal with modes 3 and 5.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_mode-quantitative-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.3.5.1"><a href="#ex_center-spread_mode-quantitative-2" title="Copy heading and permalink for Solution 4.3.5.1" aria-label="Copy heading and permalink for Solution 4.3.5.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.3.5"><a href="#ex_center-spread_mode-quantitative" title="Copy heading and permalink for Example 4.3.5" aria-label="Copy heading and permalink for Example 4.3.5">🔗</a></div></article><div class="para" id="subsec_center-spread_mode-7">While the mode is an easy way to measure the center, and is in fact the only way we have to measure the center of a set of qualitative data, it is usually not the best choice for measuring the center of a set of quantitative data. To see why this may be so, consider the next example.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mode-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="ex_center-spread_mode_bad-example"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="ex_center-spread_mode_bad-example-1-1">
+<div class="para">Find the mode of the following sets of numbers.</div>
+<ol class="lower-alpha ol-marker-2" id="ex_center-spread_mode_bad-example-1-1-1">
+<li id="ex_center-spread_mode_bad-example-1-1-1-1">
+<div class="para" id="ex_center-spread_mode_bad-example-1-1-1-1-1">
+<span class="process-math">\(\displaystyle \lbrace 1, 2, 5, 7, 12, 15, 19, 22, 50 \rbrace\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_mode_bad-example-1-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#ex_center-spread_mode_bad-example-1-1-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="ex_center-spread_mode_bad-example-1-1-1-2">
+<div class="para" id="ex_center-spread_mode_bad-example-1-1-1-2-1">
+<span class="process-math">\(\displaystyle \lbrace 1, 1, 20, 23, 26, 24, 29, 30, 27, 32, 19\rbrace\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_mode_bad-example-1-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#ex_center-spread_mode_bad-example-1-1-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_mode_bad-example-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="ex_center-spread_mode_bad-example-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="ex_center-spread_mode_bad-example-2-1">
+<div class="para">The modes of these sets of numbers are as follows:</div>
+<ol class="lower-alpha ol-marker-3" id="ex_center-spread_mode_bad-example-2-1-1">
+<li id="ex_center-spread_mode_bad-example-2-1-1-1">
+<div class="para" id="ex_center-spread_mode_bad-example-2-1-1-1-1">This data set contains no repeated values. Therefore, according to <a href="sec-statistics-measures-of-center.html#def_mode" class="xref" data-knowl="./knowl/xref/def_mode.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.3.1">the definition</a>, there is no mode for this set.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_mode_bad-example-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#ex_center-spread_mode_bad-example-2-1-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="ex_center-spread_mode_bad-example-2-1-1-2">
+<div class="para" id="ex_center-spread_mode_bad-example-2-1-1-2-1">This data contains only one repeated value, the 1. So the mode is 1. However, 1 is definitely not the “typical” value in the set since all other values are between 19 and 32.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_mode_bad-example-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#ex_center-spread_mode_bad-example-2-1-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_mode_bad-example-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.3.8.1"><a href="#ex_center-spread_mode_bad-example-2" title="Copy heading and permalink for Solution 4.3.8.1" aria-label="Copy heading and permalink for Solution 4.3.8.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.3.8"><a href="#ex_center-spread_mode_bad-example" title="Copy heading and permalink for Example 4.3.8" aria-label="Copy heading and permalink for Example 4.3.8">🔗</a></div></article><div class="para" id="subsec_center-spread_mode-9">In summary, you should use the mode to measure the center of any qualitative set of data, or as a quick, but not definitive, measure of center for quantitative data. But be careful! The mode may not exist, there may be multiple modes, and if there is a single mode it may be very different from the “typical” values in the data set.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mode-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 4.3.1: Mode"><a href="#subsec_center-spread_mode" title="Copy heading and permalink for Subsection 4.3.1: Mode" aria-label="Copy heading and permalink for Subsection 4.3.1: Mode">🔗</a></div></section><section class="subsection" id="subsec_center-midrange"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Midrange</span>
+</h3>
+<div class="para" id="subsec_center-midrange-2">When we think of the “typical” value in a set of data, we may also think of the word <dfn class="terminology">middle</dfn>. Our next measure of center, the <dfn class="terminology">midrange</dfn>, is exactly that—the middle of the data set. Note that the midrange is not a very useful measure of center. Rather, we introduce it in order to discuss <dfn class="terminology">outliers</dfn> and why some measures of center are more appropriate than others depending on characteristics of the data.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-midrange-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_midrange"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="def_midrange-3-1">
+<div class="para">The <dfn class="terminology">midrange</dfn> of a set of data is the value in the exact center of the data. To compute the midrange, use the formula:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{midrange} = \frac{\text{maximum} + \text{minimum}}{2}
+\end{equation*}
+</div>
+<div class="para">where <dfn class="terminology">maximum</dfn> is the maximum value in the data set and <dfn class="terminology">minimum</dfn> is the minimum value.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#def_midrange-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.3.9"><a href="#def_midrange" title="Copy heading and permalink for Definition 4.3.9" aria-label="Copy heading and permalink for Definition 4.3.9">🔗</a></div></article><article class="example example-like" id="ex_center-spread_midrange_computation"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="ex_center-spread_midrange_computation-1-1">A certain pond has been well stocked with fish for the upcoming fishing season. In order to keep a fish from this pond, it must be at least 13 inches long. To try to determine if the fish in the pond are long enough to allow fishing, a fish and game warden randomly catches and releases 20 different fish, finding the following lengths, in inches. Find the midrange of these data.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_midrange_computation-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="ex_center-spread_midrange_computation_data"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Fish lengths in inches<div class="autopermalink" data-description="Table 4.3.11: Fish lengths in inches"><a href="#ex_center-spread_midrange_computation_data" title="Copy heading and permalink for Table 4.3.11: Fish lengths in inches" aria-label="Copy heading and permalink for Table 4.3.11: Fish lengths in inches">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines">13.2</td>
+<td class="l m b0 r0 l0 t0 lines">10.8</td>
+<td class="l m b0 r0 l0 t0 lines">14.6</td>
+<td class="l m b0 r0 l0 t0 lines">17.2</td>
+<td class="l m b0 r0 l0 t0 lines">17</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">18.3</td>
+<td class="l m b0 r0 l0 t0 lines">6.5</td>
+<td class="l m b0 r0 l0 t0 lines">13.4</td>
+<td class="l m b0 r0 l0 t0 lines">16.7</td>
+<td class="l m b0 r0 l0 t0 lines">11.3</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">12.3</td>
+<td class="l m b0 r0 l0 t0 lines">9.8</td>
+<td class="l m b0 r0 l0 t0 lines">9.4</td>
+<td class="l m b0 r0 l0 t0 lines">11.6</td>
+<td class="l m b0 r0 l0 t0 lines">12.1</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">8.7</td>
+<td class="l m b0 r0 l0 t0 lines">12.6</td>
+<td class="l m b0 r0 l0 t0 lines">13</td>
+<td class="l m b0 r0 l0 t0 lines">14.3</td>
+<td class="l m b0 r0 l0 t0 lines">13.1</td>
+</tr>
+</table></div></figure><div class="solutions"><details id="ex_center-spread_midrange_computation-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="ex_center-spread_midrange_computation-2-1">
+<div class="para">To find the midrange we need to identify the maximum and minimum values in the data set. The largest value is 18.3 and the smallest is 6.5, Thus we compute the midrange using:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{midrange} = \frac{18.3+6.5}{2} = 12.4\text{.}
+\end{equation*}
+</div>
+<div class="para">It looks like the pond is not yet ready to open for fishing. The typical fish, as measured by the midrange, is only 12.4 inches long and could not be kept.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_midrange_computation-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.3.10.1"><a href="#ex_center-spread_midrange_computation-2" title="Copy heading and permalink for Solution 4.3.10.1" aria-label="Copy heading and permalink for Solution 4.3.10.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.3.10"><a href="#ex_center-spread_midrange_computation" title="Copy heading and permalink for Example 4.3.10" aria-label="Copy heading and permalink for Example 4.3.10">🔗</a></div></article><div class="para" id="subsec_center-midrange-5">The midrange is useful for measuring the center of a dataset, but it has significant limitations. Most importantly, the midrange is extremely sensitive to <dfn class="terminology">outliers</dfn>. Additionally, it only considers the maximum and minimum values, ignoring all other data points. Ideally, a measure of center should incorporate every value in the dataset when determining the “typical” value.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-midrange-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_outlier"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="def_outlier-2-1">An <dfn class="terminology">outlier</dfn> in a data set is a value that is either much larger than the rest of the data or much smaller than the rest of the data.<div class="autopermalink" data-description="Paragraph"><a href="#def_outlier-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.3.12"><a href="#def_outlier" title="Copy heading and permalink for Definition 4.3.12" aria-label="Copy heading and permalink for Definition 4.3.12">🔗</a></div></article><div class="para" id="subsec_center-midrange-7">To see how an outlier can affect the midrange, let’s take another look at the fish-length data from the previous example.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-midrange-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="ex_center-spread_midrange_computation-outlier"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="ex_center-spread_midrange_computation-outlier-1-1">The game warden believes that the 6.5 inch fish she caught in the <a href="sec-statistics-measures-of-center.html#ex_center-spread_midrange_computation_data" class="xref" data-knowl="./knowl/xref/ex_center-spread_midrange_computation_data.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.3.11: Fish lengths in inches">sample above</a> is an outlier. She decides to redo the computation without that fish. Find the new midrange.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_midrange_computation-outlier-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="ex_center-spread_midrange_computation-outlier-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="ex_center-spread_midrange_computation-outlier-2-1">
+<div class="para">Without the 6.5 inch outlier, the new minimum is 8.7. This gives the following values:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{midrange} = \frac{18.3+8.7}{2} = 13.5\text{.}
+\end{equation*}
+</div>
+<div class="para">With this new computation, it looks like the fish are in fact large enough to be caught—the typical fish length, as measured by the midrange, is 13.5 inches.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_midrange_computation-outlier-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.3.13.1"><a href="#ex_center-spread_midrange_computation-outlier-2" title="Copy heading and permalink for Solution 4.3.13.1" aria-label="Copy heading and permalink for Solution 4.3.13.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.3.13"><a href="#ex_center-spread_midrange_computation-outlier" title="Copy heading and permalink for Example 4.3.13" aria-label="Copy heading and permalink for Example 4.3.13">🔗</a></div></article><div class="para" id="subsec_center-midrange-9">Notice what a big difference the single 6.5 inch fish made! This is what we mean when we say that the midrange is sensitive to outliers.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-midrange-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 4.3.2: Midrange"><a href="#subsec_center-midrange" title="Copy heading and permalink for Subsection 4.3.2: Midrange" aria-label="Copy heading and permalink for Subsection 4.3.2: Midrange">🔗</a></div></section><section class="subsection" id="sec_center-spread_median"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Median</span>
+</h3>
+<div class="para" id="sec_center-spread_median-2">To reinforce why we need a measure of center that is resistant to outliers, consider the following example.<div class="autopermalink" data-description="Paragraph"><a href="#sec_center-spread_median-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="ex_center-spread_median_outlier"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.14</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="ex_center-spread_median_outlier-1">The most expensive house in a certain market is a $2,500,000.00 mansion. The least expensive house is an $8,000.00 mobile home. Do you think that the midrange is an accurate measure of the “typical” home value in this market?<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_median_outlier-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ex_center-spread_median_outlier-2">
+<div class="para">To answer this question, let’s first compute the midrange. This is:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{midrange} = \frac{2500000 + 8000}{2} = 1254000.
+\end{equation*}
+</div>
+<div class="para">Do you think that the typical house really costs one and a quarter million dollars? Probably not! The midrange <em class="emphasis">is not an appropriate measure of center</em> for this data.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_median_outlier-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.3.14"><a href="#ex_center-spread_median_outlier" title="Copy heading and permalink for Example 4.3.14" aria-label="Copy heading and permalink for Example 4.3.14">🔗</a></div></article><div class="para" id="sec_center-spread_median-4">As we saw before, the outliers in this data set are affecting the midrange. To address these limitations, we need a measure of center that is resistant to outliers and uses more than just the extreme values.<div class="autopermalink" data-description="Paragraph"><a href="#sec_center-spread_median-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_median"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.15</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="def_median-3-1">The <dfn class="terminology">median</dfn> of a data set is the middle number, or average of the two middle numbers, in the set of data once it has been arranged in increasing order.<div class="autopermalink" data-description="Paragraph"><a href="#def_median-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.3.15"><a href="#def_median" title="Copy heading and permalink for Definition 4.3.15" aria-label="Copy heading and permalink for Definition 4.3.15">🔗</a></div></article><div class="para" id="sec_center-spread_median-6">You may have heard of the <dfn class="terminology">median</dfn>, a common measure of center that’s especially useful when a data set includes outliers, such as housing prices or household incomes. The term “median household income” is often used because it reflects typical earnings more accurately in such cases. This is especially helpful in places like Washington State, where billionaires like Bill Gates can skew the data. Let’s practice finding the median.<div class="autopermalink" data-description="Paragraph"><a href="#sec_center-spread_median-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="ex_center-spread_median"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.16</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="ex_center-spread_median-1-1">
+<div class="para">Find the median of each set of data below.</div>
+<ol class="lower-alpha ol-marker-2" id="ex_center-spread_median-1-1-1">
+<li id="ex_center-spread_median-1-1-1-1">
+<div class="para" id="ex_center-spread_median-1-1-1-1-1">
+<span class="process-math">\(\displaystyle \lbrace 14, 17, 10, 9, 16, 19, 12, 10, 15, 13 \rbrace\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_median-1-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#ex_center-spread_median-1-1-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="ex_center-spread_median-1-1-1-2">
+<div class="para" id="ex_center-spread_median-1-1-1-2-1">
+<span class="process-math">\(\displaystyle \lbrace 100, 215, 164, 117, 1000, 205, 178 \rbrace\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_median-1-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#ex_center-spread_median-1-1-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_median-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="ex_center-spread_median-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="ex_center-spread_median-2-1">
+<div class="para">To find the median, first arrange the data values from least to greatest, then locate the middle value. Let’s apply this process to both data sets above.</div>
+<ol class="lower-alpha ol-marker-2" id="ex_center-spread_median-2-1-1">
+<li id="ex_center-spread_median-2-1-1-1">
+<div class="para logical" id="ex_center-spread_median-2-1-1-1-1">
+<div class="para">Our first step is to re-arrange this set of numbers in order, from smallest to largest:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lbrace \overbrace{9, 10, 10, 12,}^{\text{lower half}} \overbrace{13, 14,}^{\text{middle pair}} \overbrace{15, 16, 17, 19}^{\text{upper half}}\rbrace
+\end{equation*}
+</div>
+<div class="para">Then we find the middle number. Since there are an even number of values (ten of them), the exact middle lies half way between the two center values (5th and 6th) which are 13 and 14. So the median is <span class="process-math">\(\frac{13+14}{2} = 13.5\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_median-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#ex_center-spread_median-2-1-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="ex_center-spread_median-2-1-1-2">
+<div class="para logical" id="ex_center-spread_median-2-1-1-2-1">
+<div class="para">Again, we start by ordering the data:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lbrace \overbrace{100, 117, 164,}^{\text{lower half}} \overbrace{178,}^{\text{median}} \overbrace{205, 215, 1000}^{\text{upper half}} \rbrace
+\end{equation*}
+</div>
+<div class="para">As there are an odd number of values in this data set (seven of them), the median is the single value in the exact center (the 4th value), which is 178.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_median-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#ex_center-spread_median-2-1-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_median-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.3.16.1"><a href="#ex_center-spread_median-2" title="Copy heading and permalink for Solution 4.3.16.1" aria-label="Copy heading and permalink for Solution 4.3.16.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.3.16"><a href="#ex_center-spread_median" title="Copy heading and permalink for Example 4.3.16" aria-label="Copy heading and permalink for Example 4.3.16">🔗</a></div></article><div class="para" id="sec_center-spread_median-8">Notice that the 1000 in the second data set is an outlier. But when finding the median, the actual value doesn’t matter—only its position in the data set does. You could replace 1000 with a more typical number like 220, and the median would stay the same. Bill Gates could earn just $200,000 a year, and the median household income in Washington State wouldn’t change! This is what it means for the median to be <em class="emphasis">resistant to outliers</em>.<div class="autopermalink" data-description="Paragraph"><a href="#sec_center-spread_median-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 4.3.3: Median"><a href="#sec_center-spread_median" title="Copy heading and permalink for Subsection 4.3.3: Median" aria-label="Copy heading and permalink for Subsection 4.3.3: Median">🔗</a></div></section><section class="subsection" id="subsec_center-spread_mean"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mean</span>
+</h3>
+<div class="para" id="subsec_center-spread_mean-2">While the median effectively handles outliers, it has one significant limitation: it ignores the values of individual data points. When we want each value to influence our measure of center, we use the <dfn class="terminology">arithmetic mean</dfn> (commonly called the average). Unlike the median, the arithmetic mean incorporates every data point in the dataset. For a sample, we use <span class="process-math">\(\overline{x}\)</span> (read “x bar”) to represent the mean.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mean-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_mean"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.17</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="def_mean-3-1">
+<div class="para">The <dfn class="terminology">arithmetic mean</dfn>, which we will call simply the <dfn class="terminology">mean</dfn>, is a measure of center found by taking the sum of all values in the data set and dividing by the number of values in the data set. Symbolically,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\bar{x}=\frac{\text{sum of data values}}{n}\text{,}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(n\)</span> is the number of values in the data set.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#def_mean-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.3.17"><a href="#def_mean" title="Copy heading and permalink for Definition 4.3.17" aria-label="Copy heading and permalink for Definition 4.3.17">🔗</a></div></article><div class="para" id="subsec_center-spread_mean-4">The term <dfn class="terminology">arithmetic mean</dfn> is important for two reasons. First, we avoid calling it the average because “average” simply means “typical,” and there are multiple ways to measure what’s typical. Second, we specify <em class="emphasis">arithmetic</em> mean because other types of means exist, though we don’t cover them here.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mean-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsec_center-spread_mean-5"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.18</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="subsec_center-spread_mean-5-1-1">Mirabel’s exam scores for her last math class were: 79, 86, 82, and 94. What is her mean test score?<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mean-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec_center-spread_mean-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec_center-spread_mean-5-2-1">To find the mean test score we need to find the sum of her test scores, then divide the sum by the number of test scores (<span class="process-math">\(n=4\)</span>). The mean is:<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mean-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec_center-spread_mean-5-2-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\bar{x}=\frac{79+86+82+94}{4}=85.25\text{ points}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mean-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec_center-spread_mean-5-2-3">Notice that the mean has the same units as the data and that it is important to label it.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mean-5-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.3.18.1"><a href="#subsec_center-spread_mean-5-2" title="Copy heading and permalink for Solution 4.3.18.1" aria-label="Copy heading and permalink for Solution 4.3.18.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.3.18"><a href="#subsec_center-spread_mean-5" title="Copy heading and permalink for Example 4.3.18" aria-label="Copy heading and permalink for Example 4.3.18">🔗</a></div></article><div class="para" id="subsec_center-spread_mean-6">It is reasonable to calculate the mean by hand when working with a small data set. However, if the data set is large or if you plan to compute additional statistics, using technology is a more efficient choice. Ask your instructor how to approach these types of problems. That said, when a large data set with repeated values is organized in a frequency table, it can still be practical to perform the calculation by hand as shown in the next example.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mean-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsec_center-spread_mean-7"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.19</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="subsec_center-spread_mean-7-1-1">One hundred families from a particular neighborhood are randomly selected and asked to give their annual household income rounded to the nearest $5,000. The results are shown in the frequency table below. Find the mean annual income for this neighborhood.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mean-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Income<br>(thousands of dollars)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Frequency</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$15</th>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$20</th>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$25</th>
+<td class="c m b1 r1 l0 t0 lines">11</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$30</th>
+<td class="c m b1 r1 l0 t0 lines">17</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$35</th>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$40</th>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$45</th>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">$50</th>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+</tr>
+</table></div>
+<div class="solutions"><details id="subsec_center-spread_mean-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec_center-spread_mean-7-2-1">
+<div class="para">Calculating the mean by hand could get tedious if we try to type in all 100 values:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\bar{x}=\frac{\overbrace{15+ \cdot + 15}^{6 \text{ terms}} + \overbrace{20+ \cdot + 20}^{8 \text{ terms}} +\cdots+ \overbrace{50 + \cdot + 50}^{7 \text{ terms}}}{100}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mean-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec_center-spread_mean-7-2-2">
+<div class="para">However, we can calculate this easily using multiplication top deal with repeated values. Doing so, the sum of the data values (the numerator of the mean) is</div>
+<div class="displaymath process-math" id="subsec_center-spread_mean-7-2-2-1">
+\begin{align*}
+\amp (15)(6)+(20)(8) + (25)(11)+(30)(17)\\
+\amp +(35)(19)+(40)(20) +(45)(21)+(50)(7) \\
+\amp= 3390 \text{.}
+\end{align*}
+</div>
+<div class="para">The mean is then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\bar{x}=\frac{3390}{100}=33.9
+\end{equation*}
+</div>
+<div class="para">That is, the mean household income of our sample is 33.9 thousand dollars or $33,900.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_mean-7-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.3.19.1"><a href="#subsec_center-spread_mean-7-2" title="Copy heading and permalink for Solution 4.3.19.1" aria-label="Copy heading and permalink for Solution 4.3.19.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.3.19"><a href="#subsec_center-spread_mean-7" title="Copy heading and permalink for Example 4.3.19" aria-label="Copy heading and permalink for Example 4.3.19">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.3.4: Mean"><a href="#subsec_center-spread_mean" title="Copy heading and permalink for Subsection 4.3.4: Mean" aria-label="Copy heading and permalink for Subsection 4.3.4: Mean">🔗</a></div></section><section class="subsection" id="subsec_center-spread_appropriate"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Which Measure Should I Use?</span>
+</h3>
+<div class="para logical" id="subsec_center-spread_appropriate-2">
+<div class="para">We have now seen four different numerical measures of center:</div>
+<ul class="disc" id="subsec_center-spread_appropriate-2-1">
+<li id="subsec_center-spread_appropriate-2-1-1">
+<div class="para" id="subsec_center-spread_appropriate-2-1-1-1">the <a href="sec-statistics-measures-of-center.html#def_mode" class="xref" data-knowl="./knowl/xref/def_mode.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.3.1">mode</a>,<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_appropriate-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec_center-spread_appropriate-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec_center-spread_appropriate-2-1-2">
+<div class="para" id="subsec_center-spread_appropriate-2-1-2-1">the <a href="sec-statistics-measures-of-center.html#def_midrange" class="xref" data-knowl="./knowl/xref/def_midrange.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.3.9">midrange</a>,<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_appropriate-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec_center-spread_appropriate-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec_center-spread_appropriate-2-1-3">
+<div class="para" id="subsec_center-spread_appropriate-2-1-3-1">the <a href="sec-statistics-measures-of-center.html#def_median" class="xref" data-knowl="./knowl/xref/def_median.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.3.15">median</a>, and<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_appropriate-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec_center-spread_appropriate-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec_center-spread_appropriate-2-1-4">
+<div class="para" id="subsec_center-spread_appropriate-2-1-4-1">the <a href="sec-statistics-measures-of-center.html#def_mean" class="xref" data-knowl="./knowl/xref/def_mean.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.3.17">mean</a>.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_appropriate-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec_center-spread_appropriate-2-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para">How do we know when to use a particular measure of center? To better answer this question, let’s review the strengths and weaknesses of each of these numerical summaries.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_appropriate-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="subsec_center-spread_appropriate-3"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.20<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Comparison of measures of center<div class="autopermalink" data-description="Table 4.3.20: Comparison of measures of center"><a href="#subsec_center-spread_appropriate-3" title="Copy heading and permalink for Table 4.3.20: Comparison of measures of center" aria-label="Copy heading and permalink for Table 4.3.20: Comparison of measures of center">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r2 l0 t0 lines"></td>
+<td class="c m b0 r0 l0 t0 lines">Qualitative</td>
+<td class="c m b0 r0 l0 t0 lines">Quantitative</td>
+<td class="c m b0 r0 l0 t0 lines">Sensitive</td>
+<td class="c m b0 r0 l0 t0 lines">Considers</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r0 l0 t0 lines">Data</td>
+<td class="c m b2 r0 l0 t0 lines">Data</td>
+<td class="c m b2 r0 l0 t0 lines">to Outliers</td>
+<td class="c m b2 r0 l0 t0 lines">every Value</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">Mode</dfn></td>
+<td class="c m b0 r0 l0 t0 lines">sometimes</td>
+<td class="c m b0 r0 l0 t0 lines">sometimes</td>
+<td class="c m b0 r0 l0 t0 lines">no</td>
+<td class="c m b0 r0 l0 t0 lines">no</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">Midrange</dfn></td>
+<td class="c m b0 r0 l0 t0 lines">no</td>
+<td class="c m b0 r0 l0 t0 lines">yes</td>
+<td class="c m b0 r0 l0 t0 lines">yes</td>
+<td class="c m b0 r0 l0 t0 lines">no</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">Median</dfn></td>
+<td class="c m b0 r0 l0 t0 lines">no</td>
+<td class="c m b0 r0 l0 t0 lines">yes</td>
+<td class="c m b0 r0 l0 t0 lines">no</td>
+<td class="c m b0 r0 l0 t0 lines">no</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">Mean</dfn></td>
+<td class="c m b0 r0 l0 t0 lines">no</td>
+<td class="c m b0 r0 l0 t0 lines">yes</td>
+<td class="c m b0 r0 l0 t0 lines">somewhat</td>
+<td class="c m b0 r0 l0 t0 lines">yes</td>
+</tr>
+</table></div></figure><div class="para" id="subsec_center-spread_appropriate-4">As we can see, each method has its own strengths and weaknesses. Based on these, we summarize when to use which measures of center below.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_appropriate-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="observation remark-like" id="fig_center-spread_appropriate"><h4 class="heading">
+<span class="type">Observation</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.21</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="fig_center-spread_appropriate-1">
+<ul class="disc" id="fig_center-spread_appropriate-1-1">
+<li id="fig_center-spread_appropriate-1-1-1">
+<span class="heading"><span class="title">Mode.</span></span><div class="para" id="fig_center-spread_appropriate-1-1-1-2">Use the mode when dealing with qualitative data, or for a quick measure of center for small sets of quantitative data. The mode may not exist, and should not be used in general for larger sets of quantitative data.<div class="autopermalink" data-description="Paragraph"><a href="#fig_center-spread_appropriate-1-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item: Mode"><a href="#fig_center-spread_appropriate-1-1-1" title="Copy heading and permalink for Item: Mode" aria-label="Copy heading and permalink for Item: Mode">🔗</a></div>
+</li>
+<li id="fig_center-spread_appropriate-1-1-2">
+<span class="heading"><span class="title">Midrange.</span></span><div class="para" id="fig_center-spread_appropriate-1-1-2-2">The midrange may be used for a quick estimate of center and variation, but should not be used if there are any indications of outliers.<div class="autopermalink" data-description="Paragraph"><a href="#fig_center-spread_appropriate-1-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item: Midrange"><a href="#fig_center-spread_appropriate-1-1-2" title="Copy heading and permalink for Item: Midrange" aria-label="Copy heading and permalink for Item: Midrange">🔗</a></div>
+</li>
+<li id="fig_center-spread_appropriate-1-1-3">
+<span class="heading"><span class="title">Median.</span></span><div class="para" id="fig_center-spread_appropriate-1-1-3-2">Use the median if there are indications of strong outliers in your data. Data sets which with strong outliers would include income or housing price data.<div class="autopermalink" data-description="Paragraph"><a href="#fig_center-spread_appropriate-1-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item: Median"><a href="#fig_center-spread_appropriate-1-1-3" title="Copy heading and permalink for Item: Median" aria-label="Copy heading and permalink for Item: Median">🔗</a></div>
+</li>
+<li id="fig_center-spread_appropriate-1-1-4">
+<span class="heading"><span class="title">Mean.</span></span><div class="para" id="fig_center-spread_appropriate-1-1-4-2">The mean is the best all-purpose measures of center and variation for quantitative data. Unless your data set has strong outliers, this is the summary value you should use.<div class="autopermalink" data-description="Paragraph"><a href="#fig_center-spread_appropriate-1-1-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item: Mean"><a href="#fig_center-spread_appropriate-1-1-4" title="Copy heading and permalink for Item: Mean" aria-label="Copy heading and permalink for Item: Mean">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#fig_center-spread_appropriate-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Observation 4.3.21"><a href="#fig_center-spread_appropriate" title="Copy heading and permalink for Observation 4.3.21" aria-label="Copy heading and permalink for Observation 4.3.21">🔗</a></div></article><article class="example example-like" id="ex_center-spread_appropriate_identify"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.22</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="ex_center-spread_appropriate_identify-1-1">
+<div class="para">Determine which measure of center would be best in each of the following data sets.</div>
+<ol class="lower-alpha ol-marker-2" id="ex_center-spread_appropriate_identify-1-1-1">
+<li id="ex_center-spread_appropriate_identify-1-1-1-1">
+<div class="para" id="ex_center-spread_appropriate_identify-1-1-1-1-1">The salaries of all employee’s at IBM.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_appropriate_identify-1-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#ex_center-spread_appropriate_identify-1-1-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="ex_center-spread_appropriate_identify-1-1-1-2">
+<div class="para" id="ex_center-spread_appropriate_identify-1-1-1-2-1">A quick assessment of how well a group of athletes did in a 100-meter dash.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_appropriate_identify-1-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#ex_center-spread_appropriate_identify-1-1-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="ex_center-spread_appropriate_identify-1-1-1-3">
+<div class="para" id="ex_center-spread_appropriate_identify-1-1-1-3-1">Determine the typical hair color in a group of teenagers.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_appropriate_identify-1-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#ex_center-spread_appropriate_identify-1-1-1-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="ex_center-spread_appropriate_identify-1-1-1-4">
+<div class="para" id="ex_center-spread_appropriate_identify-1-1-1-4-1">Finding the typical height of a pine tree in a given acre of forest.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_appropriate_identify-1-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item d"><a href="#ex_center-spread_appropriate_identify-1-1-1-4" title="Copy heading and permalink for Item d" aria-label="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_appropriate_identify-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="ex_center-spread_appropriate_identify-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="ex_center-spread_appropriate_identify-2-1">
+<ol class="lower-alpha ol-marker-2" id="ex_center-spread_appropriate_identify-2-1-1">
+<li id="ex_center-spread_appropriate_identify-2-1-1-1">
+<div class="para" id="ex_center-spread_appropriate_identify-2-1-1-1-1">Salaries of all employees at a large firm such as IBM are likely to include outliers, such as the CEO’s salary. For this reason, the median is probably the best measure of center.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_appropriate_identify-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#ex_center-spread_appropriate_identify-2-1-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="ex_center-spread_appropriate_identify-2-1-1-2">
+<div class="para" id="ex_center-spread_appropriate_identify-2-1-1-2-1">The midrange may be best. This set of data should not include many outliers, and the values will be small and relatively close together. This makes the midrange an acceptable way to quickly measure the center.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_appropriate_identify-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#ex_center-spread_appropriate_identify-2-1-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="ex_center-spread_appropriate_identify-2-1-1-3">
+<div class="para" id="ex_center-spread_appropriate_identify-2-1-1-3-1">Hair color is a qualitative variable, so our only choice is to use the mode.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_appropriate_identify-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#ex_center-spread_appropriate_identify-2-1-1-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="ex_center-spread_appropriate_identify-2-1-1-4">
+<div class="para" id="ex_center-spread_appropriate_identify-2-1-1-4-1">Pine tree heights on an acre of forest land should not have large outliers, and there are likely to be quite a few trees. Since there is no reason to use any of the other measures of center, the mean would be best here.<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_appropriate_identify-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item d"><a href="#ex_center-spread_appropriate_identify-2-1-1-4" title="Copy heading and permalink for Item d" aria-label="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex_center-spread_appropriate_identify-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.3.22.1"><a href="#ex_center-spread_appropriate_identify-2" title="Copy heading and permalink for Solution 4.3.22.1" aria-label="Copy heading and permalink for Solution 4.3.22.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.3.22"><a href="#ex_center-spread_appropriate_identify" title="Copy heading and permalink for Example 4.3.22" aria-label="Copy heading and permalink for Example 4.3.22">🔗</a></div></article><div class="para" id="subsec_center-spread_appropriate-7">It is often helpful to compute multiple summary statistics for comparison. One useful comparison is between the mean and the median. If the mean is greater than the median, the data distribution is typically <a href="sec-statistics-data-representation.html#def_histogram-symmetry" class="xref" data-knowl="./knowl/xref/def_histogram-symmetry.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">skewed right</a>. If the mean is less than the median, the distribution is <a href="sec-statistics-data-representation.html#def_histogram-symmetry" class="xref" data-knowl="./knowl/xref/def_histogram-symmetry.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">skewed left</a>. When the mean and median are approximately equal, the distribution is roughly <a href="sec-statistics-data-representation.html#def_histogram-symmetry" class="xref" data-knowl="./knowl/xref/def_histogram-symmetry.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">symmetric</a>.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_appropriate-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsec_center-spread_appropriate-8"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.23</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="subsec_center-spread_appropriate-8-1-1">Recent college graduates were asked how much student loan debt they have. The data has a mean of $46,265 and a median of $33,652. Based on this information, do you expect the distribution to be symmetric, skewed to the left, or skewed to the right?<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_appropriate-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec_center-spread_appropriate-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec_center-spread_appropriate-8-2-1">Since the mean is greater than the median, we expect the distribution to be skewed to the right.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_center-spread_appropriate-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.3.23.1"><a href="#subsec_center-spread_appropriate-8-2" title="Copy heading and permalink for Solution 4.3.23.1" aria-label="Copy heading and permalink for Solution 4.3.23.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.3.23"><a href="#subsec_center-spread_appropriate-8" title="Copy heading and permalink for Example 4.3.23" aria-label="Copy heading and permalink for Example 4.3.23">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.3.5: Which Measure Should I Use?"><a href="#subsec_center-spread_appropriate" title="Copy heading and permalink for Subsection 4.3.5: Which Measure Should I Use?" aria-label="Copy heading and permalink for Subsection 4.3.5: Which Measure Should I Use?">🔗</a></div></section><div class="autopermalink" data-description="Section 4.3: Measures of Center"><a href="#sec-statistics-measures-of-center" title="Copy heading and permalink for Section 4.3: Measures of Center" aria-label="Copy heading and permalink for Section 4.3: Measures of Center">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-statistics-data-representation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-statistics-measures-of-dispersion.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

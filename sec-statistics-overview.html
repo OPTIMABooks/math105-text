@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette: ice-fire                     *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Math for Society: Overview of Statistics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Math for Society">
+<meta property="book:author" content="Benjamin D. Jackson">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.8';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/components/prism-core.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/autoloader/prism-autoloader.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-numbers/prism-line-numbers.min.js" integrity="sha512-dubtf8xMHSQlExGRQ5R7toxHLgSDZ0K7AunqPWHXmJQ8XyVIG19S1T95gBxlAeGOK02P4Da2RTnQz0Za0H0ebQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-highlight/prism-line-highlight.min.js" integrity="sha512-93uCmm0q+qO5Lb1huDqr7tywS8A2TFA+1/WHvyiWaK6/pvsFl6USnILagntBx8JnVbQH5s3n0vQZY6xNthNfKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="math-for-society-WWU.html"><span class="title">Math for Society</span> <span class="subtitle">Tools for living</span></a></h1>
+<p class="byline">Benjamin D. Jackson</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-2.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-chapter-statistics.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-chapter-statistics.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-statistics-data-representation.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Dedication</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-chapter-fiance.html" class="internal"><span class="codenumber">1</span> <span class="title">Finance</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-finance-simple-interest.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Simple Interest and Discounts</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-simple-interest.html#subsec-simple-interest" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Simple Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-simple-interest.html#subsec-simple-interest-discounts" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Discounts and Proceeds</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-finance-compound-interest.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Compound Interest</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-compound-interest.html#sec-finance-compound-interest-4" class="internal"><span class="codenumber">1.2.1</span> <span class="title">APR — Annual Percentage Rate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-compound-interest.html#sec-finance-compound-interest-5" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-compound-interest.html#sec-finance-compound-interest-6" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Comparing Simple and Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-compound-interest.html#sec-finance-compound-interest-7" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Finding the Amount of Interest Earned and the Percentage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-compound-interest.html#sec-finance-compound-interest-8" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Effective Rate</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-finance-savings_plans.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Annuities and Sinking Funds</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-savings_plans.html#subsec-annuities" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Future Value of an Annuity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-savings_plans.html#subsec-sinking_funds" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Computing Payments and Sinking Funds</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-savings_plans.html#subsec-derivation-future-value-of-annuity" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Deriving the Future Value of an Annuity Formula (Optional)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-finance-loans.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Annuities and Amortized Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-loans.html#subsec-present-value-annuities" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Present Value of an Annuity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-loans.html#subsec-amortization" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Installment Loans</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-loans.html#sec-finance-loans-6" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Credit Cards</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-finance-income-tax.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Income Taxes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-3" class="internal"><span class="codenumber">1.5.1</span> <span class="title">A Very Brief History of Taxes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-4" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Types of Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-5" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Calculating Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-6" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Filing Status</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-7" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Tax Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-8" class="internal"><span class="codenumber">1.5.6</span> <span class="title">Tax Credits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-9" class="internal"><span class="codenumber">1.5.7</span> <span class="title">Calculating a Refund or Payment Due</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-finance-income-tax.html#sec-finance-income-tax-10" class="internal"><span class="codenumber">1.5.8</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-chapter-logic.html" class="internal"><span class="codenumber">2</span> <span class="title">Logical Reasoning</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logic-propositions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Propositions and Logical Operators</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Propositions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-4" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Negation (not)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-4-3" class="internal"><span class="codenumber">2.1.2.1</span> <span class="title">Negation of Quantifiers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-4-4" class="internal"><span class="codenumber">2.1.2.2</span> <span class="title">Multiple Negations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-5" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Logical Connectors: <em class="emphasis">and</em> and <em class="emphasis">or</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Conditional Statements: <em class="emphasis">if, then</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-7" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Mathematical Notation for Logic</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-logic-propositions.html#sec-logic-propositions-8" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logic-truth-tables.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Truth Tables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-logic-truth-tables.html#sec-logic-truth-tables-3" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Truth Tables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-truth-tables.html#sec-logic-truth-tables-3-3" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Truth Tables for NOT, AND, and OR</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-truth-tables.html#subsubsec-conditional-truth-table" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Truth Tables for the Conditional</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-truth-tables.html#sec-logic-truth-tables-4" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Truth Tables for Complex Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-truth-tables.html#sec-logic-truth-tables-5" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Truth Tables with Three Propositions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logic-equivalence.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Equivalence</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-equivalence.html#subsec-logic-contrapositive" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Logical Equivalence and the Conditional</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-equivalence.html#sec-logic-equivalence-5" class="internal"><span class="codenumber">2.3.2</span> <span class="title">The Contrapositive</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-equivalence.html#subsec-logic-biconditional" class="internal"><span class="codenumber">2.3.3</span> <span class="title">The Biconditional</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-equivalence.html#subsec-logic-deMorgan" class="internal"><span class="codenumber">2.3.4</span> <span class="title">De Morgan’s Laws</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logic-arguments.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Arguments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-4" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Inductive and Deductive Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-5" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Evaluating Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-6" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Evaluating Deductive Arguments Using Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-7" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Forms of Valid Arguments (Optional)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-7-3" class="internal"><span class="codenumber">2.4.4.1</span> <span class="title">The Law of Detachment</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-7-4" class="internal"><span class="codenumber">2.4.4.2</span> <span class="title">The Law of Contraposition</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-arguments.html#sec-logic-arguments-7-5" class="internal"><span class="codenumber">2.4.4.3</span> <span class="title">The Transitive Property</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logic-fallacies.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Logical Fallacies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Common Logical Fallacies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-3" class="internal"><span class="codenumber">2.5.1.1</span> <span class="title">Personal Attack (Ad hominem)</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-4" class="internal"><span class="codenumber">2.5.1.2</span> <span class="title">Appeal to Ignorance</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-5" class="internal"><span class="codenumber">2.5.1.3</span> <span class="title">Appeal to Authority</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-6" class="internal"><span class="codenumber">2.5.1.4</span> <span class="title">False Dilemma</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-7" class="internal"><span class="codenumber">2.5.1.5</span> <span class="title">Straw Man</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-logic-fallacies.html#subsec-logical-fallacies-8" class="internal"><span class="codenumber">2.5.1.6</span> <span class="title">Post Hoc</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-logic-fallacies.html#sec-logic-fallacies-5" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-chapter-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets, Counting, and Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets and Set Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-operations.html#sec-set-operations-4" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Set Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-operations.html#subsec-set-operations" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Set Operations: Union, Intersection, and Complement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-operations.html#subsec-sets-Venn-diagrams" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Venn Diagrams</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-set-cardinality.html" class="internal"><span class="codenumber">3.2</span> <span class="title">The Number of Elements in a Finite Set</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-cardinality.html#sec-set-cardinality-4" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Counting Problems with 2 Sets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-cardinality.html#sec-set-cardinality-5" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Counting Problems with 3 Sets</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-set-multiplication-principle.html" class="internal"><span class="codenumber">3.3</span> <span class="title">The Multiplication Principle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-multiplication-principle.html#sec-set-multiplication-principle-4" class="internal"><span class="codenumber">3.3.1</span> <span class="title">The Addition Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-multiplication-principle.html#sec_counting_multiplication" class="internal"><span class="codenumber">3.3.2</span> <span class="title">The Multiplication Rule</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-set-permutation-combination.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Permutations and Combinations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-permutation-combination.html#subsec-counting-factorial" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Factorials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-permutation-combination.html#subsec_counting_permutations" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Permutations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-permutation-combination.html#subsec_counting_combinations" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Combinations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-set-permutation-combination.html#sec_counting_mixed" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Mixed Counting Techniques</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-probability-basics.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-basics.html#sec-probability-basics-4" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Theoretical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-basics.html#subsec-probability-rules" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Basic Probability Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-basics.html#sec_probability_more-rules" class="internal"><span class="codenumber">3.5.3</span> <span class="title">More Probability Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-basics.html#sec_probability_counting" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Probability from Counting</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-probability-conditional.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Conditional Probability and Independent Events</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-conditional.html#sec_probability_conditional_independence" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Independence</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-conditional.html#sec_probability_conditional_formula" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Conditional Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-conditional.html#sec_probability_conditional_multiplication-rule" class="internal"><span class="codenumber">3.6.3</span> <span class="title">General Multiplication Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-conditional.html#sec_probability_conditional_trees" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Tree Diagrams and Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-conditional.html#sec_probability_conditional_bayes" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Bayesian Probability</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-probability-expected-value.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Expected Value</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-expected-value.html#subsec-probability-models" class="internal"><span class="codenumber">3.7.1</span> <span class="title">Probability Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability-expected-value.html#subsec-probability-expected-val" class="internal"><span class="codenumber">3.7.2</span> <span class="title">Expected Value</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-chapter-statistics.html" class="internal"><span class="codenumber">4</span> <span class="title">Statistics</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-statistics-overview.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Overview of Statistics</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsec-statistics-populations" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Populations and samples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsec-statistics-sampling" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Sampling</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-statistics-overview.html#subsec_statistics_sampling_methods" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Sampling Methods</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsubsec-statistics_sampling_SRS" class="internal"><span class="codenumber">4.1.3.1</span> <span class="title">Simple Random Sample (SRS)</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsubsec-statistics_sampling_systematic" class="internal"><span class="codenumber">4.1.3.2</span> <span class="title">Systematic Sample</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsubsec-statistics_sampling_stratified" class="internal"><span class="codenumber">4.1.3.3</span> <span class="title">Stratified Sample</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsubsec-statistics_sampling_cluster" class="internal"><span class="codenumber">4.1.3.4</span> <span class="title">Cluster Sample</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsubsec-statistics_sampling_convenience" class="internal"><span class="codenumber">4.1.3.5</span> <span class="title">Convenience Sample</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#sec_statistics_study_types" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Types of Studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#sec-statistics-overview-8" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Statistical Bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-overview.html#subsection_statistics_confidence_interval" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Margin of Error and Confidence Intervals</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-statistics-data-representation.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Representing Data Graphically</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-statistics-data-representation.html#sec_data_data" class="internal"><span class="codenumber">4.2.1</span> <span class="title">What is Data?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsubsec_data_variables_number" class="internal"><span class="codenumber">4.2.1.1</span> <span class="title">Classification by Number of Variables</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#sec_data_variables_type" class="internal"><span class="codenumber">4.2.1.2</span> <span class="title">Types of Variable</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-statistics-data-representation.html#sec_statistics_graphs_qualitative" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Graphing Qualitative Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsubsec_graph_qualitative_frequency-table" class="internal"><span class="codenumber">4.2.2.1</span> <span class="title">Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#sec_graphs_qualitative_graphs" class="internal"><span class="codenumber">4.2.2.2</span> <span class="title">Graphs</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsec_graphs_quantitative" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Graphing Quantitative Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#sec_graphs_quantitative_tables" class="internal"><span class="codenumber">4.2.3.1</span> <span class="title">Summarizing Quantitative Data with Tables</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsubsec_graphs_quantitative_histograms" class="internal"><span class="codenumber">4.2.3.2</span> <span class="title">Histograms</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsubsec_graphs_quantitative_stem-and-leaf" class="internal"><span class="codenumber">4.2.3.3</span> <span class="title">Stem-and-Leaf Plots</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-data-representation.html#subsec_graphs_quantitative_interpreting" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Interpreting Graphs</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-statistics-measures-of-center.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Measures of Center</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-center.html#subsec_center-spread_mode" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Mode</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-center.html#subsec_center-midrange" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Midrange</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-center.html#sec_center-spread_median" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Median</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-center.html#subsec_center-spread_mean" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-center.html#subsec_center-spread_appropriate" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Which Measure Should I Use?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-statistics-measures-of-dispersion.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Measures of Dispersion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-dispersion.html#subsec-dispersion-range" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-dispersion.html#subsec_spread_IQR-quartiles" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Interquartile Range (IQR)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-statistics-measures-of-dispersion.html#subsec-dispersion-standard_deviation" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Standard Deviation</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-statistics-overview"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Overview of Statistics</span>
+</h2>
+<article class="objectives goal-like" id="sec-statistics-overview-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ul class="disc" id="sec-statistics-overview-2-1">
+<li id="sec-statistics-overview-2-1-1">
+<div class="para" id="sec-statistics-overview-2-1-1-1">Define and identify the population, parameter, sample and statistic<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-statistics-overview-2-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-2-1-2">
+<div class="para" id="sec-statistics-overview-2-1-2-1">Identify four sampling methods: simple random sample (SRS), stratified, systematic and convenience<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-statistics-overview-2-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-2-1-3">
+<div class="para" id="sec-statistics-overview-2-1-3-1">Identify and discuss types of bias association with sampling<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-statistics-overview-2-1-3" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-2-1-4">
+<div class="para" id="sec-statistics-overview-2-1-4-1">Distinguish between experimental and observational studies<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-statistics-overview-2-1-4" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-2-1-5">
+<div class="para" id="sec-statistics-overview-2-1-5-1">Explain margin of error and confidence intervals<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-statistics-overview-2-1-5" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives 4.1"><a href="#sec-statistics-overview-2" title="Copy heading and permalink for Objectives 4.1" aria-label="Copy heading and permalink for Objectives 4.1">🔗</a></div></article><section class="introduction" id="sec-statistics-overview-3"><h3 class="heading">Introduction to Statistics.<span></span>
+</h3>
+<div class="para" id="sec-statistics-overview-3-2">We are constantly exposed to information and statistics. Without the ability to separate credible data from misleading claims, we risk being misled and making poor decisions. Statistics equips us with the tools to think critically and make informed choices, making it an essential subject to study.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-statistics-overview-3-3">
+<div class="para">Statistics are often used to lend credibility to arguments. Consider the following examples (Note: I am not suggesting these statements are true!):</div>
+<ul class="disc" id="sec-statistics-overview-3-3-1">
+<li id="sec-statistics-overview-3-3-1-1">
+<div class="para" id="sec-statistics-overview-3-3-1-1-1">4 out of 5 dentists recommend Dentyne chewing gum.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-3-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-3-3-1-2">
+<div class="para" id="sec-statistics-overview-3-3-1-2-1">Almost 85% of lung cancers in men and 45% in women are tobacco-related.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-3-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-3-3-1-3">
+<div class="para" id="sec-statistics-overview-3-3-1-3-1">Condoms are effective 94% of the time.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-3-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-3-3-1-4">
+<div class="para" id="sec-statistics-overview-3-3-1-4-1">People tend to be more persuasive when they look others directly in the eye and speak loudly and quickly.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-3-3-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-3-3-1-5">
+<div class="para" id="sec-statistics-overview-3-3-1-5-1">Women make 75 cents to every dollar a man makes when they work the same job.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-3-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-3-3-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-3-3-1-6">
+<div class="para" id="sec-statistics-overview-3-3-1-6-1">A surprising new study shows that eating egg whites can increase one’s life span.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-3-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-3-3-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-3-3-1-7">
+<div class="para" id="sec-statistics-overview-3-3-1-7-1">People predict that it is very unlikely there will ever be another baseball player with a batting average over 400.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-3-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-3-3-1-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-3-3-1-8">
+<div class="para" id="sec-statistics-overview-3-3-1-8-1">There is an 80% chance that in a room full of 30 people that at least two people will share the same birthday.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-3-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-3-3-1-8" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-3-3-1-9">
+<div class="para" id="sec-statistics-overview-3-3-1-9-1">79.48% of all statistics are made up on the spot.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-3-1-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-3-3-1-9" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-statistics-overview-3-4">These claims are all statistical in nature. Some may sound familiar—and if not, you have likely encountered similar ones. The examples span a wide range of fields: psychology, health, law, sports, business, and more. Clearly, data and its interpretation permeate nearly every aspect of modern life. However, many of these numbers do not represent careful statistical analysis and can be misleading, pushing you into decisions you might regret. This chapter will help you develop the skills to be a critical consumer of statistical claims.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="subsec-statistics-populations"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Populations and samples</span>
+</h3>
+<div class="para" id="subsec-statistics-populations-2">Before we begin gathering any data to analyze, we need to identify the population we are studying. The population of a study is the group we want to know something about. The <dfn class="terminology">population</dfn> could be people, auto parts or tomato plants.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-statistics-populations-3">
+<div class="para">If we want to know the amount of money spent on textbooks by a typical college student, our population might be all students at Walla Walla University. Or it might be:</div>
+<ol class="decimal" id="subsec-statistics-populations-3-1">
+<li id="subsec-statistics-populations-3-1-1">
+<div class="para" id="subsec-statistics-populations-3-1-1-1">All college students in the state of Washington.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsec-statistics-populations-3-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsec-statistics-populations-3-1-2">
+<div class="para" id="subsec-statistics-populations-3-1-2-1">All freshman at private colleges in Oregon and Washington.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsec-statistics-populations-3-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsec-statistics-populations-3-1-3">
+<div class="para" id="subsec-statistics-populations-3-1-3-1">All students at colleges and universities in west coast states.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsec-statistics-populations-3-1-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsec-statistics-populations-3-1-4">
+<div class="para" id="subsec-statistics-populations-3-1-4-1">All students at all colleges and universities in the entire United States.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#subsec-statistics-populations-3-1-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
+</li>
+<li id="subsec-statistics-populations-3-1-5">
+<div class="para" id="subsec-statistics-populations-3-1-5-1">And so on.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-3-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 5"><a href="#subsec-statistics-populations-3-1-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-statistics-populations-4">The intended population is sometimes called the <dfn class="terminology">target population</dfn>, since if we design our study badly, the collected data might not actually be representative of the intended population.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_population"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="def_population-3-1">The <dfn class="terminology">population</dfn> of a study is the complete group the collected data is intended to describe.<div class="autopermalink" data-description="Paragraph"><a href="#def_population-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.1.1"><a href="#def_population" title="Copy heading and permalink for Definition 4.1.1" aria-label="Copy heading and permalink for Definition 4.1.1">🔗</a></div></article><article class="example example-like" id="subsec-statistics-populations-6"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="subsec-statistics-populations-6-1-1">A newspaper website contains a poll asking people their opinion on a recent news article. What is the population?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-statistics-populations-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-statistics-populations-6-2-1">While the target (intended) population may have been all people, the real population of the survey is readers of the website.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.1.2.1"><a href="#subsec-statistics-populations-6-2" title="Copy heading and permalink for Solution 4.1.2.1" aria-label="Copy heading and permalink for Solution 4.1.2.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.1.2"><a href="#subsec-statistics-populations-6" title="Copy heading and permalink for Example 4.1.2" aria-label="Copy heading and permalink for Example 4.1.2">🔗</a></div></article><div class="para" id="subsec-statistics-populations-7">A <dfn class="terminology">parameter</dfn> is a value (such as a percentage, average, or other measure) that describes a characteristic of an entire population. Since collecting data from every member of a population is often too time-consuming, expensive, or impossible, parameters are usually theoretical quantities that we aim to estimate. For example, the average amount of money spent on textbooks per year by all students Walla Walla University is a parameter.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_parameter"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="def_parameter-2-1">A measurement describing some characteristic of a population is called a <dfn class="terminology">parameter</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#def_parameter-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.1.3"><a href="#def_parameter" title="Copy heading and permalink for Definition 4.1.3" aria-label="Copy heading and permalink for Definition 4.1.3">🔗</a></div></article><div class="para" id="subsec-statistics-populations-9">To estimate the parameter, we select a <dfn class="terminology">sample</dfn>, which is a smaller subset of the entire population. It is very important that we choose a <dfn class="terminology">representative sample</dfn>, one that matches the characteristics of the population, to have a good estimate. If we survey 100 students at WWU, those students would be our sample. We will talk about how to choose a representative sample later in this section.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_sample"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="def_sample-2-1">A <dfn class="terminology">sample</dfn> is a sub-collection of subjects drawn from a given population.<div class="autopermalink" data-description="Paragraph"><a href="#def_sample-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.1.4"><a href="#def_sample" title="Copy heading and permalink for Definition 4.1.4" aria-label="Copy heading and permalink for Definition 4.1.4">🔗</a></div></article><div class="para" id="subsec-statistics-populations-11">To get our <dfn class="terminology">data</dfn>, we would then ask each student in the sample how much they spent on textbooks and record the answers, or <em class="alert">raw data</em>. Then we could calculate the average, which is our statistic. A <em class="alert">statistic</em> is a descriptive value calculated using data from a sample.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_statistic"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="def_statistic-2-1">A measurement describing some characteristic of a sample is called a <dfn class="terminology">statistic</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#def_statistic-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.1.5"><a href="#def_statistic" title="Copy heading and permalink for Definition 4.1.5" aria-label="Copy heading and permalink for Definition 4.1.5">🔗</a></div></article><article class="example example-like" id="subsec-statistics-populations-13"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="subsec-statistics-populations-13-1-1">A researcher wants to know how the citizens of Walla Walla feel about a voter initiative. To study this, they go downtown to Land Title Plaza and survey 500 pedestrians. Sixty percent indicate they are supportive of the initiative. Identify the population, parameter, sample and statistic.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-13-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-statistics-populations-13-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-statistics-populations-13-2-1">
+<em class="emphasis">Population</em>: While the intended population of this survey is Walla Walla citizens, the effective population is anyone walking through Land Title Plaza. There is no reason to assume that these pedestrians are representative of all Walla Walla citizens. (In fact, many are probably out of town visitors!)<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-13-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-statistics-populations-13-2-2">
+<em class="emphasis">Parameter</em>: The parameter is what we want to know about the population, in this case the percentage of Walla Walla citizens who support the initiative.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-13-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-statistics-populations-13-2-3">
+<em class="emphasis">Sample</em>: The sample is the subgroup of the population selected. The 500 pedestrians questioned make up the sample, which, again, is probably not representative of the population.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-13-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-statistics-populations-13-2-4">
+<em class="emphasis">Statistic</em>: The statistic is calculated using the data from the sample. The percentage of people sampled who support the initiative is 60%.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-populations-13-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.1.6.1"><a href="#subsec-statistics-populations-13-2" title="Copy heading and permalink for Solution 4.1.6.1" aria-label="Copy heading and permalink for Solution 4.1.6.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.1.6"><a href="#subsec-statistics-populations-13" title="Copy heading and permalink for Example 4.1.6" aria-label="Copy heading and permalink for Example 4.1.6">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.1.1: Populations and samples"><a href="#subsec-statistics-populations" title="Copy heading and permalink for Subsection 4.1.1: Populations and samples" aria-label="Copy heading and permalink for Subsection 4.1.1: Populations and samples">🔗</a></div></section><section class="subsection" id="subsec-statistics-sampling"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sampling</span>
+</h3>
+<div class="para" id="subsec-statistics-sampling-2">Before conducting any survey, we need to clearly identify our target population. Let’s say a politician hires you to gauge their support for a potential reelection campaign. Who exactly should you survey?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-sampling-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-statistics-sampling-3">The obvious answer might be “everyone in the district,” but that’s not very practical. Eligible voters would be better, but what about those who haven’t registered yet? Even registered voters don’t always show up on election day. This is why many pollsters focus on “likely voters” instead.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-sampling-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-statistics-sampling-4">Defining a “likely voter” isn’t straightforward, however, and the challenges don’t end there. The following example highlights some of the difficulties that arise in political polling.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-sampling-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsec-statistics-sampling-5"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="subsec-statistics-sampling-5-1">
+<div class="para">In November 1998, former professional wrestler Jesse “The Body” Ventura was elected governor of Minnesota. Up until right before the election, most polls showed he had little chance of winning. There were several contributing factors to the polls not reflecting the actual intent of the electorate:</div>
+<ul class="disc" id="subsec-statistics-sampling-5-1-2">
+<li id="subsec-statistics-sampling-5-1-2-1">
+<div class="para" id="subsec-statistics-sampling-5-1-2-1-1">Ventura was running on a third-party ticket and most polling methods are better suited to a two-candidate race.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-sampling-5-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-statistics-sampling-5-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-statistics-sampling-5-1-2-2">
+<div class="para" id="subsec-statistics-sampling-5-1-2-2-1">Many respondents to polls may have been embarrassed to tell pollsters that they were planning to vote for a professional wrestler.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-sampling-5-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-statistics-sampling-5-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-statistics-sampling-5-1-2-3">
+<div class="para" id="subsec-statistics-sampling-5-1-2-3-1">The mere fact that the polls showed Ventura had little chance of winning might have prompted some people to vote for him in protest to send a message to the major-party candidates.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-sampling-5-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-statistics-sampling-5-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-sampling-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-statistics-sampling-5-2">That said, one of the major contributing factors was that Ventura recruited a substantial amount of support from young people, particularly college students, who had never voted before and who registered specifically to vote in that election. The polls did not deem these young people likely voters (since in most cases young people have a lower rate of voter registration and a lower turnout rate for elections) so the polling samples were subject to <dfn class="terminology">sampling bias</dfn>: they omitted a portion of the electorate that was weighted in favor of the winning candidate.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-sampling-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.1.7"><a href="#subsec-statistics-sampling-5" title="Copy heading and permalink for Example 4.1.7" aria-label="Copy heading and permalink for Example 4.1.7">🔗</a></div></article><div class="para" id="subsec-statistics-sampling-6">Identifying the population can be tricky, but once we know who we’re studying, how do we choose a good sample? We want our sample statistic to accurately estimate the population parameter, which means we need a representative sample. Going back to our political polling example: we wouldn’t expect accurate results if we only surveyed Starbucks customers or your TikTok followers—groups might not reflect the broader voting population. So how can we select a sample that truly reflects the characteristics of our population?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-statistics-sampling-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 4.1.2: Sampling"><a href="#subsec-statistics-sampling" title="Copy heading and permalink for Subsection 4.1.2: Sampling" aria-label="Copy heading and permalink for Subsection 4.1.2: Sampling">🔗</a></div></section><section class="subsection" id="subsec_statistics_sampling_methods"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sampling Methods</span>
+</h3>
+<section class="introduction" id="subsec_statistics_sampling_methods-2"><div class="para" id="subsec_statistics_sampling_methods-2-1">Since it’s important to select a sample that accurately represents the population we’re studying, we must be careful in how we choose it. This means not only avoiding samples that fail to reflect the population but also guarding against unintentional bias in the way data is collected. To ensure a representative sample, the selection process must be truly random. However, there are several ways to achieve randomness. In this section, we’ll explore four methods of random sampling, along with one method that falls short of being random.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_statistics_sampling_methods-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsubsection" id="subsubsec-statistics_sampling_SRS"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.3.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Simple Random Sample (SRS)</span>
+</h4>
+<div class="para" id="subsubsec-statistics_sampling_SRS-2">The simplest way to use randomness to collect a sample is to collect a <dfn class="terminology">simple random sample</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-statistics_sampling_SRS-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_simple-random-sample"><h5 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="def_simple-random-sample-2-1">A <dfn class="terminology">simple random sample</dfn> of size <span class="process-math">\(n\)</span> is a sample drawn from a population in such a way that every group of <span class="process-math">\(n\)</span> subjects in the population is equally likely to be chosen.<div class="autopermalink" data-description="Paragraph"><a href="#def_simple-random-sample-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.1.8"><a href="#def_simple-random-sample" title="Copy heading and permalink for Definition 4.1.8" aria-label="Copy heading and permalink for Definition 4.1.8">🔗</a></div></article><article class="example example-like" id="subsubsec-statistics_sampling_SRS-4"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="subsubsec-statistics_sampling_SRS-4-1">Imagine that each student currently enrolled at Walla Walla University has their ID number written on a slip of paper and placed in a basket. After mixing the slips thoroughly, 100 are randomly selected. This process creates a simple random sample.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-statistics_sampling_SRS-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.1.9"><a href="#subsubsec-statistics_sampling_SRS-4" title="Copy heading and permalink for Example 4.1.9" aria-label="Copy heading and permalink for Example 4.1.9">🔗</a></div></article><div class="para" id="subsubsec-statistics_sampling_SRS-5">In practice, computers are better suited for this kind of task. Still, even a random sample might not perfectly reflect the population. For instance, if we repeatedly select samples of 100 student ID numbers from the basket, some samples might include a slightly higher number of students from one major or class year than others. Some samples might have more first-year students, while others might include more seniors. This natural difference from sample to sample is called <dfn class="terminology">sampling variation</dfn>. When we want to ensure certain groups are represented, we need to use a different sampling method.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-statistics_sampling_SRS-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsubsection 4.1.3.1: Simple Random Sample (SRS)"><a href="#subsubsec-statistics_sampling_SRS" title="Copy heading and permalink for Subsubsection 4.1.3.1: Simple Random Sample (SRS)" aria-label="Copy heading and permalink for Subsubsection 4.1.3.1: Simple Random Sample (SRS)">🔗</a></div></section><section class="subsubsection" id="subsubsec-statistics_sampling_systematic"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Systematic Sample</span>
+</h4>
+<div class="para" id="subsubsec-statistics_sampling_systematic-2">A <dfn class="terminology">systematic sample</dfn> is particularly useful when the population from which we are sampling is already ordered. Examples of this include products coming off of an assembly line, or cars moving through a sobriety check point.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-statistics_sampling_systematic-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_systematic_sample"><h5 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="def_systematic_sample-2-1">A <dfn class="terminology">systematic sample</dfn> is a random sample collected from an ordered population by randomly choosing one of the first <span class="process-math">\(k\)</span> subjects, and then selecting every <span class="process-math">\(k\)</span>th subject thereafter.<div class="autopermalink" data-description="Paragraph"><a href="#def_systematic_sample-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.1.10"><a href="#def_systematic_sample" title="Copy heading and permalink for Definition 4.1.10" aria-label="Copy heading and permalink for Definition 4.1.10">🔗</a></div></article><article class="example example-like" id="subsubsec-statistics_sampling_systematic-4"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="subsubsec-statistics_sampling_systematic-4-1">ASWWU is conducting a survey to find out whether WWU students would prefer different operating hours at the Atlas. To gather responses, student workers stand outside the Caf and survey the third student to exit the building, then every tenth student thereafter.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-statistics_sampling_systematic-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.1.11"><a href="#subsubsec-statistics_sampling_systematic-4" title="Copy heading and permalink for Example 4.1.11" aria-label="Copy heading and permalink for Example 4.1.11">🔗</a></div></article><figure class="figure figure-like" id="fig_data_def_systematic-sample"><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="generated/latex-image/image_data_def_systematic-sample.svg" role="img" class="contained" alt="One of the first 5 dots was randomly selected, and then every 5th dot thereafter is selected for the sample."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Systematic Sample: subject #2 selected, then every 5th subject thereafter.<div class="autopermalink" data-description="Figure 4.1.12"><a href="#fig_data_def_systematic-sample" title="Copy heading and permalink for Figure 4.1.12" aria-label="Copy heading and permalink for Figure 4.1.12">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Subsubsection 4.1.3.2: Systematic Sample"><a href="#subsubsec-statistics_sampling_systematic" title="Copy heading and permalink for Subsubsection 4.1.3.2: Systematic Sample" aria-label="Copy heading and permalink for Subsubsection 4.1.3.2: Systematic Sample">🔗</a></div></section><section class="subsubsection" id="subsubsec-statistics_sampling_stratified"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.3.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Stratified Sample</span>
+</h4>
+<div class="para" id="subsubsec-statistics_sampling_stratified-2">In a <dfn class="terminology">stratified sample</dfn> we group the population by characteristics which we think may make a difference, and then select randomly from each group. For example, we may want to ensure that both men and women are included in a drug study, so we select some men and some women. Or we may wish to ensure that voters of all political leanings are included in an election poll.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-statistics_sampling_stratified-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_stratified_sample"><h5 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="def_stratified_sample-2-1">In a <dfn class="terminology">stratified sample</dfn>, a population is broken into several groups (called strata) and then a simple random sample is collected from each of these groups.<div class="autopermalink" data-description="Paragraph"><a href="#def_stratified_sample-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.1.13"><a href="#def_stratified_sample" title="Copy heading and permalink for Definition 4.1.13" aria-label="Copy heading and permalink for Definition 4.1.13">🔗</a></div></article><article class="example example-like" id="subsubsec-statistics_sampling_stratified-4"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.14</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="subsubsec-statistics_sampling_stratified-4-1">Suppose voter registration data for the state shows that the electorate consists of 39% Democrats, 37% Republicans, and 24% Independents. A political action group wishes to survey 1000 people about a particular initiative. To ensure the sample reflects this composition, a stratified sampling method is used. From a total sample of 1,000 voters, researchers randomly select 390 Democrats, 370 Republicans, and 240 Independents from their respective groups. This approach guarantees that each political affiliation is proportionally represented in the sample.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-statistics_sampling_stratified-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.1.14"><a href="#subsubsec-statistics_sampling_stratified-4" title="Copy heading and permalink for Example 4.1.14" aria-label="Copy heading and permalink for Example 4.1.14">🔗</a></div></article><figure class="figure figure-like" id="fig_data_def_stratified-sample"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/latex-image/image_data_def_stratified-sample.svg" role="img" class="contained" alt="The dots have been divided into six groups, and then two dots are randomly selected from each group to form the sample."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Stratified Sample: Three subjects are sampled from each stratum<div class="autopermalink" data-description="Figure 4.1.15"><a href="#fig_data_def_stratified-sample" title="Copy heading and permalink for Figure 4.1.15" aria-label="Copy heading and permalink for Figure 4.1.15">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Subsubsection 4.1.3.3: Stratified Sample"><a href="#subsubsec-statistics_sampling_stratified" title="Copy heading and permalink for Subsubsection 4.1.3.3: Stratified Sample" aria-label="Copy heading and permalink for Subsubsection 4.1.3.3: Stratified Sample">🔗</a></div></section><section class="subsubsection" id="subsubsec-statistics_sampling_cluster"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.3.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cluster Sample</span>
+</h4>
+<div class="para" id="subsubsec-statistics_sampling_cluster-2">The difference between a <dfn class="terminology">cluster sample</dfn> and a stratified sample lies in how the groups are used. In a stratified sample, the population is divided into groups (strata), and a random sample is taken from each group. In contrast, a cluster sample involves dividing the population into clusters, then randomly selecting entire clusters and including all individuals within those clusters in the sample.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-statistics_sampling_cluster-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_cluster_sample"><h5 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.16</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="def_cluster_sample-2-1">A <dfn class="terminology">cluster sample</dfn> is taken by dividing the population into several groups (called clusters) and then picking a simple random sample of the clusters. We then sample each individual in the selected clusters.<div class="autopermalink" data-description="Paragraph"><a href="#def_cluster_sample-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.1.16"><a href="#def_cluster_sample" title="Copy heading and permalink for Definition 4.1.16" aria-label="Copy heading and permalink for Definition 4.1.16">🔗</a></div></article><article class="example example-like" id="subsubsec-statistics_sampling_cluster-4"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.17</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="subsubsec-statistics_sampling_cluster-4-1">Your eccentric uncle is convinced there’s a government cover-up of UFO sightings. To investigate, he decides to conduct a study. Instead of trying to gather data from all 50 states, he randomly selects 10 states and collects data on every UFO sighting reported in those 10 states. Unfortunately, before he can finish, some mysterious individuals in black SUVs show up and take him away.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-statistics_sampling_cluster-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.1.17"><a href="#subsubsec-statistics_sampling_cluster-4" title="Copy heading and permalink for Example 4.1.17" aria-label="Copy heading and permalink for Example 4.1.17">🔗</a></div></article><figure class="figure figure-like" id="fig_data_def_cluster-sample"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/latex-image/image_data_def_cluster-sample.svg" role="img" class="contained" alt="The dots have been divided into six groups, and then three of those groups are randomly selected and every dot from the selected groups is added to the sample."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Cluster Sample: All Individuals in Three Clusters<div class="autopermalink" data-description="Figure 4.1.18"><a href="#fig_data_def_cluster-sample" title="Copy heading and permalink for Figure 4.1.18" aria-label="Copy heading and permalink for Figure 4.1.18">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Subsubsection 4.1.3.4: Cluster Sample"><a href="#subsubsec-statistics_sampling_cluster" title="Copy heading and permalink for Subsubsection 4.1.3.4: Cluster Sample" aria-label="Copy heading and permalink for Subsubsection 4.1.3.4: Cluster Sample">🔗</a></div></section><section class="subsubsection" id="subsubsec-statistics_sampling_convenience"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.3.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Convenience Sample</span>
+</h4>
+<div class="para" id="subsubsec-statistics_sampling_convenience-2">If we use a sampling technique that lacks an element of randomness, we risk producing a sample that does not accurately represent the population. One of the simplest—yet most problematic—methods of data collection is the <dfn class="terminology">convenience sample</dfn>. It’s important to note that convenience samples should <em class="emphasis">never</em> be used in statistical analysis, as they often lead to biased and unreliable results.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-statistics_sampling_convenience-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def_convenience-sample"><h5 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.19</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="def_convenience-sample-3-1">A <dfn class="terminology">convenience sample</dfn> is a sample collected by simply selecting the most convenient members of a population.<div class="autopermalink" data-description="Paragraph"><a href="#def_convenience-sample-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.1.19"><a href="#def_convenience-sample" title="Copy heading and permalink for Definition 4.1.19" aria-label="Copy heading and permalink for Definition 4.1.19">🔗</a></div></article><article class="example example-like" id="subsubsec-statistics_sampling_convenience-4"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.20</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="subsubsec-statistics_sampling_convenience-4-1">A pollster stands outside of Walmart and interviews the first 100 people who agree to speak to them. This is a convenience sample.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-statistics_sampling_convenience-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.1.20"><a href="#subsubsec-statistics_sampling_convenience-4" title="Copy heading and permalink for Example 4.1.20" aria-label="Copy heading and permalink for Example 4.1.20">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 4.1.3.5: Convenience Sample"><a href="#subsubsec-statistics_sampling_convenience" title="Copy heading and permalink for Subsubsection 4.1.3.5: Convenience Sample" aria-label="Copy heading and permalink for Subsubsection 4.1.3.5: Convenience Sample">🔗</a></div></section><div class="autopermalink" data-description="Subsection 4.1.3: Sampling Methods"><a href="#subsec_statistics_sampling_methods" title="Copy heading and permalink for Subsection 4.1.3: Sampling Methods" aria-label="Copy heading and permalink for Subsection 4.1.3: Sampling Methods">🔗</a></div></section><section class="subsection" id="sec_statistics_study_types"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Types of Studies</span>
+</h3>
+<div class="para" id="sec_statistics_study_types-2">Samples are collected from populations for two main reasons. The first is to conduct an <em class="alert">observational study</em>—a study based on observations or measurements. These may be “solicited”, such as in surveys or polls, or “unsolicited”, like observing how many drivers turn right at a red light despite a “no turn on red” sign.<div class="autopermalink" data-description="Paragraph"><a href="#sec_statistics_study_types-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec_statistics_study_types-3">The second reason is to perform an <em class="alert">experiment</em>, where a <em class="alert">treatment</em> is applied to subjects to observe their response. In experiments, isolating the effect of the treatment is crucial to ensure valid results. The following example gives examples of treatments.<div class="autopermalink" data-description="Paragraph"><a href="#sec_statistics_study_types-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec_statistics_study_types-4"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.21</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="sec_statistics_study_types-4-1">
+<ol class="lower-alpha ol-marker-2" id="sec_statistics_study_types-4-1-1">
+<li id="sec_statistics_study_types-4-1-1-1">
+<div class="para" id="sec_statistics_study_types-4-1-1-1-1">A pharmaceutical company tests a new medicine for treating Alzheimer’s disease by administering the drug to 50 elderly patients with recent diagnoses. The treatment here is the new drug.<div class="autopermalink" data-description="Paragraph"><a href="#sec_statistics_study_types-4-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_statistics_study_types-4-1-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_statistics_study_types-4-1-1-2">
+<div class="para" id="sec_statistics_study_types-4-1-1-2-1">A gym tests out a new weight loss program by enlisting 30 volunteers to try out the program. The treatment here is the new program.<div class="autopermalink" data-description="Paragraph"><a href="#sec_statistics_study_types-4-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_statistics_study_types-4-1-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec_statistics_study_types-4-1-1-3">
+<div class="para" id="sec_statistics_study_types-4-1-1-3-1">A psychology researcher explores the effect of music on affect by measuring people’s mood while listening to different types of music. The music is the treatment.<div class="autopermalink" data-description="Paragraph"><a href="#sec_statistics_study_types-4-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#sec_statistics_study_types-4-1-1-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="sec_statistics_study_types-4-1-1-4">
+<div class="para" id="sec_statistics_study_types-4-1-1-4-1">Suppose a middle school finds that their students are not scoring well on the state’s standardized math test. They decide to run an experiment to see if a new curriculum would improve scores. To run the test, they hire a math specialist to come in and teach a class using the new curriculum. To their delight, they see an improvement in test scores.<div class="autopermalink" data-description="Paragraph"><a href="#sec_statistics_study_types-4-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec_statistics_study_types-4-1-1-4-2">The difficulty with the last scenario is that it is not clear whether the new curriculum or the math specialist is responsible for the improvement. This is called confounding and it is the downfall of many experiments, though it is often hidden.<div class="autopermalink" data-description="Paragraph"><a href="#sec_statistics_study_types-4-1-1-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item d"><a href="#sec_statistics_study_types-4-1-1-4" title="Copy heading and permalink for Item d" aria-label="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_statistics_study_types-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.1.21"><a href="#sec_statistics_study_types-4" title="Copy heading and permalink for Example 4.1.21" aria-label="Copy heading and permalink for Example 4.1.21">🔗</a></div></article><article class="definition definition-like" id="def_observational-study"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.22</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="def_observational-study-3-1">In an <dfn class="terminology">observational study</dfn> specific characteristics are observed and measured, but no attempt is made to change these characteristics.<div class="autopermalink" data-description="Paragraph"><a href="#def_observational-study-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.1.22"><a href="#def_observational-study" title="Copy heading and permalink for Definition 4.1.22" aria-label="Copy heading and permalink for Definition 4.1.22">🔗</a></div></article><article class="definition definition-like" id="def_experiment"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.23</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="def_experiment-3-1">In an <dfn class="terminology">experiment</dfn>, some treatment is applied and its effects on the subject are observed.<div class="autopermalink" data-description="Paragraph"><a href="#def_experiment-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.1.23"><a href="#def_experiment" title="Copy heading and permalink for Definition 4.1.23" aria-label="Copy heading and permalink for Definition 4.1.23">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.1.4: Types of Studies"><a href="#sec_statistics_study_types" title="Copy heading and permalink for Subsection 4.1.4: Types of Studies" aria-label="Copy heading and permalink for Subsection 4.1.4: Types of Studies">🔗</a></div></section><section class="subsection" id="sec-statistics-overview-8"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Statistical Bias</span>
+</h3>
+<div class="para logical" id="sec-statistics-overview-8-2">
+<div class="para">There is no way to correct for biased data, so it is important to carefully plan the entire study and data analysis process in advance. One type of bias, discussed earlier, is <dfn class="terminology">sampling</dfn> or <dfn class="terminology">selection bias</dfn>, which occurs when the sample does not accurately reflect the population. A specific example of this is <dfn class="terminology">voluntary response bias</dfn>, which arises when data is collected only from individuals who choose to participate. This can lead to bias if those who volunteer differ significantly from the general population. Below is a summary of other common sources of bias to consider.</div>
+<ul class="disc" id="sec-statistics-overview-8-2-4">
+<li id="sec-statistics-overview-8-2-4-1">
+<div class="para" id="sec-statistics-overview-8-2-4-1-1">
+<dfn class="terminology">Sampling bias</dfn>: when the sample is not representative of the population<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-8-2-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-8-2-4-2">
+<div class="para" id="sec-statistics-overview-8-2-4-2-1">
+<dfn class="terminology">Voluntary response bias</dfn>: the sampling bias that often occurs when the sample is made up of volunteers<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-8-2-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-8-2-4-3">
+<div class="para" id="sec-statistics-overview-8-2-4-3-1">
+<dfn class="terminology">Self-interest study</dfn>: bias that can occur when the researchers have an interest in the outcome<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-2-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-8-2-4-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-8-2-4-4">
+<div class="para" id="sec-statistics-overview-8-2-4-4-1">
+<dfn class="terminology">Response bias</dfn>: when the responder gives inaccurate responses for any reason<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-2-4-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-8-2-4-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-8-2-4-5">
+<div class="para" id="sec-statistics-overview-8-2-4-5-1">
+<dfn class="terminology">Perceived lack of anonymity</dfn>: when the responder fears giving an honest answer might negatively affect them<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-2-4-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-8-2-4-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-8-2-4-6">
+<div class="para" id="sec-statistics-overview-8-2-4-6-1">
+<dfn class="terminology">Loaded questions</dfn>: when the question wording influences the responses<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-2-4-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-8-2-4-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-8-2-4-7">
+<div class="para" id="sec-statistics-overview-8-2-4-7-1">
+<dfn class="terminology">Non-response bias</dfn>: when people refuse to participate in a study or drop out of an experiment, we can no longer be certain that our sample is representative of the population<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-2-4-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-statistics-overview-8-2-4-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-statistics-overview-8-3">Sources of bias may be conscious or unconscious. They may be innocent or as intentional as pressuring by a pollster. Here are some examples of the types of bias.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-statistics-overview-8-4"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.24</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="sec-statistics-overview-8-4-1">
+<ol class="lower-alpha ol-marker-2" id="sec-statistics-overview-8-4-1-1">
+<li id="sec-statistics-overview-8-4-1-1-1">
+<div class="para" id="sec-statistics-overview-8-4-1-1-1-1">Consider a recent study which found that chewing gum may raise math grades in teenagers.<details class="ptx-footnote" aria-live="polite" id="sec-statistics-overview-8-4-1-1-1-1-1"><summary class="ptx-footnote__number" title="Footnote 4.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-statistics-overview-8-4-1-1-1-1-1">Reuters.<a class="external" href="https://www.reuters.com/article/lifestyle/chewing-gum-may-raise-math-grades-in-teens-idUSTRE53L793/" target="_blank"><code class="code-inline tex2jax_ignore">https://www.reuters.com/article/lifestyle/chewing-gum-may-raise-math-grades-in-teens-idUSTRE53L793/</code></a> Retrieved 5/27/25</div></details> This study was conducted by the Wrigley Science Institute, a branch of the Wrigley chewing gum company. This is an example of a self-interest study; one in which the researches have a vested interest in the outcome of the study. While this does not necessarily mean the study was biased, we should subject the study to extra scrutiny.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-4-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec-statistics-overview-8-4-1-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-8-4-1-1-2">
+<div class="para" id="sec-statistics-overview-8-4-1-1-2-1">Consider online reviews of products and businesses. Customers tend to leave reviews if they are very satisfied or very dissatisfied. While you can look for overall patterns and get useful information, these reviews suffer from voluntary response bias and likely capture more extreme views than the general population.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-4-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec-statistics-overview-8-4-1-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-8-4-1-1-3">
+<div class="para" id="sec-statistics-overview-8-4-1-1-3-1">A survey asks participants a question about their interactions with people of different ethnicities. This study could suffer from response bias. A respondent might give an untruthful answer to not be perceived as racist.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-4-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#sec-statistics-overview-8-4-1-1-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-8-4-1-1-4">
+<div class="para" id="sec-statistics-overview-8-4-1-1-4-1">An employer puts out a survey asking their employees if they have a drug abuse problem and need treatment help. Here, answering truthfully might have serious consequences; responses might not be accurate if there is a perceived lack of anonymity and employees fear retribution.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-4-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item d"><a href="#sec-statistics-overview-8-4-1-1-4" title="Copy heading and permalink for Item d" aria-label="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-8-4-1-1-5">
+<div class="para" id="sec-statistics-overview-8-4-1-1-5-1">A survey asks, “Do you support funding research on alternative energy sources to reduce our reliance on high-polluting fossil fuels?” This is an example of a loaded or leading question—questions whose wording leads the respondent towards a certain answer.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-4-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item e"><a href="#sec-statistics-overview-8-4-1-1-5" title="Copy heading and permalink for Item e" aria-label="Copy heading and permalink for Item e">🔗</a></div>
+</li>
+<li id="sec-statistics-overview-8-4-1-1-6">
+<div class="para" id="sec-statistics-overview-8-4-1-1-6-1">A poll was conducted by phone with the question, “Do you often have time to relax and read a book?” Fifty percent of the people who were called refused to participate in the survey (Probably because they didn’t have the time). It is unlikely that the results will be representative of the entire population. This is an example of non-response bias.<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-4-1-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item f"><a href="#sec-statistics-overview-8-4-1-1-6" title="Copy heading and permalink for Item f" aria-label="Copy heading and permalink for Item f">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.1.24"><a href="#sec-statistics-overview-8-4" title="Copy heading and permalink for Example 4.1.24" aria-label="Copy heading and permalink for Example 4.1.24">🔗</a></div></article><div class="para" id="sec-statistics-overview-8-5">Loaded questions can occur intentionally by pollsters with an agenda, or accidentally through poor question wording. A related concern is question order, where the order of questions changes the results. Here is an example from a psychology researcher:<details class="ptx-footnote" aria-live="polite" id="sec-statistics-overview-8-5-1"><summary class="ptx-footnote__number" title="Footnote 4.1.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="sec-statistics-overview-8-5-1">Swartz, Norbert. <a class="external" href="https://web.archive.org/web/20050413172152/http://www.umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html" target="_blank"><code class="code-inline tex2jax_ignore">umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html</code></a> Retrieved 5/27/2025</div></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-statistics-overview-8-6"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.25</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="sec-statistics-overview-8-6-1">“My favorite finding is this: we did a study where we asked students, ’How satisfied are you with your life? How often do you have a date?’ The two answers were not statistically related - you would conclude that there is no relationship between dating frequency and life satisfaction. But when we reversed the order and asked, ’How often do you have a date? How satisfied are you with your life?’ the statistical relationship was a strong one. You would now conclude that there is nothing as important in a student’s life as dating frequency.”<div class="autopermalink" data-description="Paragraph"><a href="#sec-statistics-overview-8-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.1.25"><a href="#sec-statistics-overview-8-6" title="Copy heading and permalink for Example 4.1.25" aria-label="Copy heading and permalink for Example 4.1.25">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.1.5: Statistical Bias"><a href="#sec-statistics-overview-8" title="Copy heading and permalink for Subsection 4.1.5: Statistical Bias" aria-label="Copy heading and permalink for Subsection 4.1.5: Statistical Bias">🔗</a></div></section><section class="subsection" id="subsection_statistics_confidence_interval"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Margin of Error and Confidence Intervals</span>
+</h3>
+<div class="para" id="subsection_statistics_confidence_interval-2">Even when a study or experiment has successfully avoided bias and has been well done, there is still an element of variation. If we took 5 different random samples of 100 college students and calculated their average textbook cost, we wouldn’t expect to get the exact same average for each sample. This is due to sampling variation. To account for this, researchers publish their margin of error or a confidence interval for their statistics. These numbers describe the precision of the estimate for a certain confidence level.<div class="autopermalink" data-description="Paragraph"><a href="#subsection_statistics_confidence_interval-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsection_statistics_confidence_interval-3">You’ve probably heard something like, “The candidate has 54 percent of the likely voters, plus or minus three percent.” The 3% is called the <dfn class="terminology">margin of error</dfn>, so the true percentage is somewhere between 51% and 57%, with a certain level of confidence. To write this as a <dfn class="terminology">confidence interval</dfn>, we place the numbers in parentheses from smallest to largest, separated by a comma: (51%, 57%).<div class="autopermalink" data-description="Paragraph"><a href="#subsection_statistics_confidence_interval-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsection_statistics_confidence_interval-4">The most common <dfn class="terminology">confidence level</dfn> is 95%, which means if the poll was conducted repeatedly, and we made a confidence interval each time, we would expect the true percentage, or parameter, to fall within our confidence interval 95 out of 100 times. You can learn more on how to calculate the margin of error for different confidence levels in a statistics class.<div class="autopermalink" data-description="Paragraph"><a href="#subsection_statistics_confidence_interval-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsection_statistics_confidence_interval-5"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.26</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="subsection_statistics_confidence_interval-5-1-1">Let’s say we asked a random sample of 100 students at Walla Walla University and found that they spent an average of $451.32 on books their first year, plus or minus $85.63. Write this as a confidence interval, assuming a 95% confidence level.<div class="autopermalink" data-description="Paragraph"><a href="#subsection_statistics_confidence_interval-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsection_statistics_confidence_interval-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsection_statistics_confidence_interval-5-2-1">If the margin of error was calculated to be plus or minus $85.63, then with a confidence level of 95% we could say that the average amount spent by the population is somewhere between $365.69 and $536.95.<div class="autopermalink" data-description="Paragraph"><a href="#subsection_statistics_confidence_interval-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsection_statistics_confidence_interval-5-2-2">These values are found by computing <span class="process-math">\(\$451.32 - \$85.63 = \$365.69\)</span> and <span class="process-math">\(\$451.32 + \$85.63 = \$536.95\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsection_statistics_confidence_interval-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsection_statistics_confidence_interval-5-2-3">We could also write this as a <em class="alert">confidence interval</em>: ($365.69, $536.95).<div class="autopermalink" data-description="Paragraph"><a href="#subsection_statistics_confidence_interval-5-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsection_statistics_confidence_interval-5-2-4">Now we have come full circle and seen how we can use data from a sample to estimate the parameter we were interested in for our population.<div class="autopermalink" data-description="Paragraph"><a href="#subsection_statistics_confidence_interval-5-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.1.26.1"><a href="#subsection_statistics_confidence_interval-5-2" title="Copy heading and permalink for Solution 4.1.26.1" aria-label="Copy heading and permalink for Solution 4.1.26.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.1.26"><a href="#subsection_statistics_confidence_interval-5" title="Copy heading and permalink for Example 4.1.26" aria-label="Copy heading and permalink for Example 4.1.26">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.1.6: Margin of Error and Confidence Intervals"><a href="#subsection_statistics_confidence_interval" title="Copy heading and permalink for Subsection 4.1.6: Margin of Error and Confidence Intervals" aria-label="Copy heading and permalink for Subsection 4.1.6: Margin of Error and Confidence Intervals">🔗</a></div></section><div class="autopermalink" data-description="Section 4.1: Overview of Statistics"><a href="#sec-statistics-overview" title="Copy heading and permalink for Section 4.1: Overview of Statistics" aria-label="Copy heading and permalink for Section 4.1: Overview of Statistics">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="ch-chapter-statistics.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-statistics-data-representation.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

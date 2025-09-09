@@ -1,0 +1,1 @@
+This code is embedded in the source files in the appropriate places, but I include it hear as it is easier to test and edit as a standalone file.
