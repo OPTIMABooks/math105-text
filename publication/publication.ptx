@@ -129,7 +129,7 @@
 		<knowl exercise-inline="no" example="no"/>
 		<index-page ref="frontmatter"/>
     <!-- <css theme="default-modern" palette="blues"/> -->
-    <css theme="denver" palette="ice-fire"/>
+    <css theme="salem" palette="ice-fire"/>
     <toc focused="no" preexpanded-levels="2" />
 	</html>
 
