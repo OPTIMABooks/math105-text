@@ -83,7 +83,7 @@
       </ul>
     </p>
     <p>
-      The git log for this project contains very granular attribution of sources. In broad strokes, the Finance and Logical Reasoning chapters draw heavily from Lee et al. In particular, the sections on Income Taxes and Logical Fallacies are brought over from Lee et al with only brief edits or correction, as are any provided exercises.  Lee et al was itself in part derived from Lippman's work, and in places I have used the original source material rather than their adaptation. The sections on sets contains material from Sekhom and Bloom as well as Duncan. The sections on Probability and Statistics draw heavily on Duncan's work.
+      The git log for this project contains very granular attribution of sources. In broad strokes, the Finance and Logical Reasoning chapters draw heavily from Lee et al. In particular, the sections on Income Taxes and Logical Fallacies are brought over from Lee et al with only brief edits or corrections, as are any provided exercises.  Lee et al. was itself in part derived from Lippman's work; in places I have used the original source material rather than their adaptation. The sections on sets contain material from Sekhom and Bloom as well as Duncan. The sections on Probability and Statistics draw heavily on Duncan's work.
     </p>
     <paragraphs>
       <title> Thanks</title>
