@@ -51,5 +51,40 @@
     <colophon-items/>
   </colophon>
 
+  <preface>
+    <title>Attributions</title>
+    <p>
+      This book is a remix of the sources listed below. I have edited these sources to a greater or lessor degree as well as added original material. Each of these sources is licensed under is licensed under
+      <url href="http://creativecommons.org/licenses/by-sa/4.0" visual="creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</url>.
+      <ul>
+        <li>
+          <p>
+            <url href="https://www.pcc.edu/math-in-society/"
+              visual="pcc.edu/math-in-society"><q>Math In Society, 2nd Edition: Tools for decision making</q></url>
+            by Lee et al., Portland Community College Math Department.
+          </p>
+        </li>
+        <li>
+          <p>
+            <url href="https://www.opentextbookstore.com/mathinsociety/"><q>Math in Society</q></url> by David Lippman.
+          </p>
+        </li>
+        <li>
+          <p>
+            <url href="https://www.deanza.edu/faculty/bloomroberta/math11/index.html"><q>Applied Finite Mathematics 3rd ed</q></url> by R. Sekhom and R. Bloom., Deanza College.
+          </p>
+        </li>
+        <li>
+          <p>
+            <url href="https://stats.optimabooks.org/frontmatter-1.html"><q>Optima Statistics</q></url> by Jonathan Duncan, Walla Walla University.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      The git log for this project contains very granular attribution of sources. In broad strokes, the Finance and Logical Reasoning chapters draw heavily from Lee et al. Lee et al was itself in part derived from Lippman's work, and in places I have used the original source material rather than their adaptation. The sections on sets contains material from Sekhom and Bloom as well as Duncan. The section on Probability and Statistics contain draw heavily on Duncan's work. 
+    </p>
+  </preface>
+
 </frontmatter>
 
