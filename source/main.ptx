@@ -8,6 +8,14 @@
     <title>Math for Society</title>
     <subtitle>Tools for living</subtitle>
 
+    <introduction>
+      <p>
+        <image source="images/denys-nevozhai-7nrsVjvALnA-unsplash.jpg">
+				  <shortdescription>Aerial photography of concrete roads in Shanghai, China</shortdescription>
+			  </image>
+      </p>
+    </introduction>
+
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 

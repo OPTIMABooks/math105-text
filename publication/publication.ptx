@@ -189,7 +189,7 @@
       <!--<calculator model="geogebra-classic" activecode="python" />-->
 
     <!-- Set the base URL of where the online version is hosted to have links in other formats -->
-      <!-- <baseurl href="changetomywebsite.org"/> -->
+      <baseurl href="https://wwu-cs.github.io/math105-text/math-for-society-WWU.html"/>
 
     <!-- Control behavior of online WeBWorK, per type: -->
       <!--<webwork
