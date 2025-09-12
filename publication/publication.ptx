@@ -130,7 +130,7 @@
 
 	<html>
 		<knowl exercise-inline="no" example="no"/>
-		<index-page ref="frontmatter"/>
+		<index-page ref="math-for-society-WWU"/>
     <!-- <css theme="default-modern" palette="blues"/> -->
     <css theme="salem" palette="ice-fire"/>
     <toc focused="no" preexpanded-levels="2" />
