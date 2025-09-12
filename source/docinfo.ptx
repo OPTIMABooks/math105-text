@@ -36,6 +36,7 @@
     \definecolor{CustomB1}{RGB}{17,117,167}
     \definecolor{CustomB2}{RGB}{60,84,111}
     \usepackage[parfill]{parskip} % no indent skip line between paragraphs
+    \usepackage{libertine} % change font
   </latex-image-preamble>
 
   <!-- It is possible to rename elements: -->

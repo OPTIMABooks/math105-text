@@ -87,11 +87,14 @@
   <!-- sided.  @pageref="yes/no" controls whether page number are   -->
   <!-- included in cross-references                                 -->
   
-  <latex print="yes" sides="two" pageref="no">
+  <latex 
+    print="yes" 
+    sides="two" 
+    pageref="no" 
+    font-size="11">
 		<page>
 			<geometry>papersize={8.5in,11in},total={6.5in,9in}</geometry>
 		</page>
-		<video privacy="yes" preview="generated/play-button.png"/>
 	</latex>
   
   <!-- <latex> -->
