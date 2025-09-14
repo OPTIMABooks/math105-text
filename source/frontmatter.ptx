@@ -14,10 +14,11 @@
     <date>
       <today />
     </date>
-
+<!-- 
     <website>
       <url href="https://www.wallawalla.edu/math">WWU Department of Mathematics</url>
     </website>
+ -->
 
     <copyright>
       <year>2025</year>
@@ -43,9 +44,7 @@
 	</dedication>
 
   <!-- ToDo: 
-    Add Attribution (keep track of but add last). 
     Add Introduction to text
-    Consider adding other elements found in the PCC book
   -->
 
   <colophon xml:id="front-colophon">
