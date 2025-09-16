@@ -120,6 +120,12 @@
       </p>
     </paragraphs>
   </preface>
+  <preface>
+    <title>Introduction</title>
+    <p>
+      This book has been written for use in Walla Walla University's Math 105, <em>Math for the Liberal Arts</em> class (previously titled <em>Finite Mathematics</em>). This course is taught over a 10 week quarter and fulfills the general studies mathematics requirement for many non STEM majors. During a 10 week term I typically cover all sections except 1.5 (Income Taxes), 2.5 (Logical Fallacies), and 3.7 (Expected Value). These sections are included for colleagues who cover the material differently.
+    </p>
+  </preface>
 
 </frontmatter>
 
