@@ -3,7 +3,7 @@
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
-<!--*  Theme: denver                         *-->
+<!--*  Theme: salem                          *-->
 <!--*  Palette: ice-fire                     *-->
 <!--******************************************-->
 
@@ -22,7 +22,7 @@
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.19</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
 <div class="para logical">
-<div class="para">According to OHSU’s Center for Women’s Health, approximately 1 in 4 women and 1 in 7 men will experience intimate partner violence (IPV) at some point in their lives.<details class="ptx-footnote" aria-live="polite" id="ex_conditional_probability-tree-2-1-1-1"><summary class="ptx-footnote__number" title="Footnote 3.6.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="ex_conditional_probability-tree-2-1-1-1">https://www.ohsu.edu/womens-health/domestic-violence-more-common-you-might-think</div></details> Assuming we are only considering heterosexual couples and that men and women are equally represented in the population, answer the following questions:</div>
+<div class="para">According to OHSU’s Center for Women’s Health, approximately 1 in 4 women and 1 in 7 men will experience intimate partner violence (IPV) at some point in their lives.<details class="ptx-footnote" aria-live="polite" id="ex_conditional_probability-tree-2-1-1-1"><summary class="ptx-footnote__number" title="Footnote 3.6.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="ex_conditional_probability-tree-2-1-1-1">https://www.ohsu.edu/womens-health/domestic-violence-more-common-you-might-think</div></details> Assuming a population of only heterosexual couples with equal representation of men and women, answer the following questions.</div>
 <ol class="lower-alpha ol-marker-2" id="ex_conditional_probability-tree-2-1-1-2">
 <li>
 <div class="para">What is the probability that a randomly selected person experiences IPV?</div>
@@ -47,22 +47,22 @@
 <ol class="lower-alpha ol-marker-2" id="ex_conditional_probability-tree-2-2-3-1">
 <li>
 <div class="para logical">
-<div class="para">Denote the probability that a randomly selected person has experienced IPV by <span class="process-math">\(P(V)\text{.}\)</span> Notice that either men or woman can experience IPV. That is, <span class="process-math">\(P(V)\)</span> composed of either men or woman experiencing IPV. These two mutually exclusive cases are summed by the <a href="sec-probability-basics.html#thm_probability-rule_general-addition" class="xref" data-knowl="./knowl/xref/thm_probability-rule_general-addition.html" data-reveal-label="Reveal" data-close-label="Close" title="Fact 3.5.10">addition rule</a>, and are show in the tree diagram above as the first and third of the four right-most branches. Multiplying to the end of each branch,</div>
+<div class="para">Denote the probability that a randomly selected person has experienced IPV by <span class="process-math">\(P(V)\text{.}\)</span> Notice that either a man or a woman can experience IPV. That is, <span class="process-math">\(P(V)\)</span> is composed of cases where either men or women experience IPV. These two mutually exclusive cases are summed by the <a href="sec-probability-basics.html#thm_probability-rule_general-addition" class="xref" data-knowl="./knowl/xref/thm_probability-rule_general-addition.html" data-reveal-label="Reveal" data-close-label="Close" title="Fact 3.5.10">addition rule</a>, and are shown in the tree diagram above as the first and third of the four right-most branches. Multiplying to the end of each branch,</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm_probability-rule_general-addition.html">
 \begin{align*}
-P(V) \amp= \frac{1}{2}\left(\frac{1}{7}\right) + \frac{1}{2}\left(\frac{3}{4}\right) \\
+P(V) \amp= \frac{1}{2}\left(\frac{1}{7}\right) + \frac{1}{2}\left(\frac{1}{4}\right) \\
 \amp= \frac{1}{14} + \frac{3}{8} \\
 \amp= \frac{11}{56} \\
 \amp\approx 0.1964 \text{ or } 19.6\% \text{.}
 \end{align*}
 </div>
-<div class="para">Thus, there is a 19.6% change that a random person has experienced intimate partner violence.</div>
+<div class="para">Thus, there is a 19.6% chance that a random person has experienced intimate partner violence.</div>
 <div class="autopermalink" data-description="Paragraph"><a href="#ex_conditional_probability-tree-2-2-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item a"><a href="#ex_conditional_probability-tree-2-2-3-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
 </li>
 <li>
-<div class="para">Here we are told that the person has experienced IPV and are wondering what is the chance the person is a woman. That is, we seek <span class="process-math">\(P(W\mid V)\)</span> At first glance, it may appear that the answer is 1/4. Be careful: 1/4 is the probability of IPV given knowledge that the person is a woman, which is <span class="process-math">\(P(V\mid W)\text{.}\)</span> These are different probabilities. The probability we are asked for here, <span class="process-math">\(P(W\mid V)\text{,}\)</span> is not one of the values shown in the tree. However, we can use the tree to find the correct value.<div class="autopermalink" data-description="Paragraph"><a href="#ex_conditional_probability-tree-2-2-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para">Here we are told that the person has experienced IPV and are wondering what is the chance the person is a woman. That is, we seek <span class="process-math">\(P(W\mid V)\)</span> At first glance, it may appear that the answer is 1/4. Be careful: 1/4 is the probability of IPV given knowledge that the person is a woman, which is <span class="process-math">\(P(V\mid W)\text{.}\)</span> These are different probabilities. The probability we are asked for here, <span class="process-math">\(P(W\mid V)\text{,}\)</span> is not one of the values shown on the tree. However, we can use the tree to find the correct value.<div class="autopermalink" data-description="Paragraph"><a href="#ex_conditional_probability-tree-2-2-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical">
 <div class="para">To do so, apply the <a href="sec-probability-conditional.html#thm_conditional-probability-formula" class="xref" data-knowl="./knowl/xref/thm_conditional-probability-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Fact 3.6.7: Conditional Probability Formula">conditional probability formula</a> and the answer from part a:</div>
@@ -70,9 +70,9 @@ P(V) \amp= \frac{1}{2}\left(\frac{1}{7}\right) + \frac{1}{2}\left(\frac{3}{4}\ri
 \begin{align*}
 P(W\mid V) \amp= \frac{P(W\cap V)}{P(V)} \\
 \amp= \cfrac{\frac{1}{2}\cdot\frac{1}{4}}{\frac{11}{56}} \\
-\amp= \frac{1}{8}\cdot\frac{11}{25} \\
+\amp= \frac{1}{8}\cdot\frac{56}{11} \\
 \amp= \frac{7}{11} \\
-\amp\approx 0.6363\text{.}
+\amp\approx 0.6363 \text{.}
 \end{align*}
 </div>
 <div class="para">That is, there is a 63.6% chance that a person experiencing IPV is a woman.</div>
@@ -82,7 +82,8 @@ P(W\mid V) \amp= \frac{P(W\cap V)}{P(V)} \\
 </li>
 <li>
 <div class="para logical">
-<div class="para">Because everyone in our population is either a man or woman, the probability of <span class="process-math">\(P(M\mid V)\)</span> should be complementary to the <span class="process-math">\(P(W\mid V)\text{.}\)</span> That is, by the <a href="sec-probability-basics.html#def_probability-rule_complement" class="xref" data-knowl="./knowl/xref/def_probability-rule_complement.html" data-reveal-label="Reveal" data-close-label="Close" title="Fact 3.5.14">complement rule</a>,</div>
+<div class="para">Because everyone in our population is either a man or a woman, the probability <span class="process-math">\(P(M\mid V)\)</span> should be complementary to the probability of <span class="process-math">\(P(W\mid V)\)</span> That is, by the <a href="sec-probability-basics.html#def_probability-rule_complement" class="xref" data-knowl="./knowl/xref/def_probability-rule_complement.html" data-reveal-label="Reveal" data-close-label="Close" title="Fact 3.5.14">complement rule</a>
+</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def_probability-rule_complement.html">
 \begin{align*}
 P(M\mid V) \amp= 1 - P(W\mid V) \\
@@ -100,7 +101,7 @@ P(M\mid V) \amp= 1 - P(W\mid V) \\
 \begin{align*}
 P(M\mid V) \amp= \frac{P(M\cap V)}{P(V)} \\
 \amp= \cfrac{\frac{1}{2}\cdot\frac{1}{7}}{\frac{25}{56}} \\
-\amp= \frac{1}{14}\cdot\frac{56}{25} \\
+\amp= \frac{1}{14}\cdot\frac{56}{11} \\
 \amp= \frac{4}{11} \\
 \amp\approx 0.3636\text{.}
 \end{align*}
