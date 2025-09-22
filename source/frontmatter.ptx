@@ -57,21 +57,11 @@
 			This book is Licensed under
 			<url href="https://creativecommons.org/licenses/by-sa/4.0"
 				visual="creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</url> 
-      except for the following components:
+      except for the following component:
       <ul>
         <li>
           <p>
             The cover photo (cropped) is used under the <url href="https://unsplash.com/license">Unsplash License</url>. This photo is by <url href="https://unsplash.com/@dnevozhai">Denys Nevozhai</url> on <url href="https://unsplash.com">Unsplash</url>.
-          </p>
-        </li>
-        <li>
-          <p>
-            <xref ref="tax_buckets"/>:
-						<url href="https://www.trailfp.com/financial-planning/how-about-them-tax-apples/"
-							visual="trailfp.com/financial-planning/how-about-them-tax-apples">Tax Buckets</url>
-						by John Chesbrough, <url href="https://www.trailfp.com/" visual="trailfp.com"/>,
-						used under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
-							visual="creativecommons.org/licenses/by-nc-nd/4.0">CC-BY-ND-NC 4.0</url>, not modified.
           </p>
         </li>
       </ul>
