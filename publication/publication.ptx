@@ -192,7 +192,7 @@
       <!--<calculator model="geogebra-classic" activecode="python" />-->
 
     <!-- Set the base URL of where the online version is hosted to have links in other formats -->
-      <!--<baseurl href="..."/> -->
+      <baseurl href="https://mfs.optimabooks.org/"/>
 
     <!-- Control behavior of online WeBWorK, per type: -->
       <!--<webwork
