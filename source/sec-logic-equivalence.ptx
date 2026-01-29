@@ -228,7 +228,7 @@
 					A <term>conditional</term> statement and its <term>contrapositive</term> are equivalent. The <term>converse</term> and <term>inverse</term> of a conditional statement are also equivalent. That is,
 					<md>
 						<mrow>p \to q \equiv\amp \neg q\to \neg p </mrow>
-						<mrow>q \to p \equiv\amp \neg p\to \neq q</mrow>
+						<mrow>q \to p \equiv\amp \neg p\to \neg q</mrow>
 					</md>
 					However, <m>p\to q</m> is NOT equivalent to <m>q\to p</m>.
 				</p>
