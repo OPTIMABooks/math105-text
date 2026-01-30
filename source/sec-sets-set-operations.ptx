@@ -301,11 +301,11 @@
   			<p>
 					The <term>complement</term> of a set <m>A</m> in a universal set <m>U</m> is the set <m>A^C</m> consisting of all elements in <m>U</m> that are not in <m>A</m>. That is,
 					<me>
-						A^{C} = \{x\in U\mid x \text{is NOT in } A \}.
+						A^{C} = \{x\in U\mid x\ \text{is NOT in } A \}.
 					</me>
 				</p>
 				<p>
-					<alert>Note:</alert> The complement of a set <m>A</m> may also be denoted by <m>A'</m> or <m>\overline{A}</m>..
+					<alert>Note:</alert> The complement of a set <m>A</m> may also be denoted by <m>A'</m> or <m>\overline{A}</m>.
 				</p>
   		</statement>
   	</definition>
