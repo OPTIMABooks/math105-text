@@ -205,7 +205,7 @@
 				</p>
 			</statement>
 			<solution>
-				<sidebyside widths="50% 40%" margins="3% 4% 3%">
+				<sidebyside widths="50% 40%" margins="4% 4%">
 					<p>This process can be broken up into two steps:
 						<ol>
 							<li><p>pick a destination (there are three of them);</p></li>
