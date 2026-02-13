@@ -246,7 +246,7 @@
 				<p>
 					If <m>A</m> and <m>B</m> are events in a sample space <m>S</m>, then the conditional probability of <m>A</m> given <m>B</m> is:
 					<me>
-						P(A\mid B) = \frac{P(A\cap B)}{P(B)} = \frac{n(A\cap B)}{n(S)}
+						P(A\mid B) = \frac{P(A\cap B)}{P(B)} = \frac{n(A\cap B)}{n(B)}
 					</me>.
 					<alert>Note:</alert> You can use unconditioned probabilities or counts to compute conditional probability.
 				</p>
